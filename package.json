@@ -12,9 +12,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0-beta.1"
+    "@11ty/eleventy": "^3.0.0-beta.1",
+    "@11ty/eleventy-plugin-webc": "^0.11.2"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "open -a 'Google Chrome' http://localhost:8080/ && npx @11ty/eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
