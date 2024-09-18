@@ -1,0 +1,2 @@
+- Hidden files
+- Global data

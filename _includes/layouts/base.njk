@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="http://localhost:8080/" />
-    <title>{{title or metadata.title }}</title>
-  </head>
+  {% include "partials/head.njk" %}
   <body>
     <a href="/">Eleventy Foam Template</a>
     <h1>{{ title }}</h1>
     {{ content | safe }}
-    <site-footer></site-footer>
+    {% include "partials/footer.njk" %}
   </body>
 </html>
