@@ -1,7 +1,6 @@
 ---
-layout: base
+# layout: base
+title: Home
 ---
-
-# Home
 
 [Cake](recipes/cake)

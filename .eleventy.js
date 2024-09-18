@@ -10,7 +10,7 @@ export default function (eleventyConfig) {
     components: "_includes/components/**/*.webc",
   });
 
-  eleventyConfig.addLayoutAlias("base", "base.webc");
+  eleventyConfig.addLayoutAlias("base", "base.njk");
 
   return {
     dir: {
@@ -20,7 +20,7 @@ export default function (eleventyConfig) {
       // Should be working, because it was working when _data lived in the content folder
       data: "../_data",
     },
-    htmlTemplateEngine: "webc",
-    markdownTemplateEngine: "webc",
+    htmlTemplateEngine: "njk",
+    markdownTemplateEngine: "njk",
   };
 }
