@@ -5,7 +5,7 @@ import pluginWebc from "@11ty/eleventy-plugin-webc";
 
 export default function (eleventyConfig) {
   //www.11ty.dev/docs/languages/webc/
-  https: eleventyConfig.addPlugin(pluginWebc, {
+  eleventyConfig.addPlugin(pluginWebc, {
     // https://www.11ty.dev/docs/languages/webc/#global-no-import-components
     components: "_includes/components/**/*.webc",
   });
@@ -14,7 +14,7 @@ export default function (eleventyConfig) {
 
   // eleventyConfig.addTransform(wikilink, {
   //   /\[\[(.*?)\|(.*?)\]\]/g
-// All wikilinks have a title with the 
+  // All wikilinks have a title with the
   // })
 
   return {
