@@ -17,6 +17,7 @@
   },
   "scripts": {
     "start": "open -a 'Google Chrome' http://localhost:8080/ && npx @11ty/eleventy --serve",
+    "build": "rm -r _site && npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "ISC"
