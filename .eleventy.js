@@ -12,6 +12,11 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addLayoutAlias("base", "base.njk");
 
+  // eleventyConfig.addTransform(wikilink, {
+  //   /\[\[(.*?)\|(.*?)\]\]/g
+// All wikilinks have a title with the 
+  // })
+
   return {
     dir: {
       input: "content",

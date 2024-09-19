@@ -1,11 +1,16 @@
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <base href="https://eleventy-foam-template.netlify.app/" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  {# In the development environment, use the localhost url. Must be set for relative links to work. #}
+  {% if env.environment == "PROD" %}
+    <base href={{ meta.site.url }}/>
+  {% else %}
+    <base href="http://localhost:8080/">
+  {% endif %}
   <title>{{ title }} | {{ meta.site.title }}</title>
   <meta
     name="description"
     content="{{ description or meta.site.description }}"
-  />
-  <meta name="generator" content="{{ eleventy.generator }}" />
+/>
+  <meta name="generator" content="{{ eleventy.generator }}"/>
 </head>
