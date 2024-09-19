@@ -1,10 +1,10 @@
 // https://www.11ty.dev/docs/languages/webc/#using-template-syntax-to-generate-content
 
-export default function () {
-  return {
-    environment: process.env.PROD_MODE || "development",
-  };
-}
+// export default function () {
+//   return {
+//     environment: process.env.PROD_MODE || "development",
+//   };
+// }
 
 export const site = {
   title: "Eleventy Foam Template",
