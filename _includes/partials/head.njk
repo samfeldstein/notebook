@@ -1,20 +1,15 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  {# If building for production, use site url. Must be set for relative links to work. #}
-  {# {% if process.env.ELEVENTY_RUN_MODE !== "build" %}
-    <base href="http://localhost:8080/">
-  {% else %}
-    <base href={{config.site.url}}>
-  {% endif %} #}
+  
+  {# - <base> must be set for relative links to work.
+     - If building for production (live site), use your site url (set in `_data/`).
+  #}
   {% if config.environment !== "development" %}
     <base href={{config.site.url}}>
   {% else %}
     <base href="http://localhost:8080/">
   {% endif %}
-  {# Couldn't figure this out. Will come back #}
-  {# <base href="{{ config.site.url }}"/> #}
-  {# <base href="http://localhost:8080/"> #}
 
   <title>{{ title }} | {{ config.site.title }}</title>
   <meta
