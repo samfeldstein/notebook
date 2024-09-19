@@ -1,4 +1,4 @@
-This repo is a work in progress!
+This repo is a work in progress! This is a to-do/record of things to mention in this doc.
 
 - Hidden files
 - Global data
@@ -10,3 +10,4 @@ This repo is a work in progress!
 - Recommended extensions
 - Recommended settings
   - Nunjucks formatter
+- Breadcrumbs

@@ -16,7 +16,7 @@
     "@11ty/eleventy-plugin-webc": "^0.11.2"
   },
   "scripts": {
-    "start": "open -a 'Google Chrome' http://localhost:8080/ && npx @11ty/eleventy --serve --watch",
+    "start": "open -a 'Google Chrome' http://localhost:8080/ && npx @11ty/eleventy --serve --quiet",
     "build": "rm -r _site && npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
