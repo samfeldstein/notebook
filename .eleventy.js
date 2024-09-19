@@ -4,6 +4,8 @@
 import pluginWebc from "@11ty/eleventy-plugin-webc";
 
 export default function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("bundle.js");
+
   //www.11ty.dev/docs/languages/webc/
   eleventyConfig.addPlugin(pluginWebc, {
     // https://www.11ty.dev/docs/languages/webc/#global-no-import-components

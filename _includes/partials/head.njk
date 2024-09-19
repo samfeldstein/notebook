@@ -2,13 +2,24 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   {# If building for production, use site url. Must be set for relative links to work. #}
+  {# {% if process.env.ELEVENTY_RUN_MODE !== "build" %}
+    <base href="http://localhost:8080/">
+  {% else %}
+    <base href={{config.site.url}}>
+  {% endif %} #}
+  {% if config.environment !== "development" %}
+    <base href={{config.site.url}}>
+  {% else %}
+    <base href="http://localhost:8080/">
+  {% endif %}
   {# Couldn't figure this out. Will come back #}
-  <base href="{{ meta.site.url }}"/>
+  {# <base href="{{ config.site.url }}"/> #}
+  {# <base href="http://localhost:8080/"> #}
 
-  <title>{{ title }} | {{ meta.site.title }}</title>
+  <title>{{ title }} | {{ config.site.title }}</title>
   <meta
     name="description"
-    content="{{ description or meta.site.description }}"
+    content="{{ description or config.site.description }}"
 />
   <meta name="generator" content="{{ eleventy.generator }}"/>
 </head>
