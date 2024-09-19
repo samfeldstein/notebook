@@ -6,5 +6,7 @@
     "**/.hg/store/**": true,
     "content/.vscode": true,
     "content/.foam": true
-  }
+  },
+
+  "foam.edit.linkReferenceDefinitions": "withoutExtensions"
 }

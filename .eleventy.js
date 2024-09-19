@@ -12,12 +12,24 @@ export default function (eleventyConfig) {
     components: "_includes/components/**/*.webc",
   });
 
-  eleventyConfig.addLayoutAlias("base", "base.njk");
+  eleventyConfig.addTransform("wikilink", function (content) {
+    if (this.page.outputPath?.endsWith(".html")) {
+      return (
+        content
+          // Remove outer brackets
+          // Credit: https://github.com/juanfrank77/foam-eleventy-template/blob/master/.eleventy.js
+          .replace(/(\[+(<a.*?<\/a>)\]+)/g, "$2")
+          // Remove text before pipe (eg [[link|text]]>>>[[text]])
+          .replace(/<a[^>]*>(.*?)<\/a>/g, (match, text) => {
+            const pipeText = text.match(/\|(.+)/)?.[1]?.trim();
+            return pipeText ? match.replace(text, pipeText) : match;
+          })
+      );
+    }
+    return content;
+  });
 
-  // eleventyConfig.addTransform(wikilink, {
-  //   /\[\[(.*?)\|(.*?)\]\]/g
-  // All wikilinks have a title with the
-  // })
+  eleventyConfig.addLayoutAlias("base", "base.njk");
 
   return {
     dir: {

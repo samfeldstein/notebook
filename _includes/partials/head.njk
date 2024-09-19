@@ -3,15 +3,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   {# - <base> must be set for relative links to work.
-     - If building for production (live site), use your site url (set in `_data/`).
-     - Help: https://www.11ty.dev/docs/data-js/#example-exposing-environment-variables
+     - Url switches based on environment. See `_data/config.js`.
   #}
-  {# {% if config.environment === "development" %}
-    <base href="http://localhost:8080/">
-  {% else %}
-    <base href={{config.site.url}}>
-  {% endif %} #}
-
   <base href={{config.site.url}}>
 
   <title>{{ title }} | {{ config.site.title }}</title>
