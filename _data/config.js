@@ -11,21 +11,19 @@
 
 // ===
 
-let url = "http://localhost:8080/";
+const title = "Eleventy Foam Template";
+const description =
+  "An Eleventy site that works with the Foam VS Code extension.";
+let url = "https://eleventy-foam-template.netlify.app/";
 
-/*
-
-When the site builds, we switch the url to your site url so the <base> element url is correct. Relative links won't work <base> isn't set.
-
-Help: https://www.11ty.dev/docs/environment-vars/#eleventy-supplied
-
-*/
-if (process.env.ELEVENTY_RUN_MODE === "build") {
-  url = "https://eleventy-foam-template.netlify.app/";
+// Set url for dev environment. Used in <base> element in head.njk
+// Also see: https://www.11ty.dev/docs/environment-vars/#eleventy-supplied
+if (process.env.ELEVENTY_RUN_MODE !== "build") {
+  url = "http://localhost:8080/";
 }
 
 export const site = {
-  title: "Eleventy Foam Template",
-  description: "An Eleventy site that works with the Foam VS Code extension.",
+  title: title,
+  description: description,
   url: url,
 };
