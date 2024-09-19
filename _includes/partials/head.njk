@@ -2,11 +2,8 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   {# If building for production, use site url. Must be set for relative links to work. #}
-  {% if env.environment == "production" %}
-    <base href="{{ meta.site.url }}"/>
-  {% else %}
-    <base href="http://localhost:8080/">
-  {% endif %}
+  {# Couldn't figure this out. Will come back #}
+  <base href="{{ meta.site.url }}"/>
 
   <title>{{ title }} | {{ meta.site.title }}</title>
   <meta
