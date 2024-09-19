@@ -6,10 +6,10 @@
      - If building for production (live site), use your site url (set in `_data/`).
      - Help: https://www.11ty.dev/docs/data-js/#example-exposing-environment-variables
   #}
-  {% if config.environment === "production" %}
-    <base href={{config.site.url}}>
-  {% else %}
+  {% if config.environment === "development" %}
     <base href="http://localhost:8080/">
+  {% else %}
+    <base href={{config.site.url}}>
   {% endif %}
 
   <title>{{ title }} | {{ config.site.title }}</title>
