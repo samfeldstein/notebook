@@ -37,15 +37,14 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
   gap: 1rem;
-  flex-wrap: wrap;
 }
 
 /* Contain nav and main site link */
 header div {
   display: flex;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -93,6 +92,7 @@ footer {
 .site-title {
   font-size: 1.5rem;
   text-decoration: none;
+  text-align: center;
 }
 
 .site-title:hover {
