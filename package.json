@@ -11,14 +11,19 @@
   "type": "module",
   "version": "1.0.0",
   "main": "index.js",
-  "dependencies": {
-    "@11ty/eleventy": "^3.0.0-beta.1",
-    "@11ty/eleventy-plugin-webc": "^0.11.2"
-  },
   "scripts": {
     "start": "open -a 'Google Chrome' http://localhost:8080/ && npx @11ty/eleventy --serve --incremental --quiet",
-    "build": "rm -r _site && npx @11ty/eleventy",
+    "build": "[ -d _site ] && rm -r _site; npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0-beta.1"
+  },
+  "devDependencies": {
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-webc": "^0.11.2",
+    "clean-css": "^5.3.3",
+    "html-minifier-terser": "^7.2.0"
   },
   "license": "ISC"
 }

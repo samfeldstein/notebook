@@ -1,7 +1,10 @@
 // https://github.com/11ty/eleventy/releases/tag/v3.0.0-beta.1
 // https://www.11ty.dev/blog/canary-eleventy-v3/#new-features-and-a-short-upgrade-guide
 
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import pluginWebc from "@11ty/eleventy-plugin-webc";
+import htmlmin from "html-minifier-terser";
+import CleanCSS from "clean-css";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
@@ -14,6 +17,7 @@ export default function (eleventyConfig) {
     components: "_includes/components/**/*.webc",
   });
 
+  // Transform wiklinks
   eleventyConfig.addTransform("wikilink", function (content) {
     if (this.page.outputPath?.endsWith(".html")) {
       return (
@@ -32,6 +36,30 @@ export default function (eleventyConfig) {
     return content;
   });
 
+  if (process.env.ELEVENTY_RUN_MODE === "build") {
+    // Minify html
+    eleventyConfig.addTransform("htmlmin", function (content) {
+      if ((this.page.outputPath || "").endsWith(".html")) {
+        let minified = htmlmin.minify(content, {
+          useShortDoctype: true,
+          removeComments: true,
+          collapseWhitespace: true,
+        });
+
+        return minified;
+      }
+      // If not an HTML output, return content as-is
+      return content;
+    });
+  }
+
+  // FILTERS
+  // Minify css
+  eleventyConfig.addFilter("cssmin", function (code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
+
+  // Add layout aliases
   eleventyConfig.addLayoutAlias("base", "base.njk");
 
   return {

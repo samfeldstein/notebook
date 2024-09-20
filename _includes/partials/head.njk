@@ -1,18 +1,21 @@
 <head>
-  <meta charset="UTF-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  {# <base> must be set for relative links to work. #}
-  <base href={{config.site.url}}>
+  {#
+  <base />
+  must be set for relative links to work. #}
+  <base href="{{ config.site.url }}" />
 
-  {# Icons #}
-  {% include "partials/icons.njk" %}
+  {# Icons #} {% include "partials/icons.njk" %}
 
   <title>{{ title }} | {{ config.site.title }}</title>
   <meta
     name="description"
     content="{{ description or config.site.description }}"
-/>
-  <meta name="generator" content="{{ eleventy.generator }}"/>
+  />
+  <meta name="generator" content="{{ eleventy.generator }}" />
+
+  {% include "partials/inline-css.njk" %}
 </head>
