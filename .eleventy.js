@@ -4,7 +4,9 @@
 import pluginWebc from "@11ty/eleventy-plugin-webc";
 
 export default function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("bundle.js");
+  eleventyConfig.addPassthroughCopy({
+    "static/icons/*": "/",
+  });
 
   //www.11ty.dev/docs/languages/webc/
   eleventyConfig.addPlugin(pluginWebc, {
@@ -20,6 +22,7 @@ export default function (eleventyConfig) {
           // Credit: https://github.com/juanfrank77/foam-eleventy-template/blob/master/.eleventy.js
           .replace(/(\[+(<a.*?<\/a>)\]+)/g, "$2")
           // Remove text before pipe (eg [[link|text]]>>>[[text]])
+          // Credit: Claude.ai
           .replace(/<a[^>]*>(.*?)<\/a>/g, (match, text) => {
             const pipeText = text.match(/\|(.+)/)?.[1]?.trim();
             return pipeText ? match.replace(text, pipeText) : match;

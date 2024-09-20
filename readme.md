@@ -12,3 +12,4 @@ This repo is a work in progress! This is a to-do/record of things to mention in 
   - Nunjucks formatter
 - Breadcrumbs
 - Run content folder by itself or just use the 11ty root. Should work either way.
+- Exclude foam from build

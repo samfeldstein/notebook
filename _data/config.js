@@ -1,29 +1,21 @@
-// https://www.11ty.dev/docs/languages/webc/#using-template-syntax-to-generate-content
-// export default function () {
-//   return {
-//     /* - https://www.11ty.dev/docs/environment-vars/#setting-your-own
-//        - We set this variable with this terminal command: PROD_MODE=production npx @11ty/eleventy
-//        - You may need to run this command in your own terminal for this to work
-//     */
-//     environment: process.env.PROD_MODE || "development",
-//   };
-// }
+let siteUrl = "https://eleventy-foam-template.netlify.app/";
 
-// ===
-
-const title = "Eleventy Foam Template";
-const description =
-  "An Eleventy site that works with the Foam VS Code extension.";
-let url = "https://eleventy-foam-template.netlify.app/";
-
-// Set url for dev environment. Used in <base> element in head.njk
+// Set url for development environment. If this isn't set, relative links won't work in development.
 // Also see: https://www.11ty.dev/docs/environment-vars/#eleventy-supplied
 if (process.env.ELEVENTY_RUN_MODE !== "build") {
-  url = "http://localhost:8080/";
+  siteUrl = "http://localhost:8080/";
 }
 
+// Information about your site (required)
 export const site = {
-  title: title,
-  description: description,
-  url: url,
+  title: "Eleventy Foam Template",
+  description: "An Eleventy site that works with the Foam VS Code extension.",
+  url: siteUrl,
+};
+
+// Information about you (optional)
+export const author = {
+  name: "",
+  email: "",
+  url: "",
 };
