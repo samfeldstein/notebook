@@ -9,9 +9,10 @@
 
 // Information about your site (required)
 export const site = {
-  title: "Eleventy Foam Template",
-  description: "An Eleventy site that works with the Foam VS Code extension.",
-  url: "https://eleventy-foam-template.netlify.app/",
+  title: "Sam Feldstein's Notebook",
+  description:
+    "Sam Feldstein's online notebook. Sam is a front end developer from Bondurant, IA.",
+  url: "https://sam-feldstein-notebook.netlify.app",
 };
 
 // Information about you (optional)

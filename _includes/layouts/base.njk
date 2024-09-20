@@ -2,9 +2,17 @@
 <html lang="en">
   {% include "partials/head.njk" %}
   <body>
-    <a href="/">Eleventy Foam Template</a>
-    <h1>{{ title }}</h1>
-    {{ content | safe }}
+    <a id="skiplink" class="visually-hidden" href="#main-content">Skiplink</a>
+    
+    <header>
+      <a href="/">{{ config.site.title }}</a>
+    </header>
+
+    <main id="main-content">
+      <h1>{{ title }}</h1>
+      {{ content | safe }}
+    </main>
+
     {% include "partials/footer.njk" %}
   </body>
 </html>

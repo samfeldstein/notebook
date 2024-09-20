@@ -1,5 +1,72 @@
 @import url("_includes/styles/_reset.css");
 
+/* @import url("/src/styles/_fonts.css"); */
+
+:root {
+  /* Colors */
+  --text-color: #1a1a1a;
+  --background-color: #f5f5f5;
+  --link-color: #2754d8;
+
+  @media (prefers-color-scheme: dark) {
+    /* Dark mode styles */
+    --text-color: #ffffff;
+    --background-color: #1a1a1a;
+    --link-color: #6699ff;
+  }
+
+  /* Fonts */
+  --body-font: "EB Garamond", serif;
+  --monospace: ui-monospace, monospace;
+}
+
+html {
+  background-color: var(--background-color);
+}
+
 body {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding: 1rem;
   max-width: 50rem;
+  font-family: var(--body-font);
+  font-size: 1.25rem;
+  color: var(--text-color);
+}
+
+main p {
+  text-align: justify;
+  hyphens: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-variant: small-caps;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+h2 {
+  text-align: right;
+  border-bottom: 1px dotted;
+}
+
+a {
+  color: var(--link-color);
+  text-underline-offset: 0.2em;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/* Utilities */
+.visually-hidden {
+  position: absolute;
+  translate: -1000%;
 }
