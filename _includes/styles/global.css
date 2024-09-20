@@ -7,6 +7,7 @@
   --background-color: #fff;
   --text-color: #000;
   --link-color: #2754d8;
+  --accent: #6699ff;
 
   /* Fonts */
   --body-font: var(--monospace);
@@ -20,6 +21,7 @@
     --background-color: #000;
     --text-color: #fff;
     --link-color: #6699ff;
+    --accent: #2754d8;
   }
 }
 
@@ -80,12 +82,19 @@ h2 {
 
 a {
   color: var(--link-color);
+  text-decoration-thickness: 1px;
+  text-decoration-style: solid;
   text-underline-offset: 0.2em;
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
+  color: var(--accent);
+}
+
+a[href^="https"] {
+  text-decoration-style: wavy;
 }
 
 a[href^="https"]::after {
