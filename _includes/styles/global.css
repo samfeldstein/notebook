@@ -4,24 +4,28 @@
 
 :root {
   /* Colors */
-  --text-color: #1a1a1a;
-  --background-color: #f5f5f5;
+  --background-color: #fff;
+  --text-color: #000;
   --link-color: #2754d8;
 
-  @media (prefers-color-scheme: dark) {
+  /* Fonts */
+  --body-font: var(--monospace);
+  --monospace: ui-monospace, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* I've nested the dark mode styles in the intial :root declaration on other sites, but doesn't work here for some reason. */
+  :root {
     /* Dark mode styles */
-    --text-color: #ffffff;
-    --background-color: #1a1a1a;
+    --background-color: #000;
+    --text-color: #fff;
     --link-color: #6699ff;
   }
-
-  /* Fonts */
-  --body-font: "EB Garamond", serif;
-  --monospace: ui-monospace, monospace;
 }
 
 html {
   background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 body {
@@ -33,7 +37,6 @@ body {
   max-width: 50rem;
   font-family: var(--body-font);
   font-size: 1.25rem;
-  color: var(--text-color);
 }
 
 header {
