@@ -88,6 +88,10 @@ a:focus {
   text-decoration: none;
 }
 
+a[href^="https"]::after {
+  content: "➚";
+}
+
 footer {
   text-align: center;
 }
