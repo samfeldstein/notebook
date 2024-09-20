@@ -5,6 +5,7 @@
     "**/.git/subtree-cache/**": true,
     "node_modules": true,
     "**/.hg/store/**": true,
+    "content": true,
     "content/.foam": true,
     "content/.vscode": true
   },
@@ -14,6 +15,7 @@
     "**/.git/subtree-cache/**": true,
     "**/node_modules/*/**": true,
     "**/.hg/store/**": true,
+    "content": true,
     "content/.foam": true,
     "content/.vscode": true,
     "_site": true

@@ -13,6 +13,10 @@ export default function (eleventyConfig) {
     "static/icons/*": "/",
   });
 
+  // PLUGINS
+  // Navigation
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
   //www.11ty.dev/docs/languages/webc/
   eleventyConfig.addPlugin(pluginWebc, {
     // https://www.11ty.dev/docs/languages/webc/#global-no-import-components

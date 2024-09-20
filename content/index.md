@@ -1,6 +1,8 @@
 ---
 # layout: base
 title: Home
+eleventyNavigation:
+  key: Home
 ---
 
 [[boulder]]

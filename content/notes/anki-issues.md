@@ -21,7 +21,7 @@ When I eventually notice it, I have to duplicate the card, change the type, then
 
 You go to browse, select the card, toggle notes, and right click, change the note type.
 
-https://forums.ankiweb.net/t/how-to-change-card-types/4975
+[Anki Forums - How to change card types](https://forums.ankiweb.net/t/how-to-change-card-types/4975)
 
 ### During review, space bar makes app freeze
 

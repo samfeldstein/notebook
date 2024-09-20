@@ -3,6 +3,7 @@ This repo is a work in progress! This is a to-do/record of things to mention in 
 ## To do
 
 - autoprefixer
+- Style internal and external differently
 - css nano
 - jampack?
 - Prefetch everything

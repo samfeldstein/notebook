@@ -3,9 +3,14 @@
   {% include "partials/head.njk" %}
   <body>
     <a id="skiplink" class="visually-hidden" href="#main-content">Skiplink</a>
-    
+
     <header>
       <a href="/">{{ config.site.title }}</a>
+      <nav class="menu-main">
+        {{
+          collections.all | eleventyNavigation | eleventyNavigationToHtml | safe
+        }}
+      </nav>
     </header>
 
     <main id="main-content">
