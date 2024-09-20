@@ -5,12 +5,18 @@
     <a id="skiplink" class="visually-hidden" href="#main-content">Skiplink</a>
 
     <header>
-      <a href="/">{{ config.site.title }}</a>
-      <nav class="menu-main">
-        {{
-          collections.all | eleventyNavigation | eleventyNavigationToHtml | safe
-        }}
-      </nav>
+      <a class="site-title" href="/">{{ config.site.title }}</a>
+      <div>
+        <nav>
+          {{
+            collections.all
+              | eleventyNavigation
+              | eleventyNavigationToHtml
+              | safe
+          }}
+        </nav>
+        <a href="https://samfeldstein.xyz/">Main Site</a>
+      </div>
     </header>
 
     <main id="main-content">

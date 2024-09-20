@@ -33,7 +33,7 @@ Icons
   
 
 <style>
-  *,::after,::before{box-sizing:border-box}html{height:100%;scroll-behavior:smooth;scroll-padding-top:2rem}body{font-weight:400;min-height:100vh;line-height:1.5}img{max-width:100%;height:auto}code,kbd,pre,samp{font-family:ui-monospace,monospace}b,strong{font-weight:bolder}button,input,select,textarea{font:inherit}:root{--text-color:#1a1a1a;--background-color:#f5f5f5;--link-color:#2754d8;--background-color:#1a1a1a;--link-color:#6699ff}--body-font: "EB Garamond"{background-color:var(--background-color)}body{display:grid;grid-template-rows:auto 1fr;padding:1rem;max-width:50rem;font-family:var(--body-font);font-size:1.25rem;color:var(--text-color)}main p{text-align:justify;hyphens:auto}h1,h2,h3{font-variant:small-caps}h1{font-size:2em;margin:0}h2{text-align:right;border-bottom:1px dotted}a{color:var(--link-color);text-underline-offset:0.2em}a:focus,a:hover{text-decoration:none}.visually-hidden{position:absolute;translate:-1000%}
+  *,::after,::before{box-sizing:border-box}html{height:100%;scroll-behavior:smooth;scroll-padding-top:2rem}body{font-weight:400;min-height:100vh;line-height:1.5}img{max-width:100%;height:auto}code,kbd,pre,samp{font-family:ui-monospace,monospace}b,strong{font-weight:bolder}button,input,select,textarea{font:inherit}:root{--text-color:#1a1a1a;--background-color:#f5f5f5;--link-color:#2754d8;--background-color:#1a1a1a;--link-color:#6699ff}--body-font: "EB Garamond"{background-color:var(--background-color)}body{display:grid;grid-template-rows:auto 1fr;gap:2rem;margin:0 auto;padding:1rem;max-width:50rem;font-family:var(--body-font);font-size:1.25rem;color:var(--text-color)}header{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}header div{display:flex;gap:1rem}nav ul{list-style-type:none;margin:0;padding:0}main p{text-align:justify;hyphens:auto}h1,h2,h3{font-variant:small-caps}h1{font-size:2em;margin:0}h2{text-align:right;border-bottom:1px dotted}a{color:var(--link-color);text-underline-offset:0.2em}a:focus,a:hover{text-decoration:none}footer{text-align:center}.site-title{font-size:1.5rem;text-decoration:none}.site-title:hover{text-decoration:underline}.visually-hidden{position:absolute;translate:-1000%}
 </style>
 
 </head>
@@ -42,10 +42,13 @@ Icons
     <a id="skiplink" class="visually-hidden" href="#main-content">Skiplink</a>
 
     <header>
-      <a href="/">Sam Feldstein&#39;s Notebook</a>
-      <nav class="menu-main">
-        <ul><li><a href="/">Home</a></li></ul>
-      </nav>
+      <a class="site-title" href="/">Sam Feldstein&#39;s Notebook</a>
+      <div>
+        <nav>
+          <ul><li><a href="/">Home</a></li></ul>
+        </nav>
+        <a href="https://samfeldstein.xyz/">Main Site</a>
+      </div>
     </header>
 
     <main id="main-content">
