@@ -16,5 +16,5 @@ pnpm-debug.log*
 
 # Other
 .jampack/
-.foam/
+.vscode/
 package-lock.json

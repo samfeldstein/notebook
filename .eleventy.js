@@ -5,6 +5,8 @@ import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import pluginWebc from "@11ty/eleventy-plugin-webc";
 import htmlmin from "html-minifier-terser";
 import CleanCSS from "clean-css";
+import markdownIt from "markdown-it";
+import markdownItReplaceLink from "markdown-it-replace-link";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
@@ -52,6 +54,29 @@ export default function (eleventyConfig) {
       return content;
     });
   }
+
+  let markdownItOptions = {
+    html: true,
+    replaceLink: function (link, env) {
+      const isRelativePattern = /^(?!http|\/).*/;
+      const lastSegmentPattern = /[^\/]+(?=\/$|$)/i;
+      const isRelative = isRelativePattern.test(link);
+
+      if (isRelative) {
+        const hasLastSegment = lastSegmentPattern.exec(env.page.url);
+        // If it's nested, replace the last segment
+        if (hasLastSegment && env.page.url) {
+          return env.page.url.replace(lastSegmentPattern, link);
+        }
+        // If it's at root, just add the beginning slash
+        return env.page.url + link;
+      }
+
+      return link;
+    },
+  };
+  let markdownLib = markdownIt(markdownItOptions).use(markdownItReplaceLink);
+  eleventyConfig.setLibrary("md", markdownLib);
 
   // FILTERS
   // Minify css
