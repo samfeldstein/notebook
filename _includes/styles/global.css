@@ -9,8 +9,9 @@
   --link-color: #2754d8;
 
   /* Fonts */
-  --body-font: var(--monospace);
+  --body-font: "EB Garamond", serif;
   --monospace: ui-monospace, monospace;
+  --small-font: 1rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -36,7 +37,7 @@ body {
   padding: 1rem;
   max-width: 50rem;
   font-family: var(--body-font);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 header {
@@ -49,7 +50,7 @@ header div {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  font-size: 1rem;
+  font-size: var(--small-font);
 }
 
 nav ul {
@@ -68,11 +69,10 @@ main p {
 h1,
 h2,
 h3 {
-  font-variant: small-caps;
+  font-weight: normal;
 }
 
 h1 {
-  font-size: 2em;
   margin: 0;
   text-align: center;
 }
@@ -113,7 +113,7 @@ code {
 
 footer {
   text-align: center;
-  font-size: 1rem;
+  font-size: var(--small-font);
 }
 
 .skiplink {
@@ -133,7 +133,6 @@ footer {
 }
 
 .site-title {
-  font-size: 1.5rem;
   text-decoration: none;
   text-align: center;
 }
@@ -154,7 +153,7 @@ a.site-title:hover {
 }
 
 .tags.note {
-  font-size: 1rem;
+  font-size: var(--small-font);
   font-style: italic;
   display: flex;
   gap: 1rem;
