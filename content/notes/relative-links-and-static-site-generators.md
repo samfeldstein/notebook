@@ -43,6 +43,3 @@ What I'd like to do is take advantage of vanilla html, which apparently handles 
 ## Help
 
 - [MDN Docs Hyperlinks Primer](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#a_quick_primer_on_urls_and_paths)
-
-
-

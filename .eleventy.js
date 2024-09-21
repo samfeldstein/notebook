@@ -88,6 +88,19 @@ export default function (eleventyConfig) {
     return new CleanCSS({}).minify(code).styles;
   });
 
+  // Return all the tags used in a collection
+  eleventyConfig.addFilter("getAllTags", (collection) => {
+    let tagSet = new Set();
+    for (let item of collection) {
+      (item.data.tags || []).forEach((tag) => tagSet.add(tag));
+    }
+    return Array.from(tagSet).sort();
+  });
+
+  eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
+    return (tags || []).filter((tag) => ["all", "notes"].indexOf(tag) === -1);
+  });
+
   // Add layout aliases
   eleventyConfig.addLayoutAlias("base", "base.njk");
 

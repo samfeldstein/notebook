@@ -56,6 +56,8 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  gap: 1rem;
 }
 
 main p {
@@ -138,5 +140,20 @@ footer {
 
 /* Need the chaining here, otherwise other link rules take precendence for some reason. Must have something to do with the (not) operator. */
 a.site-title:hover {
+  text-decoration: underline;
+}
+
+.tags.page {
+  list-style-type: none;
+  display: grid;
+  gap: 1rem;
+}
+
+a.tag {
+  text-decoration: none;
+}
+
+a.tag:hover,
+a.tag:focus {
   text-decoration: underline;
 }
