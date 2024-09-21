@@ -1,6 +1,6 @@
 ---
-title: Digital Note Taking
-tags: ["knowledge-management", "zettelkasten"]
+title: Digital Note-Taking
+tags: ["knowledge-management", "zettelkasten", "note-taking"]
 ---
 
 I originally conceived of a blog page for my website, but much as I like reading blogs, blogging does not come naturally to me. Also, if you have a subject you want to interrogate, what's the point in writing a single essay about it? That assumes you'll draw a definitive conclusion. I think a better approach is the living document: a record of your thoughts on a subject, updated as those thoughts come to you.
