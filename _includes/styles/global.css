@@ -11,7 +11,9 @@
   /* Fonts */
   --body-font: "EB Garamond", serif;
   --monospace: ui-monospace, monospace;
-  --small-font: 1rem;
+  --extra-small: 0.9rem;
+  --small: 1rem;
+  --medium: 1.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,7 +37,7 @@ body {
   gap: 2rem;
   margin: 0 auto;
   padding: 1rem;
-  max-width: 50rem;
+  max-width: 40rem;
   font-family: var(--body-font);
   font-size: 1.25rem;
 }
@@ -50,7 +52,6 @@ header div {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  font-size: var(--small-font);
 }
 
 nav ul {
@@ -66,12 +67,6 @@ main p {
   hyphens: auto;
 }
 
-h1,
-h2,
-h3 {
-  font-weight: normal;
-}
-
 h1 {
   margin: 0;
   text-align: center;
@@ -80,6 +75,10 @@ h1 {
 h2 {
   text-align: right;
   border-bottom: 1px dotted;
+}
+
+h3 {
+  font-variant: small-caps;
 }
 
 a {
@@ -109,11 +108,13 @@ code {
   border-width: 1px;
   border-radius: 5px;
   padding: 0.1em;
+  font-size: var(--extra-small);
+  font-size: 0.95rem;
 }
 
 footer {
   text-align: center;
-  font-size: var(--small-font);
+  font-size: var(--small);
 }
 
 .skiplink {
@@ -135,6 +136,8 @@ footer {
 .site-title {
   text-decoration: none;
   text-align: center;
+  font-size: var(--medium);
+  font-variant: small-caps;
 }
 
 /* Need the chaining here, otherwise other link rules take precendence for some reason. Must have something to do with the (not) operator. */
@@ -153,7 +156,6 @@ a.site-title:hover {
 }
 
 .tags.note {
-  font-size: var(--small-font);
   font-style: italic;
   display: flex;
   gap: 1rem;

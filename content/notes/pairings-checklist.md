@@ -48,10 +48,7 @@ tags: ["projects","pairings","web-development","programming"]
 - [x] GitHub description
 - [x] ReadMe
 - [x] Notes
+- [x] Add to website portfolio
 
-
-
-
-
-  
+## Promote
 
