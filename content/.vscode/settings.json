@@ -5,5 +5,16 @@
   "workbench.preferredHighContrastLightColorTheme": "Default High Contrast Light",
 
   // Foam settings
-  "foam.edit.linkReferenceDefinitions": "withoutExtensions"
+  "foam.edit.linkReferenceDefinitions": "withoutExtensions",
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "*.njk": true,
+    "notes/*.json": true
+  }
 }

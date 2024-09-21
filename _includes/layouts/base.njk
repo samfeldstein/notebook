@@ -4,7 +4,7 @@
   <body>
     <a class="skiplink" href="#main-content">Skiplink</a>
 
-    <header>
+    <header class="site">
       <a class="site-title" href="/">{{ config.site.title }}</a>
       <div>
         <nav>
@@ -20,7 +20,21 @@
     </header>
 
     <main id="main-content">
-      <h1>{{ title }}</h1>
+      <header class="page">
+        <h1>{{ title }}</h1>
+        <ul class="tags note">
+          {%- for tag in tags | filterTagList %} {%- set tagUrl
+          %}/tags/{{
+            tag | slugify
+          }}/{% endset %}
+          <li>
+            <a href="{{ tagUrl }}" class="tag">#{{ tag }}</a
+            >{%- if not loop.last %}, {% endif %}
+          </li>
+          {%- endfor %}
+        </ul>
+      </header>
+
       {{ content | safe }}
     </main>
 
