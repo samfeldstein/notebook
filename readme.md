@@ -1,4 +1,4 @@
-This repo is a work in progress! This is a to-do/record of things to mention in this doc.
+This repo is a work in progress! This is a to-do list/record of things to mention in this doc. Everything is just thrown in here for now.
 
 ## To do
 
@@ -28,3 +28,7 @@ This repo is a work in progress! This is a to-do/record of things to mention in 
 - Recommended settings
   - Nunjucks formatter
 - Run content folder by itself or just use the 11ty root. One or the other, not both.
+
+
+
+You may need to [configure your 404 page](https://www.11ty.dev/docs/quicktips/not-found/), depending on where your site is hosted.

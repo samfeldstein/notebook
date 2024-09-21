@@ -103,6 +103,8 @@ export default function (eleventyConfig) {
       .sort();
   });
 
+  // Exclude private notes from build
+
   // Add layout aliases
   eleventyConfig.addLayoutAlias("base", "base.njk");
 

@@ -8,7 +8,7 @@
     "content/.foam": true,
     "**content/**/*.md": true,
     "content/.vscode": true,
-    "**_site/**": true
+    // "_site": true
   },
 
   // Treat .webc and .njk files at html
