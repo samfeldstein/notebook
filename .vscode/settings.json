@@ -1,24 +1,14 @@
 {
-  // Hide some files from explorer
+  // Hide some files from search
   "files.exclude": {
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
     "node_modules": true,
     "**/.hg/store/**": true,
-    "content": true,
     "content/.foam": true,
-    "content/.vscode": true
-  },
-
-  "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/node_modules/*/**": true,
-    "**/.hg/store/**": true,
-    "content": true,
-    "content/.foam": true,
+    "**content/**/*.md": true,
     "content/.vscode": true,
-    "_site": true
+    "**_site/**": true
   },
 
   // Treat .webc and .njk files at html

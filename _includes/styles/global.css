@@ -7,7 +7,6 @@
   --background-color: #fff;
   --text-color: #000;
   --link-color: #2754d8;
-  --accent: #6699ff;
 
   /* Fonts */
   --body-font: var(--monospace);
@@ -21,7 +20,6 @@
     --background-color: #000;
     --text-color: #fff;
     --link-color: #6699ff;
-    --accent: #2754d8;
   }
 }
 
@@ -51,6 +49,7 @@ header div {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  font-size: 1rem;
 }
 
 nav ul {
@@ -87,22 +86,47 @@ a {
   text-underline-offset: 0.2em;
 }
 
-a:hover,
-a:focus {
+a:not(.skiplink):hover,
+a:not(.skiplink):focus,
+a:not(.skiplink):active {
   text-decoration: none;
-  color: var(--accent);
+  opacity: 70%;
 }
 
 a[href^="https"] {
-  text-decoration-style: wavy;
+  text-decoration-style: dotted;
 }
 
 a[href^="https"]::after {
   content: "➚";
 }
 
+code {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 0.1em;
+}
+
 footer {
   text-align: center;
+  font-size: 1rem;
+}
+
+.skiplink {
+  background-color: var(--background-color);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 1em;
+  z-index: 1;
+  position: absolute;
+  translate: -1000%;
+  transition-duration: 0.25s;
+}
+
+.skiplink:focus {
+  translate: 0;
 }
 
 .site-title {
@@ -111,12 +135,7 @@ footer {
   text-align: center;
 }
 
-.site-title:hover {
+/* Need the chaining here, otherwise other link rules take precendence for some reason. Must have something to do with the (not) operator. */
+a.site-title:hover {
   text-decoration: underline;
-}
-
-/* Utilities */
-.visually-hidden {
-  position: absolute;
-  translate: -1000%;
 }

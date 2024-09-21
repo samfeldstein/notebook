@@ -1,3 +1,9 @@
 {
+  "workbench.preferredLightColorTheme": "Default High Contrast Light",
+  "workbench.preferredDarkColorTheme": "Default High Contrast",
+  "workbench.preferredHighContrastColorTheme": "Default High Contrast",
+  "workbench.preferredHighContrastLightColorTheme": "Default High Contrast Light",
+
+  // Foam settings
   "foam.edit.linkReferenceDefinitions": "withoutExtensions"
 }

@@ -4,6 +4,9 @@ This repo is a work in progress! This is a to-do/record of things to mention in 
 
 - autoprefixer
 - Style internal and external differently
+- skiplink
+- use a shortcode to hide the homepage header
+- search
 - css nano
 - jampack?
 - Prefetch everything

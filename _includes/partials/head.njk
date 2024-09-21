@@ -5,12 +5,11 @@
 
   {#
   <base />
-  must be set for relative links to work. #}
-  {# <base href="{{ config.site.url }}" /> #}
+  must be set for relative links to work. #} {#
+  <base href="{{ config.site.url }}" />
+  #} {# Icons #} {% include "partials/icons.njk" %}
 
-  {# Icons #} {% include "partials/icons.njk" %}
-
-  <title>{{ title }} | {{ config.site.title }}</title>
+  <title>{{ eleventyNavigation.key or title }} | {{ config.site.title }}</title>
   <meta
     name="description"
     content="{{ description or config.site.description }}"
