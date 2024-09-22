@@ -11,7 +11,7 @@
     // "_site": true
   },
 
-  // Treat .webc and .njk files at html
+  // Treat .webc and .njk files as html
   "files.associations": {
     "*.webc": "html",
     "*njk": "html"

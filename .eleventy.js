@@ -42,6 +42,7 @@ export default function (eleventyConfig) {
     return content;
   });
 
+  // Maybe be able to use eleventy.on here instead
   if (process.env.ELEVENTY_RUN_MODE === "build") {
     // Minify html
     eleventyConfig.addTransform("htmlmin", function (content) {
@@ -57,6 +58,20 @@ export default function (eleventyConfig) {
       // If not an HTML output, return content as-is
       return content;
     });
+
+    // Exclude private notes
+    eleventyConfig.addGlobalData("eleventyComputed.permalink", function () {
+      return (data) => {
+        if (data.private) {
+          // Add the file to the ignore list
+
+          eleventyConfig.ignores.add(data.page.inputPath);
+        }
+        return data.permalink;
+      };
+    });
+
+    // May be able to use the page variable to transofmr url to redirecto so private note 404
   }
 
   let markdownItOptions = {
@@ -117,6 +132,13 @@ export default function (eleventyConfig) {
   //   if (runMode === "serve" || runMode === "watch") {
   //     process.env.BUILD_PRIVATE = true;
   //   }
+  // });
+
+  // Another "private" filtering attempt
+  // eleventyConfig.on("eleventy.before", async ({ dir }) => {
+  // 	dir = dir.input;
+  //   // Before build, find all files in the input directory that have "private" in the fronmatter and add them to eleventignore
+  //   eleventyConfig.ignores.add();
   // });
 
   // Add layout aliases

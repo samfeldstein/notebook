@@ -11,10 +11,8 @@ tags: ["problem-solving"]
 
 ## Define the problem
 
-> *A problem well-put is half-solved.*
->
-> John Dewey
+As John Dewey said, "A problem well-put is a problem half-solved."
 
-> *Analogical thinking is about understanding what type of problem you're facing.*
->
-> David Epstein, *Range*
+And as David Epstein said *Range*, "Analogical thinking is about understanding what type of problem you're facing."
+
+1. Describe your problem in one sentence.
