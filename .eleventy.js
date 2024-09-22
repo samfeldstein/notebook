@@ -60,12 +60,13 @@ export default function (eleventyConfig) {
     });
 
     // Exclude private notes
+    // Working, sort of. The files are exclude from build output, but not added to .eleventyignore. At least I don't think they are. In any case they still show up in GitHub. 
     eleventyConfig.addGlobalData("eleventyComputed.permalink", function () {
       return (data) => {
         if (data.private) {
-          // Add the file to the ignore list
-
+          // Tell eleventy to ignore the file
           eleventyConfig.ignores.add(data.page.inputPath);
+          return false;
         }
         return data.permalink;
       };
