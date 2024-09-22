@@ -19,4 +19,4 @@ pnpm-debug.log*
 .vscode/
 package-lock.json
 _site
-content/notes/private
+content

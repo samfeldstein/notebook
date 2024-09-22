@@ -1,6 +1,7 @@
 ---
 title: Anki Issues
 tags: ["tools","spaced-repetition","anki"]
+private: true
 ---
 
 ## Solved

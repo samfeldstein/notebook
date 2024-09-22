@@ -16,5 +16,6 @@
     "**/Thumbs.db": true,
     "*.njk": true,
     "notes/*.json": true
-  }
+  },
+  "gitdoc.enabled": true
 }

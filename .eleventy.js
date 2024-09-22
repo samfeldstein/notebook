@@ -104,6 +104,20 @@ export default function (eleventyConfig) {
   });
 
   // Exclude private notes from build
+  eleventyConfig.addGlobalData("eleventyComputed.permalink", function () {
+    return (data) => {
+      if (data.private && !process.env.BUILD_PRIVATE) {
+        return false;
+      }
+      return data.permalink;
+    };
+  });
+
+  eleventyConfig.on("eleventy.before", ({ runMode }) => {
+    if (runMode === "serve" || runMode === "watch") {
+      process.env.BUILD_PRIVATE = true;
+    }
+  });
 
   // Add layout aliases
   eleventyConfig.addLayoutAlias("base", "base.njk");
