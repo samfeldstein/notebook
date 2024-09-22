@@ -30,6 +30,8 @@ So maybe method two is the more flexible method here. You could tell Eleventy to
 
 ## Method Two: "Private" Frontmatter Property
 
+**This only matters if you're repository is public.**
+
 Filter notes marked "private" with a layout. See [Draft Posts Using Computed Data](https://www.11ty.dev/docs/quicktips/draft-posts/) on the Eleventy site.
 
 The advantage to this method is that it allows you to view private notes on the local site, while excluding them from the public site.
@@ -38,6 +40,8 @@ Seems to work fine.
 
 But how do we exclude this from git? You can't exclude the whole content folder, right? Because then everything would just disappear from your site, right?
 
-This only matters if you're repository is public.
 
-Adding `notes/content` to `.gitignore` doesn't work, because then Cloudflare can't access it.
+
+Adding `notes/content` to `.gitignore` doesn't work, because that excludes `notes/content` from the build output.
+
+Is there a way to mark a folder as private in git?
