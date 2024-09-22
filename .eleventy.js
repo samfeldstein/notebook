@@ -25,6 +25,7 @@ export default function (eleventyConfig) {
 
   // Transform wiklinks
   eleventyConfig.addTransform("wikilink", function (content) {
+
     if (this.page.outputPath?.endsWith(".html")) {
       return (
         content
@@ -42,7 +43,7 @@ export default function (eleventyConfig) {
     return content;
   });
 
-  // Maybe be able to use eleventy.on here instead
+  // May be able to use eleventy.on here instead
   if (process.env.ELEVENTY_RUN_MODE === "build") {
     // Minify html
     eleventyConfig.addTransform("htmlmin", function (content) {
@@ -60,13 +61,15 @@ export default function (eleventyConfig) {
     });
 
     // Exclude private notes
-    // Working, sort of. The files are exclude from build output, but not added to .eleventyignore. At least I don't think they are. In any case they still show up in GitHub. 
+    // Working, sort of. The files are exclude from build output, but not added to .eleventyignore. At least I don't think they are. In any case they still show up in GitHub.
+    // But our wikilinks transform doesn't know what to do with it, so it breaks the build.
     eleventyConfig.addGlobalData("eleventyComputed.permalink", function () {
       return (data) => {
         if (data.private) {
           // Tell eleventy to ignore the file
           eleventyConfig.ignores.add(data.page.inputPath);
-          return false;
+
+          return data.permalink;
         }
         return data.permalink;
       };

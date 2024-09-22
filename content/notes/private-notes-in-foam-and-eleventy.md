@@ -18,6 +18,12 @@ I've tested this on the local server and live site. It works on both.
 ### Downsides
 
 - This method is rigid. Let's say you want a recipe to be private for some reason. Do you put in the `private` folder or the `recipes` folder? You can't have it both ways. If you need this kind of flexibility, Method Two is the answer.
+  - A solution might be to not use folders at all, which is what I'm already doing. Then the private folder exists solely to hide private notes. From there, they can be categorized with tags however we want.
+  - Then to solve the linking issue, we can transform them somehow based on whether the link includes "private?" No, because of relative links. So do it based on urls maybe?
+  - This might be something to take care of the Cloudflare end, but I'd rather not.
+  - I'd think you should be able to change the content of the link at build time so they all point to our custom private 404 page.
+  - This works for me. Don't know about other people. For the template, might have to figure out a more flexible solution.
+  - Maybe use draft method as a contingency. They'd still end up on GitHub, but at least it wouldn't show up on the main site.
 - Private notes won't render on your development server. Again, Method Two solves this.
 
 ## Method Two: Use Frontmatter to Exclude Files from Build
