@@ -1,0 +1,5 @@
+<footer>
+  Powered by
+  <a href="https://foambubble.github.io">Foam</a>
+  and <a href="https://www.11ty.dev">Eleventy</a>.
+</footer>
