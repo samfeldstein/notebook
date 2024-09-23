@@ -1,2 +1,2 @@
 // Set a global default layout
-export default "base.webc";
+export default "base";

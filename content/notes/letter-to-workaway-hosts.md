@@ -3,21 +3,20 @@ title: Letter to Workaway Hosts
 tags: ["travel","workaway"]
 ---
 
-Hi [Host Name],
+Hi Victoria and Tim,
 
-I'm traveling the States this year while I take courses in web development. I've done two Workaways now, one in Galveston, TX, one in New Orleans (where I am now). I've always wanted to travel more, but other things always seemed to take priority. Now that I'm between careers, it seems like a good time.
+I'm traveling the States this year while I take courses in web development. I've done three Workaways now; one in Galveston, one in New Orleans, and one in Boulder. I've always wanted to travel more, but other things always seemed to take priority. Since I'm between jobs, it seems like a good time.
 
-I read the description of your home and projects, and it sounds lovely. I've driven through Colorado but never spent time there. I'm excited to finally do so!
+I read the description of your home and projects, and it sounds like work I'd enjoy. I grew up on a small farm, but spent most of my time riding horses and don't know much about homesteading, to be honest, so I have a lot to learn. I'm especially interested in subsistence agriculture.
 
-I'm most interested in the DIY/building aspect of the work, because I'd like to be a not-helpless homeowner some day. But really, I'm happy to assist with whatever you need.
+I see you mentioned "cutting edge technologies" in your profile. That also sounds interesting!
 
-I'm working very hard to build a webdev portfolio, so I spend a lot of time on that. But in my freetime I enjoy live music, hiking, biking, and photography.
+I'm working very hard to build a web development portfolio and hopefully find a job by the end of the year. So I spend a lot of time on that, but in my free time I enjoy live music, hiking, biking, and photography. And visiting, of course.
 
-I was looking to arrive somewhere around Sept. 10, and stay anywhere from a couple weeks to the full month. I can be flexible on arrival and departure dates.
+I was looking to arrive around mid-October. I don't see a minimum stay-length on your profile, but I was thinking two weeks to a month. I'm flexible on arrival and departure dates.
 
-Let me know what you think! I can also provide references from my former and current hosts if need be. Doesn't look like they've rated me yet.
+Let me know what you think! My former hosts haven't rated me yet, but I'm happy to put you in touch with them if you need a reference.
 
 I look forward to hearing from you!
 
 Sam
-

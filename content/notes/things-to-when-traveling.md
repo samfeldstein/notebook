@@ -3,22 +3,27 @@ title: Things to Do When Traveling
 tags: ["travel"]
 ---
 
-## Things to do
+## Explore
 
-- Bookstores
-- Theaters
 - Neighborhoods
+- Bookstores
+- Parks
 - Gardens
+
+## Entertainment
+
+- Local movie theaters
 - Live music
 	- Spotify
 	- Bandsintown
-- Markets
+	- Songkick
+- Local orchestra
 - Museums
-- Parks
-- Bars
-	- Speakeasies
-- Classes
-	- Dance
+
+## Events
+
+- Dances
+- Markets
 
 ### Resources
 
@@ -26,3 +31,5 @@ tags: ["travel"]
 - Atlas Obscura
 - Reddit
 - City websites
+- Eventbrite
+- [Meetup](https://www.meetup.com)
