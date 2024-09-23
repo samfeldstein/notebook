@@ -60,20 +60,18 @@ export default function (eleventyConfig) {
       return content;
     });
 
-    // Exclude private notes
-    // Working, sort of. The files are exclude from build output, but not added to .eleventyignore. At least I don't think they are. In any case they still show up in GitHub.
-    // But our wikilinks transform doesn't know what to do with it, so it breaks the build.
-    eleventyConfig.addGlobalData("eleventyComputed.permalink", function () {
-      return (data) => {
-        if (data.private) {
-          // Tell eleventy to ignore the file
-          eleventyConfig.ignores.add(data.page.inputPath);
-
-          return data.permalink;
-        }
-        return data.permalink;
-      };
-    });
+    // // Exclude private notes dynamically
+    // // Working, sort of. The files are exclude from build output, but not added to .eleventyignore. At least I don't think they are. In any case they still show up in GitHub.
+    // // But our wikilinks transform doesn't know what to do with it, so it breaks the build.
+    // eleventyConfig.addGlobalData("eleventyComputed.permalink", function () {
+    //   return (data) => {
+    //     if (data.private) {
+    //       // Tell eleventy to ignore the file
+    //       eleventyConfig.ignores.add(data.page.inputPath);
+    //     }
+    //     return data.permalink;
+    //   };
+    // });
 
     // May be able to use the page variable to transofmr url to redirecto so private note 404
   }
@@ -121,29 +119,6 @@ export default function (eleventyConfig) {
       .filter((tag) => ["all", "notes"].indexOf(tag) === -1)
       .sort();
   });
-
-  // // Exclude private notes from build
-  // eleventyConfig.addGlobalData("eleventyComputed.permalink", function () {
-  //   return (data) => {
-  //     if (data.private && !process.env.BUILD_PRIVATE) {
-  //       return false;
-  //     }
-  //     return data.permalink;
-  //   };
-  // });
-
-  // eleventyConfig.on("eleventy.before", ({ runMode }) => {
-  //   if (runMode === "serve" || runMode === "watch") {
-  //     process.env.BUILD_PRIVATE = true;
-  //   }
-  // });
-
-  // Another "private" filtering attempt
-  // eleventyConfig.on("eleventy.before", async ({ dir }) => {
-  // 	dir = dir.input;
-  //   // Before build, find all files in the input directory that have "private" in the fronmatter and add them to eleventignore
-  //   eleventyConfig.ignores.add();
-  // });
 
   // Add layout aliases
   eleventyConfig.addLayoutAlias("base", "base.njk");

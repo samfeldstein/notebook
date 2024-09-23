@@ -2,6 +2,7 @@
 title: Welcome
 eleventyNavigation:
   key: Home
+  order: 1
 ---
 
 *I'm linking to [[notes/private/private-note-test]] to test private notes functionality. Please ignore.*
