@@ -1,3 +1,0 @@
-<nav
-	@html="eleventyNavigationToHtml(eleventyNavigation($data.collections.all))"
-></nav>
