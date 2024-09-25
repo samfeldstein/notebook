@@ -25,7 +25,6 @@ export default function (eleventyConfig) {
 
   // Transform wiklinks
   eleventyConfig.addTransform("wikilink", function (content) {
-
     if (this.page.outputPath?.endsWith(".html")) {
       return (
         content
