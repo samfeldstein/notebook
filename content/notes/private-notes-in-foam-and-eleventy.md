@@ -9,7 +9,7 @@ tags: ["foam","eleventy"]
 
 ## Method One: `.gitignore` a `private` folder
 
-Put your privates notes in a `private` folder, add that folder to `.gitignore`.
+Put your private notes in a `private` folder, add that folder to `.gitignore`.
 
 In Eleventy, files added to `.gitignore` are [also ignored by Eleventy](https://www.11ty.dev/docs/ignores/), so they won't show up in the build output.
 
