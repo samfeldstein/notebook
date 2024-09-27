@@ -36,9 +36,10 @@ This works for me, but if I want to generalize this to a reusable Eleventy-Foam 
 - [ ] Add fonts
 - [ ] [[how-to-improve-website-performance|Improve performance]]
 - [ ] Support [[private-notes-in-foam-and-eleventy|private notes]]
+- [ ] Syntax highlighting
+- [ ] Render checklists
 - [ ] Render links (backlinks or otherwise, external and internal)
 - [ ] Search
-
 - [ ] Promote
   - [ ] Eleventy showcase and communities
   - [ ] Foam showcase and communities

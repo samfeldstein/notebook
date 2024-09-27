@@ -107,6 +107,17 @@ a[href^="https"]::after {
   content: "➚";
 }
 
+pre {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+pre code {
+  border: none;
+}
+
 code {
   border-style: solid;
   border-width: 1px;

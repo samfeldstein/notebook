@@ -7,7 +7,7 @@ tags: ["foam","eleventy"]
 
 **Solution:**  Exclude private notes from git and Eleventy's build output.
 
-## Method One: `.gitignore` a `private` folder
+## Method One: Exclude a Private Folder from Git
 
 Put your private notes in a `private` folder, add that folder to `.gitignore`.
 
@@ -70,14 +70,13 @@ Solution is build manually on your end?
 
 Can confirm that this is an issue, because drafts show up in [11ty Base Blog repo](https://github.com/11ty/eleventy-base-blog/blob/851eafdc4c3a612142e0e6ae84f54cb0f0eb98b1/content/blog/fifthpost.md).
 
-## Method: Dynamically add files marked "private" to `.gitignore`
+## Method Three: Dynamically Ignore Private Files
 
-This method seems to be exactly what we want, but is only available in the pre-release version of Eleventy:
+This method seems to be exactly what we want, but is only available in the [pre-release version of Eleventy](https://www.11ty.dev/docs/config-preprocessors/):
 
 ```js
-  // https://www.11ty.dev/docs/config-preprocessors/
   eleventyConfig.addProcessor("private", "njk,md", (data, content) => {
-    // If `draft` is truthy in the template’s Data Cascade, ignore the file.
+    // If `private` is truthy in the template’s Data Cascade, ignore the file.
     if (data.private) {
       return false;
     }
