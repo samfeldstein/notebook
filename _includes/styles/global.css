@@ -12,10 +12,10 @@
   /* Fonts */
   --body-font: "Fira Code", ui-monospace, monospace;
   --monospace: var(--body-font);
-  --extra-small: 1rem;
-  --small: 1.25rem;
-  --medium: 1.5rem;
-  --large: 1.75rem;
+  --extra-small: .85rem;
+  --small: 1rem;
+  --medium: 1.25rem;
+  --large: 1.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
