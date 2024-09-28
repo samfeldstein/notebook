@@ -10,6 +10,7 @@ import markdownItReplaceLink from "markdown-it-replace-link";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
+    // Pass through the folders' contents, but not the folders themselves
     "static/icons/*": "/",
     "static/fonts/*": "/",
   });
