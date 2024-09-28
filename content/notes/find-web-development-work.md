@@ -3,7 +3,11 @@ title: Find Web Development Work
 tags: ["work","web-development"]
 ---
 
-Tell people you know in the field that you're looking for work. Tell everybody else too, for good measure.
+- Tell people you know in the field that you're looking for work.
+- Tell everybody else too, for good measure.
+- Give you name to web agencies.
+- Give your name to recruitment agencies.
+- See if your favorite companies are hiring.
 
 <!--
   - Dirt
@@ -14,10 +18,9 @@ Tell people you know in the field that you're looking for work. Tell everybody e
 
 ## Job boards
 
-Also contact recruitment agencies to connect you with clients.
-
 - [Perf Work](https://www.perfwork.com/)
 - [We Work Remotely](https://weworkremotely.com/)
+- [80,000 Hours](https://jobs.80000hours.org/?query=frontend%20developer)
 - [LinkedIn](https://www.linkedin.com/jobs/)
 - [FreshRemote.Work](https://freshremote.work/)
 - [Upwork](https://www.upwork.com/nx/find-work/)
@@ -25,5 +28,4 @@ Also contact recruitment agencies to connect you with clients.
 
 ## Further Reading
 
-- [How to Get Your First Web Development Job](https://careerfoundry.com/en/blog/web-development/how-to-get-your-first-web-developer-job-the-ultimate-guide-for-junior-developers/)
 - [Resources to help indie developers make money](https://github.com/mezod/awesome-indie)
