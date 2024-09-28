@@ -12,9 +12,10 @@
   /* Fonts */
   --body-font: "Fira Code", ui-monospace, monospace;
   --monospace: var(--body-font);
-  --extra-small: 0.9rem;
-  --small: 1rem;
-  --medium: 1.75rem;
+  --extra-small: 1rem;
+  --small: 1.25rem;
+  --medium: 1.5rem;
+  --large: 1.75rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -36,23 +37,22 @@ body {
   display: grid;
   grid-template-rows: auto 1fr;
   gap: 2rem;
-  margin: 0 auto;
   padding: 1rem;
-  max-width: 40rem;
   font-family: var(--body-font);
-  font-size: 1.25rem;
+  font-size: var(--medium);
+  justify-content: center;
 }
 
 header {
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
 }
 
-/* Contain nav and main site link */
+/* Contains nav and main site link */
 header div {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 nav ul {
@@ -60,7 +60,22 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
+}
+
+.content {
+  /* Center content */
+  margin: 0 auto;
+}
+
+/* Separates note content from header */
+main > .content {
+  max-width: 50rem;
+}
+
+main > .content a,
+footer a {
+  font-weight: bold;
 }
 
 main p {
@@ -78,15 +93,11 @@ h2 {
   border-bottom: 1px dotted;
 }
 
-h3 {
-  font-variant: small-caps;
-}
-
 a {
   color: var(--link-color);
   text-decoration-thickness: 1px;
   text-decoration-style: solid;
-  text-underline-offset: 0.2em;
+  text-underline-offset: 0.1em;
 }
 
 a:not(.skiplink):hover,
@@ -144,7 +155,8 @@ footer {
 .site.title {
   text-decoration: none;
   text-align: center;
-  font-size: var(--medium);
+  font-size: var(--large);
+  font-weight: 600;
 }
 
 /* Need the chaining here, otherwise other link rules take precendence for some reason. Must have something to do with the (not) operator. */

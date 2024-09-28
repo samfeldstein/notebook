@@ -11,6 +11,7 @@ import markdownItReplaceLink from "markdown-it-replace-link";
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "static/icons/*": "/",
+    "static/fonts/*": "/",
   });
 
   // PLUGINS

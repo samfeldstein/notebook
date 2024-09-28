@@ -35,8 +35,9 @@
         </ul>
         {% endif %}
       </header>
-
-      {{ content | safe }}
+      <div class="content">
+        {{ content | safe }}
+      </div>
     </main>
 
     {% include "partials/footer.njk" %}

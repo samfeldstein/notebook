@@ -33,7 +33,7 @@ This works for me, but if I want to generalize this to a reusable Eleventy-Foam 
 
 ## Checklist
 
-- [ ] Add fonts
+- [x] Add fonts
 - [ ] [[how-to-improve-website-performance|Improve performance]]
 - [ ] Support [[private-notes-in-foam-and-eleventy|private notes]]
 - [ ] Syntax highlighting
