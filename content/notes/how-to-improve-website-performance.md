@@ -8,4 +8,4 @@ tags: ["web-development"]
 - Cache assets, either on the server, with a service worker, or both
 - Use modern image formats with `srcset`
 - Preload assets
-- Prefetch links
+- [Prefetch/prerender links and assets](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/speculationrules)

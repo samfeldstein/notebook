@@ -36,7 +36,7 @@ html {
 body {
   display: grid;
   grid-template-rows: auto 1fr;
-  gap: 2rem;
+  gap: 4rem;
   padding: 1rem;
   font-family: var(--body-font);
   font-size: var(--medium);
