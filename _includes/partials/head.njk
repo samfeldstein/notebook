@@ -16,12 +16,12 @@
   {# Prefetch all internal links #}
   <script type="speculationrules">
     {
-      "prefetch": {
-        "eagerness": "eager",
-        "where": {
-          "href_matches": "/*"
+      "prefetch": [
+        {
+          "where": { "href_matches": "/*" },
+          "eagerness": "eager"
         }
-      }
+      ]
     }
   </script>
 </head>
