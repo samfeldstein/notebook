@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  
-  <!-- 
-Icons
-      - Favicon generator: https://favicon.io
-      - Another favicon generator: https://realfavicongenerator.net/
-      - Image compressor: https://squoosh.app/
-      - SVG generator: https://formito.com/tools/favicon
-      - SVG optimizer: https://jakearchibald.github.io/svgomg/
-      - Favicon checker: https://realfavicongenerator.net/favicon_checker  
--->
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
-<link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg"/>
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
-<link rel="manifest" href="/site.webmanifest"/> 
-  <link rel="preload" href="/fira-code.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-
-  <title>Relative Links and Static Site Generators | Sam Feldstein&#39;s Notebook</title>
-  <meta name="description" content="Sam Feldstein&#39;s online notebook. Sam is a front end developer from Bondurant, IA." />
-  <meta name="generator" content="Eleventy v3.0.0" />
-
-  
-
-<style>
-  *,::after,::before{box-sizing:border-box}html{height:100%;scroll-behavior:smooth;scroll-padding-top:2rem;overflow-y:auto}body{font-weight:400;min-height:100vh;line-height:1.5}main{overflow:auto}img{max-width:100%;height:auto}pre{overflow:auto}b,strong{font-weight:bolder}button,input,select,textarea{font:inherit}@font-face{font-family:"Fira Code";src:local("Fira Code"),url("/fira-code.woff2") format("woff2"),url("/fira-code.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}:root{--background-color:#fff;--text-color:#000;--link-color:#2754d8;--body-font:"Fira Code",ui-monospace,monospace;--monospace:var(--body-font);--extra-small:1rem;--small:1.25rem;--medium:1.5rem;--large:1.75rem}@media (prefers-color-scheme:dark){:root{--background-color:#000;--text-color:#fff;--link-color:#6699ff}}html{background-color:var(--background-color);color:var(--text-color)}body{display:grid;grid-template-rows:auto 1fr;gap:4rem;padding:1rem;font-family:var(--body-font);font-size:var(--medium);justify-content:center}header{display:grid;gap:2rem}header div{display:flex;justify-content:center;gap:2rem}nav{display:flex;gap:2rem}.content{margin:0 auto}main>.content{max-width:50rem}footer a,main>.content a{font-weight:700}main p{text-align:justify;hyphens:auto}h1{margin:0;text-align:center}h2{text-align:right;border-bottom:1px dotted}a{color:var(--link-color);text-decoration-thickness:1px;text-decoration-style:solid;text-underline-offset:0.1em}a:not(.skiplink):active,a:not(.skiplink):focus,a:not(.skiplink):hover{text-decoration:none;opacity:70%}a[href^=https]{text-decoration-style:dotted}a[href^=https]::after{content:"➚"}code,pre{border-style:solid;border-width:1px;border-radius:5px;font-family:var(--monospace)}pre{padding:1rem}pre code{border:none}footer{text-align:center;font-size:var(--small)}.skiplink{background-color:var(--background-color);border-style:solid;border-width:1px;border-radius:10px;padding:1em;z-index:1;position:absolute;translate:-1000%;transition-duration:.25s}.skiplink:focus{translate:0}.site.title{text-decoration:none;text-align:center;font-size:var(--large);font-weight:600}a.site.title:hover{text-decoration:underline}.tags{list-style-type:none;padding:0;font-size:var(--small)}.tags.page{display:grid;gap:1rem}.tags.note{font-style:italic;display:flex;gap:1rem;flex-wrap:wrap;justify-content:center}a.tag{text-decoration:none}a.tag:focus,a.tag:hover{text-decoration:underline}
-</style>
-
-
-  
-  <script type="speculationrules">
-    {
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="manifest" href="/site.webmanifest"><link rel="preload" href="/fira-code.woff2" as="font" type="font/woff2" crossorigin="anonymous"><title>Relative Links and Static Site Generators | Sam Feldstein&#39;s Notebook</title><meta name="description" content="Sam Feldstein&#39;s online notebook. Sam is a front end developer from Bondurant, IA."><meta name="generator" content="Eleventy v3.0.0"><style>*,::after,::before{box-sizing:border-box}html{height:100%;scroll-behavior:smooth;scroll-padding-top:2rem;overflow-y:auto}body{font-weight:400;min-height:100vh;line-height:1.5}main{overflow:auto}img{max-width:100%;height:auto}pre{overflow:auto}b,strong{font-weight:bolder}button,input,select,textarea{font:inherit}@font-face{font-family:"Fira Code";src:local("Fira Code"),url("/fira-code.woff2") format("woff2"),url("/fira-code.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}:root{--background-color:#fff;--text-color:#000;--link-color:#2754d8;--body-font:"Fira Code",ui-monospace,monospace;--monospace:var(--body-font);--extra-small:1rem;--small:1.25rem;--medium:1.5rem;--large:1.75rem}@media (prefers-color-scheme:dark){:root{--background-color:#000;--text-color:#fff;--link-color:#6699ff}}html{background-color:var(--background-color);color:var(--text-color)}body{display:grid;grid-template-rows:auto 1fr;gap:4rem;padding:1rem;font-family:var(--body-font);font-size:var(--medium);justify-content:center}header{display:grid;gap:2rem}header div{display:flex;justify-content:center;gap:2rem}nav{display:flex;gap:2rem}.content{margin:0 auto}main>.content{max-width:50rem}footer a,main>.content a{font-weight:700}main p{text-align:justify;hyphens:auto}h1{margin:0;text-align:center}h2{text-align:right;border-bottom:1px dotted}a{color:var(--link-color);text-decoration-thickness:1px;text-decoration-style:solid;text-underline-offset:0.1em}a:not(.skiplink):active,a:not(.skiplink):focus,a:not(.skiplink):hover{text-decoration:none;opacity:70%}a[href^=https]{text-decoration-style:dotted}a[href^=https]::after{content:"➚"}code,pre{border-style:solid;border-width:1px;border-radius:5px;font-family:var(--monospace)}pre{padding:1rem}pre code{border:none}footer{text-align:center;font-size:var(--small)}.skiplink{background-color:var(--background-color);border-style:solid;border-width:1px;border-radius:10px;padding:1em;z-index:1;position:absolute;translate:-1000%;transition-duration:.25s}.skiplink:focus{translate:0}.site.title{text-decoration:none;text-align:center;font-size:var(--large);font-weight:600}a.site.title:hover{text-decoration:underline}.tags{list-style-type:none;padding:0;font-size:var(--small)}.tags.page{display:grid;gap:1rem}.tags.note{font-style:italic;display:flex;gap:1rem;flex-wrap:wrap;justify-content:center}a.tag{text-decoration:none}a.tag:focus,a.tag:hover{text-decoration:underline}</style><script type="speculationrules">{
       "prefetch": [{
         "where": {
           "href_matches": "/*",
@@ -43,80 +6,13 @@ Icons
         },
           "eagerness": "moderate"
       }]
-    }
-  </script>
-</head>
-
-  <body>
-    <a class="skiplink" href="#main-content">Skiplink</a>
-
-    <header class="site">
-      <a class="site title" href="/">Sam Feldstein&#39;s Notebook</a>
-      <div>
-        <nav>
-          <a href="/">Home</a>
-          <a href="/tags/">Tags</a>
-        </nav>
-        <a href="https://samfeldstein.xyz/">Main Site</a>
-      </div>
-    </header>
-
-    <main id="main-content">
-      <header class="page">
-        <h1>Relative Links and Static Site Generators</h1>
-        
-        <ul class="tags note">
-          <li>
-            <a href="/tags/html/" class="tag">#html</a>, 
-          </li>
-          <li>
-            <a href="/tags/markdown/" class="tag">#markdown</a>, 
-          </li>
-          <li>
-            <a href="/tags/static-site-generators/" class="tag">#static-site-generators</a>
-          </li>
-        </ul>
-        
-      </header>
-      <div class="content">
-        <h2>The Problem</h2>
-<p>Relative links work fine in a vanilla site. Eg:</p>
-<pre><code class="language-html">index.html
+    }</script></head><body><a class="skiplink" href="#main-content">Skiplink</a><header class="site"><a class="site title" href="/">Sam Feldstein&#39;s Notebook</a><div><nav><a href="/">Home</a> <a href="/tags/">Tags</a></nav><a href="https://samfeldstein.xyz/">Main Site</a></div></header><main id="main-content"><header class="page"><h1>Relative Links and Static Site Generators</h1><ul class="tags note"><li><a href="/tags/html/" class="tag">#html</a>,</li><li><a href="/tags/markdown/" class="tag">#markdown</a>,</li><li><a href="/tags/static-site-generators/" class="tag">#static-site-generators</a></li></ul></header><div class="content"><h2>The Problem</h2><p>Relative links work fine in a vanilla site. Eg:</p><pre><code class="language-html">index.html
   notes/
     index.html
     note.html
     sibling-note.html
-</code></pre>
-<p>You can link from <em>note</em> to <em>sibling note</em> like this <code>href=&quot;sibling-note.html&quot;</code> and it works fine.</p>
-<p>However, if you do this in 11ty or Astro, you have problems. Take an Astro example:</p>
-<pre><code class="language-html">index.md
+</code></pre><p>You can link from <em>note</em> to <em>sibling note</em> like this <code>href=&quot;sibling-note.html&quot;</code> and it works fine.</p><p>However, if you do this in 11ty or Astro, you have problems. Take an Astro example:</p><pre><code class="language-html">index.md
   notes/
     note.md
     sibling-note.md
-</code></pre>
-<p>If you link from <code>note</code> to <code>sibling-note</code> like this: <code>href=&quot;sibling-note</code>, you get <code>/sibling-note</code> in the url, as opposed to <code>notes/sibling-note</code>.</p>
-<p>Same thing happens in Hugo and 11ty, and sometimes you end up with this:</p>
-<p><code>http://localhost:1313/notes/note/sibling-note</code></p>
-<p>I don't know why this happens.</p>
-<p>What I'd like to do is take advantage of vanilla html, which apparently handles relative links just fine, and apply it any given SSG.</p>
-<h2>Solution</h2>
-<p><a href="https://github.com/juanfrank77/foam-eleventy-template">11ty Foam template</a> has a solution for this for this using the Markdown-It npm package. It works!</p>
-<h2>Help</h2>
-<ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#a_quick_primer_on_urls_and_paths">MDN Docs Hyperlinks Primer</a></li>
-</ul>
-
-      </div>
-    </main>
-
-    <footer>
-  Powered by
-  <a href="https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode"
-    >Foam</a
-  >
-  and <a href="https://www.11ty.dev">Eleventy</a>.
-</footer>
-
-  </body>
-
-</html>
+</code></pre><p>If you link from <code>note</code> to <code>sibling-note</code> like this: <code>href=&quot;sibling-note</code>, you get <code>/sibling-note</code> in the url, as opposed to <code>notes/sibling-note</code>.</p><p>Same thing happens in Hugo and 11ty, and sometimes you end up with this:</p><p><code>http://localhost:1313/notes/note/sibling-note</code></p><p>I don't know why this happens.</p><p>What I'd like to do is take advantage of vanilla html, which apparently handles relative links just fine, and apply it any given SSG.</p><h2>Solution</h2><p><a href="https://github.com/juanfrank77/foam-eleventy-template">11ty Foam template</a> has a solution for this for this using the Markdown-It npm package. It works!</p><h2>Help</h2><ul><li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#a_quick_primer_on_urls_and_paths">MDN Docs Hyperlinks Primer</a></li></ul></div></main><footer>Powered by <a href="https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode">Foam</a> and <a href="https://www.11ty.dev">Eleventy</a>.</footer></body></html>
