@@ -18,7 +18,10 @@
     {
       "prefetch": [
         {
-          "where": { "href_matches": "/*" },
+          "where": { 
+            "href_matches": "/*",
+            "relative_to": "document"
+          },
           "eagerness": "moderate"
         }
       ]
