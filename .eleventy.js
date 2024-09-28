@@ -1,8 +1,6 @@
 // https://github.com/11ty/eleventy/releases/tag/v3.0.0-beta.1
 // https://www.11ty.dev/blog/canary-eleventy-v3/#new-features-and-a-short-upgrade-guide
 
-import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
-import pluginWebc from "@11ty/eleventy-plugin-webc";
 import htmlmin from "html-minifier-terser";
 import CleanCSS from "clean-css";
 import markdownIt from "markdown-it";
@@ -13,16 +11,6 @@ export default function (eleventyConfig) {
     // Pass through the folders' contents, but not the folders themselves
     "static/icons/*": "/",
     "static/fonts/*": "/",
-  });
-
-  // PLUGINS
-  // Navigation
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
-
-  //www.11ty.dev/docs/languages/webc/
-  eleventyConfig.addPlugin(pluginWebc, {
-    // https://www.11ty.dev/docs/languages/webc/#global-no-import-components
-    components: "_includes/components/**/*.webc",
   });
 
   // Transform wiklinks

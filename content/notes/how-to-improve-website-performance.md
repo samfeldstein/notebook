@@ -25,3 +25,5 @@ I think the issue is that I had Cloudflare caching everything, and that included
 
 I followed the instructions in that thread above and the issue persists. I really wish Cloudflare wouldn't enable these features by default, without telling me. Maybe consider switching to Netlify or Digital Ocean.
 
+Update: Worked beautifully on Netlify. Will try Digital Ocean next and make the switch to one or the other.
+

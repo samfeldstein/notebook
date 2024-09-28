@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include "partials/head.njk" %}
+
   <body>
     <a class="skiplink" href="#main-content">Skiplink</a>
 
@@ -8,12 +9,8 @@
       <a class="site title" href="/">{{ config.site.title }}</a>
       <div>
         <nav>
-          {{
-            collections.all
-              | eleventyNavigation
-              | eleventyNavigationToHtml
-              | safe
-          }}
+          <a href="/">Home</a>
+          <a href="/tags/">Tags</a>
         </nav>
         <a href="https://samfeldstein.xyz/">Main Site</a>
       </div>
@@ -25,11 +22,10 @@
         {% if tags %}
         <ul class="tags note">
           {%- for tag in tags | filterTagList %} {%- set tagUrl %}/tags/{{
-            tag | slugify
+          tag | slugify
           }}/{% endset %}
           <li>
-            <a href="{{ tagUrl }}" class="tag">#{{ tag }}</a
-            >{%- if not loop.last %}, {% endif %}
+            <a href="{{ tagUrl }}" class="tag">#{{ tag }}</a>{%- if not loop.last %}, {% endif %}
           </li>
           {%- endfor %}
         </ul>
@@ -42,4 +38,5 @@
 
     {% include "partials/footer.njk" %}
   </body>
+
 </html>

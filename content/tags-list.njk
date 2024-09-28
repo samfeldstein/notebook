@@ -1,15 +1,12 @@
 ---
 title: Tags
 permalink: /tags/
-eleventyNavigation:
-  key: Tags
-  order: 2
 ---
 
 <ul class="tags page">
   {% for tag in collections.all | getAllTags | filterTagList %} {% set
   tagUrl%}/tags/{{
-    tag | slugify
+  tag | slugify
   }}/ {% endset %}
   <li>
     <a href="{{ tagUrl }}" class="tag">#{{ tag }}</a>

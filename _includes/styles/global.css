@@ -55,10 +55,7 @@ header div {
   gap: 2rem;
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+nav {
   display: flex;
   gap: 2rem;
 }
