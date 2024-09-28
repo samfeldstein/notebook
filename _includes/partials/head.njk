@@ -13,18 +13,17 @@
   <meta name="generator" content="{{ eleventy.generator }}" />
 
   {% include "partials/inline-css.njk" %}
+
   {# Prefetch all internal links #}
   <script type="speculationrules">
     {
-      "prefetch": [
-        {
-          "where": { 
-            "href_matches": "/*",
-            "relative_to": "document"
-          },
+      "prefetch": [{
+        "where": {
+          "href_matches": "/*",
+          "relative_to": "document"
+        },
           "eagerness": "moderate"
-        }
-      ]
+      }]
     }
   </script>
 </head>
