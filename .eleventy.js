@@ -13,6 +13,7 @@ export default function (eleventyConfig) {
     // Pass through the folders' contents, but not the folders themselves
     "static/icons/*": "/",
     "static/fonts/*": "/",
+    "static/_headers.txt": "_headers.txt"
   });
 
   // PLUGINS
