@@ -112,6 +112,11 @@ a[href^="https"]::after {
   content: "➚";
 }
 
+ul.notes {
+  display: grid;
+  gap: 1rem;
+}
+
 pre,
 code {
   border-style: solid;
