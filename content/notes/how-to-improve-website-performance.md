@@ -15,18 +15,13 @@ tags: ["web-development"]
 - Cloudflare refuses resources fetched with speculation rules. Tried turning off [Speed Brain](https://developers.cloudflare.com/speed/optimization/content/speed-brain/). Didn't fix anything, it just needs some time.
   - https://community.cloudflare.com/t/cdn-cgi-speculation-applies-even-if-disabled/714033/4
 
-My notebook subdomain contains these cache-control headers:
+- Disable caching.
+- Turn off speculation
+- Purge cache
+- Try again
+- If it works, add a custom headers file.
 
-```
-private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-```
+I think the issue is that I had Cloudflare caching everything, and that included the Speed Brain file.
 
-These are for my main site:
+I followed the instructions in that thread above and the issue persists. I really wish Cloudflare wouldn't enable these features by default, without telling me. Maybe consider switching to Netlify or Digital Ocean.
 
-```
-public, max-age=0, must-revalidate
-```
-
-I'm sure this is the problem. What I don't understand is why they're different. Shouldn't they be the same since it all falls under the same domain (samfeldstein.xyz)? 
-
-The only difference between the two is the static site generator I use and how I deploy them. Could this be the issue?
