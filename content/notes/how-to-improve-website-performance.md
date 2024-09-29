@@ -39,3 +39,9 @@ https://docs.digitalocean.com/products/app-platform/how-to/cache-content/
 > By default, App Platform deploys static sites with Cache-Control headers set to cache for 24 hours on CDN edge servers and 10 seconds in web browsers. If you redeploy the app, any cached content is invalidated across the web and CDN servers and web browsers will cache the latest iteration of the website upon any new traffic to the app.
 
 If you want more control over your cache settings, you'll have to use [Digital Ocean Spaces](https://docs.digitalocean.com/products/spaces/how-to/set-file-metadata/), which cost minimum $5/month.
+
+## Service Worker
+
+Here's something interesting. I put a service worker on my notebook to serve static assets faster. But it actually slowed the site down, because it forces html files to be fetched from the network, which bypasses the prefetch cache.
+
+Once you've been to a page, it serves that page from the worker until you leave and come back (I think). So best of both worlds would be to prefetch the first time you need a file, then get it from the worker after that.

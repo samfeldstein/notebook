@@ -5,8 +5,11 @@ const cacheVersion = "v1";
 const coreAssets = [
   "/",
   "/index.html",
+  "/tags/",
   "/fira-code.woff",
   "/fira-code.woff2",
+  "/fira-code-bold.woff",
+  "/fira-code-bold.woff2",
 ];
 
 // On install, cache core assets
@@ -22,22 +25,26 @@ self.addEventListener("install", (event) => {
   );
 });
 
+// On activate, clean up old caches
+self.addEventListener("activate", (event) => {
+  event.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cacheName) => {
+          if (cacheName !== cacheVersion) {
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+  );
+});
+
 // Listen for request events
 self.addEventListener("fetch", (event) => {
   // Get the request
   const request = event.request;
   const url = new URL(request.url);
-
-  // Exclude files
-  // https://stackoverflow.com/questions/45663796/setting-service-worker-to-exclude-certain-urls-only
-  if (
-    url.pathname.includes("admin") ||
-    url.pathname.includes("netlify") ||
-    url.pathname.includes("api") ||
-    url.pathname.includes("decap")
-  ) {
-    return;
-  }
 
   // Bug fix
   // https://stackoverflow.com/a/49719964
