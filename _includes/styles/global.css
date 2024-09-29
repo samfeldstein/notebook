@@ -11,6 +11,7 @@
 
   /* Fonts */
   --body-font: "Fira Code", ui-monospace, monospace;
+  --bold: "Fira Code Bold", var(--body-font);
   --monospace: var(--body-font);
   --extra-small: .85rem;
   --small: 1rem;
@@ -72,7 +73,7 @@ main > .content {
 
 main > .content a,
 footer a {
-  font-weight: bold;
+  font-family: var(--bold);
 }
 
 main p {
