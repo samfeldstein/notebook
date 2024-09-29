@@ -5,8 +5,8 @@ const cacheVersion = "v1";
 const coreAssets = [
   "/",
   "/index.html",
-  "/fonts/fira-code.woff",
-  "/fonts/fira-code.woff2",
+  "/fira-code.woff",
+  "/fira-code.woff2",
 ];
 
 // On install, cache core assets
