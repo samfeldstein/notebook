@@ -10,6 +10,7 @@ const coreAssets = [
   "/fira-code.woff2",
   "/fira-code-bold.woff",
   "/fira-code-bold.woff2",
+  "/site.webmanifest"
 ];
 
 // On install, cache core assets
