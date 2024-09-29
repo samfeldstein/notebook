@@ -5,6 +5,8 @@ import htmlmin from "html-minifier-terser";
 import CleanCSS from "clean-css";
 import markdownIt from "markdown-it";
 import markdownItReplaceLink from "markdown-it-replace-link";
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
@@ -13,6 +15,8 @@ export default function (eleventyConfig) {
     "static/fonts/*": "/",
     "static/scripts/*": "/"
   });
+
+  eleventyConfig.addPlugin(syntaxHighlight);
 
   // Transform wiklinks
   eleventyConfig.addTransform("wikilink", function (content) {

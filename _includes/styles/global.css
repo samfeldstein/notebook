@@ -1,7 +1,6 @@
-@import url("_includes/styles/_reset.css");
 @import url("_includes/styles/_fonts.css");
-
-/* @import url("/src/styles/_fonts.css"); */
+@import url("_includes/styles/_reset.css");
+@import url("_includes/styles/_syntax.css");
 
 :root {
   /* Colors */
