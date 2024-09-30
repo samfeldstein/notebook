@@ -1,6 +1,6 @@
 {
-  "name": "foam-11ty-test",
-  "description": "A site to test 11ty with the Foam VS Code extension.",
+  "name": "Notebook",
+  "description": "Sam Feldstein's notebook.",
   "keywords": [
     "eleventy",
     "11ty",
