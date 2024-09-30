@@ -1,0 +1,15 @@
+---
+title: Tags
+permalink: /tags/
+---
+
+<ul class="tags page">
+  {% for tag in collections.all | getAllTags | filterTagList %} {% set
+  tagUrl%}/tags/{{
+  tag | slugify
+  }}/ {% endset %}
+  <li>
+    <a href="{{ tagUrl }}" class="tag">#{{ tag }}</a>
+  </li>
+  {% endfor %}
+</ul>

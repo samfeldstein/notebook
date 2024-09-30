@@ -1,0 +1,14 @@
+---
+# https://github.com/11ty/eleventy-base-blog/blob/main/content/tags.njk
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+eleventyComputed:
+  title: Tagged “{{ tag }}”
+permalink: /tags/{{ tag | slugify }}/
+---
+
+{% set notes = collections[ tag ] %} {% include "layouts/noteslist.njk" %}
+
+<p>See <a href="/tags/">all tags</a>.</p>
