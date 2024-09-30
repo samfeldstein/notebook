@@ -13,6 +13,8 @@
   <meta name="generator" content="{{ eleventy.generator }}" />
   {% include "partials/inline-css.njk" %}
 
+  {% include "partials/pagefind.njk" %}
+
   {# Prefetch all internal links #}
   <script type="speculationrules">
     {
@@ -25,6 +27,7 @@
       }]
     }
   </script>
+  {# Register service worker #}
   <script>
     // https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
 
