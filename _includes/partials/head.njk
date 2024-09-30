@@ -11,9 +11,11 @@
   <title>{{ key or title }} | {{ config.site.title }}</title>
   <meta name="description" content="{{ description or config.site.description }}" />
   <meta name="generator" content="{{ eleventy.generator }}" />
-  {% include "partials/inline-css.njk" %}
 
   {% include "partials/pagefind.njk" %}
+
+  {# Styles #}
+  {% include "partials/inline-css.njk" %}
 
   {# Prefetch all internal links #}
   <script type="speculationrules">

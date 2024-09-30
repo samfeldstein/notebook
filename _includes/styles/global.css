@@ -19,12 +19,19 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
   /* I've nested the dark mode styles in the intial :root declaration on other sites, but doesn't work here for some reason. */
   :root {
     /* Dark mode styles */
     --background-color: #000;
     --text-color: #fff;
     --link-color: #6699ff;
+    /* Pagefind */
+    --pagefind-ui-primary: #eeeeee;
+    --pagefind-ui-text: #eeeeee;
+    --pagefind-ui-background: #152028;
+    --pagefind-ui-border: #152028;
+    --pagefind-ui-tag: #152028;
   }
 }
 
@@ -66,11 +73,11 @@ nav {
 }
 
 /* Separates note content from header */
-main > .content {
+main>.content {
   max-width: 50rem;
 }
 
-main > .content a,
+main>.content a,
 footer a {
   font-family: var(--bold);
 }
