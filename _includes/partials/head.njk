@@ -12,11 +12,16 @@
   <meta name="description" content="{{ description or config.site.description }}" />
   <meta name="generator" content="{{ eleventy.generator }}" />
 
-  {% include "partials/pagefind.njk" %}
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      new PagefindUI({ element: "#search", showSubResults: true });
+    });
+  </script>
 
   {# Styles #}
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
   {% include "partials/inline-css.njk" %}
-
+  
   {# Prefetch all internal links #}
   <script type="speculationrules">
     {
@@ -55,4 +60,5 @@
       }
     }
   </script>
+  <script src="/pagefind/pagefind-ui.js"></script>
 </head>

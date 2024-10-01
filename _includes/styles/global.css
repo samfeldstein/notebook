@@ -27,6 +27,7 @@
     --text-color: #fff;
     --link-color: #6699ff;
     /* Pagefind */
+    /* https://rknight.me/blog/using-pagefind-with-eleventy-for-search/ */
     --pagefind-ui-primary: #eeeeee;
     --pagefind-ui-text: #eeeeee;
     --pagefind-ui-background: #152028;
@@ -176,7 +177,6 @@ a.site.title:hover {
 .tags {
   list-style-type: none;
   padding: 0;
-  font-size: var(--small);
 }
 
 .tags.page {
@@ -186,6 +186,7 @@ a.site.title:hover {
 
 .tags.note {
   font-style: italic;
+  font-size: var(--small);
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;

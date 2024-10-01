@@ -13,4 +13,12 @@ tags: ["work","web-development"]
 - Note keywords
 - Use those keywords in your description
 
-> *Frontend developer with two years' experience building small business and personal sites. Interested in lean, maintainable web architecture. Less is more. Or rather, do more with less. Semantic HTML, CSS, and vanilla JavaScript are the foundation of the web.*
+```
+I'm a self-taught frontend developer with about a year's experience building small-business and personal sites. I'm interested in lean, maintainable web architecture. Less is more. Or rather, do more with less.
+
+I'm still discovering my interests, but I'm attracted to tools that augment learning and productivity. I want to build user-conscious apps and services that help people reach their potential.
+
+I'm looking for full-time work, but I'm open to freelancing. I look forward to hearing from you!
+
+Contact: sam@samfeldstein.xyz
+```
