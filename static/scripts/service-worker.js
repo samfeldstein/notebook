@@ -3,12 +3,12 @@
 const cacheVersion = "v1";
 
 const coreAssets = [
-  "fira-code.woff",
-  "fira-code.woff2",
-  "fira-code-bold.woff",
-  "fira-code-bold.woff2",
-  "pagefind/pagefind-ui.css",
-  "site.webmanifest",
+  "/fira-code.woff",
+  "/fira-code.woff2",
+  "/fira-code-bold.woff",
+  "/fira-code-bold.woff2",
+  "/pagefind/pagefind-ui.css",
+  "/site.webmanifest",
 ];
 
 // Cache assets on install
