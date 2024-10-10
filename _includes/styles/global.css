@@ -16,6 +16,9 @@
   --small: 1rem;
   --medium: 1.25rem;
   --large: 1.5rem;
+
+  /* Pagefind */
+  --pagefind-ui-font: var(--body-font);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,7 +30,10 @@
     --text-color: #fff;
     --link-color: #6699ff;
     /* Pagefind */
-    /* https://rknight.me/blog/using-pagefind-with-eleventy-for-search/ */
+    /* 
+      - https://rknight.me/blog/using-pagefind-with-eleventy-for-search/ 
+      - https://pagefind.app/docs/ui-usage/#customising-the-styles
+    */
     --pagefind-ui-primary: #eeeeee;
     --pagefind-ui-text: #eeeeee;
     --pagefind-ui-background: #152028;

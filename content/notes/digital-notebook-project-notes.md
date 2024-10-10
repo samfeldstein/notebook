@@ -35,7 +35,7 @@ This works for me, but if I want to generalize this to a reusable Eleventy-Foam 
 
 - ~~Add fonts~~
 - ~~[[how-to-improve-website-performance|Improve performance]]~~
-  - Jampack
+  - [Jampack](https://jampack.divriots.com)
 - ~~Support [[private-notes-in-foam-and-eleventy|private notes]]~~
 - ~~Syntax highlighting~~
 - Render links (backlinks or otherwise, external and internal)
