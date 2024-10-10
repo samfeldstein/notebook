@@ -9,6 +9,12 @@ The other thing I like about this idea is that it aims your thinking at the futu
 
 This isn't my brilliant idea by the way. What I've just described is a [digital garden](https://maggieappleton.com/garden-history?ref=ideasurg.pub). I just prefer to think of it as a notebook. I built mine with [Foam](https://foambubble.github.io/foam/).
 
+## Second-order Relationships
+
+If A is related to B, and B is related to C, then A has a second-order relationship to C. But Foam doesn't generate these relationships.
+
+As [Kasey Klimes](https://www.kaseyklimes.com/notes/2019/10/16/an-augmented-mind-designing-a-personal-knowledge-base-with-notion) notes, second-order relationships are by definition less obvious than first order relationships. So second order relationships hold even more potential for surprising insights.
+
 ## Private Notes?
 
 I thought about filtering out private notes using frontmatter so I could keep everything in one place, but that's kind of pointless since they'd still show up on GitHub. I could make the repository private. Or what I could do is tell git to ignore my notebook and then make the notebook a private repo. Cause the main reason to keep my site's repo publich to share the architecture. The content doesn't need to be there. 

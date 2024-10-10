@@ -11,6 +11,7 @@ tags: ["web-development"]
 - Use modern image formats with `srcset`
 - Preload assets
 - [Prefetch/prerender links and assets](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/speculationrules)
+- Use Jampack (make sure to enable prefetching)
 
 ## Prefetch/Preload
 

@@ -94,9 +94,14 @@ main p {
   hyphens: auto;
 }
 
+h1, h2, h3, h4 {
+  font-family: var(--bold);
+}
+
 h1 {
   margin: 0;
   text-align: center;
+  font-family: var(--bold);
 }
 
 h2 {
