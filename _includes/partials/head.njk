@@ -22,33 +22,6 @@
   <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
   {% include "partials/inline-css.njk" %}
 
-  {# Register service worker #}
-  <script>
-    // https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
-
-    const registration = navigator.serviceWorker.register(
-      "/service-worker.js",
-      {
-        scope: "/",
-      }
-    );
-
-    if ("serviceWorker" in navigator) {
-      try {
-        registration;
-        if (registration.installing) {
-          console.log("Service worker installing");
-        } else if (registration.waiting) {
-          console.log("Service worker installed");
-        } else if (registration.active) {
-          console.log("Service worker active");
-        }
-      } catch (error) {
-        console.error(`Registration failed with ${error}`);
-      }
-    }
-  </script>
-
   {# Prefetch all internal links #}
   <script type="speculationrules">
     {
@@ -57,9 +30,11 @@
           "href_matches": "/*",
           "relative_to": "document"
         },
-          "eagerness": "moderate"
+          "eagerness": "immediate"
       }]
     }
   </script>
+
+  {# Load Pagefind UI #}
   <script src="/pagefind/pagefind-ui.js" defer></script>
 </head>
