@@ -23,6 +23,7 @@
   {% include "partials/inline-css.njk" %}
 
   {# Prefetch all internal links #}
+  {#
   <script type="speculationrules">
     {
       "prefetch": [{
@@ -33,7 +34,19 @@
           "eagerness": "immediate"
       }]
     }
-  </script>
+  </script> #}
+
+  <script type="speculationrules">
+    {
+      "prerender": [{
+        "source": "document",
+        "where": {
+          "href_matches": "/*"
+        },
+        "eagerness": "moderate"
+      }]
+    }
+    </script>
 
   {# Load Pagefind UI #}
   <script src="/pagefind/pagefind-ui.js" defer></script>
