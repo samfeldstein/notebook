@@ -39,6 +39,65 @@ The app is a partial PWA. You can download it to your phone and desktop, though 
 
 A service worker lets you use the app offline. I'd written a service worker before (for the [Prairie Rose Arena site](https://prairierosearena.com)), but I tried to simplify this one as much as possible.
 
-Service workers scare me a little. They sort of feel like Pandora's box, in that if you unleash one and it's doing something you didn't intend, it's hard to put it back in the box. Clearly I still have things to learn here. But the worker I've got seems to do the job.
+Service workers scare me a little. They sort of feel like Pandora's Box, in that if you unleash one and it's doing something you didn't intend, it's hard to put it back in the box. Clearly I still have things to learn here. But the worker I've got seems to do the job.
 
 What I would love to figure out is how to take a cache-first approach for all assets and doc types, and fetch updates through a periodic background sync. But all that's a little beyond me at this point. Maybe next time.
+
+## Checklist
+
+### Content
+
+**About Page**
+
+- ~~PWA instructions~~
+- ~~Privacy Policy~~
+
+### Accessibility
+
+- ~~Test keyboard shortcuts~~
+- ~~Test voiceover~~
+
+### Features
+
+- ~~Service worker~~
+
+### Styles
+
+- ~~Add fonts~~
+- ~~Credits~~
+
+### Performance
+
+- ~~Preload fonts~~
+- ~~Run Chrome Lighthouse~~
+
+### Cross-browser testing
+
+- ~~Chrome~~
+- ~~Safari~~
+- ~~Firefox~~
+- ~~Vivaldi~~
+
+### Docs
+
+- ~~GitHub description~~
+- ~~ReadMe~~
+- ~~License~~
+- ~~Project notes~~
+
+### Share
+
+- Instagram
+- ~~Other socials~~
+  - ~~Tag accounts of tools used~~
+- Teacher friends
+  <!-- - Robin -->
+- Teacher forums
+  - ~~r/teachers (post pending approval)~~
+- Software forums
+  - ~~r/webdev Showoff Saturday~~
+  - ~~r/SideProject~~
+
+## Resources
+
+- [PWA Builder](https://docs.pwabuilder.com/#/builder/quick-start)

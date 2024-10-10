@@ -29,3 +29,4 @@ tags: ["software","programming","ideas"]
 - Markdown pwa, similar to this but with good formatting and syntax highlighting: [markdown pwa](https://github.com/nico-martin/markdown-editor)
 - Build your own static site generator.
 - Astro backlinks component
+- Foam templates for Astro and Hugo

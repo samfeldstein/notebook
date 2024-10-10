@@ -21,19 +21,7 @@
   {# Styles #}
   <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
   {% include "partials/inline-css.njk" %}
-  
-  {# Prefetch all internal links #}
-  <script type="speculationrules">
-    {
-      "prefetch": [{
-        "where": {
-          "href_matches": "/*",
-          "relative_to": "document"
-        },
-          "eagerness": "moderate"
-      }]
-    }
-  </script>
+
   {# Register service worker #}
   <script>
     // https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
@@ -60,5 +48,18 @@
       }
     }
   </script>
-  <script src="/pagefind/pagefind-ui.js"></script>
+
+  {# Prefetch all internal links #}
+  <script type="speculationrules">
+    {
+      "prefetch": [{
+        "where": {
+          "href_matches": "/*",
+          "relative_to": "document"
+        },
+          "eagerness": "moderate"
+      }]
+    }
+  </script>
+  <script src="/pagefind/pagefind-ui.js" defer></script>
 </head>

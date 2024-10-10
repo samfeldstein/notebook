@@ -40,6 +40,7 @@ I think what I'll do is start out as picky as possible, then pare this list down
 - [ ] [[people-i-most-admire|Smart people]]
 - [ ] EA community(?)
 - [ ] Synagogue
+- [ ] 300 or more days of sunshine
 
 **Nice-to-haves:**
 

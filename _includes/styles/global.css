@@ -44,7 +44,7 @@ html {
 body {
   display: grid;
   grid-template-rows: auto 1fr;
-  gap: 4rem;
+  gap: 2rem;
   padding: 1rem;
   font-family: var(--body-font);
   font-size: var(--medium);

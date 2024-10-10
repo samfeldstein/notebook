@@ -12,3 +12,9 @@ Seven principals of design, according to Don Norman:
 5. **Signifiers**. Effective use of signifiers ensures discoverability and that the feedback is well communicated and intelligible.
 6. **Mappings**. The relationship between controls and their actions follows the principles of good mapping, enhanced as much as possible through spatial layout and temporal contiguity.
 7. **Constraints**. Providing physical, logical, semantic, and cultural constraints guides actions and eases interpretation.
+
+## Further Reading
+
+- [Kasey Climes's website](https://www.kaseyklimes.com)
+- [rhizome r&d newsletter](https://newsletter.rhizomerd.com)
+- *The Design of Everyday Things* by Don Norman
