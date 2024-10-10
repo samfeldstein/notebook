@@ -23,27 +23,15 @@
   {% include "partials/inline-css.njk" %}
 
   {# Prefetch all internal links #}
-  {#
   <script type="speculationrules">
     {
       "prefetch": [{
+        "source": "document",
         "where": {
           "href_matches": "/*",
           "relative_to": "document"
         },
-          "eagerness": "immediate"
-      }]
-    }
-  </script> #}
-
-  <script type="speculationrules">
-    {
-      "prerender": [{
-        "source": "document",
-        "where": {
-          "href_matches": "/*"
-        },
-        "eagerness": "moderate"
+        "eagerness": "immediate"
       }]
     }
     </script>
