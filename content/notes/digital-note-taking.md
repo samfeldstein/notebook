@@ -15,49 +15,12 @@ If A is related to B, and B is related to C, then A has a second-order relations
 
 As [Kasey Klimes](https://www.kaseyklimes.com/notes/2019/10/16/an-augmented-mind-designing-a-personal-knowledge-base-with-notion) notes, second-order relationships are by definition less obvious than first order relationships. So second order relationships hold even more potential for surprising insights.
 
-## Private Notes?
+## Examples
 
-I thought about filtering out private notes using frontmatter so I could keep everything in one place, but that's kind of pointless since they'd still show up on GitHub. I could make the repository private. Or what I could do is tell git to ignore my notebook and then make the notebook a private repo. Cause the main reason to keep my site's repo publich to share the architecture. The content doesn't need to be there. 
-
-But will that work? Because if I don't include the notebook in git, it won't be pushed to the repo and won't be included in the site.
-
-There's probably some sophisticated solution for this, but the simplest is probably just keep my private, like journal entries, totally separate. You could make a separate folder in your notes folder called `private`, then add that to gitignore. That way you can still connect everything in Foam, but if somebody tries to click through on the site they'll get a 404. It's an idea.
-
-You can [exclude content entries from being built in Astro](https://docs.astro.build/en/guides/routing/#excluding-pages) by prefixing with an underscore. Definitely a solution, but I don't want to have to remember to do that. I'd rather have that condition in a frontmatter, where I can see it.
-
-Can also [exclude them in Foam](https://foambubble.github.io/foam/user/features/link-reference-definitions#ignoring-files), which is probably better, because you'd rather do that sooner than later.
-
-## Publishing
-
-Requirements:
-
-- Rendered backlinks
-- Tags
-- Search
-- Fast
-- Yaml frontmatter
-
-**To do:**
-
-- [ ] Change updated to git author date. Then have a created date.
-
-### Publishing Tools
-
-- [Obsidian Publish](https://obsidian.md/publish)
-- [WikiBonsai](https://wikibonsai.io)
-  - [WikiBonsai with Astro](https://astro-wikibonsai.netlify.app)
-- [MindStone](https://github.com/TuanManhCao/digital-garden)
-
-### Examples
-
-- [Andy Matuschak's](https://notes.andymatuschak.org/About_these_notes).
-
-## Tools
-
-- [Obsidian](https://obsidian.md)
-- [Zettelkasten](https://zettelkasten.de) (software)
-- [Tools for digital gardeners](https://github.com/MaggieAppleton/digital-gardeners).
+- [Andy Matuschak's Notebook](https://notes.andymatuschak.org/About_these_notes)
+- [Mental Nodes](https://www.mentalnodes.com)
 
 ## Resources
 
 - [Andy Matuschak's personal site](https://andymatuschak.org)
+- [Tools for digital gardeners](https://github.com/MaggieAppleton/digital-gardeners)

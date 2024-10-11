@@ -41,7 +41,9 @@ This works for me, but if I want to generalize this to a reusable [[eleventy-foa
 - ~~Search~~
 - Promote
   - ~~[Eleventy Leaderboards](https://www.11ty.dev/speedlify/)~~
-  - Foam showcase and communities
+  - ~~[Foam Discord](https://discord.com/channels/729975036148056075/729976283613626408)~~
+  - r/webdev Showoff Saturday
+  - ~~[r/DigitalGardens](https://www.reddit.com/r/DigitalGardens/)~~
 
 ## Wishlist
 

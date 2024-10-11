@@ -78,7 +78,7 @@ I also never figured out how to automatically optimize images when they're uploa
 
 ## Takeaways
 
-I would 10/10 use Eleventy again, and in fact I used it to build my digtial notebook (the site you are currently on). Its greatest strength is its flexibility. You have total control over folder hierarchy, which is nice and sometimes essential.
+I would 10/10 use Eleventy again, and in fact I used it to build my digital notebook (the site you are currently on). Its greatest strength is its flexibility. You have total control over folder hierarchy, which is nice and sometimes essential.
 
 Eleventy also has an intangible quality that I can only describe as playful. Its docs can be spare at times, but it's a one-man show over there. Props to [Zach Leatherman](https://www.zachleat.com) for building an incredible tool.
 
