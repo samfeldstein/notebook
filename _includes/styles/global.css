@@ -57,7 +57,7 @@ body {
   justify-content: center;
 }
 
-header {
+header.site {
   display: grid;
   gap: 2rem;
 }
@@ -140,6 +140,10 @@ a[href^="https"]::after {
 ul.notes {
   display: grid;
   gap: 1rem;
+}
+
+small {
+  font-size: var(--small);
 }
 
 pre,
