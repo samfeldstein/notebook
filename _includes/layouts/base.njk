@@ -2,7 +2,6 @@
 <html lang="en">
   {% include "partials/head.njk" %}
 
-
   <body>
     <a class="skiplink" href="#main-content">Skiplink</a>
 
@@ -32,6 +31,11 @@
           {%- endfor %}
         </ul>
         {% endif %}
+        <small>
+          <i>
+            Updated on <time datetime={{ page.date }}>{{ page.date | readableDate }}</time>
+          </i>
+        </small>
       </header>
       <div class="content">
         {{ content | safe }}

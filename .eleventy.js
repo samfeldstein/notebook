@@ -6,7 +6,7 @@ import CleanCSS from "clean-css";
 import markdownIt from "markdown-it";
 import markdownItReplaceLink from "markdown-it-replace-link";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
-
+import { DateTime } from "luxon";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
@@ -97,6 +97,11 @@ export default function (eleventyConfig) {
   // Minify css
   eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
+  });
+
+  // Readable Dates
+  eleventyConfig.addFilter("readableDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
   });
 
   // Return all the tags used in a collection

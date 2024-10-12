@@ -50,7 +50,7 @@ html {
 body {
   display: grid;
   grid-template-rows: auto 1fr;
-  gap: 2rem;
+  gap: 4rem;
   padding: 1rem;
   font-family: var(--body-font);
   font-size: var(--medium);
@@ -67,6 +67,11 @@ header div {
   display: flex;
   justify-content: center;
   gap: 2rem;
+}
+
+header.page {
+  text-align: center;
+  margin-bottom: 4rem;
 }
 
 nav {
@@ -96,6 +101,7 @@ main p {
 
 h1, h2, h3, h4 {
   font-family: var(--bold);
+  margin-top: 4rem;
 }
 
 h1 {

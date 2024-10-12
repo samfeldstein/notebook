@@ -1,6 +1,7 @@
 ---
 title: Welcome
 key: Home
+date: Last Modified
 ---
 
 Hi, I'm **Sam Feldstein**. I'm a frontend developer from Iowa, and this is not a blog. It's more like a [second brain](https://www.buildingasecondbrain.com), or a [digital garden](https://maggieappleton.com/garden-history?ref=ideasurg.pub). I call it a notebook, because a notebook is something you write in and that's what I'm doing here. It is not dissimilar to a [commonplace book](https://en.wikipedia.org/wiki/Commonplace_book) or a [waste book](https://en.wikipedia.org/wiki/Waste_book). It is the place I go to figure things out. In that spirit, expect notes to be unpolished and incomplete. Thoughts herein should not be mistaken for firm beliefs.
