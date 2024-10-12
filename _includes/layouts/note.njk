@@ -33,10 +33,10 @@
         {% endif %}
         <small>
           <i>
-            Created on <time datetime="{{ page.date.toUTCString() }}">{{ page.date | readableDate }}</time>
+            Created on <time datetime="{{ page.date }}">{{ page.date | readableDate }}</time>
             {% if updated %}
             <br>
-            Updated on <time datetime="{{ updated.toUTCString() }}">{{ updated | readableDate }}</time>
+            Updated on <time datetime="{{ updated }}">{{ updated | readableDate }}</time>
             {% endif %}
           </i>
         </small>
