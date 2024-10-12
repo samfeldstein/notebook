@@ -1,7 +1,7 @@
 ---
 title: Prairie Rose Arena - Project Notes
 tags: ["projects", "web-development", "eleventy"]
-date: Last Modified
+updated: 2024-10-10
 ---
 
 [Prairie Rose Arena](https://prairierosearena.com) is an equestrian event center in Elkhart, IA. It's owned and operated by my mom, Sondra Feldstein. She had a little WordPress site already, but it wasn't as nice-looking as it could have been and it didn't work so well on mobile.

@@ -1,7 +1,7 @@
 ---
 title: Private Notes in Foam and Eleventy
 tags: ["foam","eleventy"]
-date: Last Modified
+updated: 2024-10-10
 ---
 
 **Problem:** I want to keep some notes private, but I want to keep them with my public notes so I can link to them in Foam.
