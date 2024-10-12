@@ -33,11 +33,7 @@
         {% endif %}
         <small>
           <i>
-            Created on <time datetime="{{ page.date }}">{{ page.date | readableDate }}</time>
-            {%if updated%}
-            <br>
-            Updated on <time datetime="{{ updated }}">{{ updated | readableDate }}</time>
-            {%endif%}
+            Updated on <time datetime="{{ page.date }}">{{ page.date | readableDate }}</time>
           </i>
         </small>
       </header>
