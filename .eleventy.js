@@ -101,7 +101,7 @@ export default function (eleventyConfig) {
 
   // Readable Dates
   eleventyConfig.addFilter("readableDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toUTC().toLocaleString(DateTime.DATE_FULL);
+    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
   });
 
   // Return all the tags used in a collection
