@@ -28,3 +28,9 @@ If you want to learn about yourself, *you have to try things.*
 > *I know who I am when I see what I do.*
 >
 > Michaelangelo
+
+## Resources
+
+### Websites
+
+- [Noba](https://nobaproject.com)

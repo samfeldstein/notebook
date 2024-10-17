@@ -127,7 +127,6 @@ export default function (eleventyConfig) {
       input: "content",
       includes: "../_includes",
       layouts: "../_includes/layouts",
-      // Should be working, because it was working when _data lived in the content folder
       data: "../_data",
     },
     htmlTemplateEngine: "njk",

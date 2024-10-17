@@ -3,30 +3,22 @@ title: Software Ideas
 tags: ["software","programming","ideas"]
 ---
 
-- Build the same app in several languages, to get a feel for each.
 - A portfolio/resume website for Hugo Stiglitz
   - Killcount
   - Testimonials
   - Test a new framework?
-- An app that searches various websites of your choice. Eg, search all your favorite blogs simultaneously.
 - An app that computes the numeric value of your Hebrew name and shows words with the same value.
 - Earnings tracker. You press start and the numbers whiz by, showing how much you've made per second.
-- An app that automatically pairs your film festival choices. Each user enters picks and the app displays matching choices.
 - An app that sends you essays already published by writers as though they are blogging.
-- A kitchen timer app that lets you set for multiple items, then screams out the name of whatever it is when its ready.
-- Make your own version of Enso. Or incorporate it as a mode in your writing software idea. Or as a VS Code extension.
+  - Maybe it's best to do this for individual writers.
+  - Or it's one site but you can choose which writers go in your feed. 
+  - Have to auto update the rss feed somewhow. Maybe build hooks or background refresh.
 - App for finding someone to go to the movies with.
-- A dating app based on what youre watching listening to an reading.
-- A little finance app for yourself.
-- VS Code manuscript format (fountain syntax)
+- A dating app based on what you're watching listening to an reading.
+- VS Code manuscript format (fountain syntax, or ASCII)
 - VS code Readwise integration
 - VS Code focus mode
   - All inactive paragraphs or lines disappear
-  - See Enso clone idea
-- Story idea sorter and randomizer
-- Add a "words added" feature to word counter extension.
-  - Options for including deleted words.
-- Markdown pwa, similar to this but with good formatting and syntax highlighting: [markdown pwa](https://github.com/nico-martin/markdown-editor)
 - Build your own static site generator.
-- Astro backlinks component
-- Foam templates for Astro and Hugo
+- An app to help you and your partner decide what to watch.
+- A JavaScript web app that converts markdown to manuscript format.

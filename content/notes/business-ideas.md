@@ -3,18 +3,17 @@ title: Business Ideas
 tags: ["ideas","business"]
 ---
 
-- A traveling bookstore in a trailer. This has definitely been done.
-- A theater in a trailer. This has also been done. Combine w bookstore?
+## Traveling Bookstore
 
-## Arthouse Theater
+Bookstore in a trailer. This has been done.
 
-- Themed drinks and food
-- Movies with live orchestra
-- It's also a bookstore.
-- It's also a coffee shop.
-- It's also a video store.
-- It's also a comic shop.
-- It's also a bar.
+## Small Business Web Consultant
+
+Help small businesses get their web presence in order.
+
+## How to Use Your Damn Phone
+
+Teach old and non-tech-savvy people how to get more out of their devices.
 
 ## Movie exchange service
 

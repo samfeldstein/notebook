@@ -14,3 +14,7 @@ tags: ["research","tools"]
 - [Marginalia Encyclopedia](https://encyclopedia.marginalia.nu)
 - Wikipedia
 - [Google Advanced Search](https://www.google.com/advanced_search)
+
+## Tools
+
+Build your own search engine with Google Programmable Search Engine.

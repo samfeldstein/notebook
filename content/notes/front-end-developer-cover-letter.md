@@ -23,7 +23,6 @@ I have a working knowledge of JavaScript, but I'm learning more everyday. I rece
 
 ---
 
-
 Over the past three years I've managed two web stores for two small businesses. From those experiences, I've gleaned a breadth of skills that I believe would help me excel at Sefaria.
 
 I've never shied from learning new skills, particularly technological ones. When I had to build a web store for the Sentinel, learned how to use WordPress, WooCommerce, and hosting solutions. At the Marfa Store, I learned how to use Shopify and Printify. When I wanted a website for myself, I learned how to write HTML and CSS, and use static site generators like Hugo. In my current role as a freelance web developer, I've become proficient with Canva in order to mock up website designs. My current client is an equestrian event center called [Prairie Rose Arena]([https://www.canva.com/design/DAF8oFZAf2Q/fENO0DRoLgUiHsucAGO-8g/edit?utm_content=DAF8oFZAf2Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAF8oFZAf2Q/fENO0DRoLgUiHsucAGO-8g/edit?utm_content=DAF8oFZAf2Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)). My eagerness and ability to learn has been invaluable in every position I've held.
