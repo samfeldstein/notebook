@@ -25,8 +25,8 @@ I'm interested in **business** and **economics**, to some extent. I like making 
 
 ## Most Exciting
 
-**Nonfiction writing.** Thinking clearly is satisfying. Also gives you can excuse to be interested in whatever you want. I don't think I'm smart to enough to do great work in any given field, but maybe I'm smart enough to write about the great work other people are doing.
+**Psychology, esp. behavioral.**
 
 **Behavioral economics.**
 
-**Fiction**. Even after all this time, the idea of writing great dialogue gives me butterflies. And fiction gives you an excuse to be interested in whatever you want. In that sense, maybe fiction could be the black hole at the center of my galaxy.
+**Nonfiction writing.** Thinking clearly is satisfying. Also gives you can excuse to be interested in whatever you want. I don't think I'm smart to enough to do great work in any given field, but maybe I'm smart enough to write about the great work other people are doing.

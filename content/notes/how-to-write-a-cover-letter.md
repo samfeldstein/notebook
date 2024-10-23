@@ -10,3 +10,7 @@ updated: 2024-10-16
 Be funny. Reading through cover letters has gotta be mindnumbing. Make your cover letter the highlight of the recruiter's morning.
 
 That's my theory, anyway.
+
+## Resources
+
+- [Cover Letter Tips](https://careerservices.fas.harvard.edu/resources/create-a-strong-resume#covertips) (Harvard)

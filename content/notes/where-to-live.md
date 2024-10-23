@@ -1,9 +1,12 @@
 ---
 title: Where to Live
-tags: []
+tags: 
+created: 2024-09-17
+updated: 2024-10-20
 ---
+## 2024-09-17
 
-Like any decision, **choose the path that gives you the most interesting options for the future**.
+Like any decision, [[how-to-decide-what-to-work-on|choose the path that gives you the most interesting options for the future]].
 
 As I write this, it's September 2024. I'm doing a Workaway in Boulder. I'm ready to start looking for a frontend job.
 
@@ -21,6 +24,10 @@ Workaway feels like the narrow path. The number of people I meet will be small, 
 Of course, "Where should I live?" is really a subquestion of the big question: **"What do I want to do with my life?"**
 
 I want to learn. I want to do great work. I want to leave things better than I found them.
+
+## 2024-10-20
+
+I live in Boulder now, and I've decided to study psychology. I'm taking a Intro to Psycho course on Coursera, and if all goes well, I'll go ahead an apply to schools. So I don't know that there's much point in thinking about this anymore until I've been rejected from all of them.
 
 ## Criteria
 

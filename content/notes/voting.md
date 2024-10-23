@@ -1,6 +1,8 @@
 ---
 title: Voting
-tags: ["politics"]
+tags:
+  - politics
+updated: 2024-10-20
 ---
 
 - [Why voting matters](https://80000hours.org/articles/is-voting-important/)
@@ -8,6 +10,6 @@ tags: ["politics"]
   - [Chart](https://commons.wikimedia.org/w/index.php?curid=67777629)
   - [Get out the vote in practice](https://en.wikipedia.org/wiki/Get_out_the_vote#Get_out_the_vote_in_practice)
 
-## Research
+## Ballot Research
 
 - [BallotPedia](https://ballotpedia.org/Main_Page)

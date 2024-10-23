@@ -17,8 +17,5 @@ tags: ["software","programming","ideas"]
 - A dating app based on what you're watching listening to an reading.
 - VS Code manuscript format (fountain syntax, or ASCII)
 - VS code Readwise integration
-- VS Code focus mode
-  - All inactive paragraphs or lines disappear
-- Build your own static site generator.
 - An app to help you and your partner decide what to watch.
 - A JavaScript web app that converts markdown to manuscript format.

@@ -19,6 +19,8 @@ Don't try to boss the story around. Work with it. Embrace it. Let it take you so
 
 > To find a good relationship, you do not start by saying, “I want a relationship that looks like this.” That would be starting in the wrong end. Instead you say, “I’m just going to pay attention to what happens when I hang out with various people and iterate toward something that feels alive.”
 
+The best way to make peace with a story is to get out of the way. Sit back, reserve judgement, and observe with amusement (or interest, or horror) at what comes out of your head. From there, it's just a matter of writing down what you see. If introspection is self-reporting your reactions to external stimuli, the storytelling (all writing?) might be the opposite: **Self-reporting your reactions to internal stimuli**.
+
 ## Structure
 
 Stories have macro-beats and micro-beats. Macro-beats are like a skeleton. They lend a story shape and structure. Micro-beats are everything that covers the skeleton: muscles, ligaments, blood. They are what make the skeleton interesting. As [Stephen Sondheim](https://bookshop.org/p/books/finishing-the-hat-collected-lyrics-1954-1981-with-attendant-comments-principles-heresies-grudges-whines-and-anecdotes-stephen-sondheim/6716906?ean=9780679439073) says, "God is in the details."

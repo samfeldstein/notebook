@@ -20,3 +20,7 @@ updated: 2024-10-17
 13. Library Assistant
 14. Audio-Visual Technician
 15. Horseback Riding Instructor
+
+## Resources
+
+- [Create a Strong Resume](https://careerservices.fas.harvard.edu/resources/create-a-strong-resume/#start) (Harvard)

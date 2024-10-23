@@ -21,3 +21,4 @@ package-lock.json
 _site
 .foam
 content/notes/private
+content/.obsidian
