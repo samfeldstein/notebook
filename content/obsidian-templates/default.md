@@ -1,7 +1,7 @@
 ---
 title: 
 tags: 
-created: {{date:YY-MM-DD}}
-updated: {{date:YY-MM-DD}}
+created: {{date:YYYY-MM-DD}}
+updated: {{date:YYYY-MM-DD}}
 private: true
 ---

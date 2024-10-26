@@ -1,6 +1,8 @@
 ---
 title: Private Notes in Foam and Eleventy
-tags: ["foam","eleventy"]
+tags:
+  - foam
+  - eleventy
 updated: 2024-10-10
 ---
 

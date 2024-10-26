@@ -7,6 +7,7 @@ pagination:
 eleventyComputed:
   title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag | slugify }}/
+layout: base
 ---
 
 {% set notes = collections[ tag ] %} {% include "layouts/noteslist.njk" %}

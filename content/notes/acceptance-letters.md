@@ -1,6 +1,7 @@
 ---
-title: Acceptance Letters"
-tags: ["writing"]
+title: Acceptance Letters
+tags:
+  - writing
 ---
 
 ## "Made of Memories"
