@@ -33,6 +33,10 @@ This works for me, but if I want to generalize this to a reusable [[eleventy-foa
 
 ## Checklist
 
+### Styles
+
+- Wrap menu in details
+
 ### Performance
 
 See [[how-to-improve-website-performance|How to Improve Website Performance]]
