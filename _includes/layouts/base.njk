@@ -8,13 +8,9 @@
     <header class="site">
       <a class="site title" href="/">{{ config.site.title }}</a>
       <div>
-        <nav>
-          <a href="/">Home</a>
-          <a href="/tags/">Tags</a>
-        </nav>
+        {% include "partials/nav.njk" %}
         <a href="https://samfeldstein.xyz/" target="_blank">Main Site</a>
       </div>
-      <div id="search"></div>
     </header>
 
     <main id="main-content">
