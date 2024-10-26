@@ -52,7 +52,8 @@ body {
   grid-template-rows: auto 1fr;
   grid-template-columns: 1fr;
   gap: 4rem;
-  padding: 1rem;
+  margin: 0 auto;
+  padding: 0.5rem;
   font-family: var(--body-font);
   font-size: var(--medium);
   justify-content: center;
@@ -64,11 +65,12 @@ header.site {
 }
 
 /* Contains nav and main site link */
-header div {
+.nav.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
+  font-size: var(--small);
 }
 
 header.page {
@@ -110,6 +112,8 @@ h1 {
   margin: 0;
   text-align: center;
   font-family: var(--bold);
+  font-size: 2rem;
+  text-wrap: pretty;
 }
 
 h2 {

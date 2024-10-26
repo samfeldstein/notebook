@@ -33,13 +33,18 @@ This works for me, but if I want to generalize this to a reusable [[eleventy-foa
 
 ## Checklist
 
-- ~~Add fonts~~
-- ~~[[how-to-improve-website-performance|Improve performance]]~~
-  - ~~[Jampack](https://jampack.divriots.com)~~
+### Performance
+
+See [[how-to-improve-website-performance|How to Improve Website Performance]]
+  - ~~Add [Jampack](https://jampack.divriots.com)~~
+### Features
+
 - ~~Support [[private-notes-in-foam-and-eleventy|private notes]]~~
 - ~~Syntax highlighting~~
 - ~~Search~~
-- Promote
+
+### Promote
+
   - ~~[Eleventy Leaderboards](https://www.11ty.dev/speedlify/)~~
   - ~~[Foam Discord](https://discord.com/channels/729975036148056075/729976283613626408)~~
   - ~~r/webdev Showoff Saturday~~
@@ -47,6 +52,7 @@ This works for me, but if I want to generalize this to a reusable [[eleventy-foa
 
 ## Wishlist
 
+- View transitions
 - Render links (backlinks or otherwise, external and internal)
   - [Eleventy Garden](https://eleventy-garden.netlify.app)
   - [11 Garden](https://github.com/binnyva/11-garden/)
