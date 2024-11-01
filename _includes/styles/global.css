@@ -23,7 +23,6 @@
   --pagefind-ui-text: var(--text-color);
   --pagefind-ui-border: var(--text-color);
   --pagefind-ui-background: var(--background-color);
-  --pagefind-ui-border-width: 1px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -234,6 +233,6 @@ a.tag:focus {
   text-decoration: underline;
 }
 
-.pagefind-ui__form {
-  padding: 0 0.5rem;
+input:focus {
+  outline: none;
 }
