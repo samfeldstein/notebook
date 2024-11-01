@@ -1,8 +1,8 @@
 ---
 title: Coding by Hand vs Coding with AI
 tags:
-  - ai
   - programming
+  - artificial-intelligence
 created: 2024-10-24
 updated: 2024-10-24
 ---

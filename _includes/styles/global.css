@@ -19,6 +19,11 @@
 
   /* Pagefind */
   --pagefind-ui-font: var(--body-font);
+  --pagefind-ui-primary: var(--text-color);
+  --pagefind-ui-text: var(--text-color);
+  --pagefind-ui-border: var(--text-color);
+  --pagefind-ui-background: var(--background-color);
+  --pagefind-ui-border-width: 1px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,11 +39,6 @@
       - https://rknight.me/blog/using-pagefind-with-eleventy-for-search/ 
       - https://pagefind.app/docs/ui-usage/#customising-the-styles
     */
-    --pagefind-ui-primary: #eeeeee;
-    --pagefind-ui-text: #eeeeee;
-    --pagefind-ui-background: #152028;
-    --pagefind-ui-border: #152028;
-    --pagefind-ui-tag: #152028;
   }
 }
 
@@ -53,7 +53,7 @@ body {
   grid-template-columns: 1fr;
   gap: 4rem;
   margin: 0 auto;
-  padding: 0.5rem;
+  padding: 0.75rem;
   font-family: var(--body-font);
   font-size: var(--medium);
   justify-content: center;
@@ -102,6 +102,7 @@ footer a {
 main p {
   text-align: justify;
   hyphens: auto;
+  margin: 1.5rem 0;
 }
 
 h1,
@@ -231,4 +232,8 @@ a.tag {
 a.tag:hover,
 a.tag:focus {
   text-decoration: underline;
+}
+
+.pagefind-ui__form {
+  padding: 0 0.5rem;
 }
