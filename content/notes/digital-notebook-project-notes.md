@@ -40,7 +40,9 @@ This works for me, but if I want to generalize this to a reusable [[eleventy-foa
 ### Performance
 
 See [[how-to-improve-website-performance|How to Improve Website Performance]]
+
   - ~~Add [Jampack](https://jampack.divriots.com)~~
+
 ### Features
 
 - ~~Support [[private-notes-in-foam-and-eleventy|private notes]]~~
@@ -59,7 +61,7 @@ See [[how-to-improve-website-performance|How to Improve Website Performance]]
 
 - View transitions
 - Render links (backlinks or otherwise, external and internal)
-  - [Eleventy Garden](https://eleventy-garden.netlify.app)
+  - [Eleventy Garden](https://github.com/binyamin/eleventy-garden)
   - [11 Garden](https://github.com/binnyva/11-garden/)
 - [[digital-note-taking#Second-order Relationships|Second-order relationships]]
 

@@ -36,7 +36,9 @@
       </header>
       <div class="content">
         {{ content | safe }}
+        {% include "partials/backlinks.njk" %}
       </div>
+
     </main>
 
     {% include "partials/footer.njk" %}
