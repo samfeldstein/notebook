@@ -20,4 +20,6 @@ So now you have an extra layer between the programmer and the program. And it's 
 
 ---
 
+Likewise with coding. Writing code by hand is satisfying. Tell a  bot to do it for me isn't. Why? I think because when I write the code by hand, I feel like I've accomplished something. I feel like an agent. When the bot doesn't, that sense of accomplishment vanishes, even if whatever it wrote was my idea.
 
+So maybe it behooves programmers to try to derive satisfaction from the outcome instead of the process. Or rather, from higher-level problem solving instead of low-level.

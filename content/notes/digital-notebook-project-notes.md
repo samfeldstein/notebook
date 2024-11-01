@@ -46,6 +46,7 @@ See [[how-to-improve-website-performance|How to Improve Website Performance]]
 - ~~Support [[private-notes-in-foam-and-eleventy|private notes]]~~
 - ~~Syntax highlighting~~
 - ~~Search~~
+- Footnotes
 
 ### Promote
 
