@@ -23,16 +23,29 @@ I'm interested in **business** and **economics**, to some extent. I like making 
 
 **Local-first software** and a **"more with less"** approach to technology.
 
+**Effective Altruism.** Or effective anything, really.
+
+**Photography.**
+
 ## Most Exciting
 
-**Psychology, esp. behavioral.**
 
-**Behavioral economics.**
+**How to learn effectively.**
 
-**Nonfiction writing.** Thinking clearly is satisfying. Also gives you can excuse to be interested in whatever you want. I don't think I'm smart to enough to do great work in any given field, but maybe I'm smart enough to write about the great work other people are doing.
+**How to talk to people.**
+
+**Love.**
+
+**Dance.**
+
+**Photography.**
+
+**Web design.**
+
+**Graphic design?**
 
 ## The kind of work I'd like to do
 
 I want to be the guy who knows things. I don't want to be a scientist. But I want to know what the scientists are up to.
 
-I'm a generalist by nature and practice. So perhaps consulting is in the cards.
+I'm a generalist by nature and practice. So perhaps consulting is in the cards. But to do that, you need a degree.

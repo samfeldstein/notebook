@@ -1,0 +1,13 @@
+{% if footnotes.length > 0 %}
+<section class="footnotes">
+  <h2>Footnotes</h2>
+  <ol>
+    {% for footnote in footnotes %}
+    <li id="footnote-{{ footnote.number }}">
+      {{ footnote.text }}
+      <a href="#ref-{{ footnote.number }}" class="back-to-ref">↩</a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}

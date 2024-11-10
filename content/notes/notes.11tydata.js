@@ -36,30 +36,4 @@ export const eleventyComputed = {
 
 		return backlinks;
 	},
-
-	footnotes: (data) => {
-		const content = data.content || '';
-
-		// Extract footnotes at the end of the document (e.g., "[1]: This is a footnote text.")
-		const footnotePattern = /\[(\d+)\]:\s*(.+)/g;
-		let match;
-		const footnotes = [];
-
-		while ((match = footnotePattern.exec(content)) !== null) {
-			footnotes.push({
-				number: match[1],
-				text: match[2]
-			});
-		}
-
-		// Replace inline references (e.g., "[^1]") with links
-		const renderedContent = content.replace(/\[\^(\d+)\]/g, (match, number) => {
-			return `<a href="#footnote-${number}" id="ref-${number}" class="footnote-ref">[${number}]</a>`;
-		});
-
-		return {
-			renderedContent,
-			footnotes
-		};
-	}
 };

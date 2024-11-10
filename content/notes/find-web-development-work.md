@@ -33,6 +33,15 @@ tags: ["work","web-development"]
 
 **Start local**. I imagine that local work comes with more opportunities and chances to make an impact.
 
+Look for related roles:
+
+- Network technician
+- Systems technician
+- Quality assurance specialist
+- Sales engineer
+- Various analytics roles
+- Developer advocate
+
 ### Job boards
 
 **Search terms:**

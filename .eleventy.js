@@ -18,6 +18,15 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPlugin(syntaxHighlight);
 
+  // Strip .md extension from links
+  eleventyConfig.addTransform("md-link", function (content) {
+    if (this.page.outputPath?.endsWith(".html")) { // Only for HTML output
+      return content.replace(/\.md\b/g, ""); // Remove .md extension
+    }
+    return content;
+  });
+
+
   // Transform wiklinks
   eleventyConfig.addTransform("wikilink", function (content) {
     if (this.page.outputPath?.endsWith(".html")) {
