@@ -21,3 +21,6 @@ I don't know that you can intentionally become like these people; so much depend
 > *When you grow up, you tend to get told the world is the way it is and your life is just to live your life inside the world. Try to have a nice family life, have fun, save a little money. That’s a very limited life. Life can be much broader once you discover one simple fact: Life was made up by people that were no smarter than you. And you can change it, you can influence it, you can build your own things that other people can use. Once you learn that, you’ll never be the same again.*
 > 
 > Steve Jobs
+
+> *It’s easier to persist, I think, when you see your work as a practice—an ongoing process of improvement—instead of focusing too much on any particular project. No project will be perfect. But each project can be better than the previous one, and each project can sharpen your skills and deepen your commitment to a craft.*
+> Celine Nguyen, [The Divine Discontent](https://www.personalcanon.com/p/the-divine-discontent?r=1ko6ty&utm_campaign=post&utm_medium=web)

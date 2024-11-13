@@ -1,9 +1,8 @@
 ---
-title: Jiujitsu
+title: Jiu-jitsu
 tags: 
 created: 2024-11-04
 updated: 2024-11-04
-private: true
 ---
 From blue to white belt, focus on defense.
 
