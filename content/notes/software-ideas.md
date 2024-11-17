@@ -3,6 +3,7 @@ title: Software Ideas
 tags: ["software","programming","ideas"]
 ---
 
+- A website where you can put your ideas that you’re pretty sure you’ll never act on. If you aren’t going to use them, someone else might.
 - A portfolio/resume website for Hugo Stiglitz
   - Killcount
   - Testimonials
