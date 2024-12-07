@@ -1,7 +1,6 @@
 @import url("_includes/styles/_fonts.css");
 @import url("_includes/styles/_reset.css");
 @import url("_includes/styles/_syntax.css");
-@import url("_includes/styles/_responsive.css");
 
 :root {
   /* Colors */
@@ -48,50 +47,17 @@ html {
 }
 
 body {
-  max-width: 70rem;
-  display: grid;
-  grid-template-rows: auto 1fr;
-  grid-template-columns: 1fr;
-  gap: 3rem;
   margin: 0 auto;
   padding: 1rem;
+  display: grid;
+  gap: 4rem;
   font-family: var(--body-font);
   font-size: var(--medium);
-  justify-content: center;
-  display: grid;
-  grid-template-areas:
-    "header header"
-    "sidebar main"
-    "footer footer";
-  grid-template-columns: auto 1fr;
-  /* Sidebar width and main content */
-  grid-template-rows: auto 1fr auto;
 }
 
 header.site {
   display: grid;
   gap: 2rem;
-  grid-area: header;
-}
-
-.sidebar {
-  grid-area: sidebar;
-  padding-right: 3rem;
-  border-right-style: dotted;
-  border-right-width: 1px;
-}
-
-.sidebar nav {
-  flex-direction: column;
-  gap: 1em;
-}
-
-/* Contains nav and main site link */
-.nav.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: var(--small);
 }
 
 header.page {
@@ -102,17 +68,25 @@ header.page {
 nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
   justify-content: center;
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  padding: 1rem 0;
+}
+
+nav a {
+  padding: 0.5em 1em;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
   /* Center content */
   margin: 0 auto;
-}
-
-main {
-  grid-area: main;
+  max-width: 50rem;
 }
 
 main>.content a,
@@ -137,9 +111,7 @@ h4 {
 h1 {
   margin: 0;
   text-align: center;
-  font-family: var(--bold);
-  font-size: calc(1.5rem + 1vw);
-  text-wrap: pretty;
+  text-wrap: balance;
 }
 
 h2 {
@@ -197,7 +169,6 @@ pre code {
 footer {
   text-align: center;
   font-size: var(--small);
-  grid-area: footer;
 }
 
 .skiplink {
