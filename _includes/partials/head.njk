@@ -11,6 +11,7 @@
 
   <title>{{ key or title }} | {{ config.site.title }}</title>
   <meta name="description" content="{{ description or config.site.description }}" />
+  <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ config.site.title }}">
   <meta name="generator" content="{{ eleventy.generator }}" />
 
   <script>

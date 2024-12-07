@@ -5,7 +5,7 @@ tags:
 created: 2024-10-28
 updated: 2024-10-28
 ---
-Problems vary in size. *Build a website* is a big problem. *Position the menu bar* is a small problem. Break you problem down until you get to a problem small enough to solve.
+Problems vary in size. *Build a website* is a big problem. *Position the menu bar* is a small problem. Break your problem down until you get to a problem small enough to solve.
 
 Problem sizes are proportional. *Build a website* is a big problem compared to *position the menu bar*, but it's a small problem compared to *make electricty free.*
 

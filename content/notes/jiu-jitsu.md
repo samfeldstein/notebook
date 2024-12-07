@@ -4,6 +4,10 @@ tags:
 created: 2024-11-04
 updated: 2024-11-04
 ---
+## Fundamentals
+
+You don’t learn to cook by learning one recipe per day.
+
 From blue to white belt, focus on defense.
 
 From purple to black belt, learn how to submit.

@@ -13,4 +13,5 @@ The docs imply you should [store `admin/` in your site's output folder directly]
 
 ## Help
 
+- [Add Decap to your site](https://decapcms.org/docs/basic-steps/)
 - [Decap GitHub Discussions](https://github.com/decaporg/decap-cms/discussions)

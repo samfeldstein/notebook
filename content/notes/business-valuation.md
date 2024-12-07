@@ -11,5 +11,10 @@ Valuation is a storyteller's game because it favors the people who can see the f
 > 
 > Aswath Damodaran
 
+## The Bermuda Triangle of Valuation
 
+1. Bias
+2. Complexity
+3. Uncertainty
 
+See: https://acquirersmultiple.com/2023/05/aswath-damodaran-the-bermuda-triangle-of-valuation/

@@ -7,6 +7,7 @@ import markdownIt from "markdown-it";
 import markdownItReplaceLink from "markdown-it-replace-link";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import { DateTime } from "luxon";
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
@@ -16,7 +17,28 @@ export default function (eleventyConfig) {
     "static/scripts/*": "/"
   });
 
+  // PLUGINS
+  // Syntax highlighting
   eleventyConfig.addPlugin(syntaxHighlight);
+
+  // RSS Feed
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "atom", // or "rss", "json"
+    outputPath: "/feed.xml",
+    collection: {
+      name: "notes", // iterate over `collections.posts`
+      limit: 10,     // 0 means no limit
+    },
+    metadata: {
+      language: "en",
+      title: "Sam Feldstein's Notebook",
+      base: "https://example.com/",
+      author: {
+        name: "Sam Feldstein",
+        email: "samuelfeldstein@proton.me", // Optional
+      }
+    }
+  });
 
   // Strip .md extension from links
   eleventyConfig.addTransform("md-link", function (content) {
