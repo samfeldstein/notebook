@@ -29,7 +29,6 @@ I'm interested in **business** and **economics**, to some extent. I like making 
 
 ## Most Exciting
 
-
 **How to learn effectively.**
 
 **How to talk to people.**

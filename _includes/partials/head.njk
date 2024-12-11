@@ -17,7 +17,14 @@
   <script>
     window.addEventListener('DOMContentLoaded', (event) => {
       new PagefindUI({ element: "#search", showSubResults: true });
+
+      const searchInput = document.querySelector('.pagefind-ui__search-input');
+      if (searchInput) {
+        searchInput.focus();
+      }
     });
+
+
   </script>
 
   {# Styles #}

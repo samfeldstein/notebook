@@ -3,11 +3,13 @@ title: Dance
 tags:
   - dance
 created: 2024-11-16
-updated: 2024-11-16
+updated: 2024-12-10
 ---
 ## Fundamentals
 
 A shortcut to figuring out the fundamental dance ingredients is to see what all the different dances have in common.
+
+Dance is singing with the body.
 
 ## Dance as hedonic design
 

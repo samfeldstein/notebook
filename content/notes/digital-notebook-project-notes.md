@@ -28,7 +28,6 @@ This only works if you're okay with keeping your private notes in a specific fol
 ## Checklist
 
 - ~~RSS~~
-- Floating menu
 
 ### Promote
 
