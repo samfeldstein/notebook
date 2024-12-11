@@ -50,6 +50,7 @@ body {
   margin: 0 auto;
   padding: 1rem;
   display: grid;
+  grid-template-rows: auto 1fr auto;
   gap: 4rem;
   font-family: var(--body-font);
   font-size: var(--medium);
@@ -58,6 +59,8 @@ body {
 header.site {
   display: grid;
   gap: 2rem;
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
 }
 
 header.page {
@@ -69,8 +72,6 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border-bottom-style: dotted;
-  border-bottom-width: 1px;
   padding: 1rem 0;
 }
 
