@@ -38,4 +38,4 @@ So what's the lesson there? Be suspicious of products that are supposed to make 
 
 ## Related Notes
 
-- [[usability-upsides|Usability Upsides]]
+- [Usability Upsides](usability-upsides.md)

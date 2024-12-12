@@ -22,4 +22,4 @@ I assume AI Supervisors will be forest people. They won't have much use for the 
 
 ## Possible Upsides
 
-If you spend all your time trying to explain yourself to a dumb robot, is it possible that you'll actually get pretty good at explaining yourself? In other words, could building things with AI improve your articulation and [[how-to-solve-problems|problem-solving]] skills?
+If you spend all your time trying to explain yourself to a dumb robot, is it possible that you'll actually get pretty good at explaining yourself? In other words, could building things with AI improve your articulation and [how-to-solve-problems](how-to-solve-problems.md) skills?

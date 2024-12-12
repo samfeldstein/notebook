@@ -23,7 +23,7 @@ There are some notes I don't want to publish, but I'd prefer to keep them with t
 
 On the 404 page, I tell users to check the url. If it includes `/private/`, they've stumbled on a private note.
 
-This only works if you're okay with keeping your private notes in a specific folder. A more flexible approach would be to include a `private` key in a note's frontmatter, and use that to filter it from git and the site output. Though as you can see in my [[private-notes-in-foam-and-eleventy|notes on the subject]], this is more complicated than it sounds.
+This only works if you're okay with keeping your private notes in a specific folder. A more flexible approach would be to include a `private` key in a note's frontmatter, and use that to filter it from git and the site output. Though as you can see in my [notes on the subject](private-notes-in-eleventy.md), this is more complicated than it sounds.
 
 ## Checklist
 

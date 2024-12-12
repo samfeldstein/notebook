@@ -5,11 +5,15 @@ tags:
 created: 2024-11-16
 updated: 2024-12-10
 ---
+## What is dance?
+
+**Dance is a dynamic.** When you dance with someone, you become a system. Riding horses is the same way. When practiced correctly, aliens should come down and not immediately understand that they are looking at two organisms, such is the level of harmony.
+
+**Dance is singing with the body.**
+
 ## Fundamentals
 
 A shortcut to figuring out the fundamental dance ingredients is to see what all the different dances have in common.
-
-Dance is singing with the body.
 
 ## Dance as hedonic design
 

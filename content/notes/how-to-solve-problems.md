@@ -17,8 +17,8 @@ updated: 2024-10-28
 
 **State your assumptions, then try to disprove them.** This will help ensure you solve the right problem.
 
-**Break the problem into [[problem-sizes|smaller problems]].**
+**Break the problem into [sub-problems](problem-sizes.md).**
 
 ## See also
 
-- [[how-to-think|How to Think]]
+- [How to think](how-to-think.md)

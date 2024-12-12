@@ -9,4 +9,4 @@ updated: 2024-10-28
 
 **Disprove your assumptions.**
 
-**List examples.** Begin with drastic examples, because those are easier to grasp. For instance, when thinking about the [[usability-downsides#Friction and Meaning|texture of interactions]], I asked myself what the difference was between looking at the Mona Lisa and looking at a blank canvas.
+**List examples.** Begin with drastic examples, because those are easier to grasp. For instance, when thinking about the [usability-downsides](usability-downsides.md), I asked myself what the difference was between looking at the Mona Lisa and looking at a blank canvas.
