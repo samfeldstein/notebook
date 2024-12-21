@@ -1,7 +1,7 @@
 ---
 title: Photography Gear
 tags:
-	- photography
+  - photography
 created: 2024-12-17
 updated: 2024-12-17
 ---
