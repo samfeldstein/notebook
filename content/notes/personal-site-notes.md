@@ -48,6 +48,14 @@ The biggest performance boost came after I increased Cloudflare's cache lifespan
 
 One thing I'd like to do is get a service worker up and running. If I can figure out how to serve everything from the cache first, and update the site in the background, that would be ideal. This would also let you browse the site without an internet connection.
 
+## Checklist
+
+- Add service worker
+- Use content-visibility to improve performance
+- Configure some kind of preview image? It looks funny on personalsit.es for example.
+- Open image in new tab on click
+- Also show latest photo on home page
+
 ## Wishlist
 
 - Hits counter (per post?)
