@@ -1,6 +1,6 @@
 ---
-title: Boulder
-tags: ["travel","usa/cities"]
+title: Boulder, CO
+tags: ["travel","usa/colorado/cities/boulder"]
 ---
 
 ## Things to do

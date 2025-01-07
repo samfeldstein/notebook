@@ -42,19 +42,24 @@ I agonized over the design for this site for quite some time. It is my personal 
 
 I like to build fast websites because it makes me feel like I know what I'm doing. Styles and scripts are inlined by default, and thanks for component scoping, overall page size is kept to a minimum.
 
-Astro lets you [enable global prefetching](https://docs.astro.build/en/guides/prefetch/#enable-prefetching), so I did. I don't know if the script it injects offsets the benefits, but I assume/hope they thought of that.
+Astro lets you [enable global prefetching](https://docs.astro.build/en/guides/prefetch/#enable-prefetching), so I did.
 
 The biggest performance boost came after I increased Cloudflare's cache lifespan. Assets are now saved to the browser, which means no more network requests for font files.
 
-One thing I'd like to do is get a service worker up and running. If I can figure out how to serve everything from the cache first, and update the site in the background, that would be ideal. This would also let you browse the site without an internet connection.
-
 ## Checklist
 
-- Add service worker
-- Use content-visibility to improve performance
-- Configure some kind of preview image? It looks funny on personalsit.es for example.
-- Open image in new tab on click
-- Also show latest photo on home page
+- Colophon
+- 
+- ~~Add Open Graph meta.~~
+- ~~Select colors.~~
+
+### Gallery
+
+- Read and display image metadata.
+	- Organize by date.
+- Open image in new tab on click.
+- Display titles as handwriting font on bottom white border, like a polaroid.
+	- Turn your handwriting into a font.
 
 ## Wishlist
 

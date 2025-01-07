@@ -3,6 +3,21 @@ title: Butternut Squash Bake
 tags: ["recipes/fall"]
 ---
 
+## Ingredients
+
+### Base
+
+- 1/2 c butter
+- 3/4 c sugar
+- 2 eggs
+- 5 oz evaporate milk
+- 1 t vanilla
+- 2 c mashed cooke butternut squash
+
+### Topping
+
+- 
+
 ## Base
 
 1. Cream:

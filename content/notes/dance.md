@@ -5,6 +5,7 @@ tags:
 created: 2024-11-16
 updated: 2024-12-10
 ---
+
 ## What is dance?
 
 **Dance is a dynamic.** When you dance with someone, you become a system. Riding horses is the same way. When practiced correctly, aliens should come down and not immediately understand that they are looking at two organisms, such is the level of harmony.
@@ -22,3 +23,7 @@ A shortcut to figuring out the fundamental dance ingredients is to see what all 
 > Adam Mastroianni, [The Five Tools of Hedonic Design](https://www.experimental-history.com/p/the-five-tools-of-hedonic-design?s=w&__readwiseLocation=)
 
 As a leader, you design the roller coaster.
+
+## Benefits
+
+Dance is like a superfood for social skills.
