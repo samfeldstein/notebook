@@ -27,7 +27,7 @@ This only works if you're okay with keeping your private notes in a specific fol
 
 ## Checklist
 
-- ~~RSS~~
+- Add an anonymous feedback form. It'd be nice to know if people find anything useful from the site.
 
 ### Promote
 

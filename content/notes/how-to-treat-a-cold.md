@@ -17,5 +17,3 @@ For a sore throat:
 For everything:
 
 - Take acetaminophen.
-
-![](../assets/6B3084F9-9311-49ED-8BDF-866886CF7B2C_1_105_c.jpeg)

@@ -8,6 +8,7 @@ import markdownItReplaceLink from "markdown-it-replace-link";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import { DateTime } from "luxon";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import { mathjaxPlugin } from "eleventy-plugin-mathjax";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
@@ -20,7 +21,8 @@ export default function (eleventyConfig) {
   // PLUGINS
   // Syntax highlighting
   eleventyConfig.addPlugin(syntaxHighlight);
-
+  // Mathjax
+  eleventyConfig.addPlugin(mathjaxPlugin);
   // RSS Feed
   eleventyConfig.addPlugin(feedPlugin, {
     type: "atom", // or "rss", "json"
@@ -32,7 +34,7 @@ export default function (eleventyConfig) {
     metadata: {
       language: "en",
       title: "Sam Feldstein's Notebook",
-      base: "https://example.com/",
+      base: "https://notebook.samfeldstein.xyz/",
       author: {
         name: "Sam Feldstein",
         email: "samuelfeldstein@proton.me", // Optional

@@ -9,14 +9,35 @@ updated: 2025-01-13
 
 **To live a fulfilling life, you need a sense of purpose.** I think this is what people mean when they talk about "finding their place in the world" or living a "meaningful" life.
 
-What's a sense of purpose? A feeling that you matter? That you've made a difference? I suppose this depends on the person, so all I can do here is answer for myself.
+What's a sense of purpose? A feeling that you matter? That you've made a difference? I suppose this depends on the person, so all I can do here is answer for myself. **So for me, a sense of purpose is a sense that I've made a difference, that I've done something that matters.**
 
-I used to think I could derive purpose from craft. In other words, from making a thing for the sake of making a thing (eg writing a story or building a website). I think this is wrong. There are plenty of things I like doing and find satisfying. Taking photos, for example. I like taking photos, and I'm proud of many of the photos I've taken. But could I spend all day taking photos and be satisfied? No. Because while I *like* photography, I don't feel like it matters much. It doesn't give me a sense of purpose. The best photographers in the world probably feel differently.
+## Where do we find purpose?
+
+I used to think I could derive purpose from craft, from making things. Now I think this is wrong. There are plenty of things I like doing and find satisfying. Taking photos, for instance. I like taking photos, and I'm proud of many of the photos I've taken. But could I spend all day taking photos and be satisfied? No. Because while I *like* photography, I don't feel that it matters much. It doesn't give me a sense of purpose. The best photographers in the world probably feel differently.
+
+So for me, the craft itself doesn't lend a send of purpose. **The purpose comes from the application of the craft:** I'm not coding just to code. I'm coding to build something I can use. I'm not writing just to write. I'm writing to figure something out.
 
 So where *do* I get that feeling of purpose? When have I felt that? Here's a list:
 
 - When I helped my mom research a court case.
 - When I've helped new dancers learn the basics.
+- When I organized a writers' group in grad school.
+- When I've given feedback on friends' writing.
+- When I taught horseback riding.
+
+These things all involve working with people. **More specifically, they all seem to involve collaboration.** Some of them involve some individual work (eg, researching a court case), but in service to a collaborative project. Teaching, when done right, is a kind of collaboration.
+
+The goal of each collaboration seems to serve the other person. **So it seems that I prefer helping to being helped.**
+
+I'm not sure whether this would translate to collaborating in service to a mutual goal (eg, cofounding a company). I haven't done much of that. But I'm curious.
+
+One of these (writers group) involves community-building. Haven't done much of that either. I do like hosting parties, though.
+
+**The work matters too.** I didn't enjoy helping my mom attach the snowplow to her truck nearly as much as helping her with the court case research. **So the work needs to be engaging.**
+
+So maybe the formula is something like: *Engaging work + helping + a useful application = a sense of purpose.* Or:
+
+*$E + H + A = P$*
 
 ---
 

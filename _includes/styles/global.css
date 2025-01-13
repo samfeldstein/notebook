@@ -58,7 +58,6 @@ body {
 
 header.site {
   display: grid;
-  gap: 2rem;
   border-bottom-style: dotted;
   border-bottom-width: 1px;
 }
