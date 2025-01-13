@@ -8,7 +8,7 @@ import markdownItReplaceLink from "markdown-it-replace-link";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import { DateTime } from "luxon";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
-import { mathjaxPlugin } from "eleventy-plugin-mathjax";
+import mathjaxPlugin from "eleventy-plugin-mathjax";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
