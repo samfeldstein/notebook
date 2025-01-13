@@ -9,7 +9,6 @@ import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import { DateTime } from "luxon";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import mathjaxPlugin from "eleventy-plugin-mathjax";
-import UpgradeHelper from "@11ty/eleventy-upgrade-help";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
@@ -42,8 +41,6 @@ export default function (eleventyConfig) {
       }
     }
   });
-  // If you have other `addPlugin` calls, it’s important that UpgradeHelper is added last.
-	eleventyConfig.addPlugin(UpgradeHelper);
 
   // Strip .md extension from links
   eleventyConfig.addTransform("md-link", function (content) {
