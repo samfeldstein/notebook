@@ -21,7 +21,9 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addCollection("notes", function (collectionApi) {
     // In dev, these to be sorted ascending automatically
-    return collectionApi.getFilteredByGlob("content/notes/*.md");
+    return collectionApi.getFilteredByGlob("content/notes/*.md").sort(function (a, b) {
+      return a.date - b.date; // sort by date - descending
+    });
   });
 
   // PLUGINS
