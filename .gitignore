@@ -18,7 +18,6 @@ pnpm-debug.log*
 .jampack/
 .vscode/
 package-lock.json
-_site
 .foam
 content/notes/private
 content/.obsidian
