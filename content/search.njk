@@ -2,12 +2,104 @@
 <html lang="en">
 
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    {% include "partials/head.njk" %}
+    {# Icons #}
+    {% include "partials/icons.njk" %}
+
+    {# Preloads #}
+    <link rel="preload" href="/fira-code.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
     <link rel="preload" href="/pagefind/pagefind-ui.js" as="script">
+    <title>{{ key or title }} | {{ config.site.title }}</title>
+    <meta name="description" content="{{ description or config.site.description }}" />
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ config.site.title }}">
+    <meta name="generator" content="{{ eleventy.generator }}" />
+
+
+
+    {# Styles #}
     <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+    {% include "partials/inline-css.njk" %}
+
+    {# Unresigster service workers #}
+    <script>
+      async function uninstallServiceWorkers() {
+        try {
+          // Get a list of all service worker registrations
+          const registrations = await navigator.serviceWorker.getRegistrations();
+
+          if (registrations.length === 0) {
+            console.log("No service workers found to uninstall");
+            return;
+          }
+
+          // Uninstall each service worker
+          const uninstallPromises = registrations.map(async (registration) => {
+            try {
+              const success = await registration.unregister();
+              if (success) {
+                console.log(
+                  `Service worker at ${registration.scope} successfully uninstalled`,
+                );
+              } else {
+                console.warn(
+                  `Failed to uninstall service worker at ${registration.scope}`,
+                );
+              }
+            } catch (error) {
+              console.error(
+                `Error uninstalling service worker at ${registration.scope}:`,
+                error,
+              );
+            }
+          });
+
+          // Wait for all uninstallation attempts to complete
+          await Promise.all(uninstallPromises);
+
+          console.log("Service worker uninstallation process completed");
+
+          // Optional: Reload the page to ensure clean state
+          // window.location.reload();
+        } catch (error) {
+          console.error("Error during service worker uninstallation:", error);
+          throw error;
+        }
+      }
+
+      uninstallServiceWorkers();
+    </script>
+
     {# Load Pagefind UI #}
     <script src="/pagefind/pagefind-ui.js"></script>
+
+    {# Focus searchbar #}
+    <script>
+      window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search", showSubResults: true });
+
+        const searchInput = document.querySelector('.pagefind-ui__search-input');
+        if (searchInput) {
+          searchInput.focus();
+        }
+      });
+    </script>
+
+    {# Prefetch all internal links #}
+    <script type="speculationrules">
+    {
+      "prefetch": [{
+        "source": "document",
+        "where": {
+          "href_matches": "/*",
+          "relative_to": "document"
+        },
+        "eagerness": "immediate"
+      }]
+    }
+</script>
   </head>
 
 
@@ -20,7 +112,7 @@
     </header>
     <main id="main-content">
       <header class="page">
-        <h1>{{ title }}</h1>
+        <h1>Search</h1>
       </header>
       <div class="content">
         <search id="search"></search>

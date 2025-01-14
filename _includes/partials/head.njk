@@ -11,19 +11,6 @@ fonts #}
 <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ config.site.title }}">
 <meta name="generator" content="{{ eleventy.generator }}" />
 
-<script>
-  window.addEventListener('DOMContentLoaded', (event) => {
-    new PagefindUI({ element: "#search", showSubResults: true });
-
-    const searchInput = document.querySelector('.pagefind-ui__search-input');
-    if (searchInput) {
-      searchInput.focus();
-    }
-  });
-
-
-</script>
-
 {# Styles #}
 {% include "partials/inline-css.njk" %}
 
