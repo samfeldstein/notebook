@@ -85,8 +85,12 @@ That's why I want to work for myself. Maybe I'm selfish, but I find it very diff
 
 You could make some money with some of these things. You could open a coffee shop or a dance studio. You could open an online boutique selling personal little sites. The first two are out of the question; I don't have the money or the expertise, and anyway the margins on coffee probably aren't worth the startup cost. I do plan to open that online boutique someday soon, if I can figure out how to minimize the workload such that I can charge a reasonable rate.
 
-It's career as distinct from life. This is a common dictomy. Everybody understands it. You work a job you don't like to make money so you can afford to do the things you do like. Ideally, you find work you like doing enough that you don't feel the need to draw that dicotomy. The only way I see that happenig for me is if I start my own business. Because if I'm working for a boss, or even for freelance clients, that dicotomy is always going to be there because work is always going to be something to escape. The line is drawn by relief.
+It's career as distinct from life. This is a common dichotomy. Everybody understands it. You work a job you don't like to make money so you can afford to do the things you do like. Ideally, you find work you like doing enough that you don't feel the need to draw that dichotomy. The only way I see that happening for me is if I start my own business. Because if I'm working for a boss, or even for freelance clients, that dichotomy is always going to be there because work is always going to be something to escape. The line is drawn by relief.
 
-But if you work for yourself, running a business for instasnce, than it becomse another activity you enjoy. Just one where you're making money. The hard line between work and life starts to fade, and then it's just life.
+But if you work for yourself, running a business for instance, than it becomse another activity you enjoy. Just one where you're making money. The hard line between work and life starts to fade, and then it's just life.
 
 There are two ways to make money. Sell your time or a product.
+
+## Moving Forward
+
+At the risk of being self-indulgent, it might be interesting to survey family and friends and see what they think you're good at.

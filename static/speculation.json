@@ -1,8 +1,0 @@
-{
-  "prefetch": {
-    "eagerness": "eager",
-    "where": {
-      "href_matches": "/*"
-    }
-  }
-}
