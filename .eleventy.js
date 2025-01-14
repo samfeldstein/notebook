@@ -19,6 +19,11 @@ export default function (eleventyConfig) {
     "static/*.yml": "/"
   });
 
+  eleventyConfig.addCollection("notes", function (collectionApi) {
+    // In dev, these to be sorted ascending automatically
+    return collectionApi.getFilteredByGlob("content/notes/*.md");
+  });
+
   // PLUGINS
   // Syntax highlighting
   eleventyConfig.addPlugin(syntaxHighlight);
@@ -29,7 +34,7 @@ export default function (eleventyConfig) {
     type: "atom", // or "rss", "json"
     outputPath: "/feed.xml",
     collection: {
-      name: "notes", // iterate over `collections.posts`
+      name: "notes",
       limit: 10,     // 0 means no limit
     },
     metadata: {
@@ -137,6 +142,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
   });
+
+
 
   // Return all the tags used in a collection
   eleventyConfig.addFilter("getAllTags", (collection) => {
