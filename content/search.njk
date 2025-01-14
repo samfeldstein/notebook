@@ -1,6 +1,32 @@
----
-title: Search
-layout: base
----
+<!DOCTYPE html>
+<html lang="en">
 
-<search id="search"></search>
+  <head>
+
+    {% include "partials/head.njk" %}
+    <link rel="preload" href="/pagefind/pagefind-ui.js" as="script">
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+    {# Load Pagefind UI #}
+    <script src="/pagefind/pagefind-ui.js"></script>
+  </head>
+
+
+  <body>
+    <a class="skiplink" href="#main-content">Skiplink</a>
+
+    <header class="site">
+      <a class="site title" href="/">{{ config.site.title }}</a>
+      {% include "partials/nav.njk" %}
+    </header>
+    <main id="main-content">
+      <header class="page">
+        <h1>{{ title }}</h1>
+      </header>
+      <div class="content">
+        <search id="search"></search>
+      </div>
+    </main>
+    {% include "partials/footer.njk" %}
+  </body>
+
+</html>
