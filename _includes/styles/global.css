@@ -49,17 +49,17 @@ html {
 body {
   margin: 0 auto;
   padding: 1rem;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  gap: 4rem;
   font-family: var(--body-font);
   font-size: var(--medium);
+  display: flex;
+  flex-direction: column;
 }
 
 header.site {
   display: grid;
   border-bottom-style: dotted;
   border-bottom-width: 1px;
+  margin-bottom: 4rem;
 }
 
 header.page {
@@ -87,6 +87,10 @@ nav a {
   /* Center content */
   margin: 0 auto;
   max-width: 50rem;
+}
+
+main {
+  flex: 1;
 }
 
 main>.content a,
@@ -169,6 +173,7 @@ pre code {
 footer {
   text-align: center;
   font-size: var(--small);
+  margin-top: 4rem;
 }
 
 .skiplink {
