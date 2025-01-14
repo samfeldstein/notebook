@@ -15,7 +15,6 @@ pnpm-debug.log*
 .DS_Store
 
 # Other
-.jampack/
 .vscode/
 package-lock.json
 .foam
