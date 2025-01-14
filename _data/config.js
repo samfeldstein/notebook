@@ -11,7 +11,7 @@
 export const site = {
   title: "Sam Feldstein's Notebook",
   description:
-    "Sam Feldstein's digital notebook. Sam is a frontend developer from Bondurant, IA.",
+    "Sam Feldstein's digital notebook.",
   url: "https://sam-feldstein-notebook.netlify.app",
 };
 

@@ -19,6 +19,9 @@ export default function (eleventyConfig) {
     "static/*.yml": "/"
   });
 
+  // TEMPLATE FORMATS
+  eleventyConfig.addTemplateFormats("html, njk");
+
   eleventyConfig.addCollection("notes", function (collectionApi) {
     // In dev, these to be sorted ascending automatically
     return collectionApi.getFilteredByGlob("content/notes/*.md").sort(function (a, b) {
@@ -42,6 +45,7 @@ export default function (eleventyConfig) {
     metadata: {
       language: "en",
       title: "Sam Feldstein's Notebook",
+      subtitle: "Sam Feldstein's digital notebook.",
       base: "https://notebook.samfeldstein.xyz/",
       author: {
         name: "Sam Feldstein",
