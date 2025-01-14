@@ -1,7 +1,0 @@
-headers:
-  - path: /*.css
-    values:
-      Cache-Control: "public, max-age=31536000, immutable"
-  - path: /*.{jpg,jpeg,png,gif,ico,svg,webp}
-    values:
-      Cache-Control: "public, max-age=31536000, immutable"
