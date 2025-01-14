@@ -10,6 +10,7 @@ permalink: /tags/{{ tag | slugify }}/
 layout: base
 ---
 
-{% set notes = collections[ tag ] %} {% include "layouts/noteslist.njk" %}
+{% set notes = collections[ tag ] %}
+{% include "layouts/noteslist.njk" %}
 
 <p>See <a href="/tags/">all tags</a>.</p>
