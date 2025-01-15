@@ -73,31 +73,15 @@
     {# Load Pagefind UI #}
     <script src="/pagefind/pagefind-ui.js"></script>
 
-    {# Focus searchbar #}
     <script>
       window.addEventListener('DOMContentLoaded', (event) => {
         new PagefindUI({ element: "#search", showSubResults: true });
-
-        const searchInput = document.querySelector('.pagefind-ui__search-input');
-        if (searchInput) {
-          searchInput.focus();
-        }
+        
+        // Focus input on page load
+        const searchInput = document.querySelector(".pagefind-ui__search-input");
+        searchInput.focus();
       });
     </script>
-
-    {# Prefetch all internal links #}
-    <script type="speculationrules">
-    {
-      "prefetch": [{
-        "source": "document",
-        "where": {
-          "href_matches": "/*",
-          "relative_to": "document"
-        },
-        "eagerness": "immediate"
-      }]
-    }
-</script>
   </head>
 
 
@@ -111,9 +95,7 @@
       <header class="page">
         <h1>Search</h1>
       </header>
-      <div class="content search">
-        <search id="search"></search>
-      </div>
+      <div id="search" class="content search"></div>
     </main>
     {% include "partials/footer.njk" %}
   </body>
