@@ -1,11 +1,9 @@
 ---
 layout: base
-title: Sam Feldstein's Digital Notebook
-pageTitle: Hi, I'm Sam Feldstein
+title: "Sam Feldstein's Digital Notebook"
+pageTitle: "Hi, I'm Sam Feldstein"
 description: An ever-growing digital garden of interconnected ideas, personal insights, and curated knowledge.
 ---
-
-[private-note-test](notes/private-note-test.md)
 
 Welcome to my digital notebook, also known as a [second brain](https://www.buildingasecondbrain.com) or a [digital garden](https://maggieappleton.com/garden-history?ref=ideasurg.pub). I call it a notebook, because a notebook is something you write in and that's what I'm doing here. It's not dissimilar to a [commonplace book](https://en.wikipedia.org/wiki/Commonplace_book) or a [waste book](https://en.wikipedia.org/wiki/Waste_book). It's the place I go to figure things out. In that spirit, a lot of notes are unpolished and incomplete.
 
