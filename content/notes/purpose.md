@@ -33,19 +33,17 @@ One of these (writers group) involves **community-building.** Haven't done much 
 
 I know what we just said about not doing work for the sake of work, but the truth is that the work matters too. I didn't enjoy helping my mom attach the snowplow to her truck nearly as much as helping her with the court case research. **So the work needs to be engaging.**
 
+**The work also has to be important.**
+
+The work either has to be engaging enough or important enough to make up for it. For example, writing fiction isn't important enough to me to make up how not engaging it is. By contrast, coding is engaging, but when I do it for anyone other than myself or someone I care about, it doesn't feel important enough to be worth the effort.
+
 So maybe the magic formula is something like: *Engaging work + helping + a useful application = a sense of purpose.* Or:
 
 ***$E + H + A = P$***
 
 ---
 
-It is entirely possible that my priorities are completely out of whack here. They usually are. But I have to admit that in a lot of ways I'm happy with the person I've become in the last two years. He's much more confident than he used to be. He's friendly. He's learned, somewhat, how to set the tone of an interaction. He's learned to become aware of other people and in so doing become less aware of himself. Or rather, to be aware of himself as part of the world instead of an island within it.
-
-I've spent the last two years learning how to be a person. I don't what I was doing the rest of the time. Nothing particuarly interesting. Not building a career, that's for sure. I hate to think that it was time wasted, and not 100% of it was, of course. But a lot of it was. A lot of it was spent trying to force myseelf to write when I didn't want to.
-
-But it's hard to know where to draw that line. At what point do you accept that something is hard, and do the work anything because it's worth it? And at what point do you realize that the reason the work is hard is that you don't actually like it very much?
-
-I've found that some work is easier than others. I've drawn this comparison before, but building websites (to me) is much easiser than writing fiction. It's not that it's less work, insofar as it's quite time-consuming, but the difference lies in how easy it is to *do* the work. I don't have to force myself to build websites, at least when I'm doing it for myself. By contrast, I *always* had to force myself to write. Building websites is engaging in a way that writing fiction simply isn't. They're both work. But *doing* the work in one case is easy, and in the other the bulk of effort goes to just trying to keep myself at the desk.
+Some types of work are easier than others. Building websites is much easier than writing fiction. It's not that it's *less* work, insofar as it's quite time-consuming, but it's easier to *do* the work. I don't have to force myself to build websites, at least when I'm doing it for myself. By contrast, I *always* had to force myself to write. Building websites is engaging in a way that writing fiction just isn't. They're both work. But *doing* the work in one case is easy, and in the other the bulk of effort goes to just trying to keep myself at the desk.
 
 That sounds pretty good, but I have my doubts. What if some work is just that much harder than other work. I've noted before that building websites almost feels like a video game at times, I think because it has a innate feedback loop that writing lacks. You write some code, and the result pops up in the browser. You instantly know if it's working, and there's great satisfaction to be taken when it is. Not so with writing. You can only really tell if it's working once you've had some time away from it, and even then it's not a sure thing.
 
@@ -61,17 +59,17 @@ Which comes back to engagement. The more engaging work is, the easier it is to f
 
 The broader question though is is it wrong to choose work based on how engaging it is? Am I wrong to choose websites over writing because I find building websites so much more engaging than writing? I don't see why that should be a problem. If you can find something useful to do that you don't have to force yousrelf to do, that seems like as close a recipe to career happiness as you can get.
 
-But it's multivariate. The work either has to be engaging enough or important enough to make up for it. Writing simply isn't important enough to me to make up how not engaging it is. Coding is engaging, but when I do for anyone other than myself or someone I care about, suddnely it's not important enough to be worth the effort.
+But it's multivariate. The work either has to be engaging enough or important enough to make up for it. Writing simply isn't important enough to me to make up how not engaging it is. Coding is engaging, but when I do for anyone other than myself or someone I care about, suddenly it's not important enough to be worth the effort.
 
 That's why I want to work for myself. Maybe I'm selfish, but I find it very difficult to summon the will to work for other people. I *can* do it. I *have* done it. And I've worked hard. But it's no way to spend a life. The solution is to work for myself, or possibly with a friend. I'm pretty sure that's as close to a satisfying career as I'm ever going to get.
 
-
+---
 
 You could make some money with some of these things. You could open a coffee shop or a dance studio. You could open an online boutique selling personal little sites. The first two are out of the question; I don't have the money or the expertise, and anyway the margins on coffee probably aren't worth the startup cost. I do plan to open that online boutique someday soon, if I can figure out how to minimize the workload such that I can charge a reasonable rate.
 
 It's career as distinct from life. This is a common dichotomy. Everybody understands it. You work a job you don't like to make money so you can afford to do the things you do like. Ideally, you find work you like doing enough that you don't feel the need to draw that dichotomy. The only way I see that happening for me is if I start my own business. Because if I'm working for a boss, or even for freelance clients, that dichotomy is always going to be there because work is always going to be something to escape. The line is drawn by relief.
 
-But if you work for yourself, running a business for instance, than it becomse another activity you enjoy. Just one where you're making money. The hard line between work and life starts to fade, and then it's just life.
+But if you work for yourself, running a business for instance, than it becomes another activity you enjoy. Just one where you're making money. The hard line between work and life starts to fade, and then it's just life.
 
 There are two ways to make money. Sell your time or a product.
 

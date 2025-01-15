@@ -10,14 +10,13 @@ ogType: article
     <a class="skiplink" href="#main-content">Skiplink</a>
 
     <header class="site">
-      <a class="site title" href="/">{{ config.site.title }}</a>
       <div class="nav container">
         {% include "partials/nav.njk" %}
       </div>
     </header>
 
     <main id="main-content">
-      <header class="page">
+      <header class="page note">
         <h1>{{ title }}</h1>
         {% if tags %}
         <ul class="tags note">
