@@ -14,7 +14,7 @@ fonts #}
 {# Open Graph #}
 <meta property="og:title"
   content="{{ ogTitle or title or config.site.title}}" />
-<meta property="og:description" content="{{description or config.site.description}}" />
+<meta property="og:description" content="{{description or title}}" />
 <meta property="og:type" content={{ogType or "website" }} />
 <meta property="og:url" content="https://notebook.samfeldstein.xyz{{page.url}}" />
 <meta property="og:image" content="{{ogImage or 'https://notebook.samfeldstein.xyz/images/open-graph-image.png' }}" />

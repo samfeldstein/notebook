@@ -2,7 +2,7 @@
 title: Colorado
 tags:
   - travel
-  - usa/colorado
+  - usa
 created: 2024-12-25
 updated: 2025-01-13
 ---

@@ -1,6 +1,8 @@
 ---
 title: New Orleans
-tags: ["travel","usa/cities"]
+tags: 
+  - travel
+  - usa
 ---
 
 ## Things to do

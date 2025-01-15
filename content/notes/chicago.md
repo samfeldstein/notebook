@@ -1,6 +1,8 @@
 ---
 title: Chicago
-tags: ["travel","usa/cities"]
+tags: 
+  - travel
+  - usa
 ---
 
 ## Neighborhoods
