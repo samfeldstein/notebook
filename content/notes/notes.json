@@ -1,4 +1,3 @@
 {
-  "layout": "note.njk",
-  "tags": "notes"
+  "layout": "note.njk"
 }

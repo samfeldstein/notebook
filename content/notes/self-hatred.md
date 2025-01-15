@@ -1,7 +1,6 @@
 ---
 title: Self-Hatred
 description: 
-tags: 
 created: 2025-01-14
 updated: 2025-01-14
 ---

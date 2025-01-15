@@ -24,7 +24,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addTemplateFormats("html, njk");
 
   eleventyConfig.addCollection("notes", function (collectionApi) {
-    // In dev, these to be sorted ascending automatically
+    // In dev, these seem to be sorted ascending automatically, but doesn't work on live site
     return collectionApi.getFilteredByGlob("content/notes/*.md").sort(function (a, b) {
       return a.date - b.date; // sort by date - descending
     });
