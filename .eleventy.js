@@ -100,21 +100,14 @@ export default function (eleventyConfig) {
       return content;
     });
 
-    // // Exclude private notes dynamically
-    // // Working, sort of. The files are exclude from build output, but not added to .eleventyignore. At least I don't think they are. In any case they still show up in GitHub.
-    // // But our wikilinks transform doesn't know what to do with it, so it breaks the build.
-    // eleventyConfig.addGlobalData("eleventyComputed.permalink", function () {
-    //   return (data) => {
-    //     if (data.private) {
-    //       // Tell eleventy to ignore the file
-    //       eleventyConfig.ignores.add(data.page.inputPath);
-    //     }
-    //     return data.permalink;
-    //   };
-    // });
-
-    // May be able to use the page variable to transofmr url to redirecto so private note 404
-  }
+    // Exclude private notes
+    // https://www.11ty.dev/docs/config-preprocessors/
+    eleventyConfig.addPreprocessor("privateNotes", "*", (data, content) => {
+      if (data.private && process.env.ELEVENTY_RUN_MODE === "build") {
+        return false;
+      }
+    });
+  };
 
   let markdownItOptions = {
     html: true,
