@@ -11,6 +11,14 @@ fonts #}
 <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ config.site.title }}">
 <meta name="generator" content="{{ eleventy.generator }}" />
 
+{# Open Graph #}
+<meta property="og:title" content="{{ogTitle or title or config.site.title}}" />
+<meta property="og:description" content="{{ogDescription or
+      description or config.site.description}}" />
+<meta property="og:type" content={{ogType or "website" }} />
+<meta property="og:url" content="{{page.url}}" />
+<meta property="og:image" content={{ogImage or "https://notebook.samfeldstein.xyz/images/open-graph-image.png" }} />
+
 {# Styles #}
 {% include "partials/inline-css.njk" %}
 

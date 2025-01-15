@@ -1,5 +1,6 @@
 ---
 # https://github.com/11ty/eleventy-base-blog/blob/main/content/tags.njk
+layout: base
 pagination:
   data: collections
   size: 1
@@ -7,7 +8,6 @@ pagination:
 eleventyComputed:
   title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag | slugify }}/
-layout: base
 ---
 
 {% set notes = collections[ tag ] %}
