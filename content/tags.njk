@@ -6,11 +6,19 @@ pagination:
   size: 1
   alias: tag
 eleventyComputed:
-  title: Tagged “{{ tag }}”
+  title: Notes Tagged "{{tag}}" | Sam Feldstein's Notebook
+  pageTitle: "#{{tag}}"
+  description: Notes Tagged "{{ tag }}" in Sam Feldstein's Digital Notebook.
 permalink: /tags/{{ tag | slugify }}/
 ---
 
 {% set notes = collections[ tag ] %}
-{% include "layouts/noteslist.njk" %}
+<ul class="notes">
+  {% for note in notes | sort(attribute='data.title') %}
+  <li>
+    <a href="{{ note.url }}">{{ note.data.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
 
 <p>See <a href="/tags/">all tags</a>.</p>

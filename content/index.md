@@ -1,7 +1,7 @@
 ---
-title: Welcome
-key: Home
 layout: base
+title: Sam Feldstein's Digital Notebook
+pageTitle: Welcome to my Notebook
 ---
 
 Hi, I'm **Sam Feldstein**. I'm a frontend developer from Iowa, and this is not a blog. It's more like a [second brain](https://www.buildingasecondbrain.com), or a [digital garden](https://maggieappleton.com/garden-history?ref=ideasurg.pub). I call it a notebook, because a notebook is something you write in and that's what I'm doing here. It is not dissimilar to a [commonplace book](https://en.wikipedia.org/wiki/Commonplace_book) or a [waste book](https://en.wikipedia.org/wiki/Waste_book). It is the place I go to figure things out. In that spirit, a lot of notes are unpolished and incomplete.

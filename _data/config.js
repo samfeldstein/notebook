@@ -1,18 +1,9 @@
-// let siteUrl = "https://eleventy-foam-template.netlify.app/";
-
-// Set url for development environment. If this isn't set, relative links won't work in development.
-// Also see: https://www.11ty.dev/docs/environment-vars/#eleventy-supplied
-// MAY BE REDUNDANT NOW GIVEN MARKDOW-IT PLUGIN FOR RELATIVE LINKS
-// if (process.env.ELEVENTY_RUN_MODE !== "build") {
-//   siteUrl = "http://localhost:8080/";
-// }
-
 // Information about your site (required)
 export const site = {
-  title: "Sam Feldstein's Notebook",
+  title: "Sam Feldstein's Digital Notebook",
   description:
-    "Sam Feldstein's digital notebook.",
-  url: "https://sam-feldstein-notebook.netlify.app",
+    "An ever-growing digital garden of interconnected ideas, personal insights, and curated knowledge.",
+  url: "https://notebook.samfeldstein.xyz/",
 };
 
 // Information about you (optional)
