@@ -88,6 +88,10 @@ div.content {
   max-width: 50rem;
 }
 
+div.content.search {
+  padding-top: 1rem;
+}
+
 main {
   flex: 1;
 }
