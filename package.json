@@ -12,7 +12,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "open -a 'Google Chrome' http://localhost:8080/ && npx @11ty/eleventy --serve --incremental --quiet",
+    "start": "open -a 'Google Chrome' http://localhost:8080/ && npx @11ty/eleventy --serve --incremental --dryrun --ignore-initial --quiet",
     "build": "npx @11ty/eleventy && npx -y pagefind --site _site",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
