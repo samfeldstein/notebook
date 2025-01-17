@@ -2,6 +2,8 @@
 <html lang="en">
 
   <head>
+    {# This page get it's own head so the pagefind stuff is only loaded where it's needed. This is probably not the best
+    solution, but I shouldn't have to update the head very often, so hopefull won't be a big deal. #}
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +15,8 @@
     <link rel="preload" href="/fira-code.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
     <link rel="preload" href="/pagefind/pagefind-ui.js" as="script">
     <title>Search | {{ config.site.title }}</title>
-    <meta name="description" content="{{ description or config.site.description }}" />
+    <meta name="description" content="{{ config.site.description }}" />
+    <link rel="sitemap" href="/sitemap.xml" />
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ config.site.title }}">
     <meta name="generator" content="{{ eleventy.generator }}" />
 

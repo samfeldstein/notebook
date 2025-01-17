@@ -17,7 +17,8 @@ export default function (eleventyConfig) {
     "static/fonts/*": "/",
     "static/scripts/*": "/",
     "static/*.yml": "/",
-    "static/*images/*": "/"
+    "static/*images/*": "/",
+    "static/*.txt": "/"
   });
 
   // TEMPLATE FORMATS
