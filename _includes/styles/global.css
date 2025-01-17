@@ -123,6 +123,7 @@ h1 {
 h2 {
   text-align: right;
   border-bottom: 1px dotted;
+  text-wrap: balance;
 }
 
 a {
