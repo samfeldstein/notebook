@@ -238,3 +238,15 @@ a.tag:focus {
 input:focus {
   outline: none;
 }
+
+blockquote {
+  border-left-style: solid;
+  border-left-width: 1px;
+  margin: 0 1rem;
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}

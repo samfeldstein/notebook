@@ -30,13 +30,15 @@ ogType: article
         </ul>
         {% endif %}
 
+        {% if updated %}
         <small>
           <i>
-            {% if updated %}
+
             Updated on <time datetime="{{ updated }}">{{ updated | readableDate }}</time>
-            {% endif %}
+
           </i>
         </small>
+        {% endif %}
       </header>
       <div class="content">
         {{ content | safe }}
