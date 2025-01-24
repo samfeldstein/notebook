@@ -6,7 +6,7 @@ created: 2025-01-02
 updated: 2025-01-10
 ---
 
-- Make sure the site is [performant](../how-to-improve-website-performance.md).
+- Make sure the site is [performant](web-performance-checklist.md).
 - Add [structured data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data).
 	- [Validate](https://validator.schema.org).
 - Add [Open Graph Markup](open-graph-markup.md).

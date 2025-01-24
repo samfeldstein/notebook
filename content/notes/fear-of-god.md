@@ -4,11 +4,11 @@ tags:
   - judaism
   - ethics
 created: 2024-11-02
-updated: 2024-11-02
+updated: 2025-01-24
 ---
-> *The beginning of wisdom is fear of the Lord.*
+> The fear of the Lord is the beginning of wisdom.
 > 
-> *Proverbs* 9:10
+> <cite>*Proverbs* 9:10</cite>
 
 Presumably this means if you act like God’s watching, you’ll be a better person, even when you’re alone and not subject to the judgement of other people.
 
