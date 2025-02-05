@@ -2,8 +2,9 @@
 title: How to Do Great Work
 tags:
   - work
-updated: 2024-10-27
+updated: 2025-01-29
 ---
+
 [Paul Graham](https://paulgraham.com/greatwork.html#f1n):
 
 > Four steps: choose a field, learn enough to get to the frontier, notice gaps, explore promising ones. This is how practically everyone who's done great work has done it, from painters to physicists.
@@ -24,3 +25,11 @@ I don't know that you can intentionally become like these people; so much depend
 
 > *It’s easier to persist, I think, when you see your work as a practice—an ongoing process of improvement—instead of focusing too much on any particular project. No project will be perfect. But each project can be better than the previous one, and each project can sharpen your skills and deepen your commitment to a craft.*
 > Celine Nguyen, [The Divine Discontent](https://www.personalcanon.com/p/the-divine-discontent?r=1ko6ty&utm_campaign=post&utm_medium=web)
+
+## Find important problems
+
+> Great scientists all spend a lot of time and effort in examining the important problems in their field. Many have a list of 10 to 20 problems that might be important if they had a decent attack. As a result, when they notice something new that they had not known but seems to be relevant, then they are prepared to turn to the corresponding problem, work on it, and get there first.
+> 
+> <cite>Richard Hamming, [You and Your Research](https://www.cs.utexas.edu/~dahlin/bookshelf/hamming.html)</cite>
+
+This reminds me of the Feynman method.

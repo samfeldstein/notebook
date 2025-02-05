@@ -1,7 +1,7 @@
 ---
 title: The Six-Day War
 tags: 
-  - Israel
+  - israel
 created: 2025-01-20
 updated: 2025-01-20
 private: true

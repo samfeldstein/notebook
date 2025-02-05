@@ -32,7 +32,7 @@ As usual, the answer is "both." The **work can't be boring and it can't be point
 
 So it seems like **I feel the greatest sense of purpose when I'm doing engaging work with other people to help other people**.
 
-So maybe the formula is something like: *Engaging work + collaboration + helping = a sense of purpose.* Or:
+So maybe the formula is something like: ***Engaging work + collaboration + helping = a sense of purpose.*** Or:
 
 $$
 E + C + H = P

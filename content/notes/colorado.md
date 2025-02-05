@@ -9,3 +9,4 @@ updated: 2025-01-13
 
 - [Colorado Directory](https://www.coloradodirectory.com)
 - [Horse events](https://www.hometownhorses.com/events)
+- Glenwood Springs thermal pool.

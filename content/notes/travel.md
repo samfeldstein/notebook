@@ -1,9 +1,13 @@
 ---
 title: Travel
-tags: ["travel"]
+tags:
+  - travel
+updated: 2025-01-30
 ---
 
-## Air
+## Transportation
+
+### Air
 
 - Google Flights
 - [Google Flights Explore](https://www.google.com/travel/explore)
@@ -12,7 +16,13 @@ tags: ["travel"]
 - Skyscanner
 - [Matt's Flights](https://www.mattsflights.com)
 
-## Ground
+### Ground
 
 - [Blabla Car](https://www.blablacar.com) carpooling
 - Amtrak
+
+## Accomodations
+
+- Workaway
+- Trust Housesitters
+- Couchsurfer
