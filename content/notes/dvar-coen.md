@@ -1,7 +1,7 @@
 ---
-title: Dvar Coen: Kindess as Duh-Statement
+title: "Dvar Coen: Kindess as Duh-Statement"
 description: "Thoughts on 'A Serious Man'"
-tags:
+tags:  
   - movies
   - judaism
   - ethics
