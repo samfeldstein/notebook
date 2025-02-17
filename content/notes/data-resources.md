@@ -3,6 +3,7 @@ title: Data Resources
 tags:
   - data
 ---
+
 - [538](https://fivethirtyeight.com/)
 - [Data is Plural](https://www.data-is-plural.com/)
 - [Information is Beautiful](https://informationisbeautiful.net/)

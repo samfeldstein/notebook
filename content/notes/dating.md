@@ -1,6 +1,6 @@
 ---
 title: Dating
-tags: []
+private: true
 ---
 
 - [Date Me Directory](https://dateme.directory)

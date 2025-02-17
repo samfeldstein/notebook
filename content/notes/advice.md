@@ -1,6 +1,5 @@
 ---
 title: Advice
-tags: 
 created: 2025-01-25
 updated: 2025-01-25
 ---
@@ -15,4 +14,4 @@ updated: 2025-01-25
 
 **Don't think.** Semantically, this one's a little confusing. Not all thinking is bad. So you have to distinguish between [good thinking and bad thinking](good-thinking-bad-thinking.md).
 
-**Have fun.**
+**[Pay attention](how-to-pay-attention.md).**

@@ -2,7 +2,7 @@
 export const site = {
   title: "Sam Feldstein's Digital Notebook",
   description:
-    "An ever-growing digital garden of interconnected ideas, personal insights, and curated knowledge.",
+    "Collected notes and thoughts.",
   url: "https://notebook.samfeldstein.xyz/",
 };
 

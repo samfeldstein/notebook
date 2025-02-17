@@ -11,6 +11,6 @@ Teach steps.
 
 Next, break the six counts into three stages. Each stage comprises two beats. The stages are:
 
-1. The leader steps out of the slot.
+1. The leader gets out of the way.
 2. Something happens.
-3. The leader steps back into the slot and we anchor.
+3. Anchor.
