@@ -5,6 +5,10 @@ tags: ["work","web-development"]
 
 *In case anyone's reading this, I live in Boulder, CO at the moment, so some links might be Boulder-specific.*
 
+## Time management
+
+The majority of your time should be spent networking and building projects. Spend no more than 30 minutes a day applying for jobs.
+
 ## Prep
 
 - ~~Write your resume~~
@@ -80,6 +84,7 @@ Look for related roles:
 - [Robert Half](https://www.roberthalf.com/us/en/jobs/all/frontend-developer)
 - [FreshRemote.Work](https://freshremote.work/)
 - [Upwork](https://www.upwork.com/nx/find-work/)
+- Reedsy Developers.
 
 ## Further Reading
 
