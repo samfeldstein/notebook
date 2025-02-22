@@ -7,14 +7,13 @@
 fonts #}
 <link rel="preload" href="/fira-code.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 <title>{{ title }}</title>
-<meta name="description" content="{{ description or config.site.description }}" />
+<meta name="description" content="{{ description or title or config.site.description }}" />
 <link rel="sitemap" href="/sitemap.xml" />
 <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ config.site.title }}">
 <meta name="generator" content="{{ eleventy.generator }}" />
 
 {# Open Graph #}
-<meta property="og:title"
-  content="{{ ogTitle or title or config.site.title}}" />
+<meta property="og:title" content="{{ ogTitle or title or config.site.title}}" />
 <meta property="og:description" content="{{description or title}}" />
 <meta property="og:type" content={{ogType or "website" }} />
 <meta property="og:url" content="https://notebook.samfeldstein.xyz{{page.url}}" />
