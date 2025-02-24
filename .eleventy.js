@@ -51,7 +51,7 @@ export default function (eleventyConfig) {
       base: "https://notebook.samfeldstein.xyz/",
       author: {
         name: "Sam Feldstein",
-        email: "samuelfeldstein@proton.me", // Optional
+        email: "sam@samfeldstein.xyz", // Optional
       }
     }
   });

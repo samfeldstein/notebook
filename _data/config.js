@@ -9,6 +9,6 @@ export const site = {
 // Information about you (optional)
 export const author = {
   name: "Sam Feldstein",
-  email: "samuelfeldstein@proton.me",
+  email: "sam@samfeldstein.xyz",
   url: "https://samfeldstein.xyz",
 };
