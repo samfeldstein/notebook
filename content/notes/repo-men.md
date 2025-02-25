@@ -3,6 +3,7 @@ title: Repo Men
 tags: 
   - movies
 created: 2025-02-18
+<<<<<<< HEAD
 updated: 2025-02-21
 ---
 
@@ -21,3 +22,9 @@ I don't remember if that's exactly how it goes in *Logan's Run*, but a lot of th
 ## Notes
 
 A couple other movies with similar structure and overtones are *The Fisher King* and *Minority Report.*
+=======
+updated: 2025-02-18
+---
+
+The premise is ridiculous, but I wonder if that's part of the joy of creation; to see what you can get people to believe. It's certainly part of the joy of consumption; to be willingly swept away on the tides of fancy.
+>>>>>>> 7eeb285 (Add some notes)
