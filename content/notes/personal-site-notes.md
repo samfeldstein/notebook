@@ -1,10 +1,10 @@
 ---
-title: Personal Site - Project Notes
+title: Personal Website Notes
 tags:
   - projects
   - web-development
   - astro
-updated: 2024-11-02
+updated: 2025-02-27
 ---
 
 I've rebuilt my [personal website](https://samfeldstein.xyz) at least four times, but the current version might be the one that's here to stay (from an architectural standpoint).
@@ -63,4 +63,4 @@ The biggest performance boost came after I increased Cloudflare's cache lifespan
 
 ## Wishlist
 
-- Hits counter (per post?)
+- Guest book

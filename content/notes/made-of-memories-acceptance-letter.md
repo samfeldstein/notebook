@@ -1,5 +1,5 @@
 ---
-title: Acceptance Letters
+title: Made of Memories Acceptance Letter
 tags:
   - writing
 ---
