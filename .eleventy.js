@@ -91,93 +91,88 @@ export default function (eleventyConfig) {
       return false;
     }
   });
+  // Minify html
+  eleventyConfig.addTransform("htmlmin", function (content) {
+    if ((this.page.outputPath || "").endsWith(".html")) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+      });
 
-  // May be able to use eleventy.on here instead
-  if (process.env.ELEVENTY_RUN_MODE === "build") {
+      return minified;
+    }
+    // If not an HTML output, return content as-is
+    return content;
+  });
 
-    // Minify html
-    eleventyConfig.addTransform("htmlmin", function (content) {
-      if ((this.page.outputPath || "").endsWith(".html")) {
-        let minified = htmlmin.minify(content, {
-          useShortDoctype: true,
-          removeComments: true,
-          collapseWhitespace: true,
-        });
+  let markdownItOptions = {
+    html: true,
+    replaceLink: function (link, env) {
+      const isRelativePattern = /^(?!http|\/).*/;
+      const lastSegmentPattern = /[^\/]+(?=\/$|$)/i;
+      const isRelative = isRelativePattern.test(link);
 
-        return minified;
-      }
-      // If not an HTML output, return content as-is
-      return content;
-    });
-
-    let markdownItOptions = {
-      html: true,
-      replaceLink: function (link, env) {
-        const isRelativePattern = /^(?!http|\/).*/;
-        const lastSegmentPattern = /[^\/]+(?=\/$|$)/i;
-        const isRelative = isRelativePattern.test(link);
-
-        if (isRelative) {
-          const hasLastSegment = lastSegmentPattern.exec(env.page.url);
-          // If it's nested, replace the last segment
-          if (hasLastSegment && env.page.url) {
-            return env.page.url.replace(lastSegmentPattern, link);
-          }
-          // If it's at root, just add the beginning slash
-          return env.page.url + link;
+      if (isRelative) {
+        const hasLastSegment = lastSegmentPattern.exec(env.page.url);
+        // If it's nested, replace the last segment
+        if (hasLastSegment && env.page.url) {
+          return env.page.url.replace(lastSegmentPattern, link);
         }
-
-        return link;
-      },
-    };
-
-    let markdownLib = markdownIt(markdownItOptions).use(markdownItReplaceLink);
-    eleventyConfig.setLibrary("md", markdownLib);
-
-    // FILTERS
-    // Minify css
-    eleventyConfig.addFilter("cssmin", function (code) {
-      return new CleanCSS({}).minify(code).styles;
-    });
-
-    // Readable Dates
-    eleventyConfig.addFilter("readableDate", (dateObj) => {
-      return DateTime.fromJSDate(dateObj, { zone: "utc" }).toLocaleString(DateTime.DATE_FULL);
-    });
-
-    // HTML datestrings - used in sitemap
-    eleventyConfig.addFilter("htmlDateString", (dateObj) => {
-      // dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-      return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
-    });
-
-    // Return all the tags used in a collection
-    eleventyConfig.addFilter("getAllTags", (collection) => {
-      let tagSet = new Set();
-      for (let item of collection) {
-        (item.data.tags || []).forEach((tag) => tagSet.add(tag));
+        // If it's at root, just add the beginning slash
+        return env.page.url + link;
       }
-      return Array.from(tagSet).sort();
-    });
 
-    eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
-      return (tags || [])
-        .filter((tag) => ["all", "notes"].indexOf(tag) === -1)
-        .sort();
-    });
+      return link;
+    },
+  };
 
-    // Add layout aliases
-    eleventyConfig.addLayoutAlias("base", "base.njk");
+  let markdownLib = markdownIt(markdownItOptions).use(markdownItReplaceLink);
+  eleventyConfig.setLibrary("md", markdownLib);
 
-    return {
-      dir: {
-        input: "content",
-        includes: "../_includes",
-        layouts: "../_includes/layouts",
-        data: "../_data",
-      },
-      htmlTemplateEngine: "njk",
-      markdownTemplateEngine: "njk",
-    };
-  }
+  // FILTERS
+  // Minify css
+  eleventyConfig.addFilter("cssmin", function (code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
+
+  // Readable Dates
+  eleventyConfig.addFilter("readableDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toLocaleString(DateTime.DATE_FULL);
+  });
+
+  // HTML datestrings - used in sitemap
+  eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+    // dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
+  });
+
+  // Return all the tags used in a collection
+  eleventyConfig.addFilter("getAllTags", (collection) => {
+    let tagSet = new Set();
+    for (let item of collection) {
+      (item.data.tags || []).forEach((tag) => tagSet.add(tag));
+    }
+    return Array.from(tagSet).sort();
+  });
+
+  eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
+    return (tags || [])
+      .filter((tag) => ["all", "notes"].indexOf(tag) === -1)
+      .sort();
+  });
+
+  // Add layout aliases
+  eleventyConfig.addLayoutAlias("base", "base.njk");
+
+  return {
+    dir: {
+      input: "content",
+      includes: "../_includes",
+      layouts: "../_includes/layouts",
+      data: "../_data",
+    },
+    htmlTemplateEngine: "njk",
+    markdownTemplateEngine: "njk",
+  };
 }

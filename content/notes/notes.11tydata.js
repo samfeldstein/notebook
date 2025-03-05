@@ -34,6 +34,8 @@ export const eleventyComputed = {
 			}
 		}
 
+		console.log(backlinks);
+		
 		return backlinks;
 	},
 };

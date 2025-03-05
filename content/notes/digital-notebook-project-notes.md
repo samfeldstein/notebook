@@ -27,9 +27,11 @@ This only works if you're okay with keeping your private notes in a specific fol
 
 ## Checklist
 
-- Add an anonymous feedback form. It'd be nice to know if people find anything useful from the site.
+- Backlinks
+- Anonymous feedback form.
+	- It'd be nice to know if people find anything useful from the site.
 
-### Promote
+### Share
 
   - ~~[Eleventy Leaderboards](https://www.11ty.dev/speedlify/)~~
   - ~~[Foam Discord](https://discord.com/channels/729975036148056075/729976283613626408)~~
