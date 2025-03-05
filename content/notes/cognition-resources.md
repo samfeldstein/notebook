@@ -1,8 +1,7 @@
 ---
-title: Effective Learning
-description: 
-tags: 
-  - learning
+title: Cognition Resources
+tags:
+  - cognition
 created: 2025-01-15
 updated: 2025-01-15
 ---

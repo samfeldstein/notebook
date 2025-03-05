@@ -13,9 +13,10 @@ updated: 2024-12-27
 - [Optimize fonts](how-to-optimize-web-fonts.md).
 - [Optimize images](how-to-optimize-web-images.md).
 - [Prefetch/prerender links and assets](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/speculationrules).
-	- For a small site, manually adding `rel="prefetch"` is easiest. You can also use speculation rules, but those aren't widely supported yet.
-- Cache assets in the browser using HTTP headers.
+	- For a small site, manually adding `rel="prefetch"` is easiest.
+	- You can also use speculation rules, but those aren't widely supported yet.
 	- You can also use Astro's `Prefetch` component.
+- Cache assets in the browser using HTTP headers.
 - [Jampack](jampack.md) it if necessary.
 	- If I'm building with Astro or 11ty, this seems a little redundant. It does some additional image compression which could save you quite a few bytes if you have a lot of images.
 - [Measure](measure-web-performance.md).

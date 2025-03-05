@@ -34,17 +34,32 @@ The majority of your time should be spent networking and building projects. **Sp
 
 - Pramp and Interviewing.io are good for practice.
 
-## Apply
+## Find Work
+
+### Advertise
+
+- Cards
+- Fliers
+- Post in Facebook groups
+	- Small businesses
+	- Any niches you're interested in working with
+
+### Direct outreach
+
+- Email agencies
+- Email businesses and orgs
+	- Sefaria
+	- Jewish Unpacked
+
+### Apply to jobs
 
 **Search terms:**
 
 - Frontend Developer
 - Web Developer
-- UI Engineer
-- Web Performance Engineer
+- Web Designer
+- UI/UX Engineer
 - Webmaster
-
-### Job boards
 
 - [LinkedIn](https://www.linkedin.com/jobs/)
 - [Indeed](https://www.indeed.com/)

@@ -1,7 +1,7 @@
 ---
 title: The Learning Paradox
-tags: 
-  - learning
+tags:
+  - cognition
 created: 2025-01-10
 updated: 2025-01-10
 ---
