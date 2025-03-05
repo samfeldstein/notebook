@@ -7,7 +7,7 @@ tags: ["static-site-generators","html","markdown"]
 
 Relative links work fine in a vanilla site. Eg:
 
-```html
+```
 index.html
   notes/
     index.html
@@ -19,7 +19,7 @@ You can link from *note* to *sibling note* like this `href="sibling-note.html"` 
 
 However, if you do this in 11ty or Astro, you have problems. Take an Astro example:
 
-```html
+```
 index.md
   notes/
     note.md

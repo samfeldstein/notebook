@@ -65,7 +65,7 @@ export default function (eleventyConfig) {
   });
 
 
-  // Transform wiklinks
+  // Transform wikilinks
   eleventyConfig.addTransform("wikilink", function (content) {
     if (this.page.outputPath?.endsWith(".html")) {
       return (
@@ -84,13 +84,12 @@ export default function (eleventyConfig) {
     return content;
   });
 
-  // Filter private notes from build (and git?)
-  eleventyConfig.addPreprocessor("private", "*", (data, content) => {
-    // If `private` is truthy in the template’s Data Cascade, ignore the file.
-    if (data.private) {
+  // Exclude private notes from build (files will still show up in git, so we're still using the private/ folder method)
+  // https://www.11ty.dev/docs/config-preprocessors/
+  eleventyConfig.addPreprocessor("privateNotes", "*", (data, content) => {
+    if (data.private && process.env.ELEVENTY_RUN_MODE === "build") {
       return false;
     }
-    return content;
   });
 
   // May be able to use eleventy.on here instead
@@ -110,15 +109,6 @@ export default function (eleventyConfig) {
       // If not an HTML output, return content as-is
       return content;
     });
-
-    // Exclude private notes
-    // https://www.11ty.dev/docs/config-preprocessors/
-    //   eleventyConfig.addPreprocessor("privateNotes", "*", (data, content) => {
-    //     if (data.private && process.env.ELEVENTY_RUN_MODE === "build") {
-    //       return false;
-    //     }
-    //   });
-    // };
 
     let markdownItOptions = {
       html: true,

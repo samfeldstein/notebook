@@ -6,6 +6,7 @@ tags:
   - programming
 updated: 2024-11-27
 ---
+
 You can't prompt an LLM to draw something and come up with the same thing you would have drawn yourself. Same with stories. But you can prompt an LLM to write a function and come up with the same function you would've written.
 
 This must point to a fundamental difference between drawing (or painting, whathaveyou), writing, and coding. That difference might be that relationship between input and output. In programming, they're separate. You have the code, and you have the GUI. But in art and writing, the input and output are one and the same. When you write a story, there's no build step. You don't compile it and transform the words into other words. There's just the words.

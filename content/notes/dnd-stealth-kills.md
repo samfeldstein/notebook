@@ -1,6 +1,7 @@
 ---
 title: D&D Stealth-Kills
-tags: ["dungeons-and-dragons/homebrew"]
+tags:
+  - dungeons-and-dragons
 ---
 
 See also: [These rules](https://www.d20srd.org/srd/conditionSummary.htm#helpless) and [these rules](https://rpg.stackexchange.com/questions/137975/mechanics-for-one-shot-stealth-incapacitation).
