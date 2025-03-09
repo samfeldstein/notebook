@@ -1,14 +1,16 @@
 ---
 title: Programming
-tags: ["programming"]
+tags:
+  - programming
 ---
 
-## Languages to try
+## Languages to Learn
 
 - HTMX
 - Go
 - Python
   - [Kaggle Python course](https://www.kaggle.com/learn/python)
+- [Racket](https://racket-lang.org)
 
 ## Favorite Software
 

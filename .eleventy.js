@@ -84,13 +84,14 @@ export default function (eleventyConfig) {
     return content;
   });
 
-  // Exclude private notes from build (files will still show up in git, so we're still using the private/ folder method)
+  // Exclude private notes from build (files will still show up in git, so we're still using the /private/ folder method)
   // https://www.11ty.dev/docs/config-preprocessors/
   eleventyConfig.addPreprocessor("privateNotes", "*", (data, content) => {
     if (data.private && process.env.ELEVENTY_RUN_MODE === "build") {
       return false;
     }
   });
+
   // Minify html
   eleventyConfig.addTransform("htmlmin", function (content) {
     if ((this.page.outputPath || "").endsWith(".html")) {

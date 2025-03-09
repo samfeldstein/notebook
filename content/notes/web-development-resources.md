@@ -52,3 +52,7 @@ updated: 2025-03-02
 **[Chris Ferdinandi](https://gomakethings.com).** A web developer advocating for simplicity, vanilla JavaScript, and practical frontend techniques.
 
 **[Sara Joy](https://sarajoy.dev).** A frontend developer and designer exploring accessibility, UI/UX, and modern web development.
+
+## Tools
+
+- **[Many Tools](https://manytools.org)**. A collection of tools to automate the repetitive jobs involved in web development.

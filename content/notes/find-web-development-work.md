@@ -1,15 +1,32 @@
 ---
 title: Find Web Development Work
-tags: ["work","web-development"]
+tags:
+  - work
+  - web-development
 ---
 
 *In case anyone's reading this, I live in Boulder, CO at the moment, so some links might be Boulder-specific.*
 
 ## Checklist
 
-- Redo your site homepage
-- Redo your portfolio
-- Pitch to local businesses
+- Redo site homepage
+- Redo portfolio
+- Contribute to open source projects
+	- https://github.com/MunGell/awesome-for-beginners
+
+## Professional Summary
+
+### Career Goals
+
+I'm looking for remote, full-time work in a boutique agency.
+
+I specialize in development and design, creating refined, content-driven websites with a lean-web approach (vanilla code, static site generators, etc.).
+
+I’m especially drawn to typography, layout, and content strategy. I love crafting bespoke, intuitive experiences.
+
+I'd like to work with smaller, independent clients like small businesses, professionals, artists, writers, and niche publications.
+
+Right now, I’m focused on executing great work, but I’m eager to grow into a leadership role as I build my skills and experience.
 
 ## Time management
 
@@ -24,11 +41,13 @@ The majority of your time should be spent networking and building projects. **Sp
 - Attend meetups
 	- [meetup.com](https://www.meetup.com/home/)
 
+{# 
 ## References
 
 - Tom Jacobs, Founder, ReGreen Big Bend, cgitom@gmail.com, (432) 386-0488
 - Tom Masterson, Founder and Studio Director, Postoley Dance Ensemble, masterst@colorado.edu, ‭(303) 499-6363‬
-- Sara Coleman, DeafBlind Division of the National Federation of the Blind, Treasurer and Fundraising Chair, ‭scolemae@gmail.com, (515) 240-8257‬
+- Sara Coleman, DeafBlind Division of the National Federation of the Blind, Treasurer and Fundraising Chair, ‭scolemae@gmail.com, (515) 240-8257‬ 
+#}
 
 ## Interview Prep
 
@@ -42,14 +61,26 @@ The majority of your time should be spent networking and building projects. **Sp
 - Fliers
 - Post in Facebook groups
 	- Small businesses
-	- Any niches you're interested in working with
+	- Any niches you're interested in
+- Add yourself to dev directories
+	- Reedsy developers
+
+```md
+Hello Boulder! My name is Sam. I'm a Web Designer & Developer building custom websites for small businesses, artists, and professionals.
+
+I offer custom design and development, performance and search optimization, and reliable updates.
+
+If you already have a site, I’m happy to help with updates, maintenance, or a complete redesign.
+
+You can see my previous work at https://samfeldstein.xyz/websites/. Feel free to message me or email sam@samfeldstein.xyz.
+
+I'm looking forward to hearing from you!
+```
 
 ### Direct outreach
 
-- Email agencies
-- Email businesses and orgs
-	- Sefaria
-	- Jewish Unpacked
+- Boutique agencies
+- Businesses and organizations
 
 ### Apply to jobs
 
