@@ -8,7 +8,8 @@ updated: 2025-02-27
 
 I love volunteering. If could get paid to volunteer, I’d do it in a heartbeat.
 
-## Causes
+https://80000hours.org/articles/volunteering/
 
-- ESL
-- Unaccompanied children
+## Boulder
+
+- https://www.ceocolorado.org/volunteer

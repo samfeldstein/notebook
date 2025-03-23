@@ -4,7 +4,7 @@ tags:
   - life
   - work
 created: 2025-01-13
-updated: 2025-01-17
+updated: 2025-03-12
 ---
 
 **To live a fulfilling life, you need a sense of purpose.**
@@ -28,7 +28,7 @@ One of these (writers group) involves **community-building.** Haven't done much 
 
 As for the work itself: How engaging does it need to be? And here's another question: **For the times I've felt a sense of purpose, did I feel it because the work was engaging, or was the work engaging because I felt a sense of purpose?**
 
-As usual, the answer is "both." The **work can't be boring and it can't be pointless.** If it's either of those things, the sense of purpose disappears. Also see: [Craft and Purpose](craft-and-purpose.md).
+As usual, the answer is "both." The **work can't be boring and it can't be pointless.** If it's either of those things, the sense of purpose disappears.
 
 So it seems like **I feel the greatest sense of purpose when I'm doing engaging work with other people to help other people**.
 

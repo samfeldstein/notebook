@@ -80,7 +80,8 @@ I'm looking forward to hearing from you!
 ### Direct outreach
 
 - Boutique agencies
-- Businesses and organizations
+- Any businesses and organizations that look interesting
+- Publishing houses
 
 ### Apply to jobs
 
