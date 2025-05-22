@@ -2,9 +2,6 @@
 title: Cloudflare DNS
 tags: ["cloudflare","web-development"]
 ---
-
-I find DNS confusing, so I'm writing this down for future reference.
-
 I just pointed `notebook.samfeldstein.xyz` to this site. To do that, you first add `notebook.samfeldstein.xyz` to the notebook's Cloudflare Pages site as a custom domain. Then you add a corresponding CNAME record to `samfeldstein.xyz`.
 
 ## www.problems.fml

@@ -8,9 +8,7 @@ I don't know that there's a fundamental difference between describing a program 
 
 In any case, the point of programming languages is to make it easier to communicate with computers. What could be easier than communicating in plain English? So programming with AI feels like the natural next step.
 
----
-
-## Building with AI is disatisfying
+## Building with AI is dissatisfying
 
 Writing code by hand is satisfying, I think because it gives me the sense of accomplishment that comes after doing something hard. Having a bot write the code for me removes that sense of accomplishment, even if whatever it wrote was my idea.
 
@@ -22,4 +20,4 @@ I assume AI Supervisors will be forest people. They won't have much use for the 
 
 ## Possible Upsides
 
-If you spend all your time trying to explain yourself to a dumb robot, is it possible that you'll actually get pretty good at explaining yourself? In other words, could building things with AI improve your articulation and [how-to-solve-problems](how-to-solve-problems.md) skills?
+If you spend all your time trying to explain yourself to a dumb robot, is it possible that you'll actually get pretty good at explaining yourself? In other words, could building things with AI improve your articulation and [problem-solving](how-to-solve-problems.md) skills?

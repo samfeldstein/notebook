@@ -12,14 +12,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "open -a 'Firefox Developer Edition' http://localhost:8080/ && npx @11ty/eleventy --serve --incremental --dryrun --ignore-initial --quiet",
+    "start": "open -a 'Firefox Developer Edition' http://localhost:8080/ && npx @11ty/eleventy --serve --incremental --quiet",
     "build": "npx @11ty/eleventy && npx -y pagefind --site _site",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0"
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@11ty/eleventy-plugin-webc": "^0.4.0"
   },
   "devDependencies": {
     "clean-css": "^5.3.3",

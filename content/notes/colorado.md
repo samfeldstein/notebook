@@ -1,12 +1,14 @@
 ---
-title: Colorado
+title: Things to Do in Colorado
 tags:
   - travel
   - usa
 created: 2024-12-25
 updated: 2025-01-13
 ---
-
-- [Colorado Directory](https://www.coloradodirectory.com)
 - [Horse events](https://www.hometownhorses.com/events)
 - Glenwood Springs thermal pool.
+
+## Resources
+
+- [Colorado Directory](https://www.coloradodirectory.com)

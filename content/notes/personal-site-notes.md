@@ -49,18 +49,18 @@ The biggest performance boost came after I increased Cloudflare's cache lifespan
 ## Checklist
 
 - Colophon
-- 
-- ~~Add Open Graph meta.~~
+	- ~~Fonts~~
+- ~~Add Open Graph metadata.~~
 - ~~Select colors.~~
-
-### Gallery
-
-- Read and display image metadata.
-	- Organize by date.
-- Open image in new tab on click.
-- Display titles as handwriting font on bottom white border, like a polaroid.
-	- Turn your handwriting into a font.
+- Dynamic blogroll
+	- Render from csv
+- Service worker
+	- Check [Maggie Appleton’s](maggieappleton.com)
 
 ## Wishlist
 
 - Guest book
+- Anonymous feedback form
+- Notecard reading mode
+	- Shows you one paragraph at a time
+	- Dedicated app? As opposed to integrated with the website.

@@ -3,8 +3,6 @@ title: Storytelling
 tags: ["writing","storytelling"]
 ---
 
-Storytelling is a kind of entertainment. Entertainment is the art of emotional manipulation. Emotions are levers. Your job is to know how to pull them, which ones to pull, and when.
-
 ## Process
 
 Stories are organic. They grow. Your job is to tend them. Paul Graham:
@@ -13,13 +11,9 @@ Stories are organic. They grow. Your job is to tend them. Paul Graham:
 >
 > The trouble with planning is that it only works for achievements you can describe in advance. You can win a gold medal or get rich by deciding to as a child and then tenaciously pursuing that goal, but you can't discover natural selection that way.
 
-Don't try to boss the story around. Work with it. Embrace it. Let it take you someplace new.
-
-[Henrik Karlsson]([Everything That Turned Out Well in My Life Followed the Same Design Process](https://www.henrikkarlsson.xyz/p/unfolding)) puts it another way:
-
-> To find a good relationship, you do not start by saying, “I want a relationship that looks like this.” That would be starting in the wrong end. Instead you say, “I’m just going to pay attention to what happens when I hang out with various people and iterate toward something that feels alive.”
-
-The best way to make peace with a story is to get out of the way. Sit back, reserve judgement, and observe with amusement (or interest, or horror) at what comes out of your head. From there, it's just a matter of writing down what you see. If introspection is self-reporting your reactions to external stimuli, the storytelling (all writing?) might be the opposite: **Self-reporting your reactions to internal stimuli**.
+> Watch what happens, write it down.
+> 
+> <cite>Stephen King</cite>
 
 ## Structure
 
@@ -32,6 +26,6 @@ So with story. Many short stories feel like summaries of longer stories because 
 ## Story tropes
 
 - Man betrayed, left for dead, meets a mentor, trains, transforms, returns to exact justice.
-  - *The Legend of Zorro*
-  - *The Count of Monte Cristo*
-  - *Batman*
+	- *The Legend of Zorro*
+	- *The Count of Monte Cristo*
+	- *Batman*
