@@ -1,5 +1,5 @@
 ---
-title: Applying a Default Template in Obsidian
+title: Applying a Default Template in Obsidian Using a Shell Script
 tags:
   - obsidian
   - zsh
@@ -23,18 +23,18 @@ If you don’t know how to create a shell script, see [How to Run a Zsh Script](
 Create a private note:
 
 ```zsh
-new-note "My Project Ideas"
+new-note "Journal Entry"
 ```
 
 Create a public note:
 
 ```zsh
-new-note -p "Personal Thoughts"
+new-note -p "Project Ideas"
 ```
 
 ## Script
 
-In this example, your Obsidian vault is called `my-vault`, your notes folder is called `notes`, and your private folder is called `private-notes`.
+In this example, your Obsidian vault is called `my-vault`, your notes folder is called `notes`, and your private notes folder is called `private-notes`.
 
 The script does the following:
 
@@ -69,11 +69,11 @@ file_name=$(echo "$file_name" | tr '[:upper:]' '[:lower:]') # Convert to lowerca
 
 # Set folder and vault path based on public flag
 if [ "$public" = true ]; then
-	folder="$HOME/projects/dev/sites/notebook/content/notes/"
+	folder="$HOME/my-vault/notes/"
 	vault_path="notes/$file_name.md"
 else
-	folder="$HOME/projects/dev/sites/notebook/content/notes/private"
-	vault_path="notes/private/$file_name.md"
+	folder="$HOME/my-vault/private-notes/"
+	vault_path="private-notes/$file_name.md"
 fi
 
 # Check if file already exists
@@ -97,5 +97,5 @@ updated: $date
 EOF
 
 # Open the new note in Obsidian
-open "obsidian://open?vault=content&file=$vault_path"
+open "obsidian://open?vault=my-vault&file=$vault_path"
 ```
