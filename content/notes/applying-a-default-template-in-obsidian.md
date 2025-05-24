@@ -39,7 +39,7 @@ The script does the following:
 - Places regular notes in `notes/` , and private notes in `notes/private/`
 - Automatically opens the new note in Obsidian
 
-```zsh
+```bash
 #!/bin/zsh
 
 # Check if the private flag is set
