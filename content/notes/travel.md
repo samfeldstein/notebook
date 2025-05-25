@@ -21,7 +21,7 @@ updated: 2025-01-30
 - [Blabla Car](https://www.blablacar.com) carpooling
 - Amtrak
 
-## Accomodations
+## Accommodations
 
 - Workaway
 - Trust Housesitters

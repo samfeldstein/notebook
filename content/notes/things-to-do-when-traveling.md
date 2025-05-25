@@ -1,6 +1,8 @@
 ---
 title: Things to Do When Traveling
-tags: ["travel"]
+tags:
+  - travel
+updated: 2025-05-24
 ---
 
 ## Explore

@@ -15,10 +15,14 @@ updated: 2025-05-24
 
 - Avalon Ballroom
 
+## Nearby towns
+
+- Jamestown
+
 ## Sightseeing
 
 - [Peak to peak scenic byway](https://www.coloradodirectory.com/maps/peak.html)
-- Stanley Hotel
+	- [Ward](https://www.uncovercolorado.com/towns/ward/) (ghost town)
 
 ## Hiking
 
