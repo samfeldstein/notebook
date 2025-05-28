@@ -28,11 +28,11 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 1rem 0;
+  font-size: var(--font-small);
 }
 
 nav a {
-  padding: 0.5em 1em;
+  padding: 0.25em 0.75em;
 }
 
 .page-content {
@@ -82,8 +82,11 @@ h1 {
 
 h2 {
   text-align: right;
-  border-bottom: 1px dotted;
   text-wrap: balance;
+  font-style: italic;
+  font-weight: 400;
+  border-top: 1px solid;
+  margin-top: 2em;
 }
 
 a {
