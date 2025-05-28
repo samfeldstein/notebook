@@ -24,7 +24,7 @@ ogType: article
           tag | slugify
           }}/{% endset %}
           <li>
-            <a href="{{ tagUrl }}" class="tag">#{{ tag }}</a>{%- if not loop.last %}, {% endif %}
+            <a href="{{ tagUrl }}" class="tag">{{ tag | formatTag }}</a>{%- if not loop.last %}, {% endif %}
           </li>
           {%- endfor %}
         </ul>

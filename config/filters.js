@@ -13,13 +13,24 @@ const filters = [
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toLocaleString(DateTime.DATE_FULL);
   }],
 
-  // Return all the tags used in a collection
+  // Get all tags, filter out unwanted ones, and format with spaces
   ["getAllTags", function (collection) {
     let tagSet = new Set();
     for (let item of collection) {
-      (item.data.tags || []).forEach((tag) => tagSet.add(tag));
+      (item.data.tags || []).forEach((tag) => {
+        // Filter out unwanted tags and format
+        if (["all", "notes"].indexOf(tag) === -1) {
+          const formattedTag = tag.replace(/-/g, ' ');
+          tagSet.add(formattedTag);
+        }
+      });
     }
     return Array.from(tagSet).sort();
+  }],
+
+  // Keep formatTag separate for individual use
+  ["formatTag", function (tag) {
+    return tag.replace(/-/g, ' ');
   }],
 
   // Filter out specific tags from tag list
@@ -27,7 +38,7 @@ const filters = [
     return (tags || [])
       .filter((tag) => ["all", "notes"].indexOf(tag) === -1)
       .sort();
-  }]
+  }],
 ];
 
 // Function to add all filters to Eleventy config

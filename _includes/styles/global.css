@@ -1,44 +1,6 @@
 @import url("_includes/styles/_reset.css");
+@import url("_includes/styles/_config.css");
 @import url("_includes/styles/_syntax.css");
-
-:root {
-  /* Colors */
-  --background-color: #fff;
-  --text-color: #000;
-  --link-color: #2754d8;
-
-  /* Fonts */
-  --body-font: "Fira Code", ui-monospace, monospace;
-  --bold: "Fira Code Bold", var(--body-font);
-  --monospace: var(--body-font);
-  --extra-small: .85rem;
-  --small: 1rem;
-  --medium: 1.2rem;
-  --large: 1.5rem;
-
-  /* Pagefind */
-  --pagefind-ui-font: var(--body-font);
-  --pagefind-ui-primary: var(--text-color);
-  --pagefind-ui-text: var(--text-color);
-  --pagefind-ui-border: var(--text-color);
-  --pagefind-ui-background: var(--background-color);
-}
-
-@media (prefers-color-scheme: dark) {
-
-  /* I've nested the dark mode styles in the intial :root declaration on other sites, but doesn't work here for some reason. */
-  :root {
-    /* Dark mode styles */
-    --background-color: #000;
-    --text-color: #fff;
-    --link-color: #6699ff;
-    /* Pagefind */
-    /* 
-      - https://rknight.me/blog/using-pagefind-with-eleventy-for-search/ 
-      - https://pagefind.app/docs/ui-usage/#customising-the-styles
-    */
-  }
-}
 
 html {
   background-color: var(--background-color);
@@ -48,8 +10,7 @@ html {
 body {
   margin: 0 auto;
   padding: 1rem;
-  font-family: var(--body-font);
-  font-size: var(--medium);
+  font-size: var(--font-medium);
   display: flex;
   flex-direction: column;
 }
@@ -61,9 +22,6 @@ header.site {
 header.page {
   text-align: center;
   padding-bottom: 1rem;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #dcdcdc;
 }
 
 nav {
@@ -118,6 +76,8 @@ h4 {
 h1 {
   margin: 0;
   text-wrap: balance;
+  font-variant: small-caps;
+  text-transform: lowercase;
 }
 
 h2 {
@@ -127,25 +87,18 @@ h2 {
 }
 
 a {
-  color: var(--link-color);
-  text-decoration-thickness: 1px;
-  text-decoration-style: solid;
-  text-underline-offset: 0.1em;
+  color: var(--text-color);
+  font-variant: small-caps;
+  text-transform: lowercase;
+  text-decoration: none;
 }
 
 a:not(.skiplink):hover,
 a:not(.skiplink):focus,
 a:not(.skiplink):active {
-  text-decoration: none;
-  opacity: 70%;
-}
-
-a[href^="https"] {
-  text-decoration-style: dotted;
-}
-
-a[href^="https"]::after {
-  content: "➚";
+  text-decoration: underline;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
 }
 
 ul.notes {
@@ -154,7 +107,7 @@ ul.notes {
 }
 
 small {
-  font-size: var(--small);
+  font-size: var(--font-small);
 }
 
 pre,
@@ -175,7 +128,7 @@ pre code {
 
 footer {
   text-align: center;
-  font-size: var(--small);
+  font-size: var(--font-small);
   margin-top: 4rem;
 }
 
@@ -198,7 +151,6 @@ footer {
 .site.title {
   text-decoration: none;
   text-align: center;
-  font-size: var(--large);
   font-weight: 600;
 }
 
@@ -218,8 +170,7 @@ a.site.title:hover {
 }
 
 .tags.note {
-  font-style: italic;
-  font-size: var(--small);
+  font-size: var(--font-small);
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
@@ -228,11 +179,6 @@ a.site.title:hover {
 
 a.tag {
   text-decoration: none;
-}
-
-a.tag:hover,
-a.tag:focus {
-  text-decoration: underline;
 }
 
 input:focus {

@@ -1,0 +1,19 @@
+:root {
+  /* Font sizes */
+  --font-smallest: clamp(0.95rem, 2vw, 1rem);
+  --font-small: clamp(1rem, 2vw, 1.25rem);
+  --font-medium: clamp(1.25rem, 4vw, 1.5rem);
+
+  /* Colors */
+  color-scheme: light dark;
+  --text-color: light-dark(#000, #fff);
+  --background-color: light-dark(#fff, #000);
+  --link-color: light-dark(#666, #bfbfbf);
+
+  /* Pagefind */
+  /* --pagefind-ui-font: var(--body-font); */
+  --pagefind-ui-primary: var(--text-color);
+  --pagefind-ui-text: var(--text-color);
+  --pagefind-ui-border: var(--text-color);
+  --pagefind-ui-background: var(--background-color);
+}

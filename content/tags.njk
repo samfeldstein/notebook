@@ -1,17 +1,15 @@
 ---
-# https://github.com/11ty/eleventy-base-blog/blob/main/content/tags.njk
 layout: base
 pagination:
   data: collections
   size: 1
   alias: tag
 eleventyComputed:
-  title: Notes Tagged "{{tag}}" | Sam Feldstein's Notebook
-  pageTitle: "#{{tag}}"
-  description: Notes Tagged "{{ tag }}" in Sam Feldstein's Digital Notebook.
+  title: Notes Tagged "{{ tag }}" | Sam Feldstein's Notebook
+  pageTitle: "{{ tag | formatTag }}"
+  description: Notes Tagged "{{ tag }}".
 permalink: /tags/{{ tag | slugify }}/
 ---
-
 {% set notes = collections[ tag ] %}
 <ul class="notes">
   {% for note in notes | sort(attribute='data.title') %}
@@ -20,5 +18,4 @@ permalink: /tags/{{ tag | slugify }}/
   </li>
   {% endfor %}
 </ul>
-
 <p>See <a href="/tags/">all tags</a>.</p>
