@@ -1,6 +1,7 @@
 ---
 title: Writing Fiction
 tags: ["writing","fiction","storytelling"]
+created: 2024-10-05
 ---
 
 Is it possible that the urge to write fiction stems from the urge for adventure? If so, that means that to read and write fiction is to chase something that fiction can't give you.
