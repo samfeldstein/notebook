@@ -5,4 +5,4 @@ tags:
   - web-development
 ---
 
-- [Mr Digitial WordPress Theme Development Playlist](https://youtu.be/n3EcEYFgyrQ?si=YYmFfnEP-McOdh5e)
+- [Mr Digital WordPress Theme Development Playlist](https://youtu.be/n3EcEYFgyrQ?si=YYmFfnEP-McOdh5e)

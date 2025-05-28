@@ -1,17 +1,24 @@
 // https://github.com/11ty/eleventy/releases/tag/v3.0.0-beta.1
 // https://www.11ty.dev/blog/canary-eleventy-v3/#new-features-and-a-short-upgrade-guide
 
-import pluginWebc from "@11ty/eleventy-plugin-webc";
+// Import from other config files
+import collections from './config/collections.js';
+import feed from './config/feed.js';
+// Import dependencies
 import htmlmin from "html-minifier-terser";
 import CleanCSS from "clean-css";
 import markdownIt from "markdown-it";
 import markdownItReplaceLink from "markdown-it-replace-link";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import { DateTime } from "luxon";
-import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+
 import mathjaxPlugin from "eleventy-plugin-mathjax";
 
 export default function (eleventyConfig) {
+  // Call functions from other config files
+  collections(eleventyConfig);
+  feed(eleventyConfig);
+
   eleventyConfig.addPassthroughCopy({
     // Pass through the folders' contents, but not the folders themselves
     "static/icons/*": "/",
@@ -22,45 +29,13 @@ export default function (eleventyConfig) {
     "static/*.txt": "/"
   });
 
-  // TEMPLATE FORMATS
-  eleventyConfig.addTemplateFormats("html, njk");
-
-  eleventyConfig.addCollection("notes", function (collectionApi) {
-    // In dev, these seem to be sorted ascending automatically, but doesn't work on live site
-    return collectionApi.getFilteredByGlob("content/notes/*.md").sort(function (a, b) {
-      return a.date - b.date; // sort by date - descending
-    });
-  });
-
   // PLUGINS
-  // Webc
-  eleventyConfig.addPlugin(pluginWebc, {
-    // Glob to find no-import global components
-    components: "_includes/components/**/*.webc",
-  });
+  
   // Syntax highlighting
   eleventyConfig.addPlugin(syntaxHighlight);
   // Mathjax
   eleventyConfig.addPlugin(mathjaxPlugin);
-  // RSS Feed
-  eleventyConfig.addPlugin(feedPlugin, {
-    type: "atom", // or "rss", "json"
-    outputPath: "/feed.xml",
-    collection: {
-      name: "notes",
-      limit: 10,     // 0 means no limit
-    },
-    metadata: {
-      language: "en",
-      title: "Sam Feldstein's Notebook",
-      subtitle: "Sam Feldstein's digital notebook.",
-      base: "https://notes.samfeldstein.xyz/",
-      author: {
-        name: "Sam Feldstein",
-        email: "sam@samfeldstein.xyz", // Optional
-      }
-    }
-  });
+
 
   // Strip .md extension from links
   eleventyConfig.addTransform("md-link", function (content) {
@@ -69,7 +44,6 @@ export default function (eleventyConfig) {
     }
     return content;
   });
-
 
   // Transform wikilinks
   eleventyConfig.addTransform("wikilink", function (content) {
