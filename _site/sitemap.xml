@@ -412,9 +412,6 @@
 		<loc>https://notes.samfeldstein.xyz/notes/how-to-run-a-zsh-script/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/</loc>
-	</url>
-	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/how-to-search-for-a-string-in-a-file-from-the-command-line/</loc>
 	</url>
 	<url>
@@ -464,6 +461,9 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/add-webc-to-eleventy/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/digital-notebook-deployment-process/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/feed.xml</loc>
