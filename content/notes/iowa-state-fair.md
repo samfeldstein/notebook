@@ -1,6 +1,7 @@
 ---
 title: Iowa State Fair
-tags: ["iowa","iowa-state-fair"]
+tags:
+  - iowa
 ---
 
 *Originally conceived as a blog post.*
@@ -55,7 +56,7 @@ The only new food I tried this year was the Butterbeer Ice Cream from Coney Corn
 
 ## Rides
 
-I don’t do rides, but two are worth mentioning: Ye Old Mill and the original Sky Glider. The first is, in my dad’s words, a “two-minute boat-ride in the dark”. And look, he’s not wrong. But it’s a great one for the kids, if you have those.
+I don’t do rides, but two are worth mentioning: Ye Old Mill and the original Sky Glider. The first is, in my dad’s words, a “two-minute boat-ride in the dark.” And look, he’s not wrong. But it’s a great one for the kids, if you have those.
 
 The other is the old Sky Glider. Nothing against the new one, but the old Sky Glider is more fun and also a brilliant tactical decision. You can take it up the hill and save yourself a hike, and it drops you off at the best building on the grounds, Pioneer Hall.
 

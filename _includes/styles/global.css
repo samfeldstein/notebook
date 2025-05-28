@@ -23,7 +23,13 @@ header.site {
 
 header.page {
   text-align: center;
-  padding-bottom: 1rem;
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+header.page>*{
+  margin: 0;
 }
 
 nav {
@@ -42,14 +48,10 @@ nav a {
   flex-direction: column;
 }
 
-div.content {
+article.note, div.content {
   /* Center content */
   margin: 0 auto;
   max-width: 50rem;
-}
-
-div.content.search {
-  padding-top: 1rem;
 }
 
 main {
@@ -61,7 +63,7 @@ footer a {
   font-family: var(--bold);
 }
 
-main p {
+main p, main ul, main ol {
   text-align: justify;
   hyphens: auto;
   margin: 1.5rem 0;
@@ -77,6 +79,7 @@ h4 {
 
 h1 {
   margin: 0;
+  line-height: 1;
   text-wrap: balance;
   font-variant: small-caps;
   text-transform: lowercase;
@@ -200,4 +203,9 @@ blockquote {
 
 cite {
   font-style: normal;
+}
+
+::selection {
+  background-color: var(--text-color);
+  color: var(--background-color);
 }

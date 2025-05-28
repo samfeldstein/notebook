@@ -11,10 +11,10 @@
   color-scheme: light dark;
   --text-color: light-dark(#000, #fff);
   --background-color: light-dark(#fff, #000);
-  --link-color: light-dark(#666, #bfbfbf);
+  --accent: light-dark(#666, #bfbfbf);
 
   /* Pagefind */
-  /* --pagefind-ui-font: var(--body-font); */
+  --pagefind-ui-font: var(--body-font);
   --pagefind-ui-primary: var(--text-color);
   --pagefind-ui-text: var(--text-color);
   --pagefind-ui-border: var(--text-color);

@@ -40,11 +40,11 @@ ogType: article
         </small>
         {% endif %}
       </header>
-      <div class="content">
+      <article class="note">
         {{ content | safe }}
         {% include "partials/backlinks.njk" %}
         {% include "partials/footnotes.njk" %}
-      </div>
+      </article>
 
     </main>
 
