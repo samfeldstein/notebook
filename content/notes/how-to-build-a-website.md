@@ -10,5 +10,5 @@ tags:
 - Choose [body text](https://practicaltypography.com/body-text.html)
 - Add a 404 page
 - Add CSS Reset
-- [Make it accessible](web-accessibility-checklist.md)
-- [Improve performance](web-performance-checklist.md)
+- [Make it accessible](notes/web-accessibility-checklist.md)
+- [Improve performance](notes/web-performance-checklist.md)

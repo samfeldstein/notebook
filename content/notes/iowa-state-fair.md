@@ -4,9 +4,7 @@ tags:
   - iowa
 ---
 
-*Originally conceived as a blog post.*
-
-## Ground Rules
+## Rules
 
 1. ***Travel light, but be prepared.*** It pays to have a few essentials with you. For me, that’s a small backpack, a fanny pack, a water bottle, camera, hat, sunglasses, sunscreen, and a light shirt or jacket if the weather calls for it.
 2. ***Slow and steady wins the Fair.*** My family likes to run the Fair gamut, so we generally need two days to sate ourselves. You want to leave plenty of time for breaks (see Rule 2.1), and you don’t want to rush. Nothing like the stress of rushing to really suck the joy out of an endeavor.

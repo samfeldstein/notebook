@@ -1,24 +1,25 @@
 ---
 title: How to Solve Problems
 tags:
-  - metacognition
+  - cognition
 created: 2024-10-27
 updated: 2024-10-28
 ---
-**State the problem in a single sentence.**
+
+1. State the problem in a single sentence.
+2. State your assumptions, then try to disprove them.
+3. Break the problem into [sub-problems](notes/problem-sizes.md).
+
+---
 
 > *A problem well-put is a problem half-solved.*
 > 
-> John Dewey
+> <cite>John Dewey</cite>
 
 > *Make everything as simple as possible, and no simpler.*
 > 
-> Albert Einstein
-
-**State your assumptions, then try to disprove them.** This will help ensure you solve the right problem.
-
-**Break the problem into [sub-problems](notes/problem-sizes.md).**
+> <cite>Albert Einstein</cite>
 
 ## See also
 
-- [How to think](how-to-think.md)
+- [How to think](notes/how-to-think.md)

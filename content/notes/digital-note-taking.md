@@ -21,7 +21,7 @@ As [Kasey Klimes](https://www.kaseyklimes.com/notes/2019/10/16/an-augmented-mind
 
 ## The Future of Digital Notetaking
 
-Digital notetaking is probably a primitive attempt to manually create neural networks in our brains. So the goal of all such technology (like [Anki](anki.md)), is to reduce the gap between the knowledge we put in the computer and the knowledge we put in our head. And I guess the perfect version of that system would be one that permits *Matrix*-style "uploading" of knowledge directly to the brain.
+Digital notetaking is probably a primitive attempt to manually create neural networks in our brains. So the goal of all such technology (like [Anki](notes/anki.md)), is to reduce the gap between the knowledge we put in the computer and the knowledge we put in our head. And I guess the perfect version of that system would be one that permits *Matrix*-style "uploading" of knowledge directly to the brain.
 
 ## Digital Notebook Examples
 

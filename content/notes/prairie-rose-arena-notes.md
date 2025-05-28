@@ -41,7 +41,7 @@ A unique page is generated for each event. But since my mom posts all event deta
 
 I don't remember if I chose Netlify because it worked with Decap or the other way around. Probably I went with it because it's simple, though these days I prefer Cloudflare Pages.
 
-A decent experience on the whole, but too many paid features, some of which are not obviously paid features (like custom email templates). Probably will only use again for very simple projects like [Pairings](pairings-notes.md).
+A decent experience on the whole, but too many paid features, some of which are not obviously paid features (like custom email templates). Probably will only use again for very simple projects like [Pairings](notes/pairings-notes.md).
 
 ## Daily Re-Builds
 

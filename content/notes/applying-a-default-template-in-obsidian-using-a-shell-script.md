@@ -16,7 +16,7 @@ As far as I know, there's no way to apply a default template to new notes in Obs
 
 The script creates a new markdown file, inserts YAML frontmatter, and opens the file automatically in Obsidian.
 
-If you don’t know how to create a shell script, see [How to Run a Zsh Script](how-to-run-a-zsh-script.md).
+If you don’t know how to create a shell script, see [How to Run a Zsh Script](notes/how-to-run-a-zsh-script.md).
 
 ## Usage
 

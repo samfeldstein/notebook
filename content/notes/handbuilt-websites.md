@@ -1,5 +1,5 @@
 ---
-title: There's No Such Thing as a Hand-Built Website
+title: Handbuilt Websites
 tags:
   - web-development
   - programming
