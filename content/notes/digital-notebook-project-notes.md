@@ -28,7 +28,10 @@ This only works if you're okay with keeping your private notes in a specific fol
 
 ## Checklist
 
+- Fonts
+- Colophon
 - Backlinks
+- Scrape and display outgoing links
 - Anonymous feedback form.
 	- It'd be nice to know if people find anything useful from the site.
 - Make code blocks copyable.

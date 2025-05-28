@@ -1,3 +1,4 @@
+@import url("_includes/styles/_fonts.css");
 @import url("_includes/styles/_reset.css");
 @import url("_includes/styles/_config.css");
 @import url("_includes/styles/_syntax.css");
@@ -10,6 +11,7 @@ html {
 body {
   margin: 0 auto;
   padding: 1rem;
+  font-family: var(--font-body);
   font-size: var(--font-medium);
   display: flex;
   flex-direction: column;

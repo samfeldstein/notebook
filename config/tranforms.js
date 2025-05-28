@@ -3,10 +3,18 @@ import htmlmin from "html-minifier-terser";
 // Array of transforms to add to Eleventy
 // Each transform is an array: [name, function]
 const transforms = [
-  // Strip .md from internal links. Have to use these in Obsidian since I'm not using wikilinks
   ["md-link", function (content) {
+    // Only process HTML output files
     if (this.page.outputPath?.endsWith(".html")) {
-      return content.replace(/\.md\b/g, "");
+      return content
+        // Remove .md extension and add leading slash if missing
+        .replace(/href="([^"]+)\.md\b/g, (match, link) => {
+          // If link doesn't start with / or http, add leading slash
+          if (!link.startsWith('/') && !link.startsWith('http')) {
+            return `href="/${link}`;
+          }
+          return `href="${link}`;
+        });
     }
     return content;
   }],

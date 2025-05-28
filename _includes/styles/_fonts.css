@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'CMU Typewriter';
+  src: url('/fonts/CMUTypewriter-Bold.woff2') format('woff2'),
+    url('/fonts/CMUTypewriter-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CMU Typewriter';
+  src: url('/fonts/CMUTypewriterVariable-Italic.woff2') format('woff2'),
+    url('/fonts/CMUTypewriterVariable-Italic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CMU Typewriter';
+  src: url('/fonts/CMUTypewriter-BoldItalic.woff2') format('woff2'),
+    url('/fonts/CMUTypewriter-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CMU Typewriter';
+  src: url('/fonts/CMUTypewriterVariable.woff2') format('woff2'),
+    url('/fonts/CMUTypewriterVariable.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

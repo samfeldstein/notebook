@@ -17,7 +17,7 @@ updated: 2024-10-28
 
 **State your assumptions, then try to disprove them.** This will help ensure you solve the right problem.
 
-**Break the problem into [sub-problems](problem-sizes.md).**
+**Break the problem into [sub-problems](notes/problem-sizes.md).**
 
 ## See also
 

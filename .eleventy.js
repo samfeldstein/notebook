@@ -19,8 +19,8 @@ export default function (eleventyConfig) {
   // Pass static content to output
   eleventyConfig.addPassthroughCopy({
     // Pass through the folders' contents, but not the folders themselves
+    "static/fonts": "fonts",
     "static/icons/*": "/",
-    "static/fonts/*": "/",
     "static/scripts/*": "/",
     "static/*.yml": "/",
     "static/*images/*": "/",
