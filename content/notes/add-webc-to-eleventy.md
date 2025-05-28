@@ -1,6 +1,7 @@
 ---
 title: Add WebC to Eleventy
 tags:
+  - eleventy
 created: 2025-05-28
 updated: 2025-05-28
 ---

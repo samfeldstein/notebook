@@ -1,24 +1,25 @@
 // https://github.com/11ty/eleventy/releases/tag/v3.0.0-beta.1
 // https://www.11ty.dev/blog/canary-eleventy-v3/#new-features-and-a-short-upgrade-guide
 
-// Import from other config files
+// Import functions from other config files
+import plugins from './config/plugins.js';
+import tranforms from './config/tranforms.js';
 import collections from './config/collections.js';
 import feed from './config/feed.js';
 // Import dependencies
-import htmlmin from "html-minifier-terser";
 import CleanCSS from "clean-css";
 import markdownIt from "markdown-it";
 import markdownItReplaceLink from "markdown-it-replace-link";
-import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import { DateTime } from "luxon";
-
-import mathjaxPlugin from "eleventy-plugin-mathjax";
 
 export default function (eleventyConfig) {
   // Call functions from other config files
+  plugins(eleventyConfig);
+  tranforms(eleventyConfig);
   collections(eleventyConfig);
   feed(eleventyConfig);
 
+  // Pass static content to output
   eleventyConfig.addPassthroughCopy({
     // Pass through the folders' contents, but not the folders themselves
     "static/icons/*": "/",
@@ -29,62 +30,12 @@ export default function (eleventyConfig) {
     "static/*.txt": "/"
   });
 
-  // PLUGINS
-  
-  // Syntax highlighting
-  eleventyConfig.addPlugin(syntaxHighlight);
-  // Mathjax
-  eleventyConfig.addPlugin(mathjaxPlugin);
-
-
-  // Strip .md extension from links
-  eleventyConfig.addTransform("md-link", function (content) {
-    if (this.page.outputPath?.endsWith(".html")) { // Only for HTML output
-      return content.replace(/\.md\b/g, ""); // Remove .md extension
-    }
-    return content;
-  });
-
-  // Transform wikilinks
-  eleventyConfig.addTransform("wikilink", function (content) {
-    if (this.page.outputPath?.endsWith(".html")) {
-      return (
-        content
-          // Remove outer brackets
-          // Credit: https://github.com/juanfrank77/foam-eleventy-template/blob/master/.eleventy.js
-          .replace(/(\[+(<a.*?<\/a>)\]+)/g, "$2")
-          // Remove text before pipe (eg [[link|text]]>>>[[text]])
-          // Credit: Claude.ai
-          .replace(/<a[^>]*>(.*?)<\/a>/g, (match, text) => {
-            const pipeText = text.match(/\|(.+)/)?.[1]?.trim();
-            return pipeText ? match.replace(text, pipeText) : match;
-          })
-      );
-    }
-    return content;
-  });
-
   // Exclude private notes from build (files will still show up in git, so we're still using the /private/ folder method)
   // https://www.11ty.dev/docs/config-preprocessors/
   eleventyConfig.addPreprocessor("privateNotes", "*", (data, content) => {
     if (data.private && process.env.ELEVENTY_RUN_MODE === "build") {
       return false;
     }
-  });
-
-  // Minify html
-  eleventyConfig.addTransform("htmlmin", function (content) {
-    if ((this.page.outputPath || "").endsWith(".html")) {
-      let minified = htmlmin.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true,
-      });
-
-      return minified;
-    }
-    // If not an HTML output, return content as-is
-    return content;
   });
 
   let markdownItOptions = {
