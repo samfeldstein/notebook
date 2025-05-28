@@ -5,7 +5,7 @@ export default function (eleventyConfig) {
     type: "atom", // or "rss", "json"
     outputPath: "/feed.xml",
     collection: {
-      name: "notes",
+      name: "notesFeed",
       limit: 10, // 0 means no limit
     },
     metadata: {
@@ -20,4 +20,3 @@ export default function (eleventyConfig) {
     }
   });
 }
-
