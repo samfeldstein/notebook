@@ -10,8 +10,9 @@ updated: 2025-05-04
 
 ## Tips & Tools
 
-- [Internet Search Tips](https://www.gwern.net/Search)  
-- [Refine Web Searches](https://support.google.com/websearch/answer/2466433)
+- [Internet Search Tips](https://www.gwern.net/Search) by Gwern
+- [Google Search Operators](https://ahrefs.com/blog/google-advanced-search-operators/
+- [Refine Google Searches](https://support.google.com/websearch/answer/2466433)
 
 ### Search engines
 

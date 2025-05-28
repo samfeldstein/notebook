@@ -28,9 +28,11 @@ updated: 2025-05-24
 
 - Shanahan Ridge
 - El Dorado Canyon
-- Estes Park
 
 ## Music
 
 - Gold Hill
+
+### festivals
+
 - [Boulder Creek Festival](https://bouldercreekfest.com/)

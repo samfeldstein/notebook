@@ -54,7 +54,7 @@ export default function (eleventyConfig) {
       language: "en",
       title: "Sam Feldstein's Notebook",
       subtitle: "Sam Feldstein's digital notebook.",
-      base: "https://notebook.samfeldstein.xyz/",
+      base: "https://notes.samfeldstein.xyz/",
       author: {
         name: "Sam Feldstein",
         email: "sam@samfeldstein.xyz", // Optional

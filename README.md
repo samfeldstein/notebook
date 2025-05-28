@@ -24,4 +24,4 @@ A wiki-like digital knowledge base.
 
 The site is published with [Cloudflare Pages](https://pages.cloudflare.com).
 
-You can read more about this website in [my notes on the subject](https://notebook.samfeldstein.xyz/notes/digital-notebook-project-notes/).
+You can read more about this website in [my notes on the subject](https://notes.samfeldstein.xyz/notes/digital-notebook-project-notes/).

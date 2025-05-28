@@ -3,7 +3,7 @@ export const site = {
   title: "Sam Feldstein's Digital Notebook",
   description:
     "Collected notes and thoughts.",
-  url: "https://notebook.samfeldstein.xyz/",
+  url: "https://notes.samfeldstein.xyz/",
 };
 
 // Information about you (optional)
