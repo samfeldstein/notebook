@@ -4,6 +4,8 @@
 
 {# Include icons partial #}
 {% include "partials/icons.njk" %}
+{# Preload #}
+<link rel="preload" href="/fonts/CMUTypewriterVariable.woff2" as="font" type="font/woff2" crossorigin>
 <title>{{ title }}</title>
 <meta name="description" content="{{ description or title or config.site.description }}" />
 <link rel="sitemap" href="/sitemap.xml" />
