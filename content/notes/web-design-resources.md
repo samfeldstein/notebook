@@ -1,9 +1,7 @@
 ---
 title: Web Design Resources
-tags: 
+tags:
   - web-development
-  - web-design
-  - design
 created: 2025-02-28
 updated: 2025-02-28
 ---

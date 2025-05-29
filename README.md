@@ -22,6 +22,4 @@ A wiki-like digital knowledge base.
 - Markdown for content, managed by Obsidian
 - Pagefind for search
 
-The site is published with [Cloudflare Pages](https://pages.cloudflare.com).
-
-You can read more about this website in [my notes on the subject](https://notes.samfeldstein.xyz/notes/digital-notebook-project-notes/).
+I publish the site with [Cloudflare Pages](https://pages.cloudflare.com).
