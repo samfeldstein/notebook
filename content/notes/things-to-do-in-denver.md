@@ -9,13 +9,13 @@ updated: 2025-05-24
 
 ## Food
 
-- https://www.reddit.com/r/denverfood/
+- [r/denverfood](https://www.reddit.com/r/denverfood/)
 
 ## Music
 
-- Cervantes
+- [Cervantes](https://cervantesmasterpiece.com/)
 
 ## Resources
 
-- https://www.coloradodirectory.com/denverarea/
-- https://secretdenver.com/
+- [Colorado Directory](https://www.coloradodirectory.com/denverarea/)
+- [Secret Denver](https://secretdenver.com/)

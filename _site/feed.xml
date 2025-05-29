@@ -4,12 +4,57 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-05-29T00:08:00Z</updated>
+  <updated>2025-05-29T20:46:18Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
+  <entry>
+    <title>E-readers</title>
+    <link href="https://notes.samfeldstein.xyz/notes/e-readers/" />
+    <updated>2025-05-29T20:46:18Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/e-readers/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;At a glance, &lt;a href=&quot;https://www.kobo.com/us/en/ebooks&quot;&gt;Kobo&lt;/a&gt; seems to be the best option.&lt;/p&gt;&lt;p&gt;Some recommend &lt;a href=&quot;https://calibre-ebook.com/&quot;&gt;Calibre&lt;/a&gt; for managing files. I believe you can sync it with Kobo.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Long-tail User Needs</title>
+    <link href="https://notes.samfeldstein.xyz/notes/long-tail-user-needs/" />
+    <updated>2025-05-29T19:50:49Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/long-tail-user-needs/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;&lt;p&gt;Long-tail user needs, like “Is this passable at low tide?” represent a comparatively small group of people, yet the investment required to build an adequate solution often remains the same.&lt;/p&gt;&lt;p&gt;Kasey Klimes, &lt;a href=&quot;https://newsletter.rhizomerd.com/p/when-to-design-for-emergence&quot;&gt;When to Design for Emergence&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Dance as Hedonic Design</title>
+    <link href="https://notes.samfeldstein.xyz/notes/dance-as-hedonic-design/" />
+    <updated>2025-05-29T19:36:23Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/dance-as-hedonic-design/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;&lt;p&gt;The Maverick is a marvel of hedonic design. The ride begins with a literal peak, a 105-foot hill with a 95-degree drop. The track is packed with variators, banks and turns and flips and something called a “twisted horseshoe roll.”&lt;/p&gt;&lt;p&gt;Then there’s a disruptor: the train comes almost to a standstill inside a tunnel, convincing first-timers that either the ride is over or something’s gone wrong. Then another peak: you suddenly accelerate to 70mph in three seconds, blasting out of the tunnel and into the sky.&lt;/p&gt;&lt;p&gt;The finale is a rapid-fire series of banks, spins, and a flight over a canyon where you dodge cannons firing water plumes. The cutoff comes after a mere 150 seconds, just before your brain is totally liquified inside your skull. Recyclers are available as you stagger off the ride: they’ve taken a photo of you screaming your head off, and you can take it home for a mere $20.&lt;/p&gt;&lt;p&gt;&lt;cite&gt;Adam Mastroianni, &lt;a href=&quot;https://www.experimental-history.com/p/the-five-tools-of-hedonic-design?s=w&amp;amp;__readwiseLocation=&quot;&gt;The Five Tools of Hedonic Design&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;strong&gt;Dance is a roller coaster.&lt;/strong&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Lexicographic Resources</title>
+    <link href="https://notes.samfeldstein.xyz/notes/lexicographic-resources/" />
+    <updated>2025-05-29T16:08:35Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/lexicographic-resources/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://wordnet.princeton.edu/&quot;&gt;&lt;strong&gt;WordNet&lt;/strong&gt;&lt;/a&gt;. Princeton&#39;s lexical database of English.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Unix Resources</title>
+    <link href="https://notes.samfeldstein.xyz/notes/unix-resources/" />
+    <updated>2025-05-29T15:48:47Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/unix-resources/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://unixtutorial.org/&quot;&gt;unixtutorial.org&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
   <entry>
     <title>Second Order Relationships Between Notes</title>
     <link href="https://notes.samfeldstein.xyz/notes/second-order-relationships-between-notes/" />
@@ -53,64 +98,6 @@
     <id>https://notes.samfeldstein.xyz/notes/where-to-find-flights/</id>
     <content type="html">
 &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;Google Flights&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.google.com/travel/explore&quot;&gt;Google Flights Explore&lt;/a&gt;&lt;ul&gt;&lt;li&gt;Set an approximate destination and time and it&#39;ll send you cheap flights.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Rome2Rio&lt;/li&gt;&lt;li&gt;Skyscanner&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.mattsflights.com&quot;&gt;Matt&#39;s Flights&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Digital Notebook Deployment Process</title>
-    <link href="https://notes.samfeldstein.xyz/notes/digital-notebook-deployment-process/" />
-    <updated>2025-05-28T17:45:12Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/digital-notebook-deployment-process/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Build and push manually. I started doing this because I was having trouble with my atom feed. When I built locally, everything is in the correct order (descending chronologically, according to most recently updated). But when Cloudflare built the site, the feed was out of order. I couldn&#39;t figure out why, so I eliminated that step.&lt;/p&gt;&lt;p&gt;I don&#39;t mind building locally too much, because it gives me a chance to catch errors.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Add WebC to Eleventy</title>
-    <link href="https://notes.samfeldstein.xyz/notes/add-webc-to-eleventy/" />
-    <updated>2025-05-28T15:48:07Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/add-webc-to-eleventy/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; pluginWebc &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;@11ty/eleventy-plugin-webc&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;eleventyConfig&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addPlugin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;pluginWebc&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;token comment&quot;&gt;// Glob to find no-import global components&lt;/span&gt;
-	&lt;span class=&quot;token literal-property property&quot;&gt;components&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;_includes/components/**/*.webc&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-	&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Splitting Your Eleventy Configuration File</title>
-    <link href="https://notes.samfeldstein.xyz/notes/splitting-your-eleventy-configuration-file/" />
-    <updated>2025-05-28T15:11:17Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/splitting-your-eleventy-configuration-file/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Create a folder for your configuration files. You can call it what you want. I&#39;ll call it &lt;code&gt;config&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;Create a configuration file. I&#39;ll use &lt;code&gt;collections.js&lt;/code&gt; as an example:&lt;/p&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;eleventyConfig&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addCollection&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;notes&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;collectionApi&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; collectionApi&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getFilteredByGlob&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;content/notes/*.md&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The above function returns a collection called &lt;em&gt;notes.&lt;/em&gt; It takes &lt;code&gt;eleventyConfig&lt;/code&gt; as a parameter because &lt;code&gt;eleventyConfig&lt;/code&gt; isn&#39;t a global variable, meaning it&#39;s only available within the main config function that Eleventy calls. When you split your config, you need to pass &lt;code&gt;eleventyConfig&lt;/code&gt; down to each module so they can call methods like &lt;code&gt;addCollection()&lt;/code&gt;, &lt;code&gt;addFilter()&lt;/code&gt;, etc.&lt;/p&gt;&lt;p&gt;Import the function into your main configuration file (mine&#39;s called &lt;code&gt;.eleventy.js&lt;/code&gt;):&lt;/p&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; collections &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;./config/collections.js&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Then call the function inside your &lt;code&gt;eleventyConfig&lt;/code&gt; function:&lt;/p&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;eleventyConfig&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;token function&quot;&gt;collections&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.11ty.dev/docs/config/&quot;&gt;Eleventy Configuration&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.lenesaile.com/en/blog/organizing-the-eleventy-config-file/&quot;&gt;Organizing the Eleventy Config File&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Things to Do in Jamestown, CO</title>
-    <link href="https://notes.samfeldstein.xyz/notes/things-to-do-in-jamestown,-co/" />
-    <updated>2025-05-24T23:37:41Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/things-to-do-in-jamestown,-co/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;Jamestown Mercantile&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Things to Do in Estes Park</title>
-    <link href="https://notes.samfeldstein.xyz/notes/things-to-do-in-estes-park/" />
-    <updated>2025-05-24T23:16:05Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/things-to-do-in-estes-park/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2&gt;Around town&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Riverwalk&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Hiking&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Rocky Mountain National Park&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Sightseeing&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Stanley Hotel&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.coloradodirectory.com/maps/trailridgeroad.html&quot;&gt;Trail Ridge Road Scenic Byway&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>

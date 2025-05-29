@@ -3,15 +3,7 @@ title: Design for Emergence
 tags: ["design"]
 ---
 
-Design for emergence serves the "long-tail" of user needs. 
-
-## The Problem with Long-tail User Needs
-
-> *Long-tail user needs, like “Is this passable at low tide?” represent a comparatively small group of people, yet the investment required to build an adequate solution often remains the same.*
->
-> Kasey Klimes, "When to Design for Emergence"
-
-## How to Design for Emergence
+Design for emergence serves the ["long-tail"](notes/long-tail-user-needs.md) of user needs.
 
 According to Gordon Brander, design for emergence needs: 
 
@@ -21,5 +13,5 @@ According to Gordon Brander, design for emergence needs:
 
 ## Further Reading
 
-- ["Low floors, wide walls, high ceiling"](https://gordonbrander.com/pattern/low-floor-wide-walls-high-ceiling/) by Gordon Brander
-- ["When to Design for Emergence"](https://newsletter.rhizomerd.com/p/when-to-design-for-emergence) by Kasey Klime
+- [Low floors, wide walls, high ceiling](https://gordonbrander.com/pattern/low-floor-wide-walls-high-ceiling/) by Gordon Brander
+- [When to Design for Emergence](https://newsletter.rhizomerd.com/p/when-to-design-for-emergence) by Kasey Klime
