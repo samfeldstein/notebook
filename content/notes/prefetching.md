@@ -7,7 +7,7 @@ created: 2024-12-27
 updated: 2024-12-27
 ---
 
-## Native
+## Browser native
 
 ```javascript
 <script type="speculationrules">

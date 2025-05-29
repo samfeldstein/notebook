@@ -1,5 +1,5 @@
 ---
-title: How to Add Dynamic Titles in a Custom WordPress Theme
+title: Dynamic Title Tags in WordPress Theme
 created: 2025-02-22
 updated: 2025-02-22
 tags:
@@ -7,11 +7,7 @@ tags:
   - wordpress
 ---
 
-## Problem
-
 In a WordPress theme, the `<head>` element goes in the `header.php` template, which you can then include in your pages using `get_header()`. But you can't hardcode the `<title>`, or it'd be the same for every page.
-
-### Solution
 
 WordPress provides built-in support for dynamic titles. To enable it, add the following line to your `functions.php` file:
 

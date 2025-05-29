@@ -10,7 +10,7 @@ updated: 2024-12-27
 - Use component architecture with scoped styles and scripts.
 - Inline styles and scripts.
 - Minify
-- [Optimize fonts](notes/how-to-optimize-web-fonts.md).
+- [Optimize fonts](notes/optimize-web-fonts.md).
 - [Optimize images](notes/how-to-optimize-web-images.md).
 - [Prefetch/prerender links and assets](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/speculationrules).
 	- For a small site, manually adding `rel="prefetch"` is easiest.

@@ -1,5 +1,5 @@
 ---
-title: How to Add Dynamic Meta Descriptions in a WordPress Theme
+title: Dynamic Meta Descriptions in WordPress
 created: 2025-02-22
 updated: 2025-02-22
 tags:
@@ -7,11 +7,7 @@ tags:
   - wordpress
 ---
 
-## Problem
-
 In a WordPress theme, the `<head>` element goes in the `header.php` template, which you can then include in your pages using `get_header()`. But anything you hard-code in there will be the same for every page. Not going to work for `<meta>` descriptions.
-
-## Solution
 
 To dynamically generate page `<meta>` descriptions in WordPress, you'll need to add two functions to your `functions.php` file:
 

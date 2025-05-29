@@ -1,5 +1,5 @@
 ---
-title: How to Build a Simple Contact Form in Wordpress
+title: Build a Wordpress Contact Form
 tags:
   - web-development
   - wordpress
@@ -76,8 +76,6 @@ wp_redirect(home_url('/success/'));
 exit;
 }
 ```
-
-Should be pretty straightforward.
 
 To enable the function, add these lines to `functions.php`:
 
