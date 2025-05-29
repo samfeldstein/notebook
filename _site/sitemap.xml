@@ -13,7 +13,7 @@
 		<loc>https://notes.samfeldstein.xyz/notes/atheism/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/blog-checklist/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/blog-post-checklist/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/made-of-memories-acceptance-letter/</loc>
@@ -49,10 +49,10 @@
 		<loc>https://notes.samfeldstein.xyz/notes/design-for-emergence/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/digital-note-taking/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/digital-notebook-project-notes/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/digital-notebook-project-notes/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/digital-notebooks/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/discomfort/</loc>
@@ -74,9 +74,6 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/enthusiasm/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/favorite-artists/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/favorite-photographers/</loc>
@@ -391,7 +388,7 @@
 		<loc>https://notes.samfeldstein.xyz/notes/ebooks/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/KML-files/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/generate-flight-path-from-kml/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/</loc>
@@ -406,10 +403,10 @@
 		<loc>https://notes.samfeldstein.xyz/notes/compare-file-contents-in-terminal/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/how-to-run-a-zsh-script/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/run-a-zsh-script/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/how-to-search-for-a-string-in-a-file-from-the-command-line/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/search-for-a-string-in-a-file-from-the-command-line/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/loss-aversion/</loc>
@@ -424,10 +421,10 @@
 		<loc>https://notes.samfeldstein.xyz/notes/bug-bounty/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/how-to-add-a-zsh-script-to-your-path/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/add-a-zsh-script-to-your-path/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/applying-a-default-template-in-obsidian-using-a-shell-script/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/apply-a-default-template-in-obsidian-using-a-shell-script/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/preview-a-file-from-the-command-line/</loc>
@@ -470,6 +467,12 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/digital-notebook-roadmap/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/digital-notebooks-vs-blogs/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/second-order-relationships-between-notes/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/feed.xml</loc>

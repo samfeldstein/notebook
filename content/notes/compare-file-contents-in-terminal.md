@@ -1,5 +1,5 @@
 ---
-title: How to Compare File Contents in the Linux Terminal
+title: Compare File Contents in the Terminal
 tags:
   - command-line
 created: 2025-05-22

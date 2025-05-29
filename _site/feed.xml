@@ -4,12 +4,30 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-05-28T23:31:28Z</updated>
+  <updated>2025-05-29T00:08:00Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
+  <entry>
+    <title>Second Order Relationships Between Notes</title>
+    <link href="https://notes.samfeldstein.xyz/notes/second-order-relationships-between-notes/" />
+    <updated>2025-05-29T00:08:00Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/second-order-relationships-between-notes/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;If A is related to B, and B is related to C, then A has a second-order relationship to C. But Foam doesn&#39;t generate these relationships.&lt;/p&gt;&lt;p&gt;As &lt;a href=&quot;https://www.kaseyklimes.com/notes/2019/10/16/an-augmented-mind-designing-a-personal-knowledge-base-with-notion&quot;&gt;Kasey Klimes&lt;/a&gt; notes, second-order relationships are by definition less obvious than first order relationships. So second order relationships hold even more potential for surprising insights.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Digital Notebooks vs Blogs</title>
+    <link href="https://notes.samfeldstein.xyz/notes/digital-notebooks-vs-blogs/" />
+    <updated>2025-05-29T00:04:26Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/digital-notebooks-vs-blogs/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Blog posts are for capturing thoughts in a time-context. They&#39;re like journal entries that way. When they&#39;re written matters as much what they&#39;re about.&lt;/p&gt;&lt;p&gt;Digital notes are more like living documents, to be updated as you learn.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
   <entry>
     <title>Digital Notebook Roadmap</title>
     <link href="https://notes.samfeldstein.xyz/notes/digital-notebook-roadmap/" />
@@ -93,24 +111,6 @@
     <id>https://notes.samfeldstein.xyz/notes/things-to-do-in-estes-park/</id>
     <content type="html">
 &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2&gt;Around town&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Riverwalk&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Hiking&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Rocky Mountain National Park&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Sightseeing&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Stanley Hotel&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.coloradodirectory.com/maps/trailridgeroad.html&quot;&gt;Trail Ridge Road Scenic Byway&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Things to Do in Denver</title>
-    <link href="https://notes.samfeldstein.xyz/notes/things-to-do-in-denver/" />
-    <updated>2025-05-24T23:03:29Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/things-to-do-in-denver/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2&gt;Food&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;https://www.reddit.com/r/denverfood/&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Music&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Cervantes&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Resources&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;https://www.coloradodirectory.com/denverarea/&lt;/li&gt;&lt;li&gt;https://secretdenver.com/&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Things to Do in Boulder</title>
-    <link href="https://notes.samfeldstein.xyz/notes/things-to-do-in-boulder/" />
-    <updated>2025-05-24T22:58:22Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/things-to-do-in-boulder/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2&gt;Around town&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Pearl Street&lt;/li&gt;&lt;li&gt;Mapleton Street (nice houses)&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Dance&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Avalon Ballroom&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Nearby towns&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Jamestown&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Sightseeing&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.coloradodirectory.com/maps/peak.html&quot;&gt;Peak to peak scenic byway&lt;/a&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.uncovercolorado.com/towns/ward/&quot;&gt;Ward&lt;/a&gt; (ghost town)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Hiking&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Shanahan Ridge&lt;/li&gt;&lt;li&gt;El Dorado Canyon&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Music&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Gold Hill&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;festivals&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://bouldercreekfest.com/&quot;&gt;Boulder Creek Festival&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>
