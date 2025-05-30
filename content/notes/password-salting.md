@@ -5,6 +5,7 @@ tags:
 created: 2025-05-06
 updated: 2025-05-06
 ---
+
 When you “salt” a password, it means you add random data to a password before hashing it.
 
 How it works:

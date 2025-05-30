@@ -1,5 +1,5 @@
 ---
-title: Splitting Your Eleventy Configuration File
+title: Split Eleventy Configuration File
 tags:
   - eleventy
 created: 2025-05-28

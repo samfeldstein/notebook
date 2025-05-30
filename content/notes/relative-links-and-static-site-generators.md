@@ -1,6 +1,9 @@
 ---
 title: Relative Links and Static Site Generators
-tags: ["static-site-generators","html","markdown"]
+tags:
+  - static-site-generators
+  - html
+  - markdown
 ---
 
 ## The Problem

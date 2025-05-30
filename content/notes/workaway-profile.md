@@ -1,6 +1,8 @@
 ---
 title: Workaway Profile
-tags: ["travel","workaway"]
+tags:
+  - travel
+  - workaway
 ---
 
 ## Description

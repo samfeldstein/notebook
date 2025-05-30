@@ -30,8 +30,7 @@ function dynamic_meta_description() {
 ```
 
 ```php
-function enable_page_excerpts()
-{
+function enable_page_excerpts() {
   // Enable support for excerpts on WordPress pages
   // By default, excerpts are only available for posts
   add_post_type_support('page', 'excerpt');

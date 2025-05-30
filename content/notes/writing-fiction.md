@@ -1,6 +1,9 @@
 ---
 title: Writing Fiction
-tags: ["writing","fiction","storytelling"]
+tags:
+  - writing
+  - fiction
+  - storytelling
 created: 2024-10-05
 ---
 

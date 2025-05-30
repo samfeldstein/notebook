@@ -1,6 +1,10 @@
 ---
 title: Pairings - Project Notes
-tags: ["projects","software","javascript","programming"]
+tags:
+  - projects
+  - software
+  - javascript
+  - programming
 ---
 
 I had a friend who taught theology at a Catholic school and needed a way to pair her students with a random saint for a project. She hadn't yet found a tool for the job, so I built one for her.

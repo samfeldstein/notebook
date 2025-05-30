@@ -1,6 +1,7 @@
 ---
 title: Psychology
-tags: ["psychology"]
+tags:
+  - psychology
 ---
 
 ## What is the part of our brain that can't distinguish fiction from reality?

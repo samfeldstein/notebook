@@ -1,6 +1,7 @@
 ---
 title: Tags vs Backlinks
-tags: ["knowledge-management"]
+tags:
+  - digital-notebooks
 ---
 
 I started thinking about this because Obsidian Publish doesn't render tags if they're in a note's frontmatter. So then I started thinking about the potential downsides of [putting them in the body](notes/markdown-frontmatter.md). But then I was reading the Foam documentation (I intend to eventually move my notes to my main site using Foam) and it mentioned that some people use [backlinks instead of tags](https://foambubble.github.io/foam/user/features/tags.html#using-backlinks-in-place-of-tags). That sounded strange, but when I thought about it, I realized that you actually *could* replace tags with backlinks if you wanted. The question is whether it's a good idea.

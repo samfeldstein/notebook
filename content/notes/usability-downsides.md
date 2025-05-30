@@ -6,6 +6,7 @@ tags:
 created: 2024-10-24
 updated: 2024-10-27
 ---
+
 ## Obscurity
 
 You make things easy by hiding underlying complexity. The simpler a tool, the harder it is (and the less relevant it becomes) to know how the tool works. **Use increases while understanding decreases**.

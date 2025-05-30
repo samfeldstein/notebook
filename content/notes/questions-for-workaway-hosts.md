@@ -1,6 +1,8 @@
 ---
 title: Questions for Workaway Hosts
-tags: ["travel","workaway"]
+tags:
+  - travel
+  - workaway
 ---
 
 1. Living situation

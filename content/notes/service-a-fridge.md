@@ -1,5 +1,5 @@
 ---
-title: How to Service a Fridge
+title: Service a Fridge
 ---
 
 Try:

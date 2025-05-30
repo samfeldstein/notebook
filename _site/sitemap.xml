@@ -205,9 +205,6 @@
 		<loc>https://notes.samfeldstein.xyz/notes/problem-sizes/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/programming/</loc>
-	</url>
-	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/psychology/</loc>
 	</url>
 	<url>
@@ -215,12 +212,6 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/questions-for-workaway-hosts/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/readwise-issues/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/rejection-letters/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/relationships/</loc>
@@ -235,7 +226,7 @@
 		<loc>https://notes.samfeldstein.xyz/notes/seo/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/service-fridge/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/service-a-fridge/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/solar-power/</loc>
@@ -247,10 +238,7 @@
 		<loc>https://notes.samfeldstein.xyz/notes/ground-transportation/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/storytelling/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/stupid-questions-only/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/story-structure/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/symmetry/</loc>
@@ -274,9 +262,6 @@
 		<loc>https://notes.samfeldstein.xyz/notes/travel-insurance/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/travel-packing-list/</loc>
-	</url>
-	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/usability-downsides/</loc>
 	</url>
 	<url>
@@ -287,15 +272,6 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/how-to-build-a-website/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/veganism/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/vivaldi-issues/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/volunteering/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/voting/</loc>
@@ -319,16 +295,13 @@
 		<loc>https://notes.samfeldstein.xyz/notes/what-is-dance/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/when-not-to-ask-why/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/wordpress-development-resources/</loc>
-	</url>
-	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/wordpress-dynamic-meta-descriptions/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/wordpress-dynamic-title-tags/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/wordpress-resources/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/workaway-profile/</loc>
@@ -370,16 +343,13 @@
 		<loc>https://notes.samfeldstein.xyz/notes/switching-to-colemak-keyboard/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/spanish/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/spanish-resources/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/ebooks/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/generate-flight-path-from-kml/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/open-source-intelligence/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/</loc>
@@ -445,7 +415,7 @@
 		<loc>https://notes.samfeldstein.xyz/notes/things-to-do-in-jamestown,-co/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/splitting-your-eleventy-configuration-file/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/split-eleventy-configuration-file/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/add-webc-to-eleventy/</loc>
@@ -482,6 +452,45 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/e-readers/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/user-datagram-protocol/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/least-privilege/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/hashing/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/grep/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/micro-text-editor/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/pasta-threat-modeling/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/command-line-resources/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/cybersecurity-resources/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/story-tropes/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/fiction-writing-process/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/the-gift-god-left-rejection-letters/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/programming-languages-to-learn/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/favorite-software/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/feed.xml</loc>

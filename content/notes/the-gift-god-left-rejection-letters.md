@@ -1,11 +1,12 @@
 ---
-title: Rejection Letters
-tags: ["writing"]
+title: '"The Gift God Left" Rejection Letters'
+tags:
+  - stories
+created: 2025-05-30
+updated: 2025-05-30
 ---
 
-## "The Gift God Left"
-
-### *Typishly*
+## *Typishly*
 
 Hello Sam.
 
@@ -17,7 +18,7 @@ Be well. Be creative.
 
 Jon
 
-### *Uncanny*
+## *Uncanny*
 
 Dear Sam,  
   
@@ -29,7 +30,7 @@ Best,
   
 The Uncanny Magazine Editors  
 
-### *MetaStellar*
+## *MetaStellar*
 
 Dear Sam—
 
@@ -53,7 +54,7 @@ Best,
 
 Maria
 
-### *Metaworker*
+## *Metaworker*
 
 Dear Sam,  
   
@@ -63,7 +64,7 @@ Thank you very much for your submission!
   
 The Metaworker Literary Magazine
 
-### *Zombies Need Brains*
+## *Zombies Need Brains*
 
 Zombies Need Brains LLC wants to thank you for your submission to the ARTIFICE & CRAFT anthology. While we enjoyed reading the story, we have decided to pass on including it in the anthology.  
   
@@ -72,44 +73,3 @@ We hope to see submissions from you in our future anthologies and wish you luck 
 Joshua Palmatier, Founder/Editor  
 David B. Coe/Editor  
 Edmund R. Schubert/Editor
-
----
-
-## "The Glimmering Thing"
-
-### *Tales to Terrify*
-
-Hello Sam,  
-  
-We want to thank you for submitting "The Glimmering Thing" to Tales to Terrify. We have decided not to accept it for publication and wish you success publishing your story elsewhere.  
-  
-Best,  
-  
-The Fiction Team
-
-### *Three-Lobed Burning Eye*
-
-Sam Wise,
-
-Thank you for sharing your story with Three-Lobed Burning Eye magazine. After careful consideration, we have decided this piece is not quite for us. We wish you the best in finding its home, and look forward to reading more from you.
-
-Sincerely,  
-Andrew F.
-
-## "Karma and the Feline Disposition"
-
-### *The Sun*
-
-Dear Sam,
-
-Thanks for sending us "Karma and the Feline Disposition." We're sorry to say that this submission isn't right for _The Sun_.
-
-This isn't a reflection on your writing. The selection process is highly subjective, something of a mystery even to us. There's no telling what we'll fall in love with, what we'll let get away.
-
-Writing is hard work, and writers merit some acknowledgment. This note doesn't speak to that need. Please know, however, that we've read your work and appreciate your interest in the magazine.
-
-We wish you the best in placing your writing elsewhere.
-
-The Editors
-
-_The Sun_

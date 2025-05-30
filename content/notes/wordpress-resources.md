@@ -1,5 +1,5 @@
 ---
-title: WordPress Development Resources
+title: WordPress Resources
 tags:
   - wordpress
   - web-development

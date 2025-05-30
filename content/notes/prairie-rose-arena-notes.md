@@ -1,6 +1,9 @@
 ---
 title: Prairie Rose Arena - Project Notes
-tags: ["projects", "web-development", "eleventy"]
+tags:
+  - projects
+  - web-development
+  - eleventy
 updated: 2024-10-10
 ---
 

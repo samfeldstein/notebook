@@ -1,5 +1,5 @@
 ---
-title: West Coast Swing
+title: West Coast Swing Resources
 tags:
   - dance
 created: 2024-11-16

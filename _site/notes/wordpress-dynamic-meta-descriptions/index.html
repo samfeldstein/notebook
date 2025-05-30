@@ -22,8 +22,7 @@
     
     <span class="token comment">// Output the meta description tag in the head section of the page</span>
     <span class="token keyword">echo</span> <span class="token string single-quoted-string">'&lt;meta name="description" content="'</span> <span class="token operator">.</span> <span class="token function">esc_attr</span><span class="token punctuation">(</span><span class="token variable">$description</span><span class="token punctuation">)</span> <span class="token operator">.</span> <span class="token string single-quoted-string">'"&gt;'</span> <span class="token operator">.</span> <span class="token string double-quoted-string">"\n"</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre><pre class="language-php"><code class="language-php"><span class="token keyword">function</span> <span class="token function-definition function">enable_page_excerpts</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token punctuation">{</span>
+<span class="token punctuation">}</span></code></pre><pre class="language-php"><code class="language-php"><span class="token keyword">function</span> <span class="token function-definition function">enable_page_excerpts</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token comment">// Enable support for excerpts on WordPress pages</span>
   <span class="token comment">// By default, excerpts are only available for posts</span>
   <span class="token function">add_post_type_support</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'page'</span><span class="token punctuation">,</span> <span class="token string single-quoted-string">'excerpt'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
