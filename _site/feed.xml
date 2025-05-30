@@ -4,12 +4,48 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-05-30T21:46:12Z</updated>
+  <updated>2025-05-30T22:41:07Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
+  <entry>
+    <title>Open Source Intelligence Tools</title>
+    <link href="https://notes.samfeldstein.xyz/notes/open-source-intelligence-tools/" />
+    <updated>2025-05-30T22:41:07Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/open-source-intelligence-tools/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2&gt;Tools&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://intelx.io/&quot;&gt;Intelligence X&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.judyrecords.com/&quot;&gt;Judy Records&lt;/a&gt; is a search engine that lets you instantly search hundreds of millions of United States court cases and lawsuits.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.spokeo.com/&quot;&gt;&lt;strong&gt;Spokeo&lt;/strong&gt;&lt;/a&gt;. Confidentially lookup information about people you know such as yourself, friends, family, acquaintances, and old classmates.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://pipl.com/&quot;&gt;&lt;strong&gt;Pipl&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.skopenow.com/&quot;&gt;&lt;strong&gt;Skopenow&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://aleph.occrp.org/&quot;&gt;&lt;strong&gt;OCCRP Aleph&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;People&lt;/h3&gt;&lt;h4&gt;Usernames&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Web-based tools:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://epieos.com/&quot;&gt;Epieos&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://whatsmyname.app&quot;&gt;Whatsmyname&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://usersearch.org&quot;&gt;UserSearch&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://namechk.com&quot;&gt;Namechk&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://userhunt.co&quot;&gt;Userhunt&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://instantusername.com&quot;&gt;InstantUsername&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://checkusernames.com&quot;&gt;CheckUsernames&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;CLI tools:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/sherlock-project/sherlock&quot;&gt;Sherlock&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/soxoj/maigret&quot;&gt;Maigret&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/qeeqbox/social-analyzer&quot;&gt;Social-Analyzer&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Websites&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.whoxy.com/&quot;&gt;Whoxy&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Everything&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.shodan.io/&quot;&gt;Shodan&lt;/a&gt;. Search engine for Internet-connected devices.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Resources&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://osintframework.com/&quot;&gt;OSINT Framework&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://tools.myosint.training/&quot;&gt;My OSINT tools&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/cipher387/osint_stuff_tool_collection&quot;&gt;Cyber Detective&#39;s GitHub&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Open Source Intelligence Careers</title>
+    <link href="https://notes.samfeldstein.xyz/notes/open-source-intelligence-careers/" />
+    <updated>2025-05-30T22:38:53Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/open-source-intelligence-careers/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2&gt;Careers&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://notes.samfeldstein.xyz/notes/open-source-intelligence-careers/career-guide#Threat%20Intelligence%20Analyst&quot;&gt;Threat Intelligence Analyst&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Journalism&lt;ul&gt;&lt;li&gt;Disinformation and fact-checking&lt;/li&gt;&lt;li&gt;Anti-corruption/watchdog&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Law enforcement&lt;ul&gt;&lt;li&gt;Missing persons/fugitives&lt;ul&gt;&lt;li&gt;Private Investigation&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Political opposition research&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Resources&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.osint.industries/post/osint-careers-101-jobs-in-cybersecurity-law-enforcement-and-more&quot;&gt;OSINT Industries&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Sock Puppet Accounts</title>
+    <link href="https://notes.samfeldstein.xyz/notes/sock-puppet-accounts/" />
+    <updated>2025-05-30T22:37:01Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/sock-puppet-accounts/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.fakenamegenerator.com/&quot;&gt;Fake Name Generator&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://this-person-does-not-exist.com/en&quot;&gt;This Person Does Not Exist&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.privacy.com/&quot;&gt;Privacy.com&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Resources&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://books.google.com/books/about/Hiding_from_the_Internet.html?id=rULcoAEACAAJ&quot;&gt;Hiding from the Internet&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Open Source Intelligence Life Cycle</title>
+    <link href="https://notes.samfeldstein.xyz/notes/open-source-intelligence-life-cycle/" />
+    <updated>2025-05-30T22:36:24Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/open-source-intelligence-life-cycle/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ol&gt;&lt;li&gt;Planning and Direction&lt;/li&gt;&lt;li&gt;Collection&lt;/li&gt;&lt;li&gt;Processing and Exploitation&lt;/li&gt;&lt;li&gt;Analysis and Production&lt;/li&gt;&lt;li&gt;Dissemination&lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
   <entry>
     <title>Favorite Software</title>
     <link href="https://notes.samfeldstein.xyz/notes/favorite-software/" />
@@ -62,42 +98,6 @@
     <id>https://notes.samfeldstein.xyz/notes/cybersecurity-resources/</id>
     <content type="html">
 &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://overthewire.org/wargames/bandit/&quot;&gt;Bandit&lt;/a&gt;. Wargames for beginners.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Command Line Resources</title>
-    <link href="https://notes.samfeldstein.xyz/notes/command-line-resources/" />
-    <updated>2025-05-30T16:52:27Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/command-line-resources/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://cmdchallenge.com/&quot;&gt;CMD Challenge&lt;/a&gt;. Command line puzzles.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>PASTA Threat Modeling</title>
-    <link href="https://notes.samfeldstein.xyz/notes/pasta-threat-modeling/" />
-    <updated>2025-05-30T15:58:10Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/pasta-threat-modeling/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ol&gt;&lt;li&gt;Define objectives&lt;/li&gt;&lt;li&gt;Define technical scope&lt;/li&gt;&lt;li&gt;Decompose application&lt;/li&gt;&lt;li&gt;Threat analysis&lt;/li&gt;&lt;li&gt;Vulnerability analysis&lt;/li&gt;&lt;li&gt;Attack modeling&lt;/li&gt;&lt;li&gt;Risk and impact analysis&lt;/li&gt;&lt;/ol&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://versprite.com/blog/pasta-threat-modeling-solution/&quot;&gt;PASTA threat modeling&lt;/a&gt; on Versprite&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Micro Text Editor</title>
-    <link href="https://notes.samfeldstein.xyz/notes/micro-text-editor/" />
-    <updated>2025-05-30T15:04:16Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/micro-text-editor/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Micro is a simple command line text editor. I prefer it to nano because it offers features like syntax highlighting.&lt;/p&gt;&lt;h2&gt;Help&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/zyedidia/micro/blob/master/runtime/help/options&quot;&gt;Micro options&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Grep</title>
-    <link href="https://notes.samfeldstein.xyz/notes/grep/" />
-    <updated>2025-05-30T14:36:26Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/grep/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;The &lt;code&gt;grep&lt;/code&gt; command searches for a string in a file.&lt;/p&gt;&lt;p&gt;Usage:&lt;/p&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;grep&lt;/span&gt; string file.txt&lt;/code&gt;&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>
