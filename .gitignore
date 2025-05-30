@@ -17,7 +17,7 @@ pnpm-debug.log*
 # Other
 .vscode/
 package-lock.json
-content/notes/private
-content/.obsidian
-content/obsidian-templates
-.obsidian
+content/notes/private/
+content/.obsidian/
+content/obsidian-templates/
+.obsidian/
