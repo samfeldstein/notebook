@@ -1,6 +1,7 @@
 ---
 title: Cybersecurity Careers
 tags:
+  - cybersecurity
 created: 2025-06-05
 updated: 2025-06-05
 ---
