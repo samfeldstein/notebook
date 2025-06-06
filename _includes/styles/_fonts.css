@@ -2,7 +2,8 @@
   font-family: 'CMU Typewriter';
   src: url('/fonts/CMUTypewriter-Bold.woff2') format('woff2'),
     url('/fonts/CMUTypewriter-Bold.woff') format('woff');
-  font-weight: bold;
+  /* Don't really understand how variable width font works, but this keeps bold font bold but the same width as everything else */
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -11,7 +12,7 @@
   font-family: 'CMU Typewriter';
   src: url('/fonts/CMUTypewriterVariable-Italic.woff2') format('woff2'),
     url('/fonts/CMUTypewriterVariable-Italic.woff') format('woff');
-  font-weight: 500;
+  font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
@@ -29,7 +30,7 @@
   font-family: 'CMU Typewriter';
   src: url('/fonts/CMUTypewriterVariable.woff2') format('woff2'),
     url('/fonts/CMUTypewriterVariable.woff') format('woff');
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }

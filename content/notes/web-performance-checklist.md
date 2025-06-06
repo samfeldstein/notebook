@@ -6,8 +6,9 @@ tags:
 updated: 2024-12-27
 ---
 
-- If updating an existing site, [measure current peformance](notes/measure-web-performance.md) so you can compare.
+- If updating an existing site, [measure current performance](notes/measure-web-performance.md) so you can compare.
 - Use component architecture with scoped styles and scripts.
+- Use [content-visibility](https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility).
 - Inline styles and scripts.
 - Minify
 - [Optimize fonts](notes/optimize-web-fonts.md).

@@ -6,10 +6,15 @@ created: 2025-01-01
 updated: 2025-01-01
 ---
 
-- Skiplink
+**Local checks**:
+
+- Add Skiplink
 - Add `:focus` to `:hover` rules
-- [Check color contrast](https://webaim.org/resources/contrastchecker/)
-- [Validate HTML](https://validator.w3.org)
 - Test keyboard accessibility
-- [Audit](https://wave.webaim.org)
 - Test screen reader
+- Check Firefox accessibility tab
+
+**Once deployed:**
+
+- [Validate HTML](https://validator.w3.org)
+- [Audit](https://wave.webaim.org)
