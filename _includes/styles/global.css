@@ -69,7 +69,6 @@ main ul,
 main ol {
   text-align: justify;
   hyphens: auto;
-  margin: 1.5rem 0;
 }
 
 h1,
@@ -199,6 +198,7 @@ blockquote {
   border-top: 1px solid;
   border-bottom: 1px solid;
   margin: 0;
+  padding: 0;
   font-variant: small-caps;
   text-transform: lowercase;
 }

@@ -9,7 +9,7 @@ updated: 2024-10-12
 >
 > These people don’t do as much advanced planning as the conceptual geniuses, but they regard their entire lives as experiments. They try something and learn, and then they try something else and learn more. Their focus is not on their finished work, which they often toss away haphazardly. Their focus is on the process of learning itself: *Am I closer to understanding, to mastering?* They live their lives as a long period of trial and error, trying this and trying that, a slow process of accumulation and elaboration, so the quality of their work peaks late in life. They are the ugly ducklings of human achievement, who, over the decades, turn themselves into swans.
 >
-> [David Brooks](https://www.theatlantic.com/ideas/archive/2024/06/successs-late-bloomers-motivation/678798/)
+> <cite>[David Brooks](https://www.theatlantic.com/ideas/archive/2024/06/successs-late-bloomers-motivation/678798/)</cite>
 
 > Late bloomers tend to have a high tolerance for ambiguity, and can bring multiple ways of thinking to bear on a single complex problem. They also have a high tolerance for inefficiency. They walk through life like a curious person browsing through a bookstore. In old age, the historian Daniel Boorstin wrote, “The amateur spirit has guided my thinking and writing.” He had wandered from subject to subject throughout his life, playing around.
 >
