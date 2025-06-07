@@ -13,6 +13,6 @@ updated: 2024-12-06
 
 Contempt is death to a relationship.
 
-**Signs of contempt:**
+Signs of contempt:
 
 - Eye rolling

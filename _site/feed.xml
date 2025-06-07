@@ -4,12 +4,21 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-07T03:19:21Z</updated>
+  <updated>2025-06-07T03:43:19Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
+  <entry>
+    <title>Share Eleventy Projects</title>
+    <link href="https://notes.samfeldstein.xyz/notes/share-eleventy-projects/" />
+    <updated>2025-06-07T03:43:19Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/share-eleventy-projects/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.11ty.dev/speedlify/&quot;&gt;Eleventy Leaderboards&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Also see&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://notes.samfeldstein.xyz/notes/share-eleventy-projects/notes/share-webdev-projects&quot;&gt;Share web development projects&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
   <entry>
     <title>Friction and Meaning</title>
     <link href="https://notes.samfeldstein.xyz/notes/friction-and-meaning/" />
@@ -89,15 +98,6 @@
     <id>https://notes.samfeldstein.xyz/notes/cybersecurity-glossaries/</id>
     <content type="html">
 &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://niccs.cisa.gov/resources/glossary&quot;&gt;niccs.cisa.gov&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>General Data Protection Regulation</title>
-    <link href="https://notes.samfeldstein.xyz/notes/general-data-protection-regulation/" />
-    <updated>2025-06-02T16:19:35Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/general-data-protection-regulation/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://gdpr-info.eu/&quot;&gt;gdpr-info.eu&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>

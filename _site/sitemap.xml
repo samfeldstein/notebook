@@ -133,16 +133,10 @@
 		<loc>https://notes.samfeldstein.xyz/notes/how-to-treat-a-cold/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/how-to-write-a-cover-letter/</loc>
-	</url>
-	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/html-video/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/improvised-dnd/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/instagram/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/internet-research/</loc>
@@ -205,12 +199,6 @@
 		<loc>https://notes.samfeldstein.xyz/notes/problem-sizes/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/psychology/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/purpose/</loc>
-	</url>
-	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/questions-for-workaway-hosts/</loc>
 	</url>
 	<url>
@@ -220,10 +208,10 @@
 		<loc>https://notes.samfeldstein.xyz/notes/relative-links-and-static-site-generators/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/self-hatred/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/search-engine-optimization/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/seo/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/self-hatred/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/service-a-fridge/</loc>
@@ -242,9 +230,6 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/symmetry/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/tags-vs-backlinks/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/teachers/</loc>
@@ -478,9 +463,6 @@
 		<loc>https://notes.samfeldstein.xyz/notes/cybersecurity-games/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/story-tropes/</loc>
-	</url>
-	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/fiction-writing-process/</loc>
 	</url>
 	<url>
@@ -503,9 +485,6 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/open-source-intelligence-tools/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/shelf-talker-app/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/find-blurbs-for-shelf-talkers/</loc>
@@ -566,6 +545,9 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/friction-and-meaning/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/share-eleventy-projects/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/feed.xml</loc>
