@@ -22,9 +22,6 @@
 		<loc>https://notes.samfeldstein.xyz/notes/made-of-memories-acceptance-letter/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/cloudflare-dns/</loc>
-	</url>
-	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/coding-with-ai/</loc>
 	</url>
 	<url>
@@ -32,6 +29,9 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/things-to-do-in-colorado/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/www-subdomain-cloudflare-issue/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/dance/</loc>
@@ -307,9 +307,6 @@
 		<loc>https://notes.samfeldstein.xyz/notes/workaway-profile/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/writing-fiction/</loc>
-	</url>
-	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/writing-vs-programming/</loc>
 	</url>
 	<url>
@@ -364,7 +361,7 @@
 		<loc>https://notes.samfeldstein.xyz/notes/security-hardening-methods/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/what-is-storytelling/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/storytellers/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/compare-file-contents-in-terminal/</loc>
@@ -427,7 +424,7 @@
 		<loc>https://notes.samfeldstein.xyz/notes/digital-notebook-deployment-process/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/where-to-find-flights/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/find-flights/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/cheap-accomodations/</loc>
@@ -560,6 +557,15 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/cybersecurity-careers/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/tax-filing-software/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/typography-resources/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/friction-and-meaning/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/feed.xml</loc>

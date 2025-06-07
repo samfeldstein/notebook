@@ -5,7 +5,7 @@ tags:
   - artificial-intelligence
 ---
 
-I don't know that there's a fundamental difference between describing a program to an LLM, which then writes the program, and writing the program yourself in a traditional programming language. In both cases, you tell a computer what to do, and the computer does it.
+Is there a fundamental difference between describing a program to an LLM, which then writes the program, and writing the program yourself in a traditional programming language? In both cases, you tell a computer what to do, and the computer does it.
 
 In any case, the point of programming languages is to make it easier to communicate with computers. What could be easier than communicating in plain English? So programming with AI feels like the natural next step.
 

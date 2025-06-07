@@ -7,11 +7,7 @@ updated: 2025-02-07
 
 Great teachers don't just teach a skill. They teach an approach. Bob, my riding instructor, taught me to work smarter, not harder, and to look where I'm going. Ryan, my poetry professor, taught me that a [car is a chair with four wheels](https://samfeldstein.xyz/blog/what-is-rain/). Captain Jack (not sparrow), taught me to use only as much as force necessary. Dirt, my jiu-jitsu coach, taught me to take my time.
 
----
-
-**Great teachers teach ingredients, not recipes.**
-
----
+Great teachers teach ingredients, not recipes.
 
 > The question has to be how to give instructions in such a way as to help the natural learning process of the student and not interfere with it.
 > 

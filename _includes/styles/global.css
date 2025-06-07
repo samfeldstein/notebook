@@ -196,10 +196,24 @@ input:focus {
 }
 
 blockquote {
-  border-left-style: solid;
-  border-left-width: 1px;
-  margin: 0 1rem;
-  padding-left: 1rem;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin: 0;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+
+blockquote cite {
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 1.25rem;
+  text-align: right;
+}
+
+/* Select paragraphs containing quote citations */
+blockquote p:has(cite) {
+  text-align: right;
 }
 
 /* Text selection */

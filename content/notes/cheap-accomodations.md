@@ -6,6 +6,6 @@ created: 2025-05-28
 updated: 2025-05-28
 ---
 
-- Workaway
-- Trusted Housesitters
-- Couchsurfer
+- [Workaway](https://www.workaway.info/)
+- [Trusted Housesitters](https://www.trustedhousesitters.com/)
+- [Couchsurfing](https://www.couchsurfing.com/welcome)

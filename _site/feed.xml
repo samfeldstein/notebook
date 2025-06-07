@@ -4,12 +4,39 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-05T21:23:37Z</updated>
+  <updated>2025-06-07T03:19:21Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
+  <entry>
+    <title>Friction and Meaning</title>
+    <link href="https://notes.samfeldstein.xyz/notes/friction-and-meaning/" />
+    <updated>2025-06-07T03:19:21Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/friction-and-meaning/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;When things are too easy, they lose meaning. I think this is probably a sensory matter, and I think it&#39;s correlated with satisfaction. The better you can sense an interaction, the more satisfaction you get from the interaction.&lt;/p&gt;&lt;p&gt;Examples:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Looking at the Mona Lisa is more satisfying than looking at a blank canvas.&lt;/li&gt;&lt;li&gt;Watching a celluoid movie is more satisfying than watching a digital movie. (Most people aren&#39;t attuned to the difference, and sometimes I can&#39;t even tell, so it&#39;s hard to distinguish this from a preference.)&lt;/li&gt;&lt;li&gt;Driving stick is more satsifying than driving an automatic. It&#39;s even reflected in language. What&#39;s more fun to say? &lt;em&gt;Push it in park&lt;/em&gt; or &lt;em&gt;jam &#39;er down in gear&lt;/em&gt;?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;When you can&#39;t sense an activity, you lose your sense of particpation in the activity. When you lose your sense of particiatpion, you feel less like the driver and more and more like a passenger. &lt;em&gt;The&lt;/em&gt; driver is someone important. &lt;em&gt;A&lt;/em&gt; passenger could be anybody.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;There&#39;s something missing from a frictionless life&lt;/strong&gt;. Maybe this is why some people prefer a fraught relationship to no relationship at all.&lt;/p&gt;&lt;p&gt;That said, people obviously prefer automatics to stickshifts. But I think that&#39;s because most people consider driving a necessary evil, and the people who lament the demise of the stickshift are predisposed to find driving fun.&lt;/p&gt;&lt;p&gt;So making things easier is good when it eliminates a necessary evil, but people disagree on what constitutes a necessary evil.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Typography Resources</title>
+    <link href="https://notes.samfeldstein.xyz/notes/typography-resources/" />
+    <updated>2025-06-07T02:20:08Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/typography-resources/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://practicaltypography.com/&quot;&gt;Butterick’s Practical Typography&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Tax Filing Software</title>
+    <link href="https://notes.samfeldstein.xyz/notes/tax-filing-software/" />
+    <updated>2025-06-06T22:38:00Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/tax-filing-software/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://directfile.irs.gov/&quot;&gt;Direct File&lt;/a&gt; is a free, open source tool from the IRS.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
   <entry>
     <title>Cybersecurity Careers</title>
     <link href="https://notes.samfeldstein.xyz/notes/cybersecurity-careers/" />
@@ -71,33 +98,6 @@
     <id>https://notes.samfeldstein.xyz/notes/general-data-protection-regulation/</id>
     <content type="html">
 &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://gdpr-info.eu/&quot;&gt;gdpr-info.eu&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Non-repudiation</title>
-    <link href="https://notes.samfeldstein.xyz/notes/non-repudiation/" />
-    <updated>2025-06-02T16:16:09Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/non-repudiation/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Non-repudiation means that a person cannot deny having performed an action, such as sending a message, signing a document, or making a transaction.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>ISC2 Cybersecurity Courses</title>
-    <link href="https://notes.samfeldstein.xyz/notes/isc2-cybersecurity-courses/" />
-    <updated>2025-06-02T16:05:15Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/isc2-cybersecurity-courses/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://my.isc2.org/s/Candidate-Benefits?Candidate=true&quot;&gt;Certified in Cybersecurity&lt;/a&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://bookshelf-ref.vitalsource.com/reader/books/ISC2-CC-EB-1-EN-EPUB/epubcfi/6/2%5B%3Bvnd.vst.idref%3Dvst-659a35af-544a-4b01-84d6-7a28a30aa402%5D!/4/6%5B22901023-3e51-49b2-ac70-753ca25e30bf%5D/4/2/2%5B0c59fc9f-3879-4efc-ab9a-050183023d88%5D/2/2/2/2%4051:44&quot;&gt;Textbook&lt;/a&gt; (requires purchase)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Resources&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://community.isc2.org/&quot;&gt;Community and study groups&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Cybersecurity Certifications</title>
-    <link href="https://notes.samfeldstein.xyz/notes/cybersecurity-certifications/" />
-    <updated>2025-06-02T15:58:18Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/cybersecurity-certifications/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2&gt;Entry level&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://my.isc2.org/s/Candidate-Benefits?Candidate=true&quot;&gt;ISC2 Certified in Cybersecurity&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>
