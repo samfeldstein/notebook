@@ -56,6 +56,7 @@ The biggest performance boost came after I increased Cloudflare's cache lifespan
 	- Render from csv
 - Service worker
 	- Check [Maggie Appleton’s](maggieappleton.com)
+- Credit other fonts
 
 ## Wishlist
 

@@ -139,6 +139,15 @@ footer {
   text-align: center;
   font-size: var(--font-small);
   margin-top: 4rem;
+  display: grid;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+  margin: 0 auto;
 }
 
 .skiplink {

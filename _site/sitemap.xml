@@ -532,6 +532,9 @@
 		<loc>https://notes.samfeldstein.xyz/notes/share-eleventy-projects/</loc>
 	</url>
 	<url>
+		<loc>https://notes.samfeldstein.xyz/colophon/</loc>
+	</url>
+	<url>
 		<loc>https://notes.samfeldstein.xyz/feed.xml</loc>
 	</url>
 </urlset>
