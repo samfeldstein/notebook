@@ -10,8 +10,6 @@ updated: 2024-10-28
 2. State your assumptions, then try to disprove them.
 3. Break the problem into [sub-problems](notes/problem-sizes.md).
 
----
-
 > *A problem well-put is a problem half-solved.*
 > 
 > <cite>John Dewey</cite>

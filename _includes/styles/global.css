@@ -204,12 +204,14 @@ input:focus {
 }
 
 blockquote {
-  border-top: 1px solid;
-  border-bottom: 1px solid;
-  margin: 0;
-  padding: 0;
+  margin: 4rem auto;
+  max-width: 40rem;
   font-variant: small-caps;
   text-transform: lowercase;
+}
+
+blockquote p {
+  margin: 0.5em 0;
 }
 
 blockquote cite {
@@ -222,6 +224,7 @@ blockquote cite {
 
 /* Select paragraphs containing quote citations */
 blockquote p:has(cite) {
+  margin: 0;
   text-align: right;
 }
 

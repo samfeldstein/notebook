@@ -4,12 +4,48 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-07T03:43:19Z</updated>
+  <updated>2025-06-09T16:42:08Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
+  <entry>
+    <title>Security Controls</title>
+    <link href="https://notes.samfeldstein.xyz/notes/security-controls/" />
+    <updated>2025-06-09T16:42:08Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/security-controls/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Security controls reduce risk to an acceptable level.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Data Privacy</title>
+    <link href="https://notes.samfeldstein.xyz/notes/data-privacy/" />
+    <updated>2025-06-09T16:28:39Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/data-privacy/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Privacy is the right of an individual to control the distribution of information about themselves.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Anchoring and Adjustment</title>
+    <link href="https://notes.samfeldstein.xyz/notes/anchoring-and-adjustment/" />
+    <updated>2025-06-09T15:04:06Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/anchoring-and-adjustment/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;If you&#39;re told to guess the population of Chicago, you might start with Des Moines as a reference. Des Moines has about 200,000 people, and maybe you figure Chicago is ten times larger than Des Moines. So you put the Chicago population at 2 million.&lt;/p&gt;&lt;p&gt;The psychological process you&#39;ve just demonstrated is called &lt;strong&gt;anchoring and adjustment&lt;/strong&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Access Controls</title>
+    <link href="https://notes.samfeldstein.xyz/notes/access-controls/" />
+    <updated>2025-06-08T16:19:19Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/access-controls/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;A &lt;strong&gt;subject&lt;/strong&gt; requests access.&lt;/li&gt;&lt;li&gt;An &lt;strong&gt;object&lt;/strong&gt; is anything the subject attempts to access.&lt;/li&gt;&lt;li&gt;A &lt;strong&gt;rule&lt;/strong&gt; determines if the subject is allowed to access the object.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
   <entry>
     <title>Share Eleventy Projects</title>
     <link href="https://notes.samfeldstein.xyz/notes/share-eleventy-projects/" />
@@ -62,42 +98,6 @@
     <id>https://notes.samfeldstein.xyz/notes/favicons/</id>
     <content type="html">
 &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://realfavicongenerator.net/&quot;&gt;Real Favicon Generator&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Web Icons</title>
-    <link href="https://notes.samfeldstein.xyz/notes/web-icons/" />
-    <updated>2025-06-05T17:39:24Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/web-icons/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://fontawesome.com/&quot;&gt;Font Awesome&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Glasses</title>
-    <link href="https://notes.samfeldstein.xyz/notes/glasses/" />
-    <updated>2025-06-03T17:20:31Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/glasses/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Got mine from &lt;a href=&quot;https://paireyewear.com/&quot;&gt;Pair&lt;/a&gt;. I have the &lt;a href=&quot;https://paireyewear.com/eyeglasses/men/the-reese?frameColor=Crystal%20Clear&quot;&gt;Reese&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Search in Micro</title>
-    <link href="https://notes.samfeldstein.xyz/notes/search-in-micro/" />
-    <updated>2025-06-03T15:49:25Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/search-in-micro/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;code&gt;CtrlF&lt;/code&gt; to search. Hit enter. Cycle through matches with &lt;code&gt;CtrlN&lt;/code&gt; and &lt;code&gt;CtrlP&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;To highlight all searches, set &lt;code&gt;&quot;hlsearch&quot;: true&lt;/code&gt; in Micro config.&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/zyedidia/micro/blob/master/runtime/help/defaultkeys#find-operations&quot;&gt;Micro search operations&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Cybersecurity Glossaries</title>
-    <link href="https://notes.samfeldstein.xyz/notes/cybersecurity-glossaries/" />
-    <updated>2025-06-02T16:36:30Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/cybersecurity-glossaries/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://niccs.cisa.gov/resources/glossary&quot;&gt;niccs.cisa.gov&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>
