@@ -4,120 +4,100 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-10T19:16:14Z</updated>
+  <updated>2025-06-12T15:14:46Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
   <entry>
-    <title>Open Graph URL in Astro</title>
-    <link href="https://notes.samfeldstein.xyz/notes/open-graph-url-in-astro/" />
-    <updated>2025-06-10T19:16:14Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/open-graph-url-in-astro/</id>
+    <title>Job Criteria</title>
+    <link href="https://notes.samfeldstein.xyz/notes/job-criteria/" />
+    <updated>2025-06-12T15:14:46Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/job-criteria/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;meta&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;property&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;og:url&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;{Astro.url}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Make sure you set your &lt;code&gt;site&lt;/code&gt; property in your Astro config, otherwise Astro will use &lt;code&gt;https://localhost:4321&lt;/code&gt; as the base URL.&lt;/p&gt;&lt;p&gt;&lt;code&gt;astro.config.js&lt;/code&gt; example:&lt;/p&gt;&lt;pre class=&quot;language-ts&quot;&gt;&lt;code class=&quot;language-ts&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; defineConfig &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;astro/config&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;defineConfig&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	site&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://samfeldstein.xyz&quot;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://astro.build/config&quot;&gt;Astro configuration&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ol&gt;&lt;li&gt;Good career outlook&lt;/li&gt;&lt;li&gt;Work you&#39;re good at&lt;/li&gt;&lt;li&gt;Work that helps others&lt;/li&gt;&lt;li&gt;Engaging work&lt;/li&gt;&lt;li&gt;Supportive colleagues&lt;/li&gt;&lt;li&gt;Lack of major negatives&lt;/li&gt;&lt;li&gt;Fits your personal life&lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Open Graph Protocol</title>
-    <link href="https://notes.samfeldstein.xyz/notes/open-graph-protocol/" />
-    <updated>2025-06-10T18:09:27Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/open-graph-protocol/</id>
+    <title>Social Engineering Security Specialist</title>
+    <link href="https://notes.samfeldstein.xyz/notes/social-engineering-security-specialist/" />
+    <updated>2025-06-12T15:11:55Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/social-engineering-security-specialist/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Open Graph is a way to define how your page looks when shared on social media (title, image, description, etc.).&lt;/p&gt;&lt;p&gt;To enable, the following prefix to your &lt;code&gt;html&lt;/code&gt; tag. It tells the browser and social platforms that the page uses Open Graph tags with the prefix &lt;code&gt;og&lt;/code&gt;.&lt;/p&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;html&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;prefix&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;og: https://ogp.me/ns#&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Example (taken from my &lt;a href=&quot;https://shelf-talker.pages.dev/&quot;&gt;shelf talker app)&lt;/a&gt;:&lt;/p&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;&amp;lt;!-- Open Graph markup --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;meta&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;property&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;og:title&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;Shelf Talkers&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;meta&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;property&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;og:description&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;Simple app for generating formatted shelf talkers.&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;meta&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;property&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;og:type&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;website&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;meta&lt;/span&gt;
-  &lt;span class=&quot;token attr-name&quot;&gt;property&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;og:image&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token attr-name&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://shelf-talker.pages.dev/open-graph-image.jpg&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;meta&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;property&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;og:url&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://shelf-talker.pages.dev/&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;&amp;lt;!-- Twitter markup (also handles Bluesky) --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;meta&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;twitter:title&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;Shelf Talkers&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;meta&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;twitter:description&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;Simple app for generating formatted shelf talkers.&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;meta&lt;/span&gt;
-  &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;twitter:image&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token attr-name&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https://shelf-talker.pages.dev/open-graph-image.jpg&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Check your work at &lt;a href=&quot;https://www.opengraph.xyz/&quot;&gt;opengraph.xyz&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://ogp.me/&quot;&gt;Open Graph Protocol website&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Assess security vulnerabilities of high-value targets.&lt;/p&gt;&lt;p&gt;At a glance, doesn’t interest me as much as threat intelligence. But it does combine with my interest in psychology and cognitive bias.&lt;/p&gt;&lt;p&gt;Read more on &lt;a href=&quot;https://en.wikipedia.org/wiki/Social_engineering_(security)&quot;&gt;Wikipedia&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Stretching</title>
-    <link href="https://notes.samfeldstein.xyz/notes/stretching/" />
-    <updated>2025-06-10T17:43:46Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/stretching/</id>
+    <title>Penetration Testing</title>
+    <link href="https://notes.samfeldstein.xyz/notes/penetration-testing/" />
+    <updated>2025-06-12T15:10:15Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/penetration-testing/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://musclewiki.com/&quot;&gt;Musclewiki&lt;/a&gt; includes stretches.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Pentester-BluePrint-Your-Guide-Being/dp/1119684307/&quot;&gt;The Pentester BluePrint: Starting a Career as an Ethical Hacker&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://tryhackme.com/&quot;&gt;TryHackMe&lt;/a&gt;. Hands-on cyber security training through real-world scenarios.&lt;/li&gt;&lt;li&gt;More resources on &lt;a href=&quot;https://www.myosint.training/courses/take/careers-using-osint-skills/lessons/40426410-phillip-wylie-offensive-security&quot;&gt;My OSINT Training&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Shelf Talker Roadmap</title>
-    <link href="https://notes.samfeldstein.xyz/notes/shelf-talker-roadmap/" />
-    <updated>2025-06-10T17:32:16Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/shelf-talker-roadmap/</id>
+    <title>Threat Intelligence Analyst</title>
+    <link href="https://notes.samfeldstein.xyz/notes/threat-intelligence-analyst/" />
+    <updated>2025-06-12T15:08:41Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/threat-intelligence-analyst/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;Change card dimensions&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://threatintelligencelab.com/cybersecurity-career/becoming-a-cyber-threat-intelligence-analyst-2024/#The_CTI_Analyst_Role&quot;&gt;Overview&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Further education:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Computer and Information Security&lt;/li&gt;&lt;li&gt;Intelligence Analysis&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Photo Sensors</title>
-    <link href="https://notes.samfeldstein.xyz/notes/photo-sensors/" />
-    <updated>2025-06-10T17:08:58Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/photo-sensors/</id>
+    <title>Linux Permission Groups</title>
+    <link href="https://notes.samfeldstein.xyz/notes/linux-permission-groups/" />
+    <updated>2025-06-12T14:24:02Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/linux-permission-groups/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A photo sensor turns light into electrical charges.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;The three Linux permission groups are &lt;strong&gt;User&lt;/strong&gt;, &lt;strong&gt;Group&lt;/strong&gt;, and &lt;strong&gt;Other&lt;/strong&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Firewalls</title>
-    <link href="https://notes.samfeldstein.xyz/notes/firewalls/" />
-    <updated>2025-06-10T17:08:06Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/firewalls/</id>
+    <title>Lightroom Shortcuts</title>
+    <link href="https://notes.samfeldstein.xyz/notes/lightroom-shortcuts/" />
+    <updated>2025-06-12T14:21:09Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/lightroom-shortcuts/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A &lt;strong&gt;stateless firewall&lt;/strong&gt; follows predefined rules and doesn&#39;t track information from data packets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;Check for clipping with &lt;code&gt;j&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Command Line Dictionaries</title>
-    <link href="https://notes.samfeldstein.xyz/notes/command-line-dictionaries/" />
-    <updated>2025-06-10T15:19:40Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/command-line-dictionaries/</id>
+    <title>Movie Theaters in Los Angeles</title>
+    <link href="https://notes.samfeldstein.xyz/notes/movie-theaters-in-los-angeles/" />
+    <updated>2025-06-11T21:59:28Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/movie-theaters-in-los-angeles/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.thegeekdiary.com/dict-command-line-dictionary-using-the-dict-protocol/&quot;&gt;dict&lt;/a&gt;. Retrieve word definitions, synonyms, translations, and other information from online dictionaries using the DICT (Dictionary) protocol. Also searches the &lt;a href=&quot;https://www.cia.gov/the-world-factbook/&quot;&gt;CIA World Factbook&lt;/a&gt;, among other things.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://thefridacinema.org/&quot;&gt;The Frida&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://thenewbev.com/&quot;&gt;The New Beverly&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.vistatheaterhollywood.com/&quot;&gt;The Vista&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.vintagecinemas.com/losfeliz/&quot;&gt;Los Feliz&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.secretmovieclub.com/&quot;&gt;Secret Movie Club&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.americancinematheque.com/about/theatres/aero-theatre/&quot;&gt;The Aero&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.americancinematheque.com/about/theatres/egyptian-theatre/&quot;&gt;The Egyptian&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.tclchinesetheatres.com/imax&quot;&gt;TCL Chinese Theatre&lt;/a&gt;&lt;/li&gt;&lt;li&gt;[Academy Museum Theater](&lt;a href=&quot;https://thefridacinema.org/&quot;&gt;The Frida&lt;/a&gt;)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64&quot;&gt;Gardena Cinema&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Outdoor&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.revivalhouses.com/theaters/street-food-cinema/&quot;&gt;Street Food Cinema&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://cinespia.org/&quot;&gt;Cinespia&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.hollywoodbowl.com/&quot;&gt;Hollywood Bowl&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.revivalhouses.com/theaters/&quot;&gt;revivalhouses.com&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Security Controls</title>
-    <link href="https://notes.samfeldstein.xyz/notes/security-controls/" />
-    <updated>2025-06-09T16:42:08Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/security-controls/</id>
+    <title>Hacking</title>
+    <link href="https://notes.samfeldstein.xyz/notes/hacking/" />
+    <updated>2025-06-11T18:47:42Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/hacking/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Security controls reduce risk to an acceptable level.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide/&quot;&gt;r/hacking&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Data Privacy</title>
-    <link href="https://notes.samfeldstein.xyz/notes/data-privacy/" />
-    <updated>2025-06-09T16:28:39Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/data-privacy/</id>
+    <title>Proverbs I Made Up</title>
+    <link href="https://notes.samfeldstein.xyz/notes/proverbs-i-made-up/" />
+    <updated>2025-06-11T04:26:39Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/proverbs-i-made-up/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Privacy is the right of an individual to control the distribution of information about themselves.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;&lt;p&gt;People are coins. They have two faces, and one is always hidden from the other.&lt;/p&gt;&lt;/blockquote&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Anchoring and Adjustment</title>
-    <link href="https://notes.samfeldstein.xyz/notes/anchoring-and-adjustment/" />
-    <updated>2025-06-09T15:04:06Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/anchoring-and-adjustment/</id>
+    <title>Find Books Online</title>
+    <link href="https://notes.samfeldstein.xyz/notes/find-books-online/" />
+    <updated>2025-06-11T03:55:52Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/find-books-online/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;If you&#39;re told to guess the population of Chicago, you might start with Des Moines as a reference. Des Moines has about 200,000 people, and maybe you figure Chicago is ten times larger than Des Moines. So you put the Chicago population at 2 million.&lt;/p&gt;&lt;p&gt;The psychological process you&#39;ve just demonstrated is called &lt;strong&gt;anchoring and adjustment&lt;/strong&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://libbyapp.com/shelf&quot;&gt;Libby&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://books.google.com/&quot;&gt;Google Books&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://archive.org/&quot;&gt;The Internet Archive&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.gutenberg.org/&quot;&gt;Project Gutenberg&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>

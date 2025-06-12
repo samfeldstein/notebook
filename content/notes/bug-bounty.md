@@ -2,7 +2,7 @@
 title: Bug Bounties
 tags:
   - cybersecurity
-  - ethical-hacking
+  - hacking
 created: 2025-05-23
 updated: 2025-05-23
 ---
