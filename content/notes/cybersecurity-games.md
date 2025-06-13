@@ -1,5 +1,6 @@
 ---
-title: Cybersecurity Resources
+title: Cybersecurity Games
+alias: Cybersecurity Games
 tags:
   - cybersecurity
 created: 2025-05-30
