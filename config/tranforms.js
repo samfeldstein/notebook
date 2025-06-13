@@ -20,24 +20,24 @@ const transforms = [
   }],
 
   [
-  "pdf-link",
-  function (content) {
-    // Only process HTML output files
-    if (this.page.outputPath?.endsWith(".html")) {
-      // Find all href attributes linking to .pdf files
-      return content.replace(/href="([^"]+\.pdf)"/g, (match, link) => {
-        // If the link doesn't start with '/' or 'http', add a leading slash
-        if (!link.startsWith('/') && !link.startsWith('http')) {
-          return `href="/${link}"`;
-        }
-        // Otherwise, leave the link unchanged
-        return match;
-      });
+    "pdf-link",
+    function (content) {
+      // Only process HTML output files
+      if (this.page.outputPath?.endsWith(".html")) {
+        // Find all href attributes linking to .pdf files
+        return content.replace(/href="([^"]+\.pdf)"/g, (match, link) => {
+          // If the link doesn't start with '/' or 'http', add a leading slash
+          if (!link.startsWith('/') && !link.startsWith('http')) {
+            return `href="/${link}"`;
+          }
+          // Otherwise, leave the link unchanged
+          return match;
+        });
+      }
+      // For non-HTML files, return content unchanged
+      return content;
     }
-    // For non-HTML files, return content unchanged
-    return content;
-  }
-],
+  ],
 
   // Minify HTML
   ["htmlmin", function (content) {
