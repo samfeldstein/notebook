@@ -4,100 +4,10 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-13T19:20:21Z</updated>
+  <updated>2025-06-13T19:48:59Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
-  <entry>
-    <title>Fascism</title>
-    <link href="https://notes.samfeldstein.xyz/notes/fascism/" />
-    <updated>2025-06-13T19:20:21Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/fascism/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;&lt;p&gt;You know you’re living in a fascist society when you’re constantly going over in your head, the reasons that you are safe.&lt;/p&gt;&lt;p&gt;&lt;cite&gt;Somebody in this &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/fascism/%5Bhttps:/youtu.be/IXR9PByA9SY&quot;&gt;&lt;em&gt;New York Times&lt;/em&gt; video&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Defense in Depth</title>
-    <link href="https://notes.samfeldstein.xyz/notes/defense-in-depth/" />
-    <updated>2025-06-13T16:10:29Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/defense-in-depth/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;Defence-in-Depth&lt;/strong&gt; means creating a security system of multiple levels. Also known as &lt;strong&gt;Multi-Level Security&lt;/strong&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Incident Response Phases</title>
-    <link href="https://notes.samfeldstein.xyz/notes/incident-response-phases/" />
-    <updated>2025-06-13T15:16:12Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/incident-response-phases/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ol&gt;&lt;li&gt;Preparation&lt;/li&gt;&lt;li&gt;Detection and analysis&lt;/li&gt;&lt;li&gt;Containment, eradication, and recovery&lt;/li&gt;&lt;li&gt;Post-incident activity&lt;/li&gt;&lt;/ol&gt;&lt;h2&gt;Preparation&lt;/h2&gt;&lt;p&gt;Take measures to prevent incidents.&lt;/p&gt;&lt;h2&gt;Detection and analysis&lt;/h2&gt;&lt;p&gt;Analyze an incident to learn about its severity.&lt;/p&gt;&lt;h2&gt;Containment, eradication, and recovery&lt;/h2&gt;&lt;p&gt;Stop the incident from affecting other systems, eliminate it, and recover the affected systems.&lt;/p&gt;&lt;h2&gt;Post-incident activity&lt;/h2&gt;&lt;p&gt;Report findings to prevent similar future incidents.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Find Work in Frontend Development</title>
-    <link href="https://notes.samfeldstein.xyz/notes/find-work-in-frontend-development/" />
-    <updated>2025-06-13T14:12:31Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/find-work-in-frontend-development/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ol&gt;&lt;li&gt;Level up&lt;/li&gt;&lt;li&gt;Network&lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Volunteer Ideas</title>
-    <link href="https://notes.samfeldstein.xyz/notes/volunteer-ideas/" />
-    <updated>2025-06-13T00:54:32Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/volunteer-ideas/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;Grant writing&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Technical Writing Career Roadmap</title>
-    <link href="https://notes.samfeldstein.xyz/notes/technical-writing/" />
-    <updated>2025-06-13T00:23:04Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/technical-writing/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ol&gt;&lt;li&gt;Ask people for advice.&lt;/li&gt;&lt;li&gt;Learn the &lt;a href=&quot;https://www.writethedocs.org/hiring-guide/useful-skills/&quot;&gt;skills&lt;/a&gt;.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;You can find professionals on the &lt;a href=&quot;https://www.writethedocs.org/slack/&quot;&gt;Write the Docs Slack&lt;/a&gt; and the &lt;a href=&quot;https://www.meetup.com/Write-the-Docs-Boulder-Denver?recSource=chapter-search&amp;amp;recId=656a681b-6171-45fa-aebb-de44fb3c64d4&amp;amp;searchId=c92c1f5a-84c4-4fbc-ad7a-39f533e714d6&amp;amp;eventOrigin=find_page&quot;&gt;Write the Docs Boulder/Denver Meetup group&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Cybersecurity Roles</title>
-    <link href="https://notes.samfeldstein.xyz/notes/cybersecurity-roles/" />
-    <updated>2025-06-12T20:08:24Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/cybersecurity-roles/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;Information Security Analyst&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://notes.samfeldstein.xyz/notes/cybersecurity-roles/notes/threat-intelligence-analyst&quot;&gt;Threat Intelligence Analyst&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://notes.samfeldstein.xyz/notes/cybersecurity-roles/notes/penetration-testing&quot;&gt;Penetration Tester&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://notes.samfeldstein.xyz/notes/cybersecurity-roles/notes/social-engineering-security-specialist&quot;&gt;Social Engineering Security Specialist&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://tryhackme.com/room/careersincyber&quot;&gt;TryHackMe Cybersecurity Careers&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Cybersecurity Degree Programs</title>
-    <link href="https://notes.samfeldstein.xyz/notes/cybersecurity-degree-programs/" />
-    <updated>2025-06-12T17:55:03Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/cybersecurity-degree-programs/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;(I live in Boulder.)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.frontrange.edu/programs-courses/program-list/computer-networking-virtualization-cybersecurity.html&quot;&gt;Front Range Community College&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Online&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.wgu.edu/online-it-degrees/cybersecurity-information-assurance-bachelors-program.html&quot;&gt;Western Governor&#39;s University&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Mandatory Access Control</title>
-    <link href="https://notes.samfeldstein.xyz/notes/mandatory-access-control/" />
-    <updated>2025-06-12T17:38:14Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/mandatory-access-control/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Incident Response Policies</title>
-    <link href="https://notes.samfeldstein.xyz/notes/incident-response-policies/" />
-    <updated>2025-06-12T16:24:29Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/incident-response-policies/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Senior management are the only people authorized to accept risk on behalf of the organization. So all organizational policies must be approved by senior management.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
 </feed>
