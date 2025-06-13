@@ -24,8 +24,12 @@ export default function (eleventyConfig) {
     "static/scripts/*": "/",
     "static/*.yml": "/",
     "static/*images/*": "/",
-    "static/*.txt": "/"
+    "static/*.txt": "/",
   });
+
+  // Copy any .pdf file to `_site`, via Glob pattern
+	// Keeps the same directory structure.
+	eleventyConfig.addPassthroughCopy("content/notes/assets/**/*.pdf");
 
   // Add layout aliases
   eleventyConfig.addLayoutAlias("base", "base.njk");

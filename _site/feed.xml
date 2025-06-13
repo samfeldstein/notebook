@@ -4,19 +4,37 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-13T00:23:04Z</updated>
+  <updated>2025-06-13T14:12:31Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
   <entry>
+    <title>Find Work in Frontend Development</title>
+    <link href="https://notes.samfeldstein.xyz/notes/find-work-in-frontend-development/" />
+    <updated>2025-06-13T14:12:31Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/find-work-in-frontend-development/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ol&gt;&lt;li&gt;Level up&lt;/li&gt;&lt;li&gt;Network&lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Volunteer Ideas</title>
+    <link href="https://notes.samfeldstein.xyz/notes/volunteer-ideas/" />
+    <updated>2025-06-13T00:54:32Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/volunteer-ideas/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;Grant writing&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
     <title>Technical Writing Career Roadmap</title>
     <link href="https://notes.samfeldstein.xyz/notes/technical-writing/" />
     <updated>2025-06-13T00:23:04Z</updated>
     <id>https://notes.samfeldstein.xyz/notes/technical-writing/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ol&gt;&lt;li&gt;Ask people for advice.&lt;/li&gt;&lt;li&gt;Learn the &lt;a href=&quot;https://www.writethedocs.org/hiring-guide/useful-skills/&quot;&gt;skills&lt;/a&gt;.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;You can find professionals on the &lt;a href=&quot;https://www.writethedocs.org/slack/&quot;&gt;Write the Docs Slack&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ol&gt;&lt;li&gt;Ask people for advice.&lt;/li&gt;&lt;li&gt;Learn the &lt;a href=&quot;https://www.writethedocs.org/hiring-guide/useful-skills/&quot;&gt;skills&lt;/a&gt;.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;You can find professionals on the &lt;a href=&quot;https://www.writethedocs.org/slack/&quot;&gt;Write the Docs Slack&lt;/a&gt; and the &lt;a href=&quot;https://www.meetup.com/Write-the-Docs-Boulder-Denver?recSource=chapter-search&amp;amp;recId=656a681b-6171-45fa-aebb-de44fb3c64d4&amp;amp;searchId=c92c1f5a-84c4-4fbc-ad7a-39f533e714d6&amp;amp;eventOrigin=find_page&quot;&gt;Write the Docs Boulder/Denver Meetup group&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
@@ -26,15 +44,6 @@
     <id>https://notes.samfeldstein.xyz/notes/cybersecurity-roles/</id>
     <content type="html">
 &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;Information Security Analyst&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://notes.samfeldstein.xyz/notes/cybersecurity-roles/notes/threat-intelligence-analyst&quot;&gt;Threat Intelligence Analyst&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://notes.samfeldstein.xyz/notes/cybersecurity-roles/notes/penetration-testing&quot;&gt;Penetration Tester&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://notes.samfeldstein.xyz/notes/cybersecurity-roles/notes/social-engineering-security-specialist&quot;&gt;Social Engineering Security Specialist&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Volunteer in Boulder</title>
-    <link href="https://notes.samfeldstein.xyz/notes/volunteer-in-boulder/" />
-    <updated>2025-06-12T18:05:50Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/volunteer-in-boulder/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://isc2boulderchapter.org/news.html&quot;&gt;ISC2 volunteer opportunities&lt;/a&gt; (cybersecurity)&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
@@ -89,15 +98,6 @@
     <id>https://notes.samfeldstein.xyz/notes/penetration-testing/</id>
     <content type="html">
 &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Pentester-BluePrint-Your-Guide-Being/dp/1119684307/&quot;&gt;The Pentester BluePrint: Starting a Career as an Ethical Hacker&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://tryhackme.com/&quot;&gt;TryHackMe&lt;/a&gt;. Hands-on cyber security training through real-world scenarios.&lt;/li&gt;&lt;li&gt;More resources on &lt;a href=&quot;https://www.myosint.training/courses/take/careers-using-osint-skills/lessons/40426410-phillip-wylie-offensive-security&quot;&gt;My OSINT Training&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Threat Intelligence Analyst</title>
-    <link href="https://notes.samfeldstein.xyz/notes/threat-intelligence-analyst/" />
-    <updated>2025-06-12T15:08:41Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/threat-intelligence-analyst/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://threatintelligencelab.com/cybersecurity-career/becoming-a-cyber-threat-intelligence-analyst-2024/#The_CTI_Analyst_Role&quot;&gt;Overview&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Further education:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Computer and Information Security&lt;/li&gt;&lt;li&gt;Intelligence Analysis&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>

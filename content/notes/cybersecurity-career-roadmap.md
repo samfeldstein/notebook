@@ -12,6 +12,10 @@ updated: 2025-06-05
 3. [Keep learning ](notes/cybersecurity-degree-programs.md).
 4. Get a job aligned with [your interests](notes/cybersecurity-roles.md).
 
+## Milestones
+
+- **2025-06-12** - Complete [ISC2 Certified in Cybersecurity](notes/assets/isc2-certificate-certified-in-cybersecurity.pdf)
+
 ## Further reading
 
 - [Start Your Cybersecurity Career in 2024](https://youtu.be/RL7Oni8JxgQ?si=4XBgHMrI3UVDr_Tt)
