@@ -230,6 +230,22 @@ blockquote p:has(cite) {
   text-align: right;
 }
 
+blockquote.callout {
+  /* Undo other blockquote styles */
+  all: inherit;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 0.01em;
+  padding: 0em 1em;
+
+  text-align: justify;
+}
+
+blockquote.callout p:first-of-type::before {
+  content: "⚠️";
+  margin-right: 0.25em;
+}
+
 /* Text selection */
 ::selection {
   background-color: var(--text-color);

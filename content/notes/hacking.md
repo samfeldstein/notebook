@@ -1,5 +1,6 @@
 ---
 title: Hacking
+alias: Hacking
 tags:
   - hacking
 created: 2025-06-11

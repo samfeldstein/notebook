@@ -1,5 +1,8 @@
 ---
 title: Digital Notebooks
+aliases:
+  - Digital Notebooks
+  - Digital Gardens
 tags:
   - digital-notebooks
 created: 2024-09-01

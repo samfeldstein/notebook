@@ -4,12 +4,48 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-13T19:45:33Z</updated>
+  <updated>2025-06-15T14:59:30Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
+  <entry>
+    <title>Library Science</title>
+    <link href="https://notes.samfeldstein.xyz/notes/library-science/" />
+    <updated>2025-06-15T14:59:30Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/library-science/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;Library science&lt;/strong&gt; concerns the collection, organization, preservation, and dissemination of information resources (physical and digital).&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Library_and_information_science&quot;&gt;Library and information science&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.usnews.com/education/best-graduate-schools/articles/what-library-science-is-and-how-to-become-a-librarian&quot;&gt;Library Science and How to Become a Librarian&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Information Architecture</title>
+    <link href="https://notes.samfeldstein.xyz/notes/information-architecture/" />
+    <updated>2025-06-15T14:43:21Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/information-architecture/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;Information architecture&lt;/strong&gt; is the structural design of shared information environments (websites, intranets, online communities, etc). It brings principles of design, architecture, and information science to the digital landscape.&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Information_architecture&quot;&gt;Information architecture&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Gamified Learning</title>
+    <link href="https://notes.samfeldstein.xyz/notes/gamified-learning/" />
+    <updated>2025-06-15T14:34:34Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/gamified-learning/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;Gamified learning&lt;/strong&gt; uses video game design in learning environments.&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Gamification_of_learning&quot;&gt;Gamification of learning&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Breaking Rules in Storytelling</title>
+    <link href="https://notes.samfeldstein.xyz/notes/breaking-rules-in-storytelling/" />
+    <updated>2025-06-13T20:05:38Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/breaking-rules-in-storytelling/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Breaking rules = subverting expectations.&lt;/p&gt;&lt;p&gt;You have to know what people expect before you can surprise them.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
   <entry>
     <title>Remove Items from a Git Repository</title>
     <link href="https://notes.samfeldstein.xyz/notes/remove-items-from-a-git-repository/" />
@@ -61,43 +97,7 @@
     <updated>2025-06-13T00:54:32Z</updated>
     <id>https://notes.samfeldstein.xyz/notes/volunteer-ideas/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;Grant writing&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Technical Writing Career Roadmap</title>
-    <link href="https://notes.samfeldstein.xyz/notes/technical-writing/" />
-    <updated>2025-06-13T00:23:04Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/technical-writing/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ol&gt;&lt;li&gt;Ask people for advice.&lt;/li&gt;&lt;li&gt;Learn the &lt;a href=&quot;https://www.writethedocs.org/hiring-guide/useful-skills/&quot;&gt;skills&lt;/a&gt;.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;You can find professionals on the &lt;a href=&quot;https://www.writethedocs.org/slack/&quot;&gt;Write the Docs Slack&lt;/a&gt; and the &lt;a href=&quot;https://www.meetup.com/Write-the-Docs-Boulder-Denver?recSource=chapter-search&amp;amp;recId=656a681b-6171-45fa-aebb-de44fb3c64d4&amp;amp;searchId=c92c1f5a-84c4-4fbc-ad7a-39f533e714d6&amp;amp;eventOrigin=find_page&quot;&gt;Write the Docs Boulder/Denver Meetup group&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Cybersecurity Roles</title>
-    <link href="https://notes.samfeldstein.xyz/notes/cybersecurity-roles/" />
-    <updated>2025-06-12T20:08:24Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/cybersecurity-roles/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;Information Security Analyst&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://notes.samfeldstein.xyz/notes/cybersecurity-roles/notes/threat-intelligence-analyst&quot;&gt;Threat Intelligence Analyst&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://notes.samfeldstein.xyz/notes/cybersecurity-roles/notes/penetration-testing&quot;&gt;Penetration Tester&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://notes.samfeldstein.xyz/notes/cybersecurity-roles/notes/social-engineering-security-specialist&quot;&gt;Social Engineering Security Specialist&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://tryhackme.com/room/careersincyber&quot;&gt;TryHackMe Cybersecurity Careers&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Cybersecurity Degree Programs</title>
-    <link href="https://notes.samfeldstein.xyz/notes/cybersecurity-degree-programs/" />
-    <updated>2025-06-12T17:55:03Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/cybersecurity-degree-programs/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;(I live in Boulder.)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.frontrange.edu/programs-courses/program-list/computer-networking-virtualization-cybersecurity.html&quot;&gt;Front Range Community College&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Online&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.wgu.edu/online-it-degrees/cybersecurity-information-assurance-bachelors-program.html&quot;&gt;Western Governor&#39;s University&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Mandatory Access Control</title>
-    <link href="https://notes.samfeldstein.xyz/notes/mandatory-access-control/" />
-    <updated>2025-06-12T17:38:14Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/mandatory-access-control/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;Computer literacy&lt;ul&gt;&lt;li&gt;Check library&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Grant writing&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>

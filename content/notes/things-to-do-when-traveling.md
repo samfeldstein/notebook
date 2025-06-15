@@ -27,7 +27,7 @@ updated: 2025-05-24
 - Dances
 - Markets
 
-### Resources
+## Resources
 
 - Google Maps "Want to go"
 - Atlas Obscura
