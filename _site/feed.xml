@@ -4,12 +4,66 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-16T14:55:26Z</updated>
+  <updated>2025-06-16T20:03:17Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
+  <entry>
+    <title>HTTP Headers</title>
+    <link href="https://notes.samfeldstein.xyz/notes/http-headers/" />
+    <updated>2025-06-16T20:03:17Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/http-headers/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;Accept-Encoding&lt;/code&gt;. Indicates the content encoding (usually a compression algorithm) that the sender can understand.&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers&quot;&gt;HTTP Headers&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Flight Information</title>
+    <link href="https://notes.samfeldstein.xyz/notes/flight-information/" />
+    <updated>2025-06-16T19:48:07Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/flight-information/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.wolframalpha.com/input/web-apps/flight-information-assistant&quot;&gt;Wolfram Alpha Flight Assistant&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Virtual Local Area Networks</title>
+    <link href="https://notes.samfeldstein.xyz/notes/virtual-local-area-networks/" />
+    <updated>2025-06-16T16:26:35Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/virtual-local-area-networks/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A Virtual Local Area Network (VLAN) virtually subdivides devices on a network.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Open Systems Interconnection Model</title>
+    <link href="https://notes.samfeldstein.xyz/notes/open-systems-interconnection-model/" />
+    <updated>2025-06-16T16:22:18Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/open-systems-interconnection-model/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Layers:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Physical&lt;/li&gt;&lt;li&gt;Data Link&lt;/li&gt;&lt;li&gt;Network&lt;/li&gt;&lt;li&gt;Transport&lt;/li&gt;&lt;li&gt;Session&lt;/li&gt;&lt;li&gt;Presentation&lt;/li&gt;&lt;li&gt;Application&lt;/li&gt;&lt;/ol&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/open-systems-interconnection-model-osi/&quot;&gt;What is the OSI model?&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Routers</title>
+    <link href="https://notes.samfeldstein.xyz/notes/routers/" />
+    <updated>2025-06-16T15:51:10Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/routers/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A router connects networks. Not to be confused with a switch, which connects devices on a network.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Network Sessions</title>
+    <link href="https://notes.samfeldstein.xyz/notes/network-sessions/" />
+    <updated>2025-06-16T15:18:11Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/network-sessions/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A session is created when a connection is established.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
   <entry>
     <title>Networking</title>
     <link href="https://notes.samfeldstein.xyz/notes/networking/" />
@@ -44,60 +98,6 @@
     <id>https://notes.samfeldstein.xyz/notes/gamified-learning/</id>
     <content type="html">
 &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;Gamified learning&lt;/strong&gt; uses video game design in learning environments.&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Gamification_of_learning&quot;&gt;Gamification of learning&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Breaking Rules in Storytelling</title>
-    <link href="https://notes.samfeldstein.xyz/notes/breaking-rules-in-storytelling/" />
-    <updated>2025-06-13T20:05:38Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/breaking-rules-in-storytelling/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Breaking rules = subverting expectations.&lt;/p&gt;&lt;p&gt;You have to know what people expect before you can surprise them.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Remove Items from a Git Repository</title>
-    <link href="https://notes.samfeldstein.xyz/notes/remove-items-from-a-git-repository/" />
-    <updated>2025-06-13T19:45:33Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/remove-items-from-a-git-repository/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-r&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--cached&lt;/span&gt; path/to/folder&lt;/code&gt;&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Fascism</title>
-    <link href="https://notes.samfeldstein.xyz/notes/fascism/" />
-    <updated>2025-06-13T19:20:21Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/fascism/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;&lt;p&gt;You know you’re living in a fascist society when you’re constantly going over in your head the reasons that you are safe.&lt;/p&gt;&lt;p&gt;&lt;cite&gt;Somebody in this &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/fascism/%5Bhttps:/youtu.be/IXR9PByA9SY&quot;&gt;&lt;em&gt;New York Times&lt;/em&gt; video&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Defense in Depth</title>
-    <link href="https://notes.samfeldstein.xyz/notes/defense-in-depth/" />
-    <updated>2025-06-13T16:10:29Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/defense-in-depth/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;Defence-in-Depth&lt;/strong&gt; means creating a security system of multiple levels. Also known as &lt;strong&gt;Multi-Level Security&lt;/strong&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Incident Response Phases</title>
-    <link href="https://notes.samfeldstein.xyz/notes/incident-response-phases/" />
-    <updated>2025-06-13T15:16:12Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/incident-response-phases/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ol&gt;&lt;li&gt;Preparation&lt;/li&gt;&lt;li&gt;Detection and analysis&lt;/li&gt;&lt;li&gt;Containment, eradication, and recovery&lt;/li&gt;&lt;li&gt;Post-incident activity&lt;/li&gt;&lt;/ol&gt;&lt;h2&gt;Preparation&lt;/h2&gt;&lt;p&gt;Take measures to prevent incidents.&lt;/p&gt;&lt;h2&gt;Detection and analysis&lt;/h2&gt;&lt;p&gt;Analyze an incident to learn about its severity.&lt;/p&gt;&lt;h2&gt;Containment, eradication, and recovery&lt;/h2&gt;&lt;p&gt;Stop the incident from affecting other systems, eliminate it, and recover the affected systems.&lt;/p&gt;&lt;h2&gt;Post-incident activity&lt;/h2&gt;&lt;p&gt;Report findings to prevent similar future incidents.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Find Work in Frontend Development</title>
-    <link href="https://notes.samfeldstein.xyz/notes/find-work-in-frontend-development/" />
-    <updated>2025-06-13T14:12:31Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/find-work-in-frontend-development/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ol&gt;&lt;li&gt;Level up&lt;/li&gt;&lt;li&gt;Network&lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>
