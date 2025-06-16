@@ -11,3 +11,4 @@ updated: 2025-06-15
 ## Further reading
 
 - [Information architecture](https://en.wikipedia.org/wiki/Information_architecture)
+- [Information architecture jobs](https://www.intelligentpeople.co.uk/information-architect/)

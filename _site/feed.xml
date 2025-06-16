@@ -4,12 +4,21 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-15T14:59:30Z</updated>
+  <updated>2025-06-16T14:55:26Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
+  <entry>
+    <title>Networking</title>
+    <link href="https://notes.samfeldstein.xyz/notes/networking/" />
+    <updated>2025-06-16T14:55:26Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/networking/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Someone once defined a network as a place you go to ask questions.&lt;/p&gt;&lt;h2&gt;How to network in person&lt;/h2&gt;&lt;p&gt;Attend &lt;a href=&quot;https://www.meetup.com/&quot;&gt;meetups&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;How to network online&lt;/h2&gt;&lt;p&gt;Find people doing what you want to do, and ask them how they got there.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
   <entry>
     <title>Library Science</title>
     <link href="https://notes.samfeldstein.xyz/notes/library-science/" />
@@ -25,7 +34,7 @@
     <updated>2025-06-15T14:43:21Z</updated>
     <id>https://notes.samfeldstein.xyz/notes/information-architecture/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;Information architecture&lt;/strong&gt; is the structural design of shared information environments (websites, intranets, online communities, etc). It brings principles of design, architecture, and information science to the digital landscape.&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Information_architecture&quot;&gt;Information architecture&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;Information architecture&lt;/strong&gt; is the structural design of shared information environments (websites, intranets, online communities, etc). It brings principles of design, architecture, and information science to the digital landscape.&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Information_architecture&quot;&gt;Information architecture&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.intelligentpeople.co.uk/information-architect/&quot;&gt;Information architecture jobs&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
@@ -89,15 +98,6 @@
     <id>https://notes.samfeldstein.xyz/notes/find-work-in-frontend-development/</id>
     <content type="html">
 &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ol&gt;&lt;li&gt;Level up&lt;/li&gt;&lt;li&gt;Network&lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Volunteer Ideas</title>
-    <link href="https://notes.samfeldstein.xyz/notes/volunteer-ideas/" />
-    <updated>2025-06-13T00:54:32Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/volunteer-ideas/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;Computer literacy&lt;ul&gt;&lt;li&gt;Check library&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Grant writing&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>
