@@ -4,12 +4,30 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-16T20:03:17Z</updated>
+  <updated>2025-06-17T14:53:21Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
+  <entry>
+    <title>Styles in Obsidian</title>
+    <link href="https://notes.samfeldstein.xyz/notes/styles-in-obsidian/" />
+    <updated>2025-06-17T14:53:21Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/styles-in-obsidian/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;If you just need some basic styling, you can use a plugin like &lt;a href=&quot;https://github.com/mgmeyers/obsidian-style-settings&quot;&gt;Style Settings&lt;/a&gt;. Other plug-ins probably let you do more.&lt;/p&gt;&lt;p&gt;If you want fine control, you can add your own styles to Obsidian by adding files in the CSS snippets folder. Open &lt;strong&gt;Settings &amp;gt; Appearance&lt;/strong&gt; and it&#39;ll tell you where that folder is.&lt;/p&gt;&lt;p&gt;You can select elements using &lt;a href=&quot;https://docs.obsidian/Reference/CSS+variables/CSS+variables&quot;&gt;Obsidian&#39;s provided variables&lt;/a&gt;. You can also open DevTools with &lt;kbd&gt;CmdOptI.&lt;/kbd&gt;&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://help.obsidian/snippets&quot;&gt;Obsidian CSS Snippets&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>The Expectation</title>
+    <link href="https://notes.samfeldstein.xyz/notes/the-expectation/" />
+    <updated>2025-06-17T14:46:42Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/the-expectation/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;The expectation is the number you&#39;d get if you performed the experiment an infinite number of times.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
   <entry>
     <title>HTTP Headers</title>
     <link href="https://notes.samfeldstein.xyz/notes/http-headers/" />
@@ -80,24 +98,6 @@
     <id>https://notes.samfeldstein.xyz/notes/library-science/</id>
     <content type="html">
 &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;Library science&lt;/strong&gt; concerns the collection, organization, preservation, and dissemination of information resources (physical and digital).&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Library_and_information_science&quot;&gt;Library and information science&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.usnews.com/education/best-graduate-schools/articles/what-library-science-is-and-how-to-become-a-librarian&quot;&gt;Library Science and How to Become a Librarian&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Information Architecture</title>
-    <link href="https://notes.samfeldstein.xyz/notes/information-architecture/" />
-    <updated>2025-06-15T14:43:21Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/information-architecture/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;Information architecture&lt;/strong&gt; is the structural design of shared information environments (websites, intranets, online communities, etc). It brings principles of design, architecture, and information science to the digital landscape.&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Information_architecture&quot;&gt;Information architecture&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.intelligentpeople.co.uk/information-architect/&quot;&gt;Information architecture jobs&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Gamified Learning</title>
-    <link href="https://notes.samfeldstein.xyz/notes/gamified-learning/" />
-    <updated>2025-06-15T14:34:34Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/gamified-learning/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;Gamified learning&lt;/strong&gt; uses video game design in learning environments.&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Gamification_of_learning&quot;&gt;Gamification of learning&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>

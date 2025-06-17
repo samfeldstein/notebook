@@ -1,5 +1,5 @@
 ---
-title: Typography Resources
+title: Typography
 tags:
   - typography
 created: 2025-06-06

@@ -124,9 +124,8 @@ small {
   font-size: var(--font-small);
 }
 
-code {
+code,kbd {
   font-family: var(--font-body);
-  font-style: italic;
   font-weight: 700;
 }
 
