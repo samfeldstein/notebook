@@ -1,5 +1,7 @@
 ---
 title: Digital Notebook Roadmap
+aliases:
+  - Notebook Roadmap
 tags:
   - projects
 created: 2025-05-28
@@ -15,3 +17,4 @@ updated: 2025-05-28
 - Display file name in code blocks
 - Compress pdfs at build
 - Get relative links to work without the transforms?
+- Build private notes on dev server

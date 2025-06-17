@@ -409,7 +409,7 @@
 		<loc>https://notes.samfeldstein.xyz/notes/second-order-relationships-between-notes/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/unix-resources/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/linux-resources/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/lexicographic-resources/</loc>
@@ -695,6 +695,12 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/styles-in-obsidian/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/split-zsh-configuration-file/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/denver-food/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/feed.xml</loc>

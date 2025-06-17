@@ -17,3 +17,4 @@ You can select elements using [Obsidian's provided variables](https://docs.obsid
 ## Further reading
 
 - [Obsidian CSS Snippets](https://help.obsidian.md/snippets)
+- [Obsidian DevTools](https://forum.obsidian.md/t/obsidian-css-inspector-workflow/58178)

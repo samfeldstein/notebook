@@ -4,19 +4,39 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-17T14:53:21Z</updated>
+  <updated>2025-06-17T19:17:36Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
   <entry>
+    <title>Denver Food</title>
+    <link href="https://notes.samfeldstein.xyz/notes/denver-food/" />
+    <updated>2025-06-17T19:17:36Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/denver-food/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.oliveandfinch.com/location/olive-finch-little-finch/&quot;&gt;Little Finch&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Resources&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/denverfood/&quot;&gt;r/denverfood&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Split Zsh Configuration File</title>
+    <link href="https://notes.samfeldstein.xyz/notes/split-zsh-configuration-file/" />
+    <updated>2025-06-17T18:34:01Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/split-zsh-configuration-file/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Make a folder in for your zsh configuration files. Mine&#39;s called &lt;code&gt;.zsh&lt;/code&gt; and I put it in my home (&lt;code&gt;~/&lt;/code&gt;) directory. Put whatever configuration files you want in there. For example, &lt;code&gt;aliases.zsh&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;Add this code to your &lt;code&gt;.zshrc&lt;/code&gt; file:&lt;/p&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; ~/.zsh/*.zsh&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$file&lt;/span&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Run &lt;code&gt;source ~/.zshrc&lt;/code&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
     <title>Styles in Obsidian</title>
     <link href="https://notes.samfeldstein.xyz/notes/styles-in-obsidian/" />
     <updated>2025-06-17T14:53:21Z</updated>
     <id>https://notes.samfeldstein.xyz/notes/styles-in-obsidian/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;If you just need some basic styling, you can use a plugin like &lt;a href=&quot;https://github.com/mgmeyers/obsidian-style-settings&quot;&gt;Style Settings&lt;/a&gt;. Other plug-ins probably let you do more.&lt;/p&gt;&lt;p&gt;If you want fine control, you can add your own styles to Obsidian by adding files in the CSS snippets folder. Open &lt;strong&gt;Settings &amp;gt; Appearance&lt;/strong&gt; and it&#39;ll tell you where that folder is.&lt;/p&gt;&lt;p&gt;You can select elements using &lt;a href=&quot;https://docs.obsidian/Reference/CSS+variables/CSS+variables&quot;&gt;Obsidian&#39;s provided variables&lt;/a&gt;. You can also open DevTools with &lt;kbd&gt;CmdOptI.&lt;/kbd&gt;&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://help.obsidian/snippets&quot;&gt;Obsidian CSS Snippets&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;If you just need some basic styling, you can use a plugin like &lt;a href=&quot;https://github.com/mgmeyers/obsidian-style-settings&quot;&gt;Style Settings&lt;/a&gt;. Other plug-ins probably let you do more.&lt;/p&gt;&lt;p&gt;If you want fine control, you can add your own styles to Obsidian by adding files in the CSS snippets folder. Open &lt;strong&gt;Settings &amp;gt; Appearance&lt;/strong&gt; and it&#39;ll tell you where that folder is.&lt;/p&gt;&lt;p&gt;You can select elements using &lt;a href=&quot;https://docs.obsidian/Reference/CSS+variables/CSS+variables&quot;&gt;Obsidian&#39;s provided variables&lt;/a&gt;. You can also open DevTools with &lt;kbd&gt;CmdOptI.&lt;/kbd&gt;&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://help.obsidian/snippets&quot;&gt;Obsidian CSS Snippets&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://forum.obsidian/t/obsidian-css-inspector-workflow/58178&quot;&gt;Obsidian DevTools&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
@@ -80,24 +100,6 @@
     <id>https://notes.samfeldstein.xyz/notes/network-sessions/</id>
     <content type="html">
 &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A session is created when a connection is established.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Networking</title>
-    <link href="https://notes.samfeldstein.xyz/notes/networking/" />
-    <updated>2025-06-16T14:55:26Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/networking/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Someone once defined a network as a place you go to ask questions.&lt;/p&gt;&lt;h2&gt;How to network in person&lt;/h2&gt;&lt;p&gt;Attend &lt;a href=&quot;https://www.meetup.com/&quot;&gt;meetups&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;How to network online&lt;/h2&gt;&lt;p&gt;Find people doing what you want to do, and ask them how they got there.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Library Science</title>
-    <link href="https://notes.samfeldstein.xyz/notes/library-science/" />
-    <updated>2025-06-15T14:59:30Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/library-science/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;Library science&lt;/strong&gt; concerns the collection, organization, preservation, and dissemination of information resources (physical and digital).&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Library_and_information_science&quot;&gt;Library and information science&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.usnews.com/education/best-graduate-schools/articles/what-library-science-is-and-how-to-become-a-librarian&quot;&gt;Library Science and How to Become a Librarian&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>

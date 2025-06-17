@@ -13,7 +13,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx @11ty/eleventy --serve --incremental --quiet",
-    "start": "open -a 'Firefox Developer Edition' http://localhost:8080/ && npx @11ty/eleventy --serve --incremental --quiet",
+    "start": "open -a 'Firefox Developer Edition' && npm run dev",
     "build": "npx @11ty/eleventy && npx -y pagefind --site _site",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
