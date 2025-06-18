@@ -14,4 +14,3 @@ An RSS feed is an [XML document](https://developer.mozilla.org/en-US/docs/Web/XM
 
 The advantage to an RSS feed is that you don't have to manually check a site for new content. Instead, new content is sent to your feed reader whenever the RSS feed is updated.
  
-
