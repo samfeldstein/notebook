@@ -1,5 +1,6 @@
 ---
 title: Things to Do in Denver
+alias: Things to Do in Denver
 tags:
   - travel
   - colorado

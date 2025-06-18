@@ -4,12 +4,57 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-17T19:17:36Z</updated>
+  <updated>2025-06-18T15:10:39Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
+  <entry>
+    <title>Inline SVGs</title>
+    <link href="https://notes.samfeldstein.xyz/notes/inline-svgs/" />
+    <updated>2025-06-18T15:10:39Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/inline-svgs/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;svg&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;xmlns&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;http://www.w3.org/2000/svg&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;viewBox&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;0 0 448 512&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token special-attr&quot;&gt;&lt;span class=&quot;token attr-name&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token value css language-css&quot;&gt;&lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 1em&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 1em&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;vertical-align&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; -0.125em&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I&#39;m not entirely sure why this works, but it does. Read more on &lt;a href=&quot;https://docs.fontawesome.com/web/add-icons/svg-bare&quot;&gt;Font Awesome&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Feed Readers</title>
+    <link href="https://notes.samfeldstein.xyz/notes/feed-readers/" />
+    <updated>2025-06-18T14:51:44Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/feed-readers/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://netnewswire.com/&quot;&gt;NetNewsWire&lt;/a&gt; (for Mac, what I use)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.newsblur.com/&quot;&gt;NewsBlur&lt;/a&gt; (free plan limits you to 65 feeds)&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>RSS Feed Quick Start</title>
+    <link href="https://notes.samfeldstein.xyz/notes/rss-feed-quick-start/" />
+    <updated>2025-06-18T14:50:46Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/rss-feed-quick-start/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;To start using &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/rss-feed-quick-start/notes/rss-feeds&quot;&gt;RSS feeds&lt;/a&gt; , you need a &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/rss-feed-quick-start/notes/feed-readers&quot;&gt;feed reader&lt;/a&gt; and a &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/rss-feed-quick-start/notes/find-rss-feeds&quot;&gt;feed you want to follow&lt;/a&gt;.&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Copy the feed link&lt;/li&gt;&lt;li&gt;Find the option to add a feed in your feed reader&lt;/li&gt;&lt;li&gt;Paste the feed link&lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Find RSS Feeds</title>
+    <link href="https://notes.samfeldstein.xyz/notes/find-rss-feeds/" />
+    <updated>2025-06-18T14:48:16Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/find-rss-feeds/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;I use &lt;a href=&quot;https://nodetics.com/feedbro/&quot;&gt;FeedBro&lt;/a&gt; to find feeds. FeedBro is also a reader, but I don&#39;t use that feature.&lt;/p&gt;&lt;p&gt;Once you&#39;ve added the extension to your browser, click the icon and you&#39;ll see an option to &lt;code&gt;Find Feeds in Current Tab&lt;/code&gt;. It may or may not find one, and this may or may not be because the website doesn&#39;t have one. It&#39;s possible the website does have a feed but it&#39;s not listed on the current page.&lt;/p&gt;&lt;p&gt;If the button doesn&#39;t return a feed, you can try a few more things:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;kbd&gt;Ctrl/Cmd + F&lt;/kbd&gt; for &lt;em&gt;rss&lt;/em&gt; or &lt;em&gt;atom&lt;/em&gt; or &lt;em&gt;feed&lt;/em&gt;&lt;/li&gt;&lt;li&gt;Google the website name + &lt;em&gt;rss feed&lt;/em&gt; or &lt;em&gt;atom feed&lt;/em&gt;&lt;/li&gt;&lt;li&gt;Add &lt;code&gt;/feed&lt;/code&gt; or &lt;code&gt;/feed.xml&lt;/code&gt; to the end of the base URL (eg, &lt;code&gt;notes.samfeldstein.xyz/feed.xml&lt;/code&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;If none of those work, the site probably doesn&#39;t have a feed.&lt;/p&gt;&lt;aside class=&quot;callout&quot;&gt;&lt;p&gt;RSS isn&#39;t just for news sites and blogs. Reddit and YouTube, among others, generate feeds for each forum and channel.&lt;/p&gt;&lt;/aside&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>RSS Feeds</title>
+    <link href="https://notes.samfeldstein.xyz/notes/rss-feeds/" />
+    <updated>2025-06-18T13:52:39Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/rss-feeds/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;An RSS feed is an &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/XML/Guides/XML_introduction&quot;&gt;XML document&lt;/a&gt;. It&#39;s often represented by this icon: &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 448 512&quot; style=&quot;width: 1em; height: 1em; vertical-align: -0.125em;&quot;&gt;&lt;!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--&gt;&lt;path d=&quot;M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM96 136c0-13.3 10.7-24 24-24c137 0 248 111 248 248c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-110.5-89.5-200-200-200c-13.3 0-24-10.7-24-24zm0 96c0-13.3 10.7-24 24-24c83.9 0 152 68.1 152 152c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-57.4-46.6-104-104-104c-13.3 0-24-10.7-24-24zm0 120a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;, or simply the word &lt;em&gt;feed&lt;/em&gt;. The document contains content, eg a list of blog posts, formatted in a way that specific software (&lt;a href=&quot;https://notes.samfeldstein.xyz/notes/rss-feeds/notes/feed-readers&quot;&gt;feed readers&lt;/a&gt;) can read.&lt;/p&gt;&lt;p&gt;The advantage to an RSS feed is that you don&#39;t have to manually check a site for new content. Instead, new content is sent to your feed reader whenever the RSS feed is updated.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
   <entry>
     <title>Denver Food</title>
     <link href="https://notes.samfeldstein.xyz/notes/denver-food/" />
@@ -55,51 +100,6 @@
     <id>https://notes.samfeldstein.xyz/notes/http-headers/</id>
     <content type="html">
 &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;Accept-Encoding&lt;/code&gt;. Indicates the content encoding (usually a compression algorithm) that the sender can understand.&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers&quot;&gt;HTTP Headers&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Flight Information</title>
-    <link href="https://notes.samfeldstein.xyz/notes/flight-information/" />
-    <updated>2025-06-16T19:48:07Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/flight-information/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.wolframalpha.com/input/web-apps/flight-information-assistant&quot;&gt;Wolfram Alpha Flight Assistant&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Virtual Local Area Networks</title>
-    <link href="https://notes.samfeldstein.xyz/notes/virtual-local-area-networks/" />
-    <updated>2025-06-16T16:26:35Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/virtual-local-area-networks/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A Virtual Local Area Network (VLAN) virtually subdivides devices on a network.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Open Systems Interconnection Model</title>
-    <link href="https://notes.samfeldstein.xyz/notes/open-systems-interconnection-model/" />
-    <updated>2025-06-16T16:22:18Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/open-systems-interconnection-model/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Layers:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Physical&lt;/li&gt;&lt;li&gt;Data Link&lt;/li&gt;&lt;li&gt;Network&lt;/li&gt;&lt;li&gt;Transport&lt;/li&gt;&lt;li&gt;Session&lt;/li&gt;&lt;li&gt;Presentation&lt;/li&gt;&lt;li&gt;Application&lt;/li&gt;&lt;/ol&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/open-systems-interconnection-model-osi/&quot;&gt;What is the OSI model?&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Routers</title>
-    <link href="https://notes.samfeldstein.xyz/notes/routers/" />
-    <updated>2025-06-16T15:51:10Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/routers/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A router connects networks. Not to be confused with a switch, which connects devices on a network.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Network Sessions</title>
-    <link href="https://notes.samfeldstein.xyz/notes/network-sessions/" />
-    <updated>2025-06-16T15:18:11Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/network-sessions/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A session is created when a connection is established.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>
