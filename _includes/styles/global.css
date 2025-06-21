@@ -208,8 +208,7 @@ input:focus {
 }
 
 blockquote {
-  margin: 0;
-  margin-left: 2em;
+  margin: 0 2em;
   padding: 0 0.5em;
 
   line-height: 1.3;

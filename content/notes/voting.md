@@ -14,3 +14,4 @@ updated: 2024-10-20
 ## Ballot Research
 
 - [BallotPedia](https://ballotpedia.org/Main_Page)
+- [Follow the money](https://www.opensecrets.org/)

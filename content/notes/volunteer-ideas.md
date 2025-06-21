@@ -10,3 +10,7 @@ updated: 2025-06-12
 - Computer literacy
 	- Check library
 - Grant writing
+- Open source
+- Open street maps
+- [Humanitarian open street maps](https://www.hotosm.org/)
+- [ISSA](https://www.denverissa.org/about)

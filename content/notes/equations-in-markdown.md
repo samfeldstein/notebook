@@ -1,5 +1,8 @@
 ---
 title: Equations in Markdown
+aliases:
+  - Equations in Markdown
+  - Math in Markdown
 tags:
   - markdown
 created: 2025-05-24

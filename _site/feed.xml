@@ -4,102 +4,118 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-18T15:10:39Z</updated>
+  <updated>2025-06-21T16:33:54Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
   <entry>
-    <title>Inline SVGs</title>
-    <link href="https://notes.samfeldstein.xyz/notes/inline-svgs/" />
-    <updated>2025-06-18T15:10:39Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/inline-svgs/</id>
+    <title>Open a File That Starts With a Dash From the Terminal</title>
+    <link href="https://notes.samfeldstein.xyz/notes/open-a-file-that-starts-with-a-dash-from-the-terminal/" />
+    <updated>2025-06-21T16:33:54Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/open-a-file-that-starts-with-a-dash-from-the-terminal/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;svg&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;xmlns&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;http://www.w3.org/2000/svg&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;viewBox&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;0 0 448 512&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token special-attr&quot;&gt;&lt;span class=&quot;token attr-name&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token value css language-css&quot;&gt;&lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 1em&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 1em&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;vertical-align&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; -0.125em&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I&#39;m not entirely sure why this works, but it does. Read more on &lt;a href=&quot;https://docs.fontawesome.com/web/add-icons/svg-bare&quot;&gt;Font Awesome&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;When a filename starts with a dash (&lt;code&gt;-&lt;/code&gt;), the terminal can confuse it for a command option. Use &lt;code&gt;./-filename&lt;/code&gt; instead.&lt;/p&gt;&lt;p&gt;Example:&lt;/p&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; ./-filename&lt;/code&gt;&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Feed Readers</title>
-    <link href="https://notes.samfeldstein.xyz/notes/feed-readers/" />
-    <updated>2025-06-18T14:51:44Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/feed-readers/</id>
+    <title>Load JavaScript Modules on a Web Page</title>
+    <link href="https://notes.samfeldstein.xyz/notes/load-javascript-modules-on-a-web-page/" />
+    <updated>2025-06-21T15:13:31Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/load-javascript-modules-on-a-web-page/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://netnewswire.com/&quot;&gt;NetNewsWire&lt;/a&gt; (for Mac, what I use)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.newsblur.com/&quot;&gt;NewsBlur&lt;/a&gt; (free plan limits you to 65 feeds)&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;module&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;main.js&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token script&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;script&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You don&#39;t need the &lt;code&gt;defer&lt;/code&gt; attribute; modules are deferred automatically.&lt;/p&gt;&lt;p&gt;Modules are only executed once, even if they&#39;re referenced in multiple &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules&quot;&gt;JavaScript modules&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>RSS Feed Quick Start</title>
-    <link href="https://notes.samfeldstein.xyz/notes/rss-feed-quick-start/" />
-    <updated>2025-06-18T14:50:46Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/rss-feed-quick-start/</id>
+    <title>Load JavaScript on a Web Page</title>
+    <link href="https://notes.samfeldstein.xyz/notes/load-javascript-on-a-web-page/" />
+    <updated>2025-06-21T15:04:45Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/load-javascript-on-a-web-page/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;To start using &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/rss-feed-quick-start/notes/rss-feeds&quot;&gt;RSS feeds&lt;/a&gt; , you need a &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/rss-feed-quick-start/notes/feed-readers&quot;&gt;feed reader&lt;/a&gt; and a &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/rss-feed-quick-start/notes/find-rss-feeds&quot;&gt;feed you want to follow&lt;/a&gt;.&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Copy the feed link&lt;/li&gt;&lt;li&gt;Find the option to add a feed in your feed reader&lt;/li&gt;&lt;li&gt;Paste the feed link&lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Unless you have some reason not to, the best way to load JavaScript on a web page is to use the &lt;code&gt;type=&quot;module&quot;&lt;/code&gt; attribute (see &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/load-javascript-on-a-web-page/notes/load-javascript-modules-on-a-web-page&quot;&gt;Load JavaScript Modules on a Web Page&lt;/a&gt;).&lt;/p&gt;&lt;p&gt;The script must be a module for that to work.&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules&quot;&gt;JavaScript modules&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Find RSS Feeds</title>
-    <link href="https://notes.samfeldstein.xyz/notes/find-rss-feeds/" />
-    <updated>2025-06-18T14:48:16Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/find-rss-feeds/</id>
+    <title>Learn Math</title>
+    <link href="https://notes.samfeldstein.xyz/notes/learn-math/" />
+    <updated>2025-06-21T03:54:29Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/learn-math/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;I use &lt;a href=&quot;https://nodetics.com/feedbro/&quot;&gt;FeedBro&lt;/a&gt; to find feeds. FeedBro is also a reader, but I don&#39;t use that feature.&lt;/p&gt;&lt;p&gt;Once you&#39;ve added the extension to your browser, click the icon and you&#39;ll see an option to &lt;code&gt;Find Feeds in Current Tab&lt;/code&gt;. It may or may not find one, and this may or may not be because the website doesn&#39;t have one. It&#39;s possible the website does have a feed but it&#39;s not listed on the current page.&lt;/p&gt;&lt;p&gt;If the button doesn&#39;t return a feed, you can try a few more things:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;kbd&gt;Ctrl/Cmd + F&lt;/kbd&gt; for &lt;em&gt;rss&lt;/em&gt; or &lt;em&gt;atom&lt;/em&gt; or &lt;em&gt;feed&lt;/em&gt;&lt;/li&gt;&lt;li&gt;Google the website name + &lt;em&gt;rss feed&lt;/em&gt; or &lt;em&gt;atom feed&lt;/em&gt;&lt;/li&gt;&lt;li&gt;Add &lt;code&gt;/feed&lt;/code&gt; or &lt;code&gt;/feed.xml&lt;/code&gt; to the end of the base URL (eg, &lt;code&gt;notes.samfeldstein.xyz/feed.xml&lt;/code&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;If none of those work, the site probably doesn&#39;t have a feed.&lt;/p&gt;&lt;aside class=&quot;callout&quot;&gt;&lt;p&gt;RSS isn&#39;t just for news sites and blogs. Reddit and YouTube, among others, generate feeds for each forum and channel.&lt;/p&gt;&lt;/aside&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://brilliant.org/&quot;&gt;Brilliant&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>RSS Feeds</title>
-    <link href="https://notes.samfeldstein.xyz/notes/rss-feeds/" />
-    <updated>2025-06-18T13:52:39Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/rss-feeds/</id>
+    <title>Python</title>
+    <link href="https://notes.samfeldstein.xyz/notes/python/" />
+    <updated>2025-06-21T03:18:18Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/python/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;An RSS feed is an &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/XML/Guides/XML_introduction&quot;&gt;XML document&lt;/a&gt;. It&#39;s often represented by this icon: &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 448 512&quot; style=&quot;width: 1em; height: 1em; vertical-align: -0.125em;&quot;&gt;&lt;!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--&gt;&lt;path d=&quot;M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM96 136c0-13.3 10.7-24 24-24c137 0 248 111 248 248c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-110.5-89.5-200-200-200c-13.3 0-24-10.7-24-24zm0 96c0-13.3 10.7-24 24-24c83.9 0 152 68.1 152 152c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-57.4-46.6-104-104-104c-13.3 0-24-10.7-24-24zm0 120a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;, or simply the word &lt;em&gt;feed&lt;/em&gt;. The document contains content, eg a list of blog posts, formatted in a way that specific software (&lt;a href=&quot;https://notes.samfeldstein.xyz/notes/rss-feeds/notes/feed-readers&quot;&gt;feed readers&lt;/a&gt;) can read.&lt;/p&gt;&lt;p&gt;The advantage to an RSS feed is that you don&#39;t have to manually check a site for new content. Instead, new content is sent to your feed reader whenever the RSS feed is updated.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://brilliant.org/&quot;&gt;Brilliant&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://wiki.python.org/moin/BeginnersGuide&quot;&gt;Python Beginner&#39;s Guide&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://peps.python.org/pep-0008/&quot;&gt;Python Style Guide&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Denver Food</title>
-    <link href="https://notes.samfeldstein.xyz/notes/denver-food/" />
-    <updated>2025-06-17T19:17:36Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/denver-food/</id>
+    <title>The Zen of Python</title>
+    <link href="https://notes.samfeldstein.xyz/notes/the-zen-of-python/" />
+    <updated>2025-06-21T03:15:11Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/the-zen-of-python/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.oliveandfinch.com/location/olive-finch-little-finch/&quot;&gt;Little Finch&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Resources&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/denverfood/&quot;&gt;r/denverfood&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren&#39;t special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you&#39;re Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it&#39;s a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let&#39;s do more of those!&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://peps.python.org/pep-0020/#the-zen-of-python&quot;&gt;The Zen of Python&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Split Zsh Configuration File</title>
-    <link href="https://notes.samfeldstein.xyz/notes/split-zsh-configuration-file/" />
-    <updated>2025-06-17T18:34:01Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/split-zsh-configuration-file/</id>
+    <title>Python Enhancement Proposals</title>
+    <link href="https://notes.samfeldstein.xyz/notes/python-enhancement-proposals/" />
+    <updated>2025-06-21T03:13:16Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/python-enhancement-proposals/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Make a folder in for your zsh configuration files. Mine&#39;s called &lt;code&gt;.zsh&lt;/code&gt; and I put it in my home (&lt;code&gt;~/&lt;/code&gt;) directory. Put whatever configuration files you want in there. For example, &lt;code&gt;aliases.zsh&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;Add this code to your &lt;code&gt;.zshrc&lt;/code&gt; file:&lt;/p&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; ~/.zsh/*.zsh&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
-  &lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$file&lt;/span&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Run &lt;code&gt;source ~/.zshrc&lt;/code&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://peps.python.org/pep-0000/&quot;&gt;PEP Index&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Styles in Obsidian</title>
-    <link href="https://notes.samfeldstein.xyz/notes/styles-in-obsidian/" />
-    <updated>2025-06-17T14:53:21Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/styles-in-obsidian/</id>
+    <title>WGU Questions</title>
+    <link href="https://notes.samfeldstein.xyz/notes/wgu-questions/" />
+    <updated>2025-06-20T15:50:35Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/wgu-questions/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;If you just need some basic styling, you can use a plugin like &lt;a href=&quot;https://github.com/mgmeyers/obsidian-style-settings&quot;&gt;Style Settings&lt;/a&gt;. Other plug-ins probably let you do more.&lt;/p&gt;&lt;p&gt;If you want fine control, you can add your own styles to Obsidian by adding files in the CSS snippets folder. Open &lt;strong&gt;Settings &amp;gt; Appearance&lt;/strong&gt; and it&#39;ll tell you where that folder is.&lt;/p&gt;&lt;p&gt;You can select elements using &lt;a href=&quot;https://docs.obsidian/Reference/CSS+variables/CSS+variables&quot;&gt;Obsidian&#39;s provided variables&lt;/a&gt;. You can also open DevTools with &lt;kbd&gt;CmdOptI.&lt;/kbd&gt;&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://help.obsidian/snippets&quot;&gt;Obsidian CSS Snippets&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://forum.obsidian/t/obsidian-css-inspector-workflow/58178&quot;&gt;Obsidian DevTools&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2&gt;Pressing concerns&lt;/h2&gt;&lt;p&gt;I&#39;m trying to decide if I should major in Computer Science, Cybersecurity and Information Assurance, or both.&lt;/p&gt;&lt;p&gt;I&#39;m leaning toward compsci because I&#39;m want to find a job in programming or cybersecurity, and both of those seem like they&#39;re “downstream” of compsci. My sense is that compsci will give me more options for the future.&lt;/p&gt;&lt;h3&gt;My interest in programming&lt;/h3&gt;&lt;p&gt;I enjoy programming and frequently build little tools for myself (eg, a python script to track my writing hours and average words). I&#39;m pretty knowledgable about web programming, and I&#39;ve built a number of websites using static site generators, but I&#39;m not interested in frontend as a career.&lt;/p&gt;&lt;p&gt;I enjoy writing programs that are efficient and easy to maintain. I&#39;m most interested in python. Is that a sound choice? What careers are available to python devs? Are there other languages with more promising outlooks?&lt;/p&gt;&lt;p&gt;I&#39;m worried about job security. I&#39;m worried about AI automating away software jobs. I don&#39;t want to get a degree only to discover I&#39;m unemployable in five years.&lt;/p&gt;&lt;h3&gt;My interest in cybersecurity&lt;/h3&gt;&lt;p&gt;I&#39;m most interested in threat intelligence and ethical hacking, but I have little experience doing either of these, so I can&#39;t be sure I&#39;m a good fit.&lt;/p&gt;&lt;h2&gt;Other questions&lt;/h2&gt;&lt;p&gt;How long will it take to graduate if I&#39;m working toward my degree 20 hrs/week?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>The Expectation</title>
-    <link href="https://notes.samfeldstein.xyz/notes/the-expectation/" />
-    <updated>2025-06-17T14:46:42Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/the-expectation/</id>
+    <title>Information Technology Degree Programs</title>
+    <link href="https://notes.samfeldstein.xyz/notes/information-technology-degree-programs/" />
+    <updated>2025-06-19T23:19:35Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/information-technology-degree-programs/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;The expectation is the number you&#39;d get if you performed the experiment an infinite number of times.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.wgu.edu/online-it-degrees/information-technology-bachelors-program.html&quot;&gt;Western Governor&#39;s University&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>HTTP Headers</title>
-    <link href="https://notes.samfeldstein.xyz/notes/http-headers/" />
-    <updated>2025-06-16T20:03:17Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/http-headers/</id>
+    <title>Remote Desktop Protocol</title>
+    <link href="https://notes.samfeldstein.xyz/notes/remote-desktop-protocol/" />
+    <updated>2025-06-19T21:21:41Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/remote-desktop-protocol/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;Accept-Encoding&lt;/code&gt;. Indicates the content encoding (usually a compression algorithm) that the sender can understand.&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers&quot;&gt;HTTP Headers&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;RDP is a popular protocol for remote access to Windows machines.&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.cyberark.com/resources/threat-research-blog/explain-like-i-m-5-remote-desktop-protocol-rdp&quot;&gt;Explain Like I&#39;m Five: Remote Desktop Protocol&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>

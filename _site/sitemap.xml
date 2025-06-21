@@ -37,7 +37,7 @@
 		<loc>https://notes.samfeldstein.xyz/notes/dance/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/data-resources/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/data/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/date-me-docs/</loc>
@@ -236,9 +236,6 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/user-centered-design/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/career-guide/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/how-to-build-a-website/</loc>
@@ -455,9 +452,6 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/programming-languages-to-learn/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/favorite-software/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/open-source-intelligence-life-cycle/</loc>
@@ -716,6 +710,54 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/inline-svgs/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/cron/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/test/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/information-theory/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/artificial-intelligence/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/common-vulnerabilities-and-exposures/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/disinformation/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/remote-desktop-protocol/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/information-technology-degree-programs/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/wgu-questions/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/python-enhancement-proposals/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/the-zen-of-python/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/python/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/learn-math/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/load-javascript-on-a-web-page/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/load-javascript-modules-on-a-web-page/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/open-a-file-that-starts-with-a-dash-from-the-terminal/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/feed.xml</loc>

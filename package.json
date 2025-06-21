@@ -12,7 +12,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "npx @11ty/eleventy --watch --quiet & npx -y pagefind --site _site --serve",
+    "dev": "npx @11ty/eleventy --serve --incremental --quiet",
     "start": "npm run dev",
     "build": "npx @11ty/eleventy && npx -y pagefind --site _site",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,6 +1,8 @@
 ---
 title: Switching to the Colemak Keyboard Layout
-tags: 
+tags:
+  - health
+  - hardware
 created: 2025-03-06
 updated: 2025-03-07
 ---
