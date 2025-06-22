@@ -7,23 +7,27 @@ created: 2025-06-05
 updated: 2025-06-05
 ---
 
-1. Assess your fit
-2. Get [certified](notes/cybersecurity-certifications.md)
-3. Get a help desk job
-4. [Keep learning ](notes/cybersecurity-degree-programs.md)
-5. Get a job aligned with [your interests](notes/cybersecurity-roles.md)
+<aside  class="callout"><p>This is my personal career guide. It is not meant to be generalized or taken as any kind of professional advice. Like everything else in this notebook, I’m making it public in case anybody finds it useful.</p></aside>
 
-## Assess your fit
+Get a [degree](notes/cybersecurity-degree-programs.md). The one I'm looking at comes with an IT certification. If possible, use that to get a help desk job while you go to school.
 
-Follow the steps outlined in [80,000 Hours's entry on information security](https://80000hours.org/career-reviews/information-security/#how-to-assess-your-fit-in-advance).
+In the meantime, meet people in the industry. I've already joined some [Meetups](https://www.meetup.com/home/). You could also volunteer with an organization like [ISSA](https://www.denverissa.org/about).
 
-## Milestones
-
-- **2025-06-12** - Complete [ISC2 Certified in Cybersecurity](notes/assets/isc2-certificate-certified-in-cybersecurity.pdf)
-
-## Networking
-
-- Volunteer with [ISSA](https://www.denverissa.org/about)
+<table>
+<caption>Milestones</caption>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Milestone</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2025-06-12</td>
+      <td>Complete ISC2's <a href="notes/assets/isc2-certificate-certified-in-cybersecurity.pdf">Certified in Cybersecurity</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Further reading
 

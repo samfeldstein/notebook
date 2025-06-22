@@ -4,12 +4,30 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-21T16:33:54Z</updated>
+  <updated>2025-06-22T22:30:32Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
+  <entry>
+    <title>Computer Science Degree Programs</title>
+    <link href="https://notes.samfeldstein.xyz/notes/computer-science-degree-programs/" />
+    <updated>2025-06-22T22:30:32Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/computer-science-degree-programs/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.wgu.edu/online-it-degrees/computer-science.html&quot;&gt;Western Governor&#39;s University Computer Science&lt;/a&gt; is an online program that lets you move at your own pace. So you can graduate much faster (and pay a lot less), if you have the time to give to it.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Get File Size in Terminal</title>
+    <link href="https://notes.samfeldstein.xyz/notes/get-file-size-in-terminal/" />
+    <updated>2025-06-22T15:20:37Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/get-file-size-in-terminal/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;For a single file:&lt;/p&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-l&lt;/span&gt; example.txt &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;awk&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;{print $5}&#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For all files in a folder, sorted smallest to largest:&lt;/p&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-l&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;awk&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;{print $5, $9}&#39;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sort&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-n&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For all files in folders and subfolders:&lt;/p&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;find&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-type&lt;/span&gt; f &lt;span class=&quot;token parameter variable&quot;&gt;-exec&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-l&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; + &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;awk&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;{print $5, $9}&#39;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sort&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-n&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
   <entry>
     <title>Open a File That Starts With a Dash From the Terminal</title>
     <link href="https://notes.samfeldstein.xyz/notes/open-a-file-that-starts-with-a-dash-from-the-terminal/" />
@@ -52,7 +70,7 @@
     <updated>2025-06-21T03:18:18Z</updated>
     <id>https://notes.samfeldstein.xyz/notes/python/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://brilliant.org/&quot;&gt;Brilliant&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://wiki.python.org/moin/BeginnersGuide&quot;&gt;Python Beginner&#39;s Guide&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://peps.python.org/pep-0008/&quot;&gt;Python Style Guide&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.benkuhn.net/blub/&quot;&gt;Fundamentals&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://brilliant.org/&quot;&gt;Brilliant&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://wiki.python.org/moin/BeginnersGuide&quot;&gt;Python Beginner&#39;s Guide&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://automatetheboringstuff.com/&quot;&gt;Automate the Boring Stuff&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/&quot;&gt;MIT&#39;s Introduction to Programming&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Other resources&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://peps.python.org/pep-0008/&quot;&gt;Python Style Guide&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
@@ -98,24 +116,6 @@ Namespaces are one honking great idea -- let&#39;s do more of those!&lt;/code&gt
     <id>https://notes.samfeldstein.xyz/notes/wgu-questions/</id>
     <content type="html">
 &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2&gt;Pressing concerns&lt;/h2&gt;&lt;p&gt;I&#39;m trying to decide if I should major in Computer Science, Cybersecurity and Information Assurance, or both.&lt;/p&gt;&lt;p&gt;I&#39;m leaning toward compsci because I&#39;m want to find a job in programming or cybersecurity, and both of those seem like they&#39;re “downstream” of compsci. My sense is that compsci will give me more options for the future.&lt;/p&gt;&lt;h3&gt;My interest in programming&lt;/h3&gt;&lt;p&gt;I enjoy programming and frequently build little tools for myself (eg, a python script to track my writing hours and average words). I&#39;m pretty knowledgable about web programming, and I&#39;ve built a number of websites using static site generators, but I&#39;m not interested in frontend as a career.&lt;/p&gt;&lt;p&gt;I enjoy writing programs that are efficient and easy to maintain. I&#39;m most interested in python. Is that a sound choice? What careers are available to python devs? Are there other languages with more promising outlooks?&lt;/p&gt;&lt;p&gt;I&#39;m worried about job security. I&#39;m worried about AI automating away software jobs. I don&#39;t want to get a degree only to discover I&#39;m unemployable in five years.&lt;/p&gt;&lt;h3&gt;My interest in cybersecurity&lt;/h3&gt;&lt;p&gt;I&#39;m most interested in threat intelligence and ethical hacking, but I have little experience doing either of these, so I can&#39;t be sure I&#39;m a good fit.&lt;/p&gt;&lt;h2&gt;Other questions&lt;/h2&gt;&lt;p&gt;How long will it take to graduate if I&#39;m working toward my degree 20 hrs/week?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Information Technology Degree Programs</title>
-    <link href="https://notes.samfeldstein.xyz/notes/information-technology-degree-programs/" />
-    <updated>2025-06-19T23:19:35Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/information-technology-degree-programs/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.wgu.edu/online-it-degrees/information-technology-bachelors-program.html&quot;&gt;Western Governor&#39;s University&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Remote Desktop Protocol</title>
-    <link href="https://notes.samfeldstein.xyz/notes/remote-desktop-protocol/" />
-    <updated>2025-06-19T21:21:41Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/remote-desktop-protocol/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;RDP is a popular protocol for remote access to Windows machines.&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.cyberark.com/resources/threat-research-blog/explain-like-i-m-5-remote-desktop-protocol-rdp&quot;&gt;Explain Like I&#39;m Five: Remote Desktop Protocol&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>
