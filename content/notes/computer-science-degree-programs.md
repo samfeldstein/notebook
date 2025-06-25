@@ -3,7 +3,7 @@ title: Computer Science Degree Programs
 aliases:
   - Computer Science Degree Programs
 tags:
-  - computer-science
+  - computing
 created: 2025-06-22
 updated: 2025-06-22
 ---

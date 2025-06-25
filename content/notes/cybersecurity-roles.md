@@ -8,6 +8,7 @@ created: 2025-06-12
 updated: 2025-06-12
 ---
 
+- [OSINT Investigator](https://www.wgu.edu/career-guide/information-technology/osint-career.html)
 - [Information Security Analyst](https://www.onetonline.org/link/summary/15-1212.00)
 - [Information Security Engineer](https://www.onetonline.org/link/summary/15-1299.05)
 - [Threat Intelligence Analyst](notes/threat-intelligence-analyst.md)

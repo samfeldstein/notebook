@@ -26,6 +26,8 @@ I'm worried about job security. I'm worried about AI automating away software jo
 
 I'm most interested in threat intelligence and ethical hacking, but I have little experience doing either of these, so I can't be sure I'm a good fit.
 
+Is this an appropriate major for someone with little IT experience?
+
 ## Other questions
 
 How long will it take to graduate if I'm working toward my degree 20 hrs/week?

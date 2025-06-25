@@ -4,118 +4,238 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-22T22:30:32Z</updated>
+  <updated>2025-06-25T14:42:02Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
   <entry>
-    <title>Computer Science Degree Programs</title>
-    <link href="https://notes.samfeldstein.xyz/notes/computer-science-degree-programs/" />
-    <updated>2025-06-22T22:30:32Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/computer-science-degree-programs/</id>
+    <title>Calculate Unique Combinations from a Set</title>
+    <link href="https://notes.samfeldstein.xyz/notes/calculate-unique-combinations-from-a-set/" />
+    <updated>2025-06-25T14:42:02Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/calculate-unique-combinations-from-a-set/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.wgu.edu/online-it-degrees/computer-science.html&quot;&gt;Western Governor&#39;s University Computer Science&lt;/a&gt; is an online program that lets you move at your own pace. So you can graduate much faster (and pay a lot less), if you have the time to give to it.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;style id=&quot;MJX-SVG-styles&quot;&gt;
+mjx-container[jax=&quot;SVG&quot;] {
+  direction: ltr;
+}
+
+mjx-container[jax=&quot;SVG&quot;] &gt; svg {
+  overflow: visible;
+  min-height: 1px;
+  min-width: 1px;
+}
+
+mjx-container[jax=&quot;SVG&quot;] &gt; svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display=&quot;block&quot;] {
+  width: 100% !important;
+}
+
+mjx-container[jax=&quot;SVG&quot;][display=&quot;true&quot;] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax=&quot;SVG&quot;][display=&quot;true&quot;][width=&quot;full&quot;] {
+  display: flex;
+}
+
+mjx-container[jax=&quot;SVG&quot;][justify=&quot;left&quot;] {
+  text-align: left;
+}
+
+mjx-container[jax=&quot;SVG&quot;][justify=&quot;right&quot;] {
+  text-align: right;
+}
+
+g[data-mml-node=&quot;merror&quot;] &gt; g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node=&quot;merror&quot;] &gt; rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node=&quot;mtable&quot;] &gt; line[data-line], svg[data-table] &gt; g &gt; line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node=&quot;mtable&quot;] &gt; rect[data-frame], svg[data-table] &gt; g &gt; rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node=&quot;mtable&quot;] &gt; .mjx-dashed, svg[data-table] &gt; g &gt; .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node=&quot;mtable&quot;] &gt; .mjx-dotted, svg[data-table] &gt; g &gt; .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node=&quot;mtable&quot;] &gt; g &gt; svg {
+  overflow: visible;
+}
+
+[jax=&quot;SVG&quot;] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax=&quot;SVG&quot;] mjx-tool &gt; mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool &gt; mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node=&quot;maction&quot;][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+mjx-container[jax=&quot;SVG&quot;] path[data-c], mjx-container[jax=&quot;SVG&quot;] use[data-c] {
+  stroke-width: 3;
+}
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;States (&lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot; style=&quot;position: relative;&quot;&gt;&lt;svg style=&quot;vertical-align: -0.023ex;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;1.061ex&quot; height=&quot;1.023ex&quot; role=&quot;img&quot; focusable=&quot;false&quot; viewBox=&quot;0 -442 469 452&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; aria-hidden=&quot;true&quot;&gt;&lt;g stroke=&quot;currentColor&quot; fill=&quot;currentColor&quot; stroke-width=&quot;0&quot; transform=&quot;scale(1,-1)&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;mi&quot;&gt;&lt;use data-c=&quot;1D460&quot; xlink:href=&quot;#MJX-TEX-I-1D460&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;mjx-assistive-mml unselectable=&quot;on&quot; display=&quot;inline&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;/math&gt;&lt;/mjx-assistive-mml&gt;&lt;/mjx-container&gt;) to the power of items (&lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot; style=&quot;position: relative;&quot;&gt;&lt;svg style=&quot;vertical-align: -0.025ex;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;0.781ex&quot; height=&quot;1.52ex&quot; role=&quot;img&quot; focusable=&quot;false&quot; viewBox=&quot;0 -661 345 672&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; aria-hidden=&quot;true&quot;&gt;&lt;g stroke=&quot;currentColor&quot; fill=&quot;currentColor&quot; stroke-width=&quot;0&quot; transform=&quot;scale(1,-1)&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;mi&quot;&gt;&lt;use data-c=&quot;1D456&quot; xlink:href=&quot;#MJX-TEX-I-1D456&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;mjx-assistive-mml unselectable=&quot;on&quot; display=&quot;inline&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/math&gt;&lt;/mjx-assistive-mml&gt;&lt;/mjx-container&gt;) in the set.&lt;/p&gt;&lt;p&gt;&lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot; display=&quot;true&quot; style=&quot;position: relative;&quot;&gt;&lt;svg style=&quot;vertical-align: -0.023ex;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;1.801ex&quot; height=&quot;2.014ex&quot; role=&quot;img&quot; focusable=&quot;false&quot; viewBox=&quot;0 -880.4 796 890.4&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; aria-hidden=&quot;true&quot;&gt;&lt;g stroke=&quot;currentColor&quot; fill=&quot;currentColor&quot; stroke-width=&quot;0&quot; transform=&quot;scale(1,-1)&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;msup&quot;&gt;&lt;g data-mml-node=&quot;mi&quot;&gt;&lt;use data-c=&quot;1D460&quot; xlink:href=&quot;#MJX-TEX-I-1D460&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;g data-mml-node=&quot;mi&quot; transform=&quot;translate(502,413) scale(0.707)&quot;&gt;&lt;use data-c=&quot;1D456&quot; xlink:href=&quot;#MJX-TEX-I-1D456&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;mjx-assistive-mml unselectable=&quot;on&quot; display=&quot;block&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;msup&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msup&gt;&lt;/math&gt;&lt;/mjx-assistive-mml&gt;&lt;/mjx-container&gt;&lt;/p&gt;&lt;svg style=&quot;display: none;&quot; id=&quot;MJX-SVG-global-cache&quot;&gt;&lt;defs&gt;&lt;path id=&quot;MJX-TEX-I-1D460&quot; d=&quot;M131 289Q131 321 147 354T203 415T300 442Q362 442 390 415T419 355Q419 323 402 308T364 292Q351 292 340 300T328 326Q328 342 337 354T354 372T367 378Q368 378 368 379Q368 382 361 388T336 399T297 405Q249 405 227 379T204 326Q204 301 223 291T278 274T330 259Q396 230 396 163Q396 135 385 107T352 51T289 7T195 -10Q118 -10 86 19T53 87Q53 126 74 143T118 160Q133 160 146 151T160 120Q160 94 142 76T111 58Q109 57 108 57T107 55Q108 52 115 47T146 34T201 27Q237 27 263 38T301 66T318 97T323 122Q323 150 302 164T254 181T195 196T148 231Q131 256 131 289Z&quot;&gt;&lt;/path&gt;&lt;path id=&quot;MJX-TEX-I-1D456&quot; d=&quot;M184 600Q184 624 203 642T247 661Q265 661 277 649T290 619Q290 596 270 577T226 557Q211 557 198 567T184 600ZM21 287Q21 295 30 318T54 369T98 420T158 442Q197 442 223 419T250 357Q250 340 236 301T196 196T154 83Q149 61 149 51Q149 26 166 26Q175 26 185 29T208 43T235 78T260 137Q263 149 265 151T282 153Q302 153 302 143Q302 135 293 112T268 61T223 11T161 -11Q129 -11 102 10T74 74Q74 91 79 106T122 220Q160 321 166 341T173 380Q173 404 156 404H154Q124 404 99 371T61 287Q60 286 59 284T58 281T56 279T53 278T49 278T41 278H27Q21 284 21 287Z&quot;&gt;&lt;/path&gt;&lt;/defs&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Get File Size in Terminal</title>
-    <link href="https://notes.samfeldstein.xyz/notes/get-file-size-in-terminal/" />
-    <updated>2025-06-22T15:20:37Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/get-file-size-in-terminal/</id>
+    <title>Computing</title>
+    <link href="https://notes.samfeldstein.xyz/notes/computing/" />
+    <updated>2025-06-25T00:52:06Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/computing/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;For a single file:&lt;/p&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-l&lt;/span&gt; example.txt &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;awk&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;{print $5}&#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For all files in a folder, sorted smallest to largest:&lt;/p&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-l&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;awk&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;{print $5, $9}&#39;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sort&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-n&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For all files in folders and subfolders:&lt;/p&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;find&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-type&lt;/span&gt; f &lt;span class=&quot;token parameter variable&quot;&gt;-exec&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-l&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; + &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;awk&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;{print $5, $9}&#39;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sort&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-n&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.computerhope.com/&quot;&gt;Computer Hope&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/&quot;&gt;Geeks for Geeks&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Open a File That Starts With a Dash From the Terminal</title>
-    <link href="https://notes.samfeldstein.xyz/notes/open-a-file-that-starts-with-a-dash-from-the-terminal/" />
-    <updated>2025-06-21T16:33:54Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/open-a-file-that-starts-with-a-dash-from-the-terminal/</id>
+    <title>Subnet Range</title>
+    <link href="https://notes.samfeldstein.xyz/notes/subnet-range/" />
+    <updated>2025-06-25T00:46:37Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/subnet-range/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;When a filename starts with a dash (&lt;code&gt;-&lt;/code&gt;), the terminal can confuse it for a command option. Use &lt;code&gt;./-filename&lt;/code&gt; instead.&lt;/p&gt;&lt;p&gt;Example:&lt;/p&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; ./-filename&lt;/code&gt;&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A subnet&#39;s range is determined by its network address and &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/subnet-range/notes/subnet-masks&quot;&gt;subnet mask&lt;/a&gt; (or CIDR prefix). The range starts with the lowest address (all host bits set to 0) and ends with the highest address (all host bits set to 1). The highest address is the &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/subnet-range/notes/broadcast-address&quot;&gt;broadcast address&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Load JavaScript Modules on a Web Page</title>
-    <link href="https://notes.samfeldstein.xyz/notes/load-javascript-modules-on-a-web-page/" />
-    <updated>2025-06-21T15:13:31Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/load-javascript-modules-on-a-web-page/</id>
+    <title>Broadcast Address</title>
+    <link href="https://notes.samfeldstein.xyz/notes/broadcast-address/" />
+    <updated>2025-06-25T00:37:29Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/broadcast-address/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;module&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;main.js&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token script&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;script&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You don&#39;t need the &lt;code&gt;defer&lt;/code&gt; attribute; modules are deferred automatically.&lt;/p&gt;&lt;p&gt;Modules are only executed once, even if they&#39;re referenced in multiple &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules&quot;&gt;JavaScript modules&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A broadcast address is a special ip address used to send a message or packet to all devices on a network at once.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Load JavaScript on a Web Page</title>
-    <link href="https://notes.samfeldstein.xyz/notes/load-javascript-on-a-web-page/" />
-    <updated>2025-06-21T15:04:45Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/load-javascript-on-a-web-page/</id>
+    <title>Base (Mathematics)</title>
+    <link href="https://notes.samfeldstein.xyz/notes/base-mathematics/" />
+    <updated>2025-06-25T00:05:55Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/base-mathematics/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Unless you have some reason not to, the best way to load JavaScript on a web page is to use the &lt;code&gt;type=&quot;module&quot;&lt;/code&gt; attribute (see &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/load-javascript-on-a-web-page/notes/load-javascript-modules-on-a-web-page&quot;&gt;Load JavaScript Modules on a Web Page&lt;/a&gt;).&lt;/p&gt;&lt;p&gt;The script must be a module for that to work.&lt;/p&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules&quot;&gt;JavaScript modules&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A base (also called a radix) is the number of unique digits, including zero, that a &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/base-mathematics/notes/positional-notation&quot;&gt;positional numeral system &lt;/a&gt;uses to represent numbers.&lt;/p&gt;&lt;p&gt;For example, the decimal system has a base of 10 because it uses the digits 0 through 9. The binary system has a base of 2 because it uses only the digits 0 and 1.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Learn Math</title>
-    <link href="https://notes.samfeldstein.xyz/notes/learn-math/" />
-    <updated>2025-06-21T03:54:29Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/learn-math/</id>
+    <title>Malware</title>
+    <link href="https://notes.samfeldstein.xyz/notes/malware/" />
+    <updated>2025-06-24T23:57:16Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/malware/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://brilliant.org/&quot;&gt;Brilliant&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.virustotal.com/gui/home/upload&quot;&gt;VirusTotal&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Python</title>
-    <link href="https://notes.samfeldstein.xyz/notes/python/" />
-    <updated>2025-06-21T03:18:18Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/python/</id>
+    <title>Subdomain Enumeration</title>
+    <link href="https://notes.samfeldstein.xyz/notes/subdomain-enumeration/" />
+    <updated>2025-06-24T23:40:09Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/subdomain-enumeration/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.benkuhn.net/blub/&quot;&gt;Fundamentals&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://brilliant.org/&quot;&gt;Brilliant&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://wiki.python.org/moin/BeginnersGuide&quot;&gt;Python Beginner&#39;s Guide&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://automatetheboringstuff.com/&quot;&gt;Automate the Boring Stuff&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/&quot;&gt;MIT&#39;s Introduction to Programming&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Other resources&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://peps.python.org/pep-0008/&quot;&gt;Python Style Guide&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Subdomain enumeration is the process of identifying all subdomains associated with a specific domain.&lt;/p&gt;&lt;h2&gt;Tools&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.virustotal.com/gui/home/upload&quot;&gt;VirusTotal&lt;/a&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;Relations&lt;/code&gt; tab&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>The Zen of Python</title>
-    <link href="https://notes.samfeldstein.xyz/notes/the-zen-of-python/" />
-    <updated>2025-06-21T03:15:11Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/the-zen-of-python/</id>
+    <title>Positional Notation</title>
+    <link href="https://notes.samfeldstein.xyz/notes/positional-notation/" />
+    <updated>2025-06-24T23:09:17Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/positional-notation/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
-Flat is better than nested.
-Sparse is better than dense.
-Readability counts.
-Special cases aren&#39;t special enough to break the rules.
-Although practicality beats purity.
-Errors should never pass silently.
-Unless explicitly silenced.
-In the face of ambiguity, refuse the temptation to guess.
-There should be one-- and preferably only one --obvious way to do it.
-Although that way may not be obvious at first unless you&#39;re Dutch.
-Now is better than never.
-Although never is often better than *right* now.
-If the implementation is hard to explain, it&#39;s a bad idea.
-If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let&#39;s do more of those!&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;Further reading&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://peps.python.org/pep-0020/#the-zen-of-python&quot;&gt;The Zen of Python&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Positional notation is a way of writing numbers where the value of each digit depends on both the digit itself and its position within the number.&lt;/p&gt;&lt;p&gt;For example, in the decimal system (base 10), the number 555 means five hundreds, five tens, and five units. The digit&#39;s position determines whether it represents 100, 10, or 1.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>Python Enhancement Proposals</title>
-    <link href="https://notes.samfeldstein.xyz/notes/python-enhancement-proposals/" />
-    <updated>2025-06-21T03:13:16Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/python-enhancement-proposals/</id>
+    <title>IP Addresses</title>
+    <link href="https://notes.samfeldstein.xyz/notes/ip-addresses/" />
+    <updated>2025-06-24T18:34:25Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/ip-addresses/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://peps.python.org/pep-0000/&quot;&gt;PEP Index&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;An IP Address is a number that represents a node on a network.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
-    <title>WGU Questions</title>
-    <link href="https://notes.samfeldstein.xyz/notes/wgu-questions/" />
-    <updated>2025-06-20T15:50:35Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/wgu-questions/</id>
+    <title>Subnet Masks</title>
+    <link href="https://notes.samfeldstein.xyz/notes/subnet-masks/" />
+    <updated>2025-06-24T18:02:13Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/subnet-masks/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2&gt;Pressing concerns&lt;/h2&gt;&lt;p&gt;I&#39;m trying to decide if I should major in Computer Science, Cybersecurity and Information Assurance, or both.&lt;/p&gt;&lt;p&gt;I&#39;m leaning toward compsci because I&#39;m want to find a job in programming or cybersecurity, and both of those seem like they&#39;re “downstream” of compsci. My sense is that compsci will give me more options for the future.&lt;/p&gt;&lt;h3&gt;My interest in programming&lt;/h3&gt;&lt;p&gt;I enjoy programming and frequently build little tools for myself (eg, a python script to track my writing hours and average words). I&#39;m pretty knowledgable about web programming, and I&#39;ve built a number of websites using static site generators, but I&#39;m not interested in frontend as a career.&lt;/p&gt;&lt;p&gt;I enjoy writing programs that are efficient and easy to maintain. I&#39;m most interested in python. Is that a sound choice? What careers are available to python devs? Are there other languages with more promising outlooks?&lt;/p&gt;&lt;p&gt;I&#39;m worried about job security. I&#39;m worried about AI automating away software jobs. I don&#39;t want to get a degree only to discover I&#39;m unemployable in five years.&lt;/p&gt;&lt;h3&gt;My interest in cybersecurity&lt;/h3&gt;&lt;p&gt;I&#39;m most interested in threat intelligence and ethical hacking, but I have little experience doing either of these, so I can&#39;t be sure I&#39;m a good fit.&lt;/p&gt;&lt;h2&gt;Other questions&lt;/h2&gt;&lt;p&gt;How long will it take to graduate if I&#39;m working toward my degree 20 hrs/week?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A &lt;strong&gt;subnet mask&lt;/strong&gt; is a schema tells devices on a network which part of an IP address is the network and which part is the host.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>
