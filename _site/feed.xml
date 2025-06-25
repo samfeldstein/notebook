@@ -4,12 +4,30 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-25T15:19:15Z</updated>
+  <updated>2025-06-25T20:06:13Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
+  <entry>
+    <title>Structure as Training Wheels</title>
+    <link href="https://notes.samfeldstein.xyz/notes/structure-as-training-wheels/" />
+    <updated>2025-06-25T20:06:13Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/structure-as-training-wheels/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Structures are like training wheels. They can be taken off once you learn to balance.&lt;/p&gt;&lt;p&gt;The slot in West Coast swing is a structure. I&#39;ve been dancing less than a year, but I suspect that at some point the slot, like training wheels, can be dispensed with. Same goes for the six-count basic.&lt;/p&gt;&lt;p&gt;Related: Bruce Lee&#39;s “style of no style.”&lt;/p&gt;&lt;aside class=&quot;callout&quot;&gt;&lt;p&gt;Structure here is distinct from a form or medium, eg watercolors or celluloid.&lt;/p&gt;&lt;/aside&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Computer Process Information in Terminal</title>
+    <link href="https://notes.samfeldstein.xyz/notes/computer-process-information-in-terminal/" />
+    <updated>2025-06-25T19:53:44Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/computer-process-information-in-terminal/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Command you&#39;ll use most is probably &lt;code&gt;top&lt;/code&gt;, which sorts by CPU usage by default. It updates every second. If you want to extend the delay, use &lt;code&gt;-s &amp;lt;number&amp;gt;&lt;/code&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
   <entry>
     <title>Binary</title>
     <link href="https://notes.samfeldstein.xyz/notes/binary/" />
@@ -218,162 +236,6 @@ mjx-container[jax=&quot;SVG&quot;] path[data-c], mjx-container[jax=&quot;SVG&quo
     <id>https://notes.samfeldstein.xyz/notes/malware/</id>
     <content type="html">
 &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.virustotal.com/gui/home/upload&quot;&gt;VirusTotal&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Subdomain Enumeration</title>
-    <link href="https://notes.samfeldstein.xyz/notes/subdomain-enumeration/" />
-    <updated>2025-06-24T23:40:09Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/subdomain-enumeration/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Subdomain enumeration is the process of identifying all subdomains associated with a specific domain.&lt;/p&gt;&lt;h2&gt;Tools&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.virustotal.com/gui/home/upload&quot;&gt;VirusTotal&lt;/a&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;Relations&lt;/code&gt; tab&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Positional Notation</title>
-    <link href="https://notes.samfeldstein.xyz/notes/positional-notation/" />
-    <updated>2025-06-24T23:09:17Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/positional-notation/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;style id=&quot;MJX-SVG-styles&quot;&gt;
-mjx-container[jax=&quot;SVG&quot;] {
-  direction: ltr;
-}
-
-mjx-container[jax=&quot;SVG&quot;] &gt; svg {
-  overflow: visible;
-  min-height: 1px;
-  min-width: 1px;
-}
-
-mjx-container[jax=&quot;SVG&quot;] &gt; svg a {
-  fill: blue;
-  stroke: blue;
-}
-
-mjx-assistive-mml {
-  position: absolute !important;
-  top: 0px;
-  left: 0px;
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 1px 0px 0px 0px !important;
-  border: 0px !important;
-  display: block !important;
-  width: auto !important;
-  overflow: hidden !important;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-mjx-assistive-mml[display=&quot;block&quot;] {
-  width: 100% !important;
-}
-
-mjx-container[jax=&quot;SVG&quot;][display=&quot;true&quot;] {
-  display: block;
-  text-align: center;
-  margin: 1em 0;
-}
-
-mjx-container[jax=&quot;SVG&quot;][display=&quot;true&quot;][width=&quot;full&quot;] {
-  display: flex;
-}
-
-mjx-container[jax=&quot;SVG&quot;][justify=&quot;left&quot;] {
-  text-align: left;
-}
-
-mjx-container[jax=&quot;SVG&quot;][justify=&quot;right&quot;] {
-  text-align: right;
-}
-
-g[data-mml-node=&quot;merror&quot;] &gt; g {
-  fill: red;
-  stroke: red;
-}
-
-g[data-mml-node=&quot;merror&quot;] &gt; rect[data-background] {
-  fill: yellow;
-  stroke: none;
-}
-
-g[data-mml-node=&quot;mtable&quot;] &gt; line[data-line], svg[data-table] &gt; g &gt; line[data-line] {
-  stroke-width: 70px;
-  fill: none;
-}
-
-g[data-mml-node=&quot;mtable&quot;] &gt; rect[data-frame], svg[data-table] &gt; g &gt; rect[data-frame] {
-  stroke-width: 70px;
-  fill: none;
-}
-
-g[data-mml-node=&quot;mtable&quot;] &gt; .mjx-dashed, svg[data-table] &gt; g &gt; .mjx-dashed {
-  stroke-dasharray: 140;
-}
-
-g[data-mml-node=&quot;mtable&quot;] &gt; .mjx-dotted, svg[data-table] &gt; g &gt; .mjx-dotted {
-  stroke-linecap: round;
-  stroke-dasharray: 0,140;
-}
-
-g[data-mml-node=&quot;mtable&quot;] &gt; g &gt; svg {
-  overflow: visible;
-}
-
-[jax=&quot;SVG&quot;] mjx-tool {
-  display: inline-block;
-  position: relative;
-  width: 0;
-  height: 0;
-}
-
-[jax=&quot;SVG&quot;] mjx-tool &gt; mjx-tip {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-mjx-tool &gt; mjx-tip {
-  display: inline-block;
-  padding: .2em;
-  border: 1px solid #888;
-  font-size: 70%;
-  background-color: #F8F8F8;
-  color: black;
-  box-shadow: 2px 2px 5px #AAAAAA;
-}
-
-g[data-mml-node=&quot;maction&quot;][data-toggle] {
-  cursor: pointer;
-}
-
-mjx-status {
-  display: block;
-  position: fixed;
-  left: 1em;
-  bottom: 1em;
-  min-width: 25%;
-  padding: .2em .4em;
-  border: 1px solid #888;
-  font-size: 90%;
-  background-color: #F8F8F8;
-  color: black;
-}
-
-foreignObject[data-mjx-xml] {
-  font-family: initial;
-  line-height: normal;
-  overflow: visible;
-}
-
-mjx-container[jax=&quot;SVG&quot;] path[data-c], mjx-container[jax=&quot;SVG&quot;] use[data-c] {
-  stroke-width: 3;
-}
-&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;In &lt;strong&gt;positional notation&lt;/strong&gt;, the value of a number depends on the values of its individual digits and their positions.&lt;/p&gt;&lt;p&gt;The value of a digit (&lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot; style=&quot;position: relative;&quot;&gt;&lt;svg style=&quot;vertical-align: -0.023ex;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;1.176ex&quot; height=&quot;1.593ex&quot; role=&quot;img&quot; focusable=&quot;false&quot; viewBox=&quot;0 -694 520 704&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; aria-hidden=&quot;true&quot;&gt;&lt;g stroke=&quot;currentColor&quot; fill=&quot;currentColor&quot; stroke-width=&quot;0&quot; transform=&quot;scale(1,-1)&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;mi&quot;&gt;&lt;use data-c=&quot;1D451&quot; xlink:href=&quot;#MJX-TEX-I-1D451&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;mjx-assistive-mml unselectable=&quot;on&quot; display=&quot;inline&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;/math&gt;&lt;/mjx-assistive-mml&gt;&lt;/mjx-container&gt;) is a function of its individual value, position (&lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot; style=&quot;position: relative;&quot;&gt;&lt;svg style=&quot;vertical-align: -0.439ex;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;1.138ex&quot; height=&quot;1.439ex&quot; role=&quot;img&quot; focusable=&quot;false&quot; viewBox=&quot;0 -442 503 636&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; aria-hidden=&quot;true&quot;&gt;&lt;g stroke=&quot;currentColor&quot; fill=&quot;currentColor&quot; stroke-width=&quot;0&quot; transform=&quot;scale(1,-1)&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;mi&quot;&gt;&lt;use data-c=&quot;1D45D&quot; xlink:href=&quot;#MJX-TEX-I-1D45D&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;mjx-assistive-mml unselectable=&quot;on&quot; display=&quot;inline&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;/math&gt;&lt;/mjx-assistive-mml&gt;&lt;/mjx-container&gt;) in the number, and the &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/positional-notation/notes/base-mathematics&quot;&gt;base&lt;/a&gt; (&lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot; style=&quot;position: relative;&quot;&gt;&lt;svg style=&quot;vertical-align: -0.025ex;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;0.971ex&quot; height=&quot;1.595ex&quot; role=&quot;img&quot; focusable=&quot;false&quot; viewBox=&quot;0 -694 429 705&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; aria-hidden=&quot;true&quot;&gt;&lt;g stroke=&quot;currentColor&quot; fill=&quot;currentColor&quot; stroke-width=&quot;0&quot; transform=&quot;scale(1,-1)&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;mi&quot;&gt;&lt;use data-c=&quot;1D44F&quot; xlink:href=&quot;#MJX-TEX-I-1D44F&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;mjx-assistive-mml unselectable=&quot;on&quot; display=&quot;inline&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;/math&gt;&lt;/mjx-assistive-mml&gt;&lt;/mjx-container&gt;):&lt;/p&gt;&lt;p&gt;&lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot; display=&quot;true&quot; style=&quot;position: relative;&quot;&gt;&lt;svg style=&quot;vertical-align: -0.025ex;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;5.905ex&quot; height=&quot;1.666ex&quot; role=&quot;img&quot; focusable=&quot;false&quot; viewBox=&quot;0 -725.5 2610.1 736.5&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; aria-hidden=&quot;true&quot;&gt;&lt;g stroke=&quot;currentColor&quot; fill=&quot;currentColor&quot; stroke-width=&quot;0&quot; transform=&quot;scale(1,-1)&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;mi&quot;&gt;&lt;use data-c=&quot;1D451&quot; xlink:href=&quot;#MJX-TEX-I-1D451&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;g data-mml-node=&quot;mo&quot; transform=&quot;translate(742.2,0)&quot;&gt;&lt;use data-c=&quot;D7&quot; xlink:href=&quot;#MJX-TEX-N-D7&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;g data-mml-node=&quot;msup&quot; transform=&quot;translate(1742.4,0)&quot;&gt;&lt;g data-mml-node=&quot;mi&quot;&gt;&lt;use data-c=&quot;1D44F&quot; xlink:href=&quot;#MJX-TEX-I-1D44F&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;g data-mml-node=&quot;mi&quot; transform=&quot;translate(462,413) scale(0.707)&quot;&gt;&lt;use data-c=&quot;1D45D&quot; xlink:href=&quot;#MJX-TEX-I-1D45D&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;mjx-assistive-mml unselectable=&quot;on&quot; display=&quot;block&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mo&gt;×&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;/msup&gt;&lt;/math&gt;&lt;/mjx-assistive-mml&gt;&lt;/mjx-container&gt;&lt;/p&gt;&lt;p&gt;For example, in the decimal system (base 10), the number 555 means five hundreds, five tens, and five units. The digit&#39;s position determines whether it represents 100, 10, or 1.&lt;/p&gt;&lt;p&gt;Positional number systems have a &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/positional-notation/notes/base-mathematics&quot;&gt;base&lt;/a&gt;&lt;/p&gt;&lt;svg style=&quot;display: none;&quot; id=&quot;MJX-SVG-global-cache&quot;&gt;&lt;defs&gt;&lt;path id=&quot;MJX-TEX-I-1D451&quot; d=&quot;M366 683Q367 683 438 688T511 694Q523 694 523 686Q523 679 450 384T375 83T374 68Q374 26 402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487H491Q506 153 506 145Q506 140 503 129Q490 79 473 48T445 8T417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157Q33 205 53 255T101 341Q148 398 195 420T280 442Q336 442 364 400Q369 394 369 396Q370 400 396 505T424 616Q424 629 417 632T378 637H357Q351 643 351 645T353 664Q358 683 366 683ZM352 326Q329 405 277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q233 26 290 98L298 109L352 326Z&quot;&gt;&lt;/path&gt;&lt;path id=&quot;MJX-TEX-I-1D45D&quot; d=&quot;M23 287Q24 290 25 295T30 317T40 348T55 381T75 411T101 433T134 442Q209 442 230 378L240 387Q302 442 358 442Q423 442 460 395T497 281Q497 173 421 82T249 -10Q227 -10 210 -4Q199 1 187 11T168 28L161 36Q160 35 139 -51T118 -138Q118 -144 126 -145T163 -148H188Q194 -155 194 -157T191 -175Q188 -187 185 -190T172 -194Q170 -194 161 -194T127 -193T65 -192Q-5 -192 -24 -194H-32Q-39 -187 -39 -183Q-37 -156 -26 -148H-6Q28 -147 33 -136Q36 -130 94 103T155 350Q156 355 156 364Q156 405 131 405Q109 405 94 377T71 316T59 280Q57 278 43 278H29Q23 284 23 287ZM178 102Q200 26 252 26Q282 26 310 49T356 107Q374 141 392 215T411 325V331Q411 405 350 405Q339 405 328 402T306 393T286 380T269 365T254 350T243 336T235 326L232 322Q232 321 229 308T218 264T204 212Q178 106 178 102Z&quot;&gt;&lt;/path&gt;&lt;path id=&quot;MJX-TEX-I-1D44F&quot; d=&quot;M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z&quot;&gt;&lt;/path&gt;&lt;path id=&quot;MJX-TEX-N-D7&quot; d=&quot;M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z&quot;&gt;&lt;/path&gt;&lt;/defs&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>
