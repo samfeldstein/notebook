@@ -9,9 +9,10 @@ updated: 2025-06-05
 
 <aside  class="callout"><p>This is my personal career guide. It is not meant to be generalized or taken as any kind of professional advice. Like everything else in this notebook, I’m making it public in case anybody finds it useful.</p></aside>
 
-1. Get a [degree](notes/cybersecurity-degree-programs.md)
-2. Network
-3. Get a job
+1. Get an IT certification
+2. Get a help desk job
+3. Get a [cybersecurity degree](notes/private/cybersecurity-degree-programs.md)
+4. Get a cybersecurity job
 
 <table>
 <caption>Milestones</caption>

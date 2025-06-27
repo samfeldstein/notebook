@@ -4,19 +4,193 @@
   <subtitle>Sam Feldstein&#39;s notebook.</subtitle>
   <link href="https://notes.samfeldstein.xyz/feed.xml" rel="self" />
   <link href="https://notes.samfeldstein.xyz/" />
-  <updated>2025-06-25T20:06:13Z</updated>
+  <updated>2025-06-26T15:51:42Z</updated>
   <id>https://notes.samfeldstein.xyz/</id>
   <author>
     <name>Sam Feldstein</name>
     <email>sam@samfeldstein.xyz</email>
   </author>
   <entry>
+    <title>Exponentiation</title>
+    <link href="https://notes.samfeldstein.xyz/notes/exponentiation/" />
+    <updated>2025-06-26T15:51:42Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/exponentiation/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;style id=&quot;MJX-SVG-styles&quot;&gt;
+mjx-container[jax=&quot;SVG&quot;] {
+  direction: ltr;
+}
+
+mjx-container[jax=&quot;SVG&quot;] &gt; svg {
+  overflow: visible;
+  min-height: 1px;
+  min-width: 1px;
+}
+
+mjx-container[jax=&quot;SVG&quot;] &gt; svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display=&quot;block&quot;] {
+  width: 100% !important;
+}
+
+mjx-container[jax=&quot;SVG&quot;][display=&quot;true&quot;] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax=&quot;SVG&quot;][display=&quot;true&quot;][width=&quot;full&quot;] {
+  display: flex;
+}
+
+mjx-container[jax=&quot;SVG&quot;][justify=&quot;left&quot;] {
+  text-align: left;
+}
+
+mjx-container[jax=&quot;SVG&quot;][justify=&quot;right&quot;] {
+  text-align: right;
+}
+
+g[data-mml-node=&quot;merror&quot;] &gt; g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node=&quot;merror&quot;] &gt; rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node=&quot;mtable&quot;] &gt; line[data-line], svg[data-table] &gt; g &gt; line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node=&quot;mtable&quot;] &gt; rect[data-frame], svg[data-table] &gt; g &gt; rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node=&quot;mtable&quot;] &gt; .mjx-dashed, svg[data-table] &gt; g &gt; .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node=&quot;mtable&quot;] &gt; .mjx-dotted, svg[data-table] &gt; g &gt; .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node=&quot;mtable&quot;] &gt; g &gt; svg {
+  overflow: visible;
+}
+
+[jax=&quot;SVG&quot;] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax=&quot;SVG&quot;] mjx-tool &gt; mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool &gt; mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node=&quot;maction&quot;][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+mjx-container[jax=&quot;SVG&quot;] path[data-c], mjx-container[jax=&quot;SVG&quot;] use[data-c] {
+  stroke-width: 3;
+}
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Any number to the power of zero is 1. The intuitive reason for this is that counting down, each result decreases by the same factor (2, in this case):&lt;/p&gt;&lt;p&gt;&lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot; style=&quot;position: relative;&quot;&gt;&lt;svg style=&quot;vertical-align: -0.186ex;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;6.267ex&quot; height=&quot;2.071ex&quot; role=&quot;img&quot; focusable=&quot;false&quot; viewBox=&quot;0 -833.2 2770.1 915.2&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; aria-hidden=&quot;true&quot;&gt;&lt;g stroke=&quot;currentColor&quot; fill=&quot;currentColor&quot; stroke-width=&quot;0&quot; transform=&quot;scale(1,-1)&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;msup&quot;&gt;&lt;g data-mml-node=&quot;mn&quot;&gt;&lt;use data-c=&quot;32&quot; xlink:href=&quot;#MJX-TEX-N-32&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;g data-mml-node=&quot;mn&quot; transform=&quot;translate(533,363) scale(0.707)&quot;&gt;&lt;use data-c=&quot;33&quot; xlink:href=&quot;#MJX-TEX-N-33&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;g data-mml-node=&quot;mo&quot; transform=&quot;translate(1214.3,0)&quot;&gt;&lt;use data-c=&quot;3D&quot; xlink:href=&quot;#MJX-TEX-N-3D&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;g data-mml-node=&quot;mn&quot; transform=&quot;translate(2270.1,0)&quot;&gt;&lt;use data-c=&quot;38&quot; xlink:href=&quot;#MJX-TEX-N-38&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;mjx-assistive-mml unselectable=&quot;on&quot; display=&quot;inline&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msup&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;8&lt;/mn&gt;&lt;/math&gt;&lt;/mjx-assistive-mml&gt;&lt;/mjx-container&gt; &lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot; style=&quot;position: relative;&quot;&gt;&lt;svg style=&quot;vertical-align: -0.186ex;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;6.267ex&quot; height=&quot;2.072ex&quot; role=&quot;img&quot; focusable=&quot;false&quot; viewBox=&quot;0 -833.9 2770.1 915.9&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; aria-hidden=&quot;true&quot;&gt;&lt;g stroke=&quot;currentColor&quot; fill=&quot;currentColor&quot; stroke-width=&quot;0&quot; transform=&quot;scale(1,-1)&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;msup&quot;&gt;&lt;g data-mml-node=&quot;mn&quot;&gt;&lt;use data-c=&quot;32&quot; xlink:href=&quot;#MJX-TEX-N-32&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;g data-mml-node=&quot;mn&quot; transform=&quot;translate(533,363) scale(0.707)&quot;&gt;&lt;use data-c=&quot;32&quot; xlink:href=&quot;#MJX-TEX-N-32&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;g data-mml-node=&quot;mo&quot; transform=&quot;translate(1214.3,0)&quot;&gt;&lt;use data-c=&quot;3D&quot; xlink:href=&quot;#MJX-TEX-N-3D&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;g data-mml-node=&quot;mn&quot; transform=&quot;translate(2270.1,0)&quot;&gt;&lt;use data-c=&quot;34&quot; xlink:href=&quot;#MJX-TEX-N-34&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;mjx-assistive-mml unselectable=&quot;on&quot; display=&quot;inline&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msup&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/math&gt;&lt;/mjx-assistive-mml&gt;&lt;/mjx-container&gt; &lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot; style=&quot;position: relative;&quot;&gt;&lt;svg style=&quot;vertical-align: -0.186ex;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;6.267ex&quot; height=&quot;2.072ex&quot; role=&quot;img&quot; focusable=&quot;false&quot; viewBox=&quot;0 -833.9 2770.1 915.9&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; aria-hidden=&quot;true&quot;&gt;&lt;g stroke=&quot;currentColor&quot; fill=&quot;currentColor&quot; stroke-width=&quot;0&quot; transform=&quot;scale(1,-1)&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;msup&quot;&gt;&lt;g data-mml-node=&quot;mn&quot;&gt;&lt;use data-c=&quot;32&quot; xlink:href=&quot;#MJX-TEX-N-32&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;g data-mml-node=&quot;mn&quot; transform=&quot;translate(533,363) scale(0.707)&quot;&gt;&lt;use data-c=&quot;31&quot; xlink:href=&quot;#MJX-TEX-N-31&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;g data-mml-node=&quot;mo&quot; transform=&quot;translate(1214.3,0)&quot;&gt;&lt;use data-c=&quot;3D&quot; xlink:href=&quot;#MJX-TEX-N-3D&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;g data-mml-node=&quot;mn&quot; transform=&quot;translate(2270.1,0)&quot;&gt;&lt;use data-c=&quot;32&quot; xlink:href=&quot;#MJX-TEX-N-32&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;mjx-assistive-mml unselectable=&quot;on&quot; display=&quot;inline&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msup&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/math&gt;&lt;/mjx-assistive-mml&gt;&lt;/mjx-container&gt; &lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot; style=&quot;position: relative;&quot;&gt;&lt;svg style=&quot;vertical-align: -0.186ex;&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;6.267ex&quot; height=&quot;2.072ex&quot; role=&quot;img&quot; focusable=&quot;false&quot; viewBox=&quot;0 -833.9 2770.1 915.9&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; aria-hidden=&quot;true&quot;&gt;&lt;g stroke=&quot;currentColor&quot; fill=&quot;currentColor&quot; stroke-width=&quot;0&quot; transform=&quot;scale(1,-1)&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;msup&quot;&gt;&lt;g data-mml-node=&quot;mn&quot;&gt;&lt;use data-c=&quot;32&quot; xlink:href=&quot;#MJX-TEX-N-32&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;g data-mml-node=&quot;mn&quot; transform=&quot;translate(533,363) scale(0.707)&quot;&gt;&lt;use data-c=&quot;30&quot; xlink:href=&quot;#MJX-TEX-N-30&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;g data-mml-node=&quot;mo&quot; transform=&quot;translate(1214.3,0)&quot;&gt;&lt;use data-c=&quot;3D&quot; xlink:href=&quot;#MJX-TEX-N-3D&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;g data-mml-node=&quot;mn&quot; transform=&quot;translate(2270.1,0)&quot;&gt;&lt;use data-c=&quot;31&quot; xlink:href=&quot;#MJX-TEX-N-31&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;mjx-assistive-mml unselectable=&quot;on&quot; display=&quot;inline&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msup&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/math&gt;&lt;/mjx-assistive-mml&gt;&lt;/mjx-container&gt;&lt;/p&gt;&lt;p&gt;The math behind it is more complicated, but I&#39;ll tackle that another time.&lt;/p&gt;&lt;svg style=&quot;display: none;&quot; id=&quot;MJX-SVG-global-cache&quot;&gt;&lt;defs&gt;&lt;path id=&quot;MJX-TEX-N-32&quot; d=&quot;M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z&quot;&gt;&lt;/path&gt;&lt;path id=&quot;MJX-TEX-N-33&quot; d=&quot;M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z&quot;&gt;&lt;/path&gt;&lt;path id=&quot;MJX-TEX-N-3D&quot; d=&quot;M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z&quot;&gt;&lt;/path&gt;&lt;path id=&quot;MJX-TEX-N-38&quot; d=&quot;M70 417T70 494T124 618T248 666Q319 666 374 624T429 515Q429 485 418 459T392 417T361 389T335 371T324 363L338 354Q352 344 366 334T382 323Q457 264 457 174Q457 95 399 37T249 -22Q159 -22 101 29T43 155Q43 263 172 335L154 348Q133 361 127 368Q70 417 70 494ZM286 386L292 390Q298 394 301 396T311 403T323 413T334 425T345 438T355 454T364 471T369 491T371 513Q371 556 342 586T275 624Q268 625 242 625Q201 625 165 599T128 534Q128 511 141 492T167 463T217 431Q224 426 228 424L286 386ZM250 21Q308 21 350 55T392 137Q392 154 387 169T375 194T353 216T330 234T301 253T274 270Q260 279 244 289T218 306L210 311Q204 311 181 294T133 239T107 157Q107 98 150 60T250 21Z&quot;&gt;&lt;/path&gt;&lt;path id=&quot;MJX-TEX-N-34&quot; d=&quot;M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z&quot;&gt;&lt;/path&gt;&lt;path id=&quot;MJX-TEX-N-31&quot; d=&quot;M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z&quot;&gt;&lt;/path&gt;&lt;path id=&quot;MJX-TEX-N-30&quot; d=&quot;M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z&quot;&gt;&lt;/path&gt;&lt;/defs&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Networking Certifications</title>
+    <link href="https://notes.samfeldstein.xyz/notes/network-certifications/" />
+    <updated>2025-06-26T14:00:12Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/network-certifications/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Frontend Learing Path</title>
+    <link href="https://notes.samfeldstein.xyz/notes/frontend-learing-path/" />
+    <updated>2025-06-26T02:43:06Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/frontend-learing-path/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A list a of frontend things I want to learn.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Svelte&lt;/li&gt;&lt;li&gt;HTMX&lt;/li&gt;&lt;li&gt;Phoenix (I don&#39;t know what this is, but it is &lt;a href=&quot;https://survey.stackoverflow.co/2024/technology#2-web-frameworks-and-technologies&quot;&gt;highly admired&lt;/a&gt;, apparently)&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Frontend Career Path</title>
+    <link href="https://notes.samfeldstein.xyz/notes/frontend-career-path/" />
+    <updated>2025-06-26T02:06:07Z</updated>
+    <id>https://notes.samfeldstein.xyz/notes/frontend-career-path/</id>
+    <content type="html">
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;aside class=&quot;callout&quot;&gt;&lt;p&gt;This is my personal career guide. It is not meant to be generalized or taken as any kind of professional advice. Like everything else in this notebook, I’m making it public in case anybody finds it useful.&lt;/p&gt;&lt;/aside&gt;&lt;ul&gt;&lt;li&gt;Learn Typescript&lt;/li&gt;&lt;li&gt;Learn React&lt;/li&gt;&lt;li&gt;Learn Node.js&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+</content>
+  </entry>
+  <entry>
     <title>Structure as Training Wheels</title>
     <link href="https://notes.samfeldstein.xyz/notes/structure-as-training-wheels/" />
     <updated>2025-06-25T20:06:13Z</updated>
     <id>https://notes.samfeldstein.xyz/notes/structure-as-training-wheels/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Structures are like training wheels. They can be taken off once you learn to balance.&lt;/p&gt;&lt;p&gt;The slot in West Coast swing is a structure. I&#39;ve been dancing less than a year, but I suspect that at some point the slot, like training wheels, can be dispensed with. Same goes for the six-count basic.&lt;/p&gt;&lt;p&gt;Related: Bruce Lee&#39;s “style of no style.”&lt;/p&gt;&lt;aside class=&quot;callout&quot;&gt;&lt;p&gt;Structure here is distinct from a form or medium, eg watercolors or celluloid.&lt;/p&gt;&lt;/aside&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Structures are like training wheels. They can be taken off once you learn to balance.&lt;/p&gt;&lt;p&gt;The slot in West Coast swing is a structure. I’ve been dancing less than a year, but I suspect that at some point the slot, like training wheels, can be dispensed with. Same goes for the six-count basic.&lt;/p&gt;&lt;p&gt;Related: Bruce Lee&#39;s “style of no style.”&lt;/p&gt;&lt;aside class=&quot;callout&quot;&gt;&lt;p&gt;Structure here is distinct from a form or medium, eg watercolors or celluloid.&lt;/p&gt;&lt;/aside&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
@@ -34,7 +208,7 @@
     <updated>2025-06-25T15:19:15Z</updated>
     <id>https://notes.samfeldstein.xyz/notes/binary/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Binary is a &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/binary/notes/base-mathematics&quot;&gt;base-2&lt;/a&gt; &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/binary/notes/positional-notation&quot;&gt;numbering system&lt;/a&gt; where each number (bit) is either &lt;strong&gt;0&lt;/strong&gt; or &lt;strong&gt;1&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;Each bit represents a &lt;strong&gt;power of 2&lt;/strong&gt;, starting from the right.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Binary is the &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/binary/notes/positional-notation&quot;&gt;base-2 numbering system&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
   <entry>
@@ -199,43 +373,7 @@ mjx-container[jax=&quot;SVG&quot;] path[data-c], mjx-container[jax=&quot;SVG&quo
     <updated>2025-06-25T00:52:06Z</updated>
     <id>https://notes.samfeldstein.xyz/notes/computing/</id>
     <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.computerhope.com/&quot;&gt;Computer Hope&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/&quot;&gt;Geeks for Geeks&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Subnet Range</title>
-    <link href="https://notes.samfeldstein.xyz/notes/subnet-range/" />
-    <updated>2025-06-25T00:46:37Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/subnet-range/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A subnet&#39;s range is determined by its network address and &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/subnet-range/notes/subnet-masks&quot;&gt;subnet mask&lt;/a&gt; (or CIDR prefix). The range starts with the lowest address (all host bits set to 0) and ends with the highest address (all host bits set to 1). The highest address is the &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/subnet-range/notes/broadcast-address&quot;&gt;broadcast address&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Broadcast Address</title>
-    <link href="https://notes.samfeldstein.xyz/notes/broadcast-address/" />
-    <updated>2025-06-25T00:37:29Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/broadcast-address/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A broadcast address is a special ip address used to send a message or packet to all devices on a network at once.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Base (Mathematics)</title>
-    <link href="https://notes.samfeldstein.xyz/notes/base-mathematics/" />
-    <updated>2025-06-25T00:05:55Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/base-mathematics/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;A base (also called a radix) is the number of unique digits, including zero, that a &lt;a href=&quot;https://notes.samfeldstein.xyz/notes/base-mathematics/notes/positional-notation&quot;&gt;positional numeral system &lt;/a&gt;uses to represent numbers.&lt;/p&gt;&lt;p&gt;For example, the decimal system has a base of 10 because it uses the digits 0 through 9. The binary system has a base of 2 because it uses only the digits 0 and 1.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Malware</title>
-    <link href="https://notes.samfeldstein.xyz/notes/malware/" />
-    <updated>2025-06-24T23:57:16Z</updated>
-    <id>https://notes.samfeldstein.xyz/notes/malware/</id>
-    <content type="html">
-&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.virustotal.com/gui/home/upload&quot;&gt;VirusTotal&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2&gt;Courses&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://brilliant.org/courses/computer-science-algorithms/&quot;&gt;Brilliant.org&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;Other&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://foldoc.org/&quot;&gt;Free Online Dictionary of Computing&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.thegeekdiary.com/dict-command-line-dictionary-using-the-dict-protocol/&quot;&gt;dict&lt;/a&gt; (command line tool)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.computerhope.com/&quot;&gt;Computer Hope&lt;/a&gt; (dictionary + tips)&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;
 </content>
   </entry>
 </feed>

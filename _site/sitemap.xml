@@ -625,9 +625,6 @@
 		<loc>https://notes.samfeldstein.xyz/notes/mandatory-access-control/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/cybersecurity-degree-programs/</loc>
-	</url>
-	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/cybersecurity-roles/</loc>
 	</url>
 	<url>
@@ -662,9 +659,6 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/library-science/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/networking/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/network-sessions/</loc>
@@ -778,7 +772,7 @@
 		<loc>https://notes.samfeldstein.xyz/notes/network-protocol-analyzers/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/subnet-masks/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/netmasks/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/ip-addresses/</loc>
@@ -818,6 +812,18 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/structure-as-training-wheels/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/frontend-career-path/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/frontend-learing-path/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/network-certifications/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/exponentiation/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/feed.xml</loc>
