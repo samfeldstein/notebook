@@ -33,5 +33,5 @@ $$d \times b^p$$
 Example. 25 is a decimal (base 10), so we can calculate its value like so:
 
 $$
-2 \times 10^1 + 5 \times 10^0 = 20 + 5 = 25
+(2 \times 10^1) + (5 \times 10^0) = 20 + 5 = 25
 $$

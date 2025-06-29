@@ -23,8 +23,4 @@ Or, in binary:
 
 `11111111.11111111.11111111.00000000`
 
-We can figure out how may hosts the netmask supports by calculating the number of combinations we can make out of 8 bits. We do that using exponentiation.
-
-Each bit has two possible values (0 or 1). 
-
-Since we have 8 bits for hosts, we can determine the number of hosts by calcula
+We can figure out how may hosts the netmask supports by calculating the number of combinations we can make out of 8 bits. We do that using [exponentiation](notes/exponentiation.md).
