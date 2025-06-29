@@ -24,7 +24,7 @@ header.site {
 header.page {
   text-align: center;
   display: grid;
-  gap: 1rem;
+  gap: 0.5rem;
   margin-bottom: 2rem;
 }
 
@@ -81,12 +81,8 @@ h4 {
 
 h1 {
   margin: 0;
-  line-height: 1;
   text-wrap: balance;
-  font-variant: small-caps;
   font-size: var(--font-largest);
-  text-transform: lowercase;
-  letter-spacing: 0.1em;
 }
 
 h2 {
@@ -301,4 +297,9 @@ td {
 
 th {
   font-weight: bold;
+}
+
+mjx-container {
+  overflow: auto;
+  padding: 1em;
 }
