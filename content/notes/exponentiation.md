@@ -11,15 +11,11 @@ updated: 2025-06-26
 
 Any number to the power of zero is 1. The intuitive reason for this is that counting down, each result decreases by the same factor (2, in this case):
 
- <!-- math not rendering right 
-   
-   $2^3 = 8$
-   
-   $2^2 = 4$
-   
-   $2^1 = 2$
-   
-   $$2^0 = 1$$
-   -->
+$$
+2^3 = 8
+2^2 = 4
+2^1 = 2
+2^0 = 1
+$$
 
 The math behind it is more complicated, but I'll tackle that another time.
