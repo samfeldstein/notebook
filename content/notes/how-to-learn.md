@@ -20,3 +20,4 @@ For skills, find [gamified courses](notes/gamified-learning.md).
 - [Learn Anything](https://learn-anything.xyz/)
 - [The Free Learning List](https://freelearninglist.org/)
 - [Brilliant](https://brilliant.org/)
+- [Open Textbook Library](https://open.umn.edu/opentextbooks)

@@ -556,9 +556,6 @@
 		<loc>https://notes.samfeldstein.xyz/notes/shelf-talker-roadmap/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/stretching/</loc>
-	</url>
-	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/open-graph-protocol/</loc>
 	</url>
 	<url>
@@ -763,9 +760,6 @@
 		<loc>https://notes.samfeldstein.xyz/notes/developer-certificates/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/cybersecurity-training/</loc>
-	</url>
-	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/text-based-browsers/</loc>
 	</url>
 	<url>
@@ -824,6 +818,15 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/exponentiation/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/networking/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/domain-intelligence/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/porkbun-domain-transfer/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/feed.xml</loc>

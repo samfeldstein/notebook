@@ -11,8 +11,10 @@ updated: 2025-06-05
 
 1. Get an IT certification
 2. Get a help desk job
-3. Get a [cybersecurity degree](notes/private/cybersecurity-degree-programs.md)
+3. Get a [cybersecurity degree Associate's](notes/private/cybersecurity-degree-programs.md)
 4. Get a cybersecurity job
+5. Get a [cybersecurity Bachelor's](notes/private/cybersecurity-degree-programs.md)
+6. Keep learning
 
 <table>
 <caption>Milestones</caption>
