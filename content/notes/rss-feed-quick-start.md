@@ -1,5 +1,5 @@
 ---
-title: RSS Feed Quick Start
+title: RSS Quick Start
 aliases:
   - RSS Feed Quick Start
 tags:

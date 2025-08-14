@@ -1,20 +1,15 @@
 ---
 title: Web Accessibility Checklist
-tags: 
+tags:
   - web-development
+  - accessibility
 created: 2025-01-01
 updated: 2025-01-01
 ---
 
-**Local checks**:
-
-- Add Skiplink
-- Add `:focus` to `:hover` rules
+- Add [Skiplinks](https://webaim.org/techniques/skipnav/)
+- Add vertical padding to links (for tapping)
+- Add `:focus` rules
 - Test keyboard accessibility
-- Test screen reader
-- Check Firefox accessibility tab
-
-**Once deployed:**
-
-- [Validate HTML](https://validator.w3.org)
+- Check Firefox **Accessibility** tab
 - [Audit](https://wave.webaim.org)

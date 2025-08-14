@@ -13,4 +13,6 @@ updated: 2025-06-18
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width: 1em; height: 1em; vertical-align: -0.125em;">
 ```
 
-I'm not entirely sure why this works, but it does. Read more on [Font Awesome](https://docs.fontawesome.com/web/add-icons/svg-bare).
+To make the `svg` inherit its parent's colors, set the `fill` attribute on the `path` element to `currentColor`. 
+
+Read more on [Font Awesome](https://docs.fontawesome.com/web/add-icons/svg-bare).

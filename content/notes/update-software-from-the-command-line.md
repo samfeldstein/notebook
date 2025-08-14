@@ -10,6 +10,6 @@ Check available updates with `softwareupdate -l`.
 
 Install all updates with `sudo softwareupdate -iaR`:
 
-- install all available software updates (`-i`)
-- automatically agree to any licenses (`-a`)
-- restart if needed (`-R`)
+- Install all available software updates (`-i`)
+- Automatically agree to any licenses (`-a`)
+- Restart if needed (`-R`)

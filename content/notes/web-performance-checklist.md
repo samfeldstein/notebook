@@ -1,27 +1,29 @@
 ---
 title: Web Performance Checklist
+aliases:
+  - Web Performance Checklist
 tags:
-  - web-development
   - web-performance
-updated: 2024-12-27
+  - web-development
+updated: 2025-07-26
 ---
 
-- If updating an existing site, [measure current performance](notes/measure-web-performance.md) so you can compare.
-- Use component architecture with scoped styles and scripts.
-- Use [content-visibility](https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility).
-- Inline styles and scripts.
+- If updating an existing site, [measure current performance](notes/measure-web-performance.md) so you can compare
+- Use component architecture with scoped styles and scripts
+- Preload critical assets
+- [Optimize HTML](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/HTML)
+- [Optimize CSS](notes/optimize-css.md)
+- [Optimize JS](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/JavaScript)
 - Minify
-- [Optimize fonts](notes/optimize-web-fonts.md).
-- [Optimize images](notes/how-to-optimize-web-images.md).
-- [Prefetch/prerender links and assets](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/speculationrules).
-	- For a small site, manually adding `rel="prefetch"` is easiest.
-	- You can also use speculation rules, but those aren't widely supported yet.
-	- You can also use Astro's `Prefetch` component.
-- Cache assets in the browser using HTTP headers.
-- [Jampack](notes/jampack.md) it if necessary.
-	- If I'm building with Astro or 11ty, this seems a little redundant. It does some additional image compression which could save you quite a few bytes if you have a lot of images.
-- [Measure](notes/measure-web-performance.md).
+- [Optimize images](notes/how-to-optimize-web-images.md)
+- [Prefetch](notes/browser-speculation-rules.md)  pages
+- Cache assets in the browser using HTTP headers
+- [Measure](notes/measure-web-performance.md)
 
-## Resources
+## Tools
 
-- [MDN Web Performance](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance)
+- [Jampack](https://jampack.divriots.com/) optimizes static websites
+
+## Further reading
+
+- [Web Performance](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance) on MDN

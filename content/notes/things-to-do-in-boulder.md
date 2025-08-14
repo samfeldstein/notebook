@@ -34,6 +34,6 @@ updated: 2025-05-24
 
 - Gold Hill
 
-### festivals
+### Festivals
 
 - [Boulder Creek Festival](https://bouldercreekfest.com/)

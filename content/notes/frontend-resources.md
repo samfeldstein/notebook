@@ -1,11 +1,18 @@
 ---
-title: Web Development Resources
+title: Frontend Resources
+aliases:
+  - Web Development Resources
+  - Frontend Resources
 tags:
   - web-development
   - frontend-development
 created: 2025-02-26
 updated: 2025-03-02
 ---
+
+## Docs
+
+- [DevDocs](https://devdocs.io/). Search tons of docs at once.
 
 ## Guides
 

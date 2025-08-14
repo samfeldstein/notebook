@@ -13,7 +13,7 @@ updated: 2025-06-04
 <script src="../scripts/example.js"></script>
 ```
 
-- The processed script will be injected at where it’s declared with [`type="module"`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules).
+- The processed script will be injected where it’s declared with [`type="module"`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules).
 	- `async` and `defer` attributes are unnecessary. Module scripts are always deferred.
 - Rendering is not blocked. The browser continues to process the rest of the HTML while the module script and its dependencies load.
 - The browser waits for HTML to be processed before executing module scripts. You do not need to listen for the “load” event.

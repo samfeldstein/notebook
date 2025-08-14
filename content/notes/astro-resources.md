@@ -10,3 +10,4 @@ updated: 2025-03-03
 
 - [Astro.build](https://astro.build/)
 - [SupportSquid](https://get.supportsquid.ink)
+- Astro Discord

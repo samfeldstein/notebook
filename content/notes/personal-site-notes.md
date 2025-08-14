@@ -1,5 +1,6 @@
 ---
 title: Personal Website Notes
+alias: Personal Website Notes
 tags:
   - projects
   - web-development
@@ -38,6 +39,12 @@ This also makes it easier to manage styles. When I want to change my sidebar's a
 
 I agonized over the design for this site for quite some time. It is my personal site, after all, and I want to make a good first impression. But I'm uncomfortable with graphic design, so after a ton of iterations I decided to go with something simple but elegant. [Molly White's website](https://www.mollywhite.net) and [Gwern Branwen's website](https://gwern.net) were nice guideposts here.
 
+### View transitions
+
+- Handled with native `@view-transition` rule.
+- Only supported in some browsers.
+- Could have used Astro's ClientRouter component but seemed like overkill.
+
 ## Performance
 
 I like to build fast websites because it makes me feel like I know what I'm doing. Styles and scripts are inlined by default, and thanks for component scoping, overall page size is kept to a minimum.
@@ -48,8 +55,19 @@ The biggest performance boost came after I increased Cloudflare's cache lifespan
 
 ## Checklist
 
+- Index pages for code and writing, etc
+	- Link from contents on home page
+- About the author
+- Add resume to nav
+- No text justification on list items that are also titles (eg writing page)
+- i18n
+- Convert to typographic punctuation at build
 - Colophon
+	- Acknowlegements
 	- ~~Fonts~~
+	- Write up style and architecture
+		- I hope you won't be put off by the the minimalist style. It is merely a manifestation of my deepest fear: that of self-expression.
+		- This is my website. There are many like it, but this one is mine.
 - ~~Add Open Graph metadata.~~
 - ~~Select colors.~~
 - Dynamic blogroll
@@ -58,6 +76,14 @@ The biggest performance boost came after I increased Cloudflare's cache lifespan
 	- Check [Maggie Appleton’s](maggieappleton.com)
 - Credit other fonts
 - Style blockquotes same as notebook
+- Fun bullets
+- Global Head in resume and everywhere else
+- Small caps on posts
+- One page does one thing, and each page is an individual. I had too many ideas for themes that I liked, so I decided to do all of them.
+- Overall goal is to build a fun, performant site that works for everyone. That's the standard, but it's not a design framework.
+- My process is basically to mess around until I get something I like.
+- Dropcaps in blog page
+- Doing a different design for each page saved me the trouble of picking one, which would have been a lot more work in my mind.
 
 ## Wishlist
 

@@ -1,5 +1,5 @@
 ---
-title: Add CSS Print Styles
+title: CSS Print Styles
 tags:
   - css
 created: 2025-05-31

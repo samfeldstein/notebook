@@ -8,7 +8,7 @@ created: 2025-06-20
 updated: 2025-06-20
 ---
 
-- [Fundamentals](https://www.benkuhn.net/blub/)
+- [Blub Studies](https://www.benkuhn.net/blub/)
 - [Python Tutorial](https://python.land/python-tutorial)
 - [Brilliant](https://brilliant.org/)
 - [Python Beginner's Guide](https://wiki.python.org/moin/BeginnersGuide)

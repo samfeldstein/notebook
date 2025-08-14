@@ -8,6 +8,11 @@ created: 2025-05-28
 updated: 2025-05-28
 ---
 
+- Remake in Astro
+- Old school terminal theme
+	- Think fallout or Jurassic World 2025 or Alien
+	- Main page shows a when with navigation. can use keys to cycle through
+- h1 title case (esp. on Tag pages)
 - Colophon
 - Backlinks
 - Scrape and display outgoing links

@@ -17,6 +17,7 @@ For skills, find [gamified courses](notes/gamified-learning.md).
 
 ## Resources
 
+- [Brilliant](https://brilliant.org/)
 - [Learn Anything](https://learn-anything.xyz/)
 - [The Free Learning List](https://freelearninglist.org/)
 - [Brilliant](https://brilliant.org/)
