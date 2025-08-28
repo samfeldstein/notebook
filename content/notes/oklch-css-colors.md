@@ -14,4 +14,5 @@ updated: 2025-08-07
 ## Tools
 
 - [Palette generator](https://colors.reprdev.com/)
-- [Color picker](https://colorpicker.dev/)
+- [Color picker](https://oklch.com/#0.6731,0,0,100)
+- [Another color picker](https://colorpicker.dev/)

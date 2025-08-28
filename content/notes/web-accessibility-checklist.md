@@ -11,5 +11,6 @@ updated: 2025-01-01
 - Add vertical padding to links (for tapping)
 - Add `:focus` rules
 - Test keyboard accessibility
+- Check Chrome **Lighthouse**
 - Check Firefox **Accessibility** tab
 - [Audit](https://wave.webaim.org)

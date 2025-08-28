@@ -32,6 +32,10 @@ header.page>* {
   margin: 0;
 }
 
+h1 {
+  font-weight: 300;
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;

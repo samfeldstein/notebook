@@ -16,3 +16,5 @@ tags:
 - [Improve performance](notes/web-performance-checklist.md)
 - [Validate HTML](https://validator.w3.org)
 - Cross-browser-testing
+	- Desktop
+	- Phone

@@ -169,10 +169,10 @@
 		<loc>https://notes.samfeldstein.xyz/notes/photography-gear/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/prairie-rose-arena-notes/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/browser-speculation-rules/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/prefetching/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/prairie-rose-arena-notes/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/private-notes-in-eleventy/</loc>
@@ -238,7 +238,7 @@
 		<loc>https://notes.samfeldstein.xyz/notes/user-centered-design/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/how-to-build-a-website/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/how-to-build-a-webpage/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/voting/</loc>
@@ -295,7 +295,7 @@
 		<loc>https://notes.samfeldstein.xyz/notes/build-a-wordpress-contact-form/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/web-development-resources/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/frontend-resources/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/design-resources/</loc>
@@ -469,7 +469,7 @@
 		<loc>https://notes.samfeldstein.xyz/notes/find-blurbs-for-shelf-talkers/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/add-css-print-styles/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/css-print-styles/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/client-side-javascript-in-astro/</loc>
@@ -485,9 +485,6 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/cybersecurity-bootcamps/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/cybersecurity-certifications/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/isc2-certified-in-cybersecurity/</loc>
@@ -520,7 +517,7 @@
 		<loc>https://notes.samfeldstein.xyz/notes/tax-filing-software/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/typography/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/web-typography/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/friction-and-meaning/</loc>
@@ -754,7 +751,7 @@
 		<loc>https://notes.samfeldstein.xyz/notes/computer-science-degree-programs/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/companies-i&#39;d-like-to-work-for/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/companies-to-work-for/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/developer-certificates/</loc>
@@ -808,10 +805,7 @@
 		<loc>https://notes.samfeldstein.xyz/notes/structure-as-training-wheels/</loc>
 	</url>
 	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/frontend-career-path/</loc>
-	</url>
-	<url>
-		<loc>https://notes.samfeldstein.xyz/notes/frontend-learing-path/</loc>
+		<loc>https://notes.samfeldstein.xyz/notes/frontend-learning-path/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/network-certifications/</loc>
@@ -827,6 +821,153 @@
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/notes/porkbun-domain-transfer/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/vue-ref-object/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/asynchronus-javascript/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/javascript-resources/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/cloudflare-pages-staging-site/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/cloudflare-pages-node-version/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/animate-link-underline-with-css/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/scroll-animations/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/css-circle-border/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/vs-code-copilot/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/favorite-websites/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/environment-variables-in-cloudflare-pages/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/import-yaml-in-astro-frontmatter/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/filler-text-generators/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/typographic-quotes-in-astro/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/typographic-quotes-in-html/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/css-content-visibility/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/cache-build-assests-in-cloudflare-pages/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/optimize-css/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/jampack/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/small-web/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/variable-fonts/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/html-range-inputs/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/logo-design/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/font-subsetting/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/fonttools/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/fallback-fonts/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/preload-fonts/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/viewport-units/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/passing-classes-to-components-in-astro/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/bluesky/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/substack-alternatives/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/merge-rss-feeds/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/e-ink-screens/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/fonts-i-like/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/text-shadow/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/private/clippings/CSS color values - CSS  MDN/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/private/clippings/CSS color values - CSS  MDN 1/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/oklch-css-colors/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/css-gradients/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/css-relative-colors/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/cache-netlify-build-assets/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/css-custom-cursor/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/how-to-write-a-resume/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/rules-of-writing/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/private/clippings/aspect-ratio/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/superhero-movies/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/personal-philosophies/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/friends/</loc>
+	</url>
+	<url>
+		<loc>https://notes.samfeldstein.xyz/notes/appropriate-technology-principles/</loc>
 	</url>
 	<url>
 		<loc>https://notes.samfeldstein.xyz/feed.xml</loc>

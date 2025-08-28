@@ -1,11 +1,14 @@
 ---
 title: The Meaning of Life
-tags: 
+tags:
+  - life
 created: 2025-01-28
 updated: 2025-01-28
 ---
 
-If we had nothing else to worry about, wouldn't we be concerned with making life as fun as possible?
+Do things that bring joy into the world. Without joy, life isn’t worth living. Joy is the whole point.
+
+If we had nothing else to worry about, we be concerned with making life as fun as possible.
 
 Every innovation means to solve a problem. What if there were no problems? Then what would the problem be? To elevate experience. To combat ennui.
 

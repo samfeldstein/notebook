@@ -10,6 +10,7 @@ updated: 2025-07-26
 
 - If updating an existing site, [measure current performance](notes/measure-web-performance.md) so you can compare
 - Use component architecture with scoped styles and scripts
+- [Optimize fonts](notes/optimize-web-fonts.md)
 - Preload critical assets
 - [Optimize HTML](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/HTML)
 - [Optimize CSS](notes/optimize-css.md)
@@ -17,6 +18,7 @@ updated: 2025-07-26
 - Minify
 - [Optimize images](notes/how-to-optimize-web-images.md)
 - [Prefetch](notes/browser-speculation-rules.md)  pages
+- Cache assets on the CDN
 - Cache assets in the browser using HTTP headers
 - [Measure](notes/measure-web-performance.md)
 
